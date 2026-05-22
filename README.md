@@ -1,4 +1,4 @@
-# Knowledge Canvas
+# Knowledge Canvas V-Lines
 
 <div style="position:relative; width:800px; height:400px;">
 
