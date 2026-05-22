@@ -2,7 +2,6 @@
 
 <div style="display:grid; grid-template-columns: repeat(2, 1fr); gap:20px;">
 
-  {% raw %}
   {% assign topics = site.pages | map: "topic" | uniq %}
 
   {% for topic in topics %}
@@ -40,6 +39,5 @@
 
     {% endif %}
   {% endfor %}
-  {% endraw %}
 
 </div>
