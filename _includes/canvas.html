@@ -9,7 +9,8 @@
 {% assign pages_l1 = pages | where: "level1", l1 %}
 {% assign l1_page = pages_l1 | where: "anchor", true | where: "level2", nil | first %}
 
-<div style="border:3px solid #444; padding:15px; border-radius:10px; background:#fafafa;">
+{% assign bg_color = l1_page.color | default: "#fafafa" %}
+<div style="border:3px solid #444; padding:15px; border-radius:10px; background:{{ bg_color }};">
 
   <!-- LEVEL 1 HEADER -->
   <h2>
@@ -39,7 +40,8 @@
   {% assign pages_l2 = pages_l1 | where: "level2", l2 %}
   {% assign l2_page = pages_l2 | where: "anchor", true | where: "level3", nil | first %}
 
-  <div style="border:2px solid #777; padding:10px; margin-top:10px; border-radius:8px; background:#fff;">
+  {% assign bg_color = l2_page.color | default: "#fff" %}
+  <div style="border:2px solid #777; padding:10px; margin-top:10px; border-radius:8px; background:{{ bg_color }};">
 
     <!-- LEVEL 2 HEADER -->
     <h3>
@@ -69,7 +71,8 @@
     {% assign pages_l3 = pages_l2 | where: "level3", l3 %}
     {% assign l3_page = pages_l3 | where: "anchor", true | where: "level4", nil | first %}
 
-    <div style="border:1px dashed #999; padding:8px; margin-top:8px; border-radius:6px;">
+    {% assign bg_color = l3_page.color | default: "#fff" %}
+    <div style="border:1px dashed #999; padding:8px; margin-top:8px; border-radius:6px; background:{{ bg_color }};">
 
       <!-- LEVEL 3 HEADER -->
       <h4>
@@ -99,7 +102,8 @@
       {% assign pages_l4 = pages_l3 | where: "level4", l4 %}
       {% assign l4_page = pages_l4 | where: "anchor", true | first %}
 
-      <div style="padding:6px; margin-top:6px; border-radius:6px; background:#eef6ff;">
+      {% assign bg_color = l4_page.color | default: "#eef6ff" %}
+      <div style="padding:6px; margin-top:6px; border-radius:6px; background:{{ bg_color }};">
 
         <!-- LEVEL 4 HEADER -->
         <strong>
