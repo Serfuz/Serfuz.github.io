@@ -7,7 +7,6 @@ level2: Locks
 level3: Hardware
 level4: Fair
 publish: true
-anchor: true
 ---
 
 # Fair Link
