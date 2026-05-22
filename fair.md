@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Fair
-permalink: /Fair
 level1: Concurrency
 level2: Locks
 level3: Hardware

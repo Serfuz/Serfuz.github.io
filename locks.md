@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Locks
-permalink: /locks
 level1: Concurrency
 level2: Locks
 publish: true
