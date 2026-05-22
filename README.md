@@ -107,7 +107,7 @@
         
         <strong>
           {% if l4_page %}
-            {{ l4_page.url | relative_url }}{{ l4 }}</a>
+            <a href="{{ l4_page.url | relative_url }}">{{ l4 }}</a>
           {% else %}
             {{ l4 }}
           {% endif %}
@@ -118,7 +118,7 @@
           {% for page in pages_l4 %}
             {% if page.url != l4_page.url %}
               <li>
-                {{ page.url | relative_url }}{{ page.title }}</a>
+                <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
               </li>
             {% endif %}
           {% endfor %}
