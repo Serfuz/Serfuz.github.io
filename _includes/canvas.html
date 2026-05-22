@@ -21,21 +21,28 @@
 
 <div style="border:3px solid #444; padding:15px; border-radius:10px;">
 
-  {% comment %} ----- LEVEL 1 HEADER (ANCHOR) ----- {% endcomment %}
-
   {% assign l1_page = nil %}
   {% assign l1_links = "" | split: "" %}
+  {% assign level2s = "" | split: "" %}
 
   {% for page in pages %}
     {% for path in page.paths %}
       {% if path[0] == l1 %}
-        {% if path[1] == nil and page.anchor == true %}
-          {% assign l1_page = page %}
-        {% elsif path[1] == nil %}
-          {% unless l1_links contains page.url %}
-            {% assign l1_links = l1_links | push: page %}
+
+        {% if path[1] == nil %}
+          {% if page.anchor == true %}
+            {% assign l1_page = page %}
+          {% else %}
+            {% unless l1_links contains page.url %}
+              {% assign l1_links = l1_links | push: page %}
+            {% endunless %}
+          {% endif %}
+        {% else %}
+          {% unless level2s contains path[1] %}
+            {% assign level2s = level2s | push: path[1] %}
           {% endunless %}
         {% endif %}
+
       {% endif %}
     {% endfor %}
   {% endfor %}
@@ -58,23 +65,9 @@
 
   {% comment %} ===================== LEVEL 2 ===================== {% endcomment %}
 
-  {% assign level2s = "" | split: "" %}
-
-  {% for page in pages %}
-    {% for path in page.paths %}
-      {% if path[0] == l1 and path[1] %}
-        {% unless level2s contains path[1] %}
-          {% assign level2s = level2s | push: path[1] %}
-        {% endunless %}
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
-
   {% for l2 in level2s %}
 
   <div style="border:2px solid #777; padding:10px; margin-top:10px; border-radius:8px;">
-
-    {% comment %} ----- LEVEL 2 HEADER (ANCHOR) ----- {% endcomment %}
 
     {% assign l2_page = nil %}
     {% assign level2_links = "" | split: "" %}
@@ -84,14 +77,14 @@
       {% for path in page.paths %}
         {% if path[0] == l1 and path[1] == l2 %}
 
-          {% if path[2] == nil and page.anchor == true %}
-            {% assign l2_page = page %}
-
-          {% elsif path[2] == nil %}
-            {% unless level2_links contains page.url %}
-              {% assign level2_links = level2_links | push: page %}
-            {% endunless %}
-
+          {% if path[2] == nil %}
+            {% if page.anchor == true %}
+              {% assign l2_page = page %}
+            {% else %}
+              {% unless level2_links contains page.url %}
+                {% assign level2_links = level2_links | push: page %}
+              {% endunless %}
+            {% endif %}
           {% else %}
             {% unless level3s contains path[2] %}
               {% assign level3s = level3s | push: path[2] %}
@@ -132,14 +125,14 @@
         {% for path in page.paths %}
           {% if path[0] == l1 and path[1] == l2 and path[2] == l3 %}
 
-            {% if path[3] == nil and page.anchor == true %}
-              {% assign l3_page = page %}
-
-            {% elsif path[3] == nil %}
-              {% unless level3_links contains page.url %}
-                {% assign level3_links = level3_links | push: page %}
-              {% endunless %}
-
+            {% if path[3] == nil %}
+              {% if page.anchor == true %}
+                {% assign l3_page = page %}
+              {% else %}
+                {% unless level3_links contains page.url %}
+                  {% assign level3_links = level3_links | push: page %}
+                {% endunless %}
+              {% endif %}
             {% else %}
               {% unless level4s contains path[3] %}
                 {% assign level4s = level4s | push: path[3] %}
