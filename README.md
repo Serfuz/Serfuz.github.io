@@ -1,35 +1,45 @@
 # Knowledge Canvas
 
-<div style="display:flex; flex-wrap:wrap; gap:20px;">
+<div style="display:grid; grid-template-columns: repeat(2, 1fr); gap:20px;">
 
-  <!-- Concurrency -->
-  <div style="border:1px solid #ccc; padding:15px; width:250px; border-radius:8px;">
-    <h2>Concurrency</h2>
-    <ul>
-      <li><a href="{{ "/concurrency" | relative_url }}">Concurrency Overview</a></li>
-    </ul>
-  </div>
+  {% raw %}
+  {% assign topics = site.pages | map: "topic" | uniq %}
 
-  <!-- Locks -->
-  <div style="border:1px solid #ccc; padding:15px; width:300px; border-radius:8px;">
-    <h2>Locks</h2>
+  {% for topic in topics %}
+    {% if topic %}
 
-    <!-- Unfair -->
-    <div style="background-color:#ffe5e5; padding:10px; margin-bottom:10px; border-radius:6px;">
-      <strong style="color:red;">Unfair</strong>
-      <ul>
-        <li><a href="{{ "/disable-interrupt" | relative_url }}">Disable Interrupt</a></li>
-      </ul>
-    </div>
+      <div style="border:1px solid #ccc; padding:15px; border-radius:8px;">
+        <h2>{{ topic }}</h2>
 
-    <!-- Fair -->
-    <div style="background-color:#e5ffe5; padding:10px; border-radius:6px;">
-      <strong style="color:green;">Fair</strong>
-      <ul>
-        <li>(add later)</li>
-      </ul>
-    </div>
+        {% assign pages_in_topic = site.pages | where: "topic", topic %}
 
-  </div>
+        {% assign subtopics = pages_in_topic | map: "subtopic" | uniq %}
+
+        {% for sub in subtopics %}
+          {% if sub %}
+
+            <div style="margin-top:10px; padding:10px; border-radius:6px; background:#f5f5f5;">
+              <strong>{{ sub }}</strong>
+              <ul>
+
+                {% for page in pages_in_topic %}
+                  {% if page.subtopic == sub %}
+                    <li>
+                      {{ page.title }}
+                    </li>
+                  {% endif %}
+                {% endfor %}
+
+              </ul>
+            </div>
+
+          {% endif %}
+        {% endfor %}
+
+      </div>
+
+    {% endif %}
+  {% endfor %}
+  {% endraw %}
 
 </div>
