@@ -2,6 +2,7 @@
 layout: page
 title: Scheduling
 permalink: /scheduling
-topic: scheduling
+level1: Scheduling
+publish: true
 ---
 # Scheduling
