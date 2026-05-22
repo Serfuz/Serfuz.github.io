@@ -99,18 +99,28 @@
       {% if l4 %}
 
       {% assign pages_l4 = pages_l3 | where: "level4", l4 %}
+      {% assign l4_page = pages_l4 | where: "level5", nil | first %}
 
       <div style="padding:6px; margin-top:6px; border-radius:6px; background:#eef6ff;">
 
         <!-- LEVEL 4 HEADER -->
-        <strong>{{ l4 }}</strong>
+        
+        <strong>
+          {% if l4_page %}
+            {{ l4_page.url | relative_url }}{{ l4 }}</a>
+          {% else %}
+            {{ l4 }}
+          {% endif %}
+        </strong>
 
         <!-- LEVEL 4 LINKS -->
         <ul>
           {% for page in pages_l4 %}
-            <li>
-              <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
-            </li>
+            {% if page.url != l4_page.url %}
+              <li>
+                {{ page.url | relative_url }}{{ page.title }}</a>
+              </li>
+            {% endif %}
           {% endfor %}
         </ul>
 
