@@ -5,7 +5,7 @@ permalink: /locks
 level1: Concurrency
 level2: Locks
 publish: true
-
+anchor: true
 ---
 
 # Locks

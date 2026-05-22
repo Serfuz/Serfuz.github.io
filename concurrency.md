@@ -4,7 +4,7 @@ title: Concurrency
 permalink: /concurrency
 level1: Concurrency
 publish: true
-
+anchor: true
 ---
 
 # Concurrency
