@@ -70,7 +70,7 @@
     <ul>
       {% for page in level2_links %}
         <li>
-          {{ page.url | relative_url }}{{ page.title }}</a>
+          <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
         </li>
       {% endfor %}
     </ul>
@@ -111,7 +111,7 @@
       <ul>
         {% for page in level3_links %}
           <li>
-            {{ page.url | relative_url }}{{ page.title }}</a>
+            <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
           </li>
         {% endfor %}
       </ul>
@@ -130,7 +130,7 @@
           {% for path in page.paths %}
             {% if path[0] == l1 and path[1] == l2 and path[2] == l3 and path[3] == l4 %}
               <li>
-                {{ page.url | relative_url }}{{ page.title }}</a>
+                <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
               </li>
             {% endif %}
           {% endfor %}

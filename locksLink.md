@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Locks Link
-level1: Concurrency
-level2: Locks
+paths:
+  - [Concurrency, Locks]
 publish: true
 
 ---

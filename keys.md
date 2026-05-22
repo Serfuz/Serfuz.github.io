@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Keys
-level1: Concurrency
-level2: Keys
+paths:
+  - [Concurrency, Keys]
 publish: true
 anchor: true
 ---

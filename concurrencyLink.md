@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Concurrency Link
-level1: Concurrency
+paths:
+  - [Concurrency]
 publish: true
 
 ---

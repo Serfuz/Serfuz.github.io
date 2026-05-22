@@ -1,7 +1,8 @@
 ---
 layout: page
 title: Scheduling
-level1: Scheduling
+paths:
+  - [Scheduling]
 publish: true
 anchor: true
 ---

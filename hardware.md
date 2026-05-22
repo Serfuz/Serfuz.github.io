@@ -1,9 +1,8 @@
 ---
 layout: page
 title: Hardware
-level1: Concurrency
-level2: Locks
-level3: Hardware
+paths:
+  - [Concurrency, Locks, Hardware]
 publish: true
 anchor: true
 ---

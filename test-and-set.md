@@ -1,10 +1,8 @@
 ---
 layout: page
 title: Test and Set
-level1: Concurrency
-level2: Locks
-level3: Hardware
-level4: Unfair
+paths:
+  - [Concurrency, Locks, Hardware, Unfair]
 publish: true
 ---
 
