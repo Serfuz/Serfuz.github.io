@@ -22,11 +22,11 @@
               <ul>
 
                 {% for page in pages_in_topic %}
-                  {% if page.subtopic == sub %}
+                {% if page.subtopic == sub %}
                     <li>
-                      {{ page.title }}
+                    <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
                     </li>
-                  {% endif %}
+                {% endif %}
                 {% endfor %}
 
               </ul>
