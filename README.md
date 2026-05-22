@@ -25,7 +25,7 @@
   <!-- LEVEL 1 LINKS -->
   <ul>
     {% for page in pages_l1 %}
-      {% if page.level2 == nil %}
+      {% if page.level2 == nil and page.url != l1_page.url %}
         <li>
           <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
         </li>
@@ -55,7 +55,7 @@
     <!-- LEVEL 2 LINKS -->
     <ul>
       {% for page in pages_l2 %}
-        {% if page.level3 == nil %}
+        {% if page.level3 == nil and page.url != l2_page.url %}
           <li>
             <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
           </li>
@@ -85,7 +85,7 @@
       <!-- LEVEL 3 LINKS -->
       <ul>
         {% for page in pages_l3 %}
-          {% if page.level4 == nil %}
+          {% if page.level4 == nil and page.url != l3_page.url %}
             <li>
               <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
             </li>
