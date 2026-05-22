@@ -1,35 +1,54 @@
 # Knowledge Canvas
 
-<div style="display:flex; flex-wrap:wrap; gap:20px;">
+<div style="position:relative; width:800px; height:400px;">
 
-  <!-- Concurrency -->
-  <div style="border:1px solid #ccc; padding:15px; width:250px; border-radius:8px;">
-    <h2>Concurrency</h2>
+  <!-- Concurrency box -->
+  <div style="position:absolute; left:50px; top:50px; border:1px solid #ccc; padding:10px; width:180px; border-radius:8px; background:#f9f9f9;">
+    <h3>Concurrency</h3>
     <ul>
-      <li><a href="{{ "/concurrency" | relative_url }}">Concurrency Overview</a></li>
+      <li>{{ Concurrency</a></li>
     </ul>
   </div>
 
-  <!-- Locks -->
-  <div style="border:1px solid #ccc; padding:15px; width:300px; border-radius:8px;">
-    <h2>Locks</h2>
+  <!-- Locks box -->
+  <div style="position:absolute; left:300px; top:150px; border:1px solid #ccc; padding:10px; width:220px; border-radius:8px; background:#f9f9f9;">
+    <h3>Locks</h3>
 
     <!-- Unfair -->
-    <div style="background-color:#ffe5e5; padding:10px; margin-bottom:10px; border-radius:6px;">
+    <div style="background:#ffe5e5; padding:8px; margin-bottom:8px; border-radius:6px;">
       <strong style="color:red;">Unfair</strong>
       <ul>
-        <li><a href="{{ "/disable-interrupt" | relative_url }}">Disable Interrupt</a></li>
+        <li>{{ Disable Interrupt</a></li>
       </ul>
     </div>
 
     <!-- Fair -->
-    <div style="background-color:#e5ffe5; padding:10px; border-radius:6px;">
+    <div style="background:#e5ffe5; padding:8px; border-radius:6px;">
       <strong style="color:green;">Fair</strong>
       <ul>
-        <li>(add later)</li>
+        <li>(later)</li>
       </ul>
     </div>
 
   </div>
+
+  <!-- SVG arrows layer -->
+  <svg style="position:absolute; top:0; left:0; width:100%; height:100%; pointer-events:none;">
+
+    <!-- Arrow: Concurrency -> Locks -->
+    <line x1="180" y1="100" x2="300" y2="180"
+          stroke="black" stroke-width="2"
+          marker-end="url(#arrow)" />
+
+    <!-- Arrowhead definition -->
+    <defs>
+      <marker id="arrow" markerWidth="10" markerHeight="10"
+              refX="10" refY="3"
+              orient="auto" markerUnits="strokeWidth">
+        <path d="M0,0 L10,3 L0,6 Z" fill="black" />
+      </marker>
+    </defs>
+
+  </svg>
 
 </div>
