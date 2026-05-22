@@ -6,7 +6,7 @@
   <div style="position:absolute; left:50px; top:50px; border:1px solid #ccc; padding:10px; width:180px; border-radius:8px; background:#f9f9f9;">
     <h3>Concurrency</h3>
     <ul>
-      <li>{{ Concurrency</a></li>
+      <li>{{ Concurrency</a></li>}}
     </ul>
   </div>
 
@@ -18,7 +18,7 @@
     <div style="background:#ffe5e5; padding:8px; margin-bottom:8px; border-radius:6px;">
       <strong style="color:red;">Unfair</strong>
       <ul>
-        <li>{{ Disable Interrupt</a></li>
+        <li>{{ Disable Interrupt</a></li>}}
       </ul>
     </div>
 
