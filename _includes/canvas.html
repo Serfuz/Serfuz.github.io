@@ -47,9 +47,13 @@
     {% endfor %}
   {% endfor %}
 
+  {% assign l1_color = l1_page.color | default: "#fafafa" %}
+
+  <div style="background:{{ l1_color }}; padding:5px; border-radius:8px;">
+
   <h2>
     {% if l1_page %}
-      <a href="{{ l1_page.url | relative_url }}">{{ l1 }}</a>
+      h2<a href="{{ l1_page.url | relative_url }}">{{ l1 }}</a>
     {% else %}
       {{ l1 }}
     {% endif %}
@@ -67,33 +71,35 @@
 
   {% for l2 in level2s %}
 
-  <div style="border:2px solid #777; padding:10px; margin-top:10px; border-radius:8px;">
+  {% assign l2_page = nil %}
+  {% assign level2_links = "" | split: "" %}
+  {% assign level3s = "" | split: "" %}
 
-    {% assign l2_page = nil %}
-    {% assign level2_links = "" | split: "" %}
-    {% assign level3s = "" | split: "" %}
+  {% for page in pages %}
+    {% for path in page.paths %}
+      {% if path[0] == l1 and path[1] == l2 %}
 
-    {% for page in pages %}
-      {% for path in page.paths %}
-        {% if path[0] == l1 and path[1] == l2 %}
-
-          {% if path[2] == nil %}
-            {% if page.anchor == true %}
-              {% assign l2_page = page %}
-            {% else %}
-              {% unless level2_links contains page.url %}
-                {% assign level2_links = level2_links | push: page %}
-              {% endunless %}
-            {% endif %}
+        {% if path[2] == nil %}
+          {% if page.anchor == true %}
+            {% assign l2_page = page %}
           {% else %}
-            {% unless level3s contains path[2] %}
-              {% assign level3s = level3s | push: path[2] %}
+            {% unless level2_links contains page.url %}
+              {% assign level2_links = level2_links | push: page %}
             {% endunless %}
           {% endif %}
-
+        {% else %}
+          {% unless level3s contains path[2] %}
+            {% assign level3s = level3s | push: path[2] %}
+          {% endunless %}
         {% endif %}
-      {% endfor %}
+
+      {% endif %}
     {% endfor %}
+  {% endfor %}
+
+  {% assign l2_color = l2_page.color | default: "#ffffff" %}
+
+  <div style="border:2px solid #777; padding:10px; margin-top:10px; border-radius:8px; background:{{ l2_color }};">
 
     <h3>
       {% if l2_page %}
@@ -115,33 +121,35 @@
 
     {% for l3 in level3s %}
 
-    <div style="border:1px dashed #999; padding:8px; margin-top:8px; border-radius:6px;">
+    {% assign l3_page = nil %}
+    {% assign level3_links = "" | split: "" %}
+    {% assign level4s = "" | split: "" %}
 
-      {% assign l3_page = nil %}
-      {% assign level3_links = "" | split: "" %}
-      {% assign level4s = "" | split: "" %}
+    {% for page in pages %}
+      {% for path in page.paths %}
+        {% if path[0] == l1 and path[1] == l2 and path[2] == l3 %}
 
-      {% for page in pages %}
-        {% for path in page.paths %}
-          {% if path[0] == l1 and path[1] == l2 and path[2] == l3 %}
-
-            {% if path[3] == nil %}
-              {% if page.anchor == true %}
-                {% assign l3_page = page %}
-              {% else %}
-                {% unless level3_links contains page.url %}
-                  {% assign level3_links = level3_links | push: page %}
-                {% endunless %}
-              {% endif %}
+          {% if path[3] == nil %}
+            {% if page.anchor == true %}
+              {% assign l3_page = page %}
             {% else %}
-              {% unless level4s contains path[3] %}
-                {% assign level4s = level4s | push: path[3] %}
+              {% unless level3_links contains page.url %}
+                {% assign level3_links = level3_links | push: page %}
               {% endunless %}
             {% endif %}
-
+          {% else %}
+            {% unless level4s contains path[3] %}
+              {% assign level4s = level4s | push: path[3] %}
+            {% endunless %}
           {% endif %}
-        {% endfor %}
+
+        {% endif %}
       {% endfor %}
+    {% endfor %}
+
+    {% assign l3_color = l3_page.color | default: "#ffffff" %}
+
+    <div style="border:1px dashed #999; padding:8px; margin-top:8px; border-radius:6px; background:{{ l3_color }};">
 
       <h4>
         {% if l3_page %}
@@ -163,26 +171,28 @@
 
       {% for l4 in level4s %}
 
-      <div style="padding:6px; margin-top:6px; border-radius:6px; background:#eef6ff;">
+      {% assign l4_page = nil %}
+      {% assign level4_links = "" | split: "" %}
 
-        {% assign l4_page = nil %}
-        {% assign level4_links = "" | split: "" %}
+      {% for page in pages %}
+        {% for path in page.paths %}
+          {% if path[0] == l1 and path[1] == l2 and path[2] == l3 and path[3] == l4 %}
 
-        {% for page in pages %}
-          {% for path in page.paths %}
-            {% if path[0] == l1 and path[1] == l2 and path[2] == l3 and path[3] == l4 %}
-
-              {% if page.anchor == true %}
-                {% assign l4_page = page %}
-              {% else %}
-                {% unless level4_links contains page.url %}
-                  {% assign level4_links = level4_links | push: page %}
-                {% endunless %}
-              {% endif %}
-
+            {% if page.anchor == true %}
+              {% assign l4_page = page %}
+            {% else %}
+              {% unless level4_links contains page.url %}
+                {% assign level4_links = level4_links | push: page %}
+              {% endunless %}
             {% endif %}
-          {% endfor %}
+
+          {% endif %}
         {% endfor %}
+      {% endfor %}
+
+      {% assign l4_color = l4_page.color | default: "#eef6ff" %}
+
+      <div style="padding:6px; margin-top:6px; border-radius:6px; background:{{ l4_color }};">
 
         <strong>
           {% if l4_page %}
@@ -211,6 +221,8 @@
   </div>
 
   {% endfor %}
+
+  </div>
 
 </div>
 
