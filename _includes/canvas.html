@@ -53,7 +53,7 @@
 
   <h2>
     {% if l1_page %}
-      h2<a href="{{ l1_page.url | relative_url }}">{{ l1 }}</a>
+      <a href="{{ l1_page.url | relative_url }}">{{ l1 }}</a>
     {% else %}
       {{ l1 }}
     {% endif %}
