@@ -16,7 +16,7 @@
   <!-- LEVEL 1 HEADER -->
   <h2>
     {% if l1_page %}
-      {{ l1_page.url | relative_url }}{{ l1 }}</a>
+      <a href="{{ l1_page.url | relative_url }}">{{ l1 }}</a>
     {% else %}
       {{ l1 }}
     {% endif %}
@@ -26,7 +26,9 @@
   <ul>
     {% for page in pages_l1 %}
       {% if page.level2 == nil %}
-        <li>{{ page.url | relative_url }}{{ page.title }}</a></li>
+        <li>
+          <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+        </li>
       {% endif %}
     {% endfor %}
   </ul>
@@ -44,7 +46,7 @@
     <!-- LEVEL 2 HEADER -->
     <h3>
       {% if l2_page %}
-        {{ l2_page.url | relative_url }}{{ l2 }}</a>
+        <a href="{{ l2_page.url | relative_url }}">{{ l2 }}</a>
       {% else %}
         {{ l2 }}
       {% endif %}
@@ -54,7 +56,9 @@
     <ul>
       {% for page in pages_l2 %}
         {% if page.level3 == nil %}
-          <li>{{ page.url | relative_url }}{{ page.title }}</a></li>
+          <li>
+            <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+          </li>
         {% endif %}
       {% endfor %}
     </ul>
@@ -72,7 +76,7 @@
       <!-- LEVEL 3 HEADER -->
       <h4>
         {% if l3_page %}
-          {{ l3_page.url | relative_url }}{{ l3 }}</a>
+          <a href="{{ l3_page.url | relative_url }}">{{ l3 }}</a>
         {% else %}
           {{ l3 }}
         {% endif %}
@@ -82,7 +86,9 @@
       <ul>
         {% for page in pages_l3 %}
           {% if page.level4 == nil %}
-            <li>{{ page.url | relative_url }}{{ page.title }}</a></li>
+            <li>
+              <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+            </li>
           {% endif %}
         {% endfor %}
       </ul>
@@ -102,7 +108,9 @@
         <!-- LEVEL 4 LINKS -->
         <ul>
           {% for page in pages_l4 %}
-            <li>{{ page.url | relative_url }}{{ page.title }}</a></li>
+            <li>
+              <a href="{{ page.url | relative_url }}">{{ page.title }}</a>
+            </li>
           {% endfor %}
         </ul>
 
