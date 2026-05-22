@@ -5,7 +5,7 @@ permalink: /concurrency
 level1: Concurrency
 publish: true
 anchor: true
-color: "#0077B6"
+color: "#e3f3fc"
 ---
 
 # Concurrency
