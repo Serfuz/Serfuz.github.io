@@ -118,9 +118,9 @@ title: Knowledge Graph
       enabled: true,
       solver: "barnesHut",
       barnesHut: {
-        gravitationalConstant: -5000,  // 🔥 stronger repulsion
+        gravitationalConstant: -5000,  // stronger repulsion
         centralGravity: 0.2,           // pull toward center (lower = more spread)
-        springLength: 200,             // edge length (bigger = more spacing)
+        springLength: 100,             // edge length (bigger = more spacing)
         springConstant: 0.02           // stiffness
       },
       stabilization: {
