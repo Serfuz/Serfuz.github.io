@@ -37,10 +37,17 @@ title: Knowledge Graph
   const edges = [];
   const edgeSet = new Set(); // ✅ prevents duplicate edges
   const levelSizes = [30, 22, 16, 10];
+  const levelColors = [
+    "#e74c3c", // L1 (red)
+    "#f39c12", // L2 (orange)
+    "#27ae60", // L3 (green)
+    "#3498db"  // L4 (blue)
+  ];
+
   const LEVEL_COUNT = 4;
   rawRecords.forEach(path => {
     const url = path[4];
-    
+
     for (let i = 0; i < LEVEL_COUNT - 1; i++) {
       const from = path[i];
       const to = path[i + 1];
@@ -53,7 +60,8 @@ title: Knowledge Graph
           id: from,
           label: from,
           url: url,
-          size: levelSizes[i] || 10
+          size: levelSizes[i] || 10,
+          color: levelColors[i] || "#ccc"
         });
       }
 
@@ -62,7 +70,8 @@ title: Knowledge Graph
           id: to,
           label: to,
           url: url,
-          size: levelSizes[i+1] || 10
+          size: levelSizes[i+1] || 10,
+          color: levelColors[i + 1] || "#ccc"
         });
       }
 
@@ -101,12 +110,22 @@ title: Knowledge Graph
       }
     },
     edges: {
-      color: "#999",
-      width: 1
+      color: "#aaa",
+      width: 1.2
     },
+    
     physics: {
       enabled: true,
-      stabilization: false
+      solver: "barnesHut",
+      barnesHut: {
+        gravitationalConstant: -5000,  // 🔥 stronger repulsion
+        centralGravity: 0.2,           // pull toward center (lower = more spread)
+        springLength: 200,             // edge length (bigger = more spacing)
+        springConstant: 0.02           // stiffness
+      },
+      stabilization: {
+        iterations: 200
+      }
     },
     interaction: {
       hover: true
