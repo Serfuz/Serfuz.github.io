@@ -214,7 +214,10 @@ network.on("hoverNode", function(params) {
           ${node.label}
         </div>
         <div style="height:300px; border-radius:6px; overflow:hidden;">
-          ${node.url}>
+          <iframe 
+            src="${node.url}" 
+            style="width:100%; height:100%; border:none; pointer-events:none;"
+          ></iframe>
         </div>
       </div>
     `;
