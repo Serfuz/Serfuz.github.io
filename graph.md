@@ -37,6 +37,7 @@ title: Knowledge Graph
   const edges = [];
   const edgeSet = new Set(); // ✅ prevents duplicate edges
   const levelSizes = [30, 22, 16, 10];
+  const levelFontSizes = [36, 32, 28, 24];
   const levelColors = [
     "#e74c3c", // L1 (red)
     "#f39c12", // L2 (orange)
@@ -61,7 +62,9 @@ title: Knowledge Graph
           label: from,
           url: url,
           size: levelSizes[i] || 10,
-          color: levelColors[i] || "#ccc"
+          color: levelColors[i] || "#ccc",
+          font: {
+            size: levelFontSizes[i] || 24
         });
       }
 
@@ -71,7 +74,9 @@ title: Knowledge Graph
           label: to,
           url: url,
           size: levelSizes[i+1] || 10,
-          color: levelColors[i + 1] || "#ccc"
+          color: levelColors[i + 1] || "#ccc",
+          font: {
+            size: levelFontSizes[i] || 24
         });
       }
 
