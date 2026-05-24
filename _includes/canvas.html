@@ -1,6 +1,6 @@
 {% include data.html %}
 
-<div style="display:flex; flex-wrap:wrap; gap:20px; align-items:flex-start;">
+<div style="display:flex; flex-wrap:wrap; gap:24px; align-items:flex-start;">
 
     {% comment %} ===================== LEVEL 1 ===================== {% endcomment %}
 
@@ -19,10 +19,13 @@
 
         
         <div style="
-        display:flex;
-        flex-wrap:wrap;
-        gap:20px;
-        align-items:flex-start;
+            border: 3px solid #444;
+            padding: 16px;
+            border-radius: 10px;
+            background: #fafafa;
+            flex: 1 1 500px;
+            min-width: 350px;
+            max-width: 100%;
         ">
 
             {% assign l1_anchor = nil %}
@@ -81,7 +84,7 @@
                 <div style="
                     display:flex;
                     flex-wrap:wrap;
-                    gap:12px;
+                    gap:14px;
                 ">
 
                     {% for l2 in level2s %}
@@ -113,12 +116,12 @@
                         {% assign l2_color = l2_anchor.color | default: '#ffffff' %}
                         <div style="
                             border:2px solid #777;
-                            padding:10px;
+                            padding:12px;
                             border-radius:8px;
                             background:{{ l2_color }};
-                            flex: 0 1 auto;
+                            flex: 1 1 320px;
+                            min-width: 260px;
                             max-width: 100%;
-                            background:{{ l2_color }};
                         ">
 
                             <h3>
@@ -174,10 +177,11 @@
                                     {% assign l3_color = l3_anchor.color | default: '#ffffff' %}
                                     <div style="
                                         border:1px dashed #999;
-                                        padding:8px;
+                                        padding:10px;
                                         border-radius:6px;
                                         background:{{ l3_color }};
-                                        flex: 0 1 auto;
+                                        flex: 1 1 260px;
+                                        min-width: 220px;
                                         max-width: 100%;
                                     ">
 
@@ -228,7 +232,8 @@
                                                     padding:6px;
                                                     border-radius:6px;
                                                     background:{{ l4_color }};
-                                                    flex: 0 1 auto;
+                                                    flex: 1 1 160px;
+                                                    min-width: 140px;
                                                     max-width: 100%;
                                                 ">
 
