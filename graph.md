@@ -106,7 +106,7 @@ title: Knowledge Graph
         max: 30
       },
       font: {
-        size: 14
+        size: 24
       }
     },
     edges: {
