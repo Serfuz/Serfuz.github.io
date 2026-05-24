@@ -16,18 +16,6 @@
     {% endfor %}
 
     {% for l1 in level1s %}
-
-        
-        <div style="
-            border: 3px solid #444;
-            padding: 16px;
-            border-radius: 10px;
-            background: #fafafa;
-            flex: 1 1 500px;
-            min-width: 350px;
-            max-width: 100%;
-        ">
-
             {% assign l1_anchor = nil %}
             {% assign l1_links = "" | split: "" %}
             {% assign level2s = "" | split: "" %}
@@ -52,223 +40,221 @@
                 {% endif %}
             {% endfor %}
 
-            {% assign l1_color = l1_anchor.color | default: '#fafafa' %}
+        {% assign l1_color = l1_anchor.color | default: '#fafafa' %}
+        <div style="
+            border: 3px solid #444;
+            padding: 16px;
+            border-radius: 10px;
+            background: {{ l1_color }};
+            flex: 0 1 500px;
+            min-width: 350px;
+            max-width: 800px;
+        ">
+            <h2>
+                {% if l1_anchor %}
+                    <a href="{{ l1_anchor.url | relative_url }}">{{ l1 }}</a>
+                {% else %}
+                    {{ l1 }}
+                {% endif %}
+            </h2>
+
+            {% if l1_links.size > 0 %}
+                <ul>
+                    {% for p in l1_links %}
+                        <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+                    {% endfor %}
+                </ul>
+            {% endif %}
+
+            {% comment %} ===================== LEVEL 2 ===================== {% endcomment %}
             
             <div style="
-                border:3px solid #444;
-                padding:15px;
-                border-radius:10px;
-                flex: 0 1 auto;
-                max-width: 100%;
-                background:{{ l1_color }};
+                display:flex;
+                flex-wrap:wrap;
+                gap:14px;
             ">
 
-                <h2>
-                    {% if l1_anchor %}
-                        <a href="{{ l1_anchor.url | relative_url }}">{{ l1 }}</a>
-                    {% else %}
-                        {{ l1 }}
-                    {% endif %}
-                </h2>
+                {% for l2 in level2s %}
 
-                {% if l1_links.size > 0 %}
-                    <ul>
-                        {% for p in l1_links %}
-                            <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
-                        {% endfor %}
-                    </ul>
-                {% endif %}
+                    {% assign l2_anchor = nil %}
+                    {% assign l2_links = "" | split: "" %}
+                    {% assign level3s = "" | split: "" %}
 
-                {% comment %} ===================== LEVEL 2 ===================== {% endcomment %}
-                
-                <div style="
-                    display:flex;
-                    flex-wrap:wrap;
-                    gap:14px;
-                ">
+                    {% for rec in records %}
+                        {% if rec[0] == l1 and rec[1] == l2 %}
 
-                    {% for l2 in level2s %}
-
-                        {% assign l2_anchor = nil %}
-                        {% assign l2_links = "" | split: "" %}
-                        {% assign level3s = "" | split: "" %}
-
-                        {% for rec in records %}
-                            {% if rec[0] == l1 and rec[1] == l2 %}
-
-                            {% if rec[2] == nil %}
-                                {% if rec[4].anchor == true %}
-                                    {% assign l2_anchor = rec[4] %}
-                                {% else %}
-                                    {% unless l2_links contains rec[4].url %}
-                                        {% assign l2_links = l2_links | push: rec[4] %}
-                                    {% endunless %}
-                                {% endif %}
+                        {% if rec[2] == nil %}
+                            {% if rec[4].anchor == true %}
+                                {% assign l2_anchor = rec[4] %}
                             {% else %}
-                                {% unless level3s contains rec[2] %}
-                                    {% assign level3s = level3s | push: rec[2] %}
+                                {% unless l2_links contains rec[4].url %}
+                                    {% assign l2_links = l2_links | push: rec[4] %}
                                 {% endunless %}
                             {% endif %}
+                        {% else %}
+                            {% unless level3s contains rec[2] %}
+                                {% assign level3s = level3s | push: rec[2] %}
+                            {% endunless %}
+                        {% endif %}
 
+                        {% endif %}
+                    {% endfor %}
+
+                    {% assign l2_color = l2_anchor.color | default: '#ffffff' %}
+                    <div style="
+                        border:2px solid #777;
+                        padding:12px;
+                        border-radius:8px;
+                        background:{{ l2_color }};
+                        flex: 1 1 320px;
+                        min-width: 260px;
+                        max-width: 100%;
+                    ">
+
+                        <h3>
+                            {% if l2_anchor %}
+                                <a href="{{ l2_anchor.url | relative_url }}">{{ l2 }}</a>
+                            {% else %}
+                                {{ l2 }}
                             {% endif %}
-                        {% endfor %}
+                        </h3>
 
-                        {% assign l2_color = l2_anchor.color | default: '#ffffff' %}
+                        {% if l2_links.size > 0 %}
+                            <ul>
+                                {% for p in l2_links %}
+                                    <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+                                {% endfor %}
+                            </ul>
+                        {% endif %}
+
+                        {% comment %} ===================== LEVEL 3 ===================== {% endcomment %}
+
                         <div style="
-                            border:2px solid #777;
-                            padding:12px;
-                            border-radius:8px;
-                            background:{{ l2_color }};
-                            flex: 1 1 320px;
-                            min-width: 260px;
-                            max-width: 100%;
+                            display:flex;
+                            flex-wrap:wrap;
+                            gap:10px;
                         ">
 
-                            <h3>
-                                {% if l2_anchor %}
-                                    <a href="{{ l2_anchor.url | relative_url }}">{{ l2 }}</a>
-                                {% else %}
-                                    {{ l2 }}
-                                {% endif %}
-                            </h3>
+                            {% for l3 in level3s %}
 
-                            {% if l2_links.size > 0 %}
-                                <ul>
-                                    {% for p in l2_links %}
-                                        <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
-                                    {% endfor %}
-                                </ul>
-                            {% endif %}
+                                {% assign l3_anchor = nil %}
+                                {% assign l3_links = "" | split: "" %}
+                                {% assign level4s = "" | split: "" %}
 
-                            {% comment %} ===================== LEVEL 3 ===================== {% endcomment %}
+                                {% for rec in records %}
+                                    {% if rec[0] == l1 and rec[1] == l2 and rec[2] == l3 %}
 
-                            <div style="
-                                display:flex;
-                                flex-wrap:wrap;
-                                gap:10px;
-                            ">
-
-                                {% for l3 in level3s %}
-
-                                    {% assign l3_anchor = nil %}
-                                    {% assign l3_links = "" | split: "" %}
-                                    {% assign level4s = "" | split: "" %}
-
-                                    {% for rec in records %}
-                                        {% if rec[0] == l1 and rec[1] == l2 and rec[2] == l3 %}
-
-                                        {% if rec[3] == nil %}
-                                            {% if rec[4].anchor == true %}
-                                                {% assign l3_anchor = rec[4] %}
-                                            {% else %}
-                                                {% unless l3_links contains rec[4].url %}
-                                                    {% assign l3_links = l3_links | push: rec[4] %}
-                                                {% endunless %}
-                                            {% endif %}
+                                    {% if rec[3] == nil %}
+                                        {% if rec[4].anchor == true %}
+                                            {% assign l3_anchor = rec[4] %}
                                         {% else %}
-                                            {% unless level4s contains rec[3] %}
-                                                {% assign level4s = level4s | push: rec[3] %}
+                                            {% unless l3_links contains rec[4].url %}
+                                                {% assign l3_links = l3_links | push: rec[4] %}
                                             {% endunless %}
                                         {% endif %}
+                                    {% else %}
+                                        {% unless level4s contains rec[3] %}
+                                            {% assign level4s = level4s | push: rec[3] %}
+                                        {% endunless %}
+                                    {% endif %}
 
-                                        {% endif %}
-                                    {% endfor %}
+                                    {% endif %}
+                                {% endfor %}
 
-                                    {% assign l3_color = l3_anchor.color | default: '#ffffff' %}
+                                {% assign l3_color = l3_anchor.color | default: '#ffffff' %}
+                                <div style="
+                                    border:1px dashed #999;
+                                    padding:10px;
+                                    border-radius:6px;
+                                    background:{{ l3_color }};
+                                    flex: 1 1 260px;
+                                    min-width: 220px;
+                                    max-width: 100%;
+                                ">
+
+                                            <h4>
+                                                {% if l3_anchor %}
+                                                <a href="{{ l3_anchor.url | relative_url }}">{{ l3 }}</a>
+                                                {% else %}
+                                                {{ l3 }}
+                                                {% endif %}
+                                            </h4>
+
+                                            {% if l3_links.size > 0 %}
+                                            <ul>
+                                                {% for p in l3_links %}
+                                                <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+                                                {% endfor %}
+                                            </ul>
+                                            {% endif %}
+
+                                    {% comment %} ===================== LEVEL 4 ===================== {% endcomment %}
                                     <div style="
-                                        border:1px dashed #999;
-                                        padding:10px;
-                                        border-radius:6px;
-                                        background:{{ l3_color }};
-                                        flex: 1 1 260px;
-                                        min-width: 220px;
-                                        max-width: 100%;
+                                        display:flex;
+                                        flex-wrap:wrap;
+                                        gap:8px;
                                     ">
 
-                                                <h4>
-                                                    {% if l3_anchor %}
-                                                    <a href="{{ l3_anchor.url | relative_url }}">{{ l3 }}</a>
-                                                    {% else %}
-                                                    {{ l3 }}
-                                                    {% endif %}
-                                                </h4>
+                                        {% for l4 in level4s %}
 
-                                                {% if l3_links.size > 0 %}
-                                                <ul>
-                                                    {% for p in l3_links %}
-                                                    <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
-                                                    {% endfor %}
-                                                </ul>
+                                            {% assign l4_anchor = nil %}
+                                            {% assign l4_links = "" | split: "" %}
+
+                                            {% for rec in records %}
+                                                {% if rec[0] == l1 and rec[1] == l2 and rec[2] == l3 and rec[3] == l4 %}
+
+                                                {% if rec[4].anchor == true %}
+                                                    {% assign l4_anchor = rec[4] %}
+                                                {% else %}
+                                                    {% unless l4_links contains rec[4].url %}
+                                                        {% assign l4_links = l4_links | push: rec[4] %}
+                                                    {% endunless %}
                                                 {% endif %}
 
-                                        {% comment %} ===================== LEVEL 4 ===================== {% endcomment %}
-                                        <div style="
-                                            display:flex;
-                                            flex-wrap:wrap;
-                                            gap:8px;
-                                        ">
-
-                                            {% for l4 in level4s %}
-
-                                                {% assign l4_anchor = nil %}
-                                                {% assign l4_links = "" | split: "" %}
-
-                                                {% for rec in records %}
-                                                    {% if rec[0] == l1 and rec[1] == l2 and rec[2] == l3 and rec[3] == l4 %}
-
-                                                    {% if rec[4].anchor == true %}
-                                                        {% assign l4_anchor = rec[4] %}
-                                                    {% else %}
-                                                        {% unless l4_links contains rec[4].url %}
-                                                            {% assign l4_links = l4_links | push: rec[4] %}
-                                                        {% endunless %}
-                                                    {% endif %}
-
-                                                    {% endif %}
-                                                {% endfor %}
-
-                                                {% assign l4_color = l4_anchor.color | default: '#eef6ff' %}
-                                                <div style="
-                                                    padding:6px;
-                                                    border-radius:6px;
-                                                    background:{{ l4_color }};
-                                                    flex: 1 1 160px;
-                                                    min-width: 140px;
-                                                    max-width: 100%;
-                                                ">
-
-                                                    <strong>
-                                                        {% if l4_anchor %}
-                                                            <a href="{{ l4_anchor.url | relative_url }}">{{ l4 }}</a>
-                                                        {% else %}
-                                                            {{ l4 }}
-                                                        {% endif %}
-                                                    </strong>
-
-                                                    {% if l4_links.size > 0 %}
-                                                        <ul>
-                                                            {% for p in l4_links %}
-                                                                <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
-                                                            {% endfor %}
-                                                        </ul>
-                                                    {% endif %}
-
-                                                </div>
-
+                                                {% endif %}
                                             {% endfor %}
-                                        </div>
 
+                                            {% assign l4_color = l4_anchor.color | default: '#eef6ff' %}
+                                            <div style="
+                                                padding:6px;
+                                                border-radius:6px;
+                                                background:{{ l4_color }};
+                                                flex: 1 1 160px;
+                                                min-width: 140px;
+                                                max-width: 100%;
+                                            ">
+
+                                                <strong>
+                                                    {% if l4_anchor %}
+                                                        <a href="{{ l4_anchor.url | relative_url }}">{{ l4 }}</a>
+                                                    {% else %}
+                                                        {{ l4 }}
+                                                    {% endif %}
+                                                </strong>
+
+                                                {% if l4_links.size > 0 %}
+                                                    <ul>
+                                                        {% for p in l4_links %}
+                                                            <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+                                                        {% endfor %}
+                                                    </ul>
+                                                {% endif %}
+
+                                            </div>
+
+                                        {% endfor %}
                                     </div>
 
-                                {% endfor %}
-                            </div>
+                                </div>
 
+                            {% endfor %}
                         </div>
 
-                    {% endfor %}
-                </div>
+                    </div>
 
+                {% endfor %}
             </div>
+
 
         </div>
 
