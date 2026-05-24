@@ -40,7 +40,8 @@ title: Knowledge Graph
   rawRecords.forEach(path => {
     const url = path[4];
 
-    for (let i = 0; i < path.length - 1; i++) {
+    const LEVEL_COUNT = 4;
+    for (let i = 0; i < LEVEL_COUNT - 1; i++) {
       const from = path[i];
       const to = path[i + 1];
 
