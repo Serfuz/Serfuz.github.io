@@ -18,7 +18,12 @@
     {% for l1 in level1s %}
 
         
-        <div style="border:3px solid #444;padding:15px;border-radius:10px;flex: 1 1 450px;max-width: 100%;">
+        <div style="
+        display:flex;
+        flex-wrap:wrap;
+        gap:20px;
+        align-items:flex-start;
+        ">
 
             {% assign l1_anchor = nil %}
             {% assign l1_links = "" | split: "" %}
@@ -45,8 +50,13 @@
             {% endfor %}
 
             {% assign l1_color = l1_anchor.color | default: '#fafafa' %}
-
-            <div style="background:{{ l1_color }}; padding:5px; border-radius:8px;">
+            
+            <div style="
+                border:3px solid #444;
+                padding:15px;
+                border-radius:10px;
+                flex:0 0 auto;
+            ">
 
                 <h2>
                     {% if l1_anchor %}
@@ -65,8 +75,12 @@
                 {% endif %}
 
                 {% comment %} ===================== LEVEL 2 ===================== {% endcomment %}
-
-                <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap:12px;">
+                
+                <div style="
+                    display:flex;
+                    flex-wrap:wrap;
+                    gap:12px;
+                ">
 
                     {% for l2 in level2s %}
 
@@ -95,7 +109,13 @@
                         {% endfor %}
 
                         {% assign l2_color = l2_anchor.color | default: '#ffffff' %}
-                        <div style="border:2px solid #777; padding:10px; margin-top:10px; border-radius:8px; background:{{ l2_color }};">
+                        <div style="
+                            border:2px solid #777;
+                            padding:10px;
+                            border-radius:8px;
+                            background:{{ l2_color }};
+                            flex:0 0 auto;
+                        ">
 
                             <h3>
                                 {% if l2_anchor %}
@@ -115,7 +135,11 @@
 
                             {% comment %} ===================== LEVEL 3 ===================== {% endcomment %}
 
-                            <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap:10px;">
+                            <div style="
+                                display:flex;
+                                flex-wrap:wrap;
+                                gap:10px;
+                            ">
 
                                 {% for l3 in level3s %}
 
@@ -144,7 +168,13 @@
                                     {% endfor %}
 
                                     {% assign l3_color = l3_anchor.color | default: '#ffffff' %}
-                                    <div style="border:1px dashed #999; padding:8px; margin-top:8px; border-radius:6px; background:{{ l3_color }};">
+                                    <div style="
+                                        border:1px dashed #999;
+                                        padding:8px;
+                                        border-radius:6px;
+                                        background:{{ l3_color }};
+                                        flex:0 0 auto;
+                                    ">
 
                                                 <h4>
                                                     {% if l3_anchor %}
@@ -163,8 +193,11 @@
                                                 {% endif %}
 
                                         {% comment %} ===================== LEVEL 4 ===================== {% endcomment %}
-
-                                        <div style="display:grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap:8px;">
+                                        <div style="
+                                            display:flex;
+                                            flex-wrap:wrap;
+                                            gap:8px;
+                                        ">
 
                                             {% for l4 in level4s %}
 
@@ -186,7 +219,12 @@
                                                 {% endfor %}
 
                                                 {% assign l4_color = l4_anchor.color | default: '#eef6ff' %}
-                                                <div style="padding:6px; margin-top:6px; border-radius:6px; background:{{ l4_color }};">
+                                                <div style="
+                                                    padding:6px;
+                                                    border-radius:6px;
+                                                    background:{{ l4_color }};
+                                                    flex:0 0 auto;
+                                                ">
 
                                                     <strong>
                                                         {% if l4_anchor %}
