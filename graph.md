@@ -164,10 +164,10 @@ title: Knowledge Graph
     const node = nodesMap.get(params.node);
 
     if (!node || !node.url) return;
-    const pos = network.getPointer(params.event);
+    const { x, y } = params.event.pointer.DOM;
 
-    tooltip.style.left = pos.x + 10 + "px";
-    tooltip.style.top = pos.y + 10 + "px";
+    tooltip.style.left = x + 10 + "px";
+    tooltip.style.top = y + 10 + "px";
 
     tooltip.style.display = "block";
 
@@ -187,7 +187,7 @@ title: Knowledge Graph
         ">
           <iframe 
             src="${node.url}" 
-            style="width:100%; height:100%; border:none;"
+            style="width:100%; height:100%; border:none; pointer-events:none;"
           ></iframe>
         </div>
       </div>
