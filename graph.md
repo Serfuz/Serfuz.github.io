@@ -66,7 +66,6 @@ title: Knowledge Graph
           font: {
             size: levelFontSizes[i] || 24
           },
-          title: `${from}`   // tooltip text
         });
       }
 
@@ -80,7 +79,6 @@ title: Knowledge Graph
           font: {
             size: levelFontSizes[i+1] || 24
           },
-          title: `${to}`   // tooltip
         });
       }
 
@@ -159,4 +157,59 @@ title: Knowledge Graph
     }
   });
 
+  
+  const tooltip = document.getElementById("tooltip");
+
+  network.on("hoverNode", function(params) {
+    const node = nodesMap.get(params.node);
+
+    if (!node || !node.url) return;
+
+    tooltip.style.display = "block";
+
+    
+    tooltip.innerHTML = `
+      <div style="width:450px;">
+        <div style="
+          font-weight:bold;
+          margin-bottom:5px;
+        ">
+          ${node.label}
+        </div>
+        <div style="
+          height:300px;
+          border-radius:6px;
+          overflow:hidden;
+        ">
+          <iframe 
+            src="${node.url}" 
+            style="width:100%; height:100%; border:none;"
+          ></iframe>
+        </div>
+      </div>
+    `;
+
+  });
+
+  network.on("blurNode", function() {
+    tooltip.style.display = "none";
+  });
+
+  document.addEventListener("mousemove", function(e) {
+    tooltip.style.left = e.pageX + 10 + "px";
+    tooltip.style.top = e.pageY + 10 + "px";
+  });
+
 </script>
+
+
+<div id="tooltip" style="
+  position:absolute;
+  background:white;
+  border:1px solid #ccc;
+  padding:8px;
+  border-radius:6px;
+  display:none;
+  pointer-events:none;
+  box-shadow:0 2px 6px rgba(0,0,0,0.2);
+"></div>
