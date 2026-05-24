@@ -40,6 +40,7 @@ title: Knowledge Graph
   rawRecords.forEach(path => {
     const url = path[4];
 
+    const levelSizes = [30, 22, 16, 10];
     const LEVEL_COUNT = 4;
     for (let i = 0; i < LEVEL_COUNT - 1; i++) {
       const from = path[i];
@@ -53,6 +54,7 @@ title: Knowledge Graph
           id: from,
           label: from,
           url: url
+          size: levelSizes[i] || 10
         });
       }
 
@@ -61,6 +63,7 @@ title: Knowledge Graph
           id: to,
           label: to,
           url: url
+          size: levelSizes[i+1] || 10
         });
       }
 
@@ -90,7 +93,10 @@ title: Knowledge Graph
   const options = {
     nodes: {
       shape: "dot",
-      size: 10,
+      scaling: {
+        min: 10,
+        max: 30
+      }
       font: {
         size: 14
       }
