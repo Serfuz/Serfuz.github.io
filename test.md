@@ -2,12 +2,7 @@
 layout: page
 title: Test Node
 publish: true
----
-
-# Test Node (Layout Stress Test)
-
 paths:
-
   # ===== CONCURRENCY → LOCKS → HARDWARE =====
   - [Concurrency, Locks, Hardware, Fair]
   - [Concurrency, Locks, Hardware, Unfair]
@@ -68,7 +63,8 @@ paths:
   - [Algorithms, Concurrency, Lock-Free]
   - [Algorithms, Concurrency, Wait-Free]
   - [Algorithms, Scheduling, Optimization]
-
 ---
 
-# This is a test file
+# Test Node (Layout Stress Test)
+
+
