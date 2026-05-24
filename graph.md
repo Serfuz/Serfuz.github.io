@@ -160,44 +160,60 @@ title: Knowledge Graph
   
   const tooltip = document.getElementById("tooltip");
 
-  network.on("hoverNode", function(params) {
-    const node = nodesMap.get(params.node);
+let hideTimeout = null;
 
-    if (!node || !node.url) return;
-    const { x, y } = params.event.pointer.DOM;
+network.on("hoverNode", function(params) {
+  const node = nodesMap.get(params.node);
 
-    tooltip.style.left = x + 10 + "px";
-    tooltip.style.top = y + 10 + "px";
+  if (!node || !node.url) return;
 
-    tooltip.style.display = "block";
+  // ✅ cancel any pending hide
+  if (hideTimeout) {
+    clearTimeout(hideTimeout);
+    hideTimeout = null;
+  }
 
-    
-    tooltip.innerHTML = `
-      <div style="width:450px;">
-        <div style="
-          font-weight:bold;
-          margin-bottom:5px;
-        ">
-          ${node.label}
-        </div>
-        <div style="
-          height:300px;
-          border-radius:6px;
-          overflow:hidden;
-        ">
-          <iframe 
-            src="${node.url}" 
-            style="width:100%; height:100%; border:none; pointer-events:none;"
-          ></iframe>
-        </div>
+  const { x, y } = params.event.pointer.DOM;
+
+  tooltip.style.left = x + 10 + "px";
+  tooltip.style.top = y + 10 + "px";
+
+  tooltip.style.display = "block";
+
+  tooltip.innerHTML = `
+    <div style="width:450px;">
+      <div style="
+        font-weight:bold;
+        margin-bottom:5px;
+      ">
+        ${node.label}
       </div>
-    `;
+      <div style="
+        height:300px;
+        border-radius:6px;
+        overflow:hidden;
+      ">
+        <iframe 
+          src="${node.url}" 
+          style="width:100%; height:100%; border:none; pointer-events:none;"
+        ></iframe>
+      </div>
+    </div>
+  `;
+});
 
-  });
 
-  network.on("blurNode", function() {
-    tooltip.style.display = "none";
-  });
+network.on("blurNode", function(params) {
+  hideTimeout = setTimeout(() => {
+    const currentNode = network.getNodeAt(params.event.pointer.DOM);
+
+    // ✅ only hide if NOT hovering another node
+    if (!currentNode) {
+      tooltip.style.display = "none";
+    }
+  }, 200);
+});
+
 
   document.addEventListener("mousemove", function(e) {
     tooltip.style.left = e.pageX + 10 + "px";
