@@ -165,52 +165,45 @@ let hideTimeout = null;
 
 
 network.on("hoverNode", function(params) {
-  if (hoverTimeout) clearTimeout(hoverTimeout);
+  const node = nodesMap.get(params.node);
+  if (!node || !node.url) return;
 
-  hoverTimeout = setTimeout(() => {
-    const node = nodesMap.get(params.node);
-    if (!node || !node.url) return;
+  // cancel hide timeout
+  if (hideTimeout) {
+    clearTimeout(hideTimeout);
+    hideTimeout = null;
+  }
 
-    if (hideTimeout) {
-      clearTimeout(hideTimeout);
-      hideTimeout = null;
-    }
+  const { x, y } = params.event.pointer.DOM;
 
-    const { x, y } = params.event.pointer.DOM;
+  tooltip.style.display = "block";
+  tooltip.style.left = x + 10 + "px";
+  tooltip.style.top = y + 10 + "px";
 
-    tooltip.style.left = x + 10 + "px";
-    tooltip.style.top = y + 10 + "px";
-
-    tooltip.style.display = "block";
-
-    tooltip.innerHTML = `
-      <div style="width:450px;">
-        <div style="font-weight:bold; margin-bottom:5px;">
-          ${node.label}
-        </div>
-        <div style="height:300px; border-radius:6px; overflow:hidden;">
-          <iframe 
-            src="${node.url}" 
-            style="width:100%; height:100%; border:none; pointer-events:none;"
-          ></iframe>
-        </div>
+  tooltip.innerHTML = `
+    <div style="width:450px;">
+      <div style="font-weight:bold; margin-bottom:5px;">
+        ${node.label}
       </div>
-    `;
-  }, 150); // ✅ small delay
+      <div style="height:300px; border-radius:6px; overflow:hidden;">
+        <iframe 
+          src="${node.url}" 
+          style="width:100%; height:100%; border:none; pointer-events:none;"
+        ></iframe>
+      </div>
+    </div>
+  `;
 });
 
 
 
-network.on("blurNode", function(params) {
+
+network.on("blurNode", function() {
   hideTimeout = setTimeout(() => {
-    const currentNode = network.getNodeAt(params.event.pointer.DOM);
-
-    // ✅ only hide if NOT hovering another node
-    if (!currentNode) {
-      tooltip.style.display = "none";
-    }
-  }, 200);
+    tooltip.style.display = "none";
+  }, 250);
 });
+
 
 
   document.addEventListener("mousemove", function(e) {
