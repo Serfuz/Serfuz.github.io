@@ -9,7 +9,8 @@ title: Knowledge Graph
 
 {% include data.html %}
 
-<script src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+<!-- ✅ lock library version -->
+<script src="https://unpkg.com/vis-network@9.1.2/standalone/umd/vis-network.min.js"></script>
 
 <script>
   // =========================
@@ -18,7 +19,13 @@ title: Knowledge Graph
 
   const rawRecords = [
     {% for rec in records %}
-      ["{{ rec[0] }}","{{ rec[1] }}","{{ rec[2] }}","{{ rec[3] }}"],
+      [
+        "{{ rec[0] | escape }}",
+        "{{ rec[1] | escape }}",
+        "{{ rec[2] | escape }}",
+        "{{ rec[3] | escape }}",
+        "{{ rec[4].url | relative_url }}"
+      ],
     {% endfor %}
   ];
 
@@ -28,25 +35,41 @@ title: Knowledge Graph
 
   const nodesMap = new Map();
   const edges = [];
+  const edgeSet = new Set(); // ✅ prevents duplicate edges
 
   rawRecords.forEach(path => {
+    const url = path[4];
+
     for (let i = 0; i < path.length - 1; i++) {
       const from = path[i];
       const to = path[i + 1];
 
       if (!from || !to) continue;
 
-      // add nodes
+      // ---------- Nodes ----------
       if (!nodesMap.has(from)) {
-        nodesMap.set(from, { id: from, label: from });
+        nodesMap.set(from, {
+          id: from,
+          label: from,
+          url: url
+        });
       }
 
       if (!nodesMap.has(to)) {
-        nodesMap.set(to, { id: to, label: to });
+        nodesMap.set(to, {
+          id: to,
+          label: to,
+          url: url
+        });
       }
 
-      // add edge
-      edges.push({ from: from, to: to });
+      // ---------- Edges ----------
+      const key = `${from}->${to}`;
+
+      if (!edgeSet.has(key)) {
+        edgeSet.add(key);
+        edges.push({ from: from, to: to });
+      }
     }
   });
 
@@ -84,5 +107,22 @@ title: Knowledge Graph
     }
   };
 
-  new vis.Network(container, data, options);
+  // ✅ store network so we can attach events
+  const network = new vis.Network(container, data, options);
+
+  // =========================
+  // Click → Navigate
+  // =========================
+
+  network.on("click", function (params) {
+    if (params.nodes.length > 0) {
+      const nodeId = params.nodes[0];
+      const node = nodesMap.get(nodeId);
+
+      if (node && node.url) {
+        window.location.href = node.url;
+      }
+    }
+  });
+
 </script>
