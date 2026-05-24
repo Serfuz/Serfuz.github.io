@@ -180,17 +180,12 @@ network.on("hoverNode", function(params) {
   const node = nodesMap.get(params.node);
   if (!node || !node.url) return;
 
-  // cancel hide timeout
   if (hideTimeout) {
     clearTimeout(hideTimeout);
     hideTimeout = null;
   }
 
-  const { x, y } = params.event.pointer.DOM;
-
   tooltip.style.display = "block";
-  tooltip.style.left = x + 10 + "px";
-  tooltip.style.top = y + 10 + "px";
 
   tooltip.innerHTML = `
     <div style="width:450px;">
