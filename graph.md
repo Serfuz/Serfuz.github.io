@@ -221,19 +221,14 @@ network.on("hoverNode", function(params) {
           ${node.label}
         </div>
         <div style="height:350px; border-radius:6px; overflow:hidden;">
-          ${node.url}" 
-          style="width:100%; height:100%; border:none;"
+          <iframe
+            src="${node.url}" 
+            style="width:100%; height:100%; border:none;"
           ></iframe>
         </div>
       </div>
     `;
   }, 250);
-});
-
-  // ✅ delayed hide
-  hideTimeout = setTimeout(() => {
-    tooltip.style.display = "none";
-  }, 200);
 });
 
 document.addEventListener("click", (e) => {
