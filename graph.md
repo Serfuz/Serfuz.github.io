@@ -65,6 +65,7 @@ title: Knowledge Graph
           color: levelColors[i] || "#ccc",
           font: {
             size: levelFontSizes[i] || 24
+          }
         });
       }
 
@@ -76,7 +77,8 @@ title: Knowledge Graph
           size: levelSizes[i+1] || 10,
           color: levelColors[i + 1] || "#ccc",
           font: {
-            size: levelFontSizes[i] || 24
+            size: levelFontSizes[i+1] || 24
+          }
         });
       }
 
