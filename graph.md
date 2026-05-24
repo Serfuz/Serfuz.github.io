@@ -228,7 +228,7 @@ network.on("hoverNode", function(params) {
         </div>
       </div>
     `;
-  }, 250);
+  }, 500);
 });
 
 document.addEventListener("click", (e) => {
