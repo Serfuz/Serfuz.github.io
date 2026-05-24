@@ -16,6 +16,7 @@ title: Knowledge Graph
   // =========================
   // Convert Liquid data → JS
   // =========================
+  let hoverTimeout = null;
 
   const rawRecords = [
     {% for rec in records %}
@@ -162,45 +163,42 @@ title: Knowledge Graph
 
 let hideTimeout = null;
 
+
 network.on("hoverNode", function(params) {
-  const node = nodesMap.get(params.node);
+  if (hoverTimeout) clearTimeout(hoverTimeout);
 
-  if (!node || !node.url) return;
+  hoverTimeout = setTimeout(() => {
+    const node = nodesMap.get(params.node);
+    if (!node || !node.url) return;
 
-  // ✅ cancel any pending hide
-  if (hideTimeout) {
-    clearTimeout(hideTimeout);
-    hideTimeout = null;
-  }
+    if (hideTimeout) {
+      clearTimeout(hideTimeout);
+      hideTimeout = null;
+    }
 
-  const { x, y } = params.event.pointer.DOM;
+    const { x, y } = params.event.pointer.DOM;
 
-  tooltip.style.left = x + 10 + "px";
-  tooltip.style.top = y + 10 + "px";
+    tooltip.style.left = x + 10 + "px";
+    tooltip.style.top = y + 10 + "px";
 
-  tooltip.style.display = "block";
+    tooltip.style.display = "block";
 
-  tooltip.innerHTML = `
-    <div style="width:450px;">
-      <div style="
-        font-weight:bold;
-        margin-bottom:5px;
-      ">
-        ${node.label}
+    tooltip.innerHTML = `
+      <div style="width:450px;">
+        <div style="font-weight:bold; margin-bottom:5px;">
+          ${node.label}
+        </div>
+        <div style="height:300px; border-radius:6px; overflow:hidden;">
+          <iframe 
+            src="${node.url}" 
+            style="width:100%; height:100%; border:none; pointer-events:none;"
+          ></iframe>
+        </div>
       </div>
-      <div style="
-        height:300px;
-        border-radius:6px;
-        overflow:hidden;
-      ">
-        <iframe 
-          src="${node.url}" 
-          style="width:100%; height:100%; border:none; pointer-events:none;"
-        ></iframe>
-      </div>
-    </div>
-  `;
+    `;
+  }, 150); // ✅ small delay
 });
+
 
 
 network.on("blurNode", function(params) {
