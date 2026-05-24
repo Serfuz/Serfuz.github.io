@@ -53,7 +53,7 @@ title: Knowledge Graph
         nodesMap.set(from, {
           id: from,
           label: from,
-          url: url
+          url: url,
           size: levelSizes[i] || 10
         });
       }
@@ -62,7 +62,7 @@ title: Knowledge Graph
         nodesMap.set(to, {
           id: to,
           label: to,
-          url: url
+          url: url,
           size: levelSizes[i+1] || 10
         });
       }
@@ -96,7 +96,7 @@ title: Knowledge Graph
       scaling: {
         min: 10,
         max: 30
-      }
+      },
       font: {
         size: 14
       }
