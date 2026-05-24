@@ -19,7 +19,7 @@ title: Knowledge Graph
   padding:8px;
   border-radius:6px;
   display:none;
-  pointer-events:none;
+  pointer-events:auto;
   box-shadow:0 2px 6px rgba(0,0,0,0.2);
   z-index:1000
 "></div>
@@ -29,6 +29,10 @@ title: Knowledge Graph
   // Convert Liquid data → JS
   // =========================
   let hoverTimeout = null;
+  
+  let mouseX = 0;
+  let mouseY = 0;
+
   
 
   let isMouseDown = false;
@@ -189,13 +193,12 @@ let hideTimeout = null;
 
 
 network.on("hoverNode", function(params) {
-  // ❗ block hover if mouse button is held
+  // ❗ block hover if dragging
   if (isMouseDown) return;
 
   const node = nodesMap.get(params.node);
   if (!node || !node.url) return;
 
-  // cancel hide timeout
   if (hideTimeout) {
     clearTimeout(hideTimeout);
     hideTimeout = null;
@@ -208,15 +211,18 @@ network.on("hoverNode", function(params) {
   hoverTimeout = setTimeout(() => {
     tooltip.style.display = "block";
 
+    // ✅ position near mouse (ONCE)
+    tooltip.style.left = mouseX + 15 + "px";
+    tooltip.style.top = mouseY + 15 + "px";
+
     tooltip.innerHTML = `
-      <div style="width:450px;">
+      <div style="width:500px;">
         <div style="font-weight:bold; margin-bottom:5px;">
           ${node.label}
         </div>
-        <div style="height:300px; border-radius:6px; overflow:hidden;">
-          <iframe 
-            src="${node.url}" 
-            style="width:100%; height:100%; border:none; pointer-events:none;"
+        <div style="height:350px; border-radius:6px; overflow:hidden;">
+          ${node.url}" 
+          style="width:100%; height:100%; border:none;"
           ></iframe>
         </div>
       </div>
@@ -224,28 +230,26 @@ network.on("hoverNode", function(params) {
   }, 250);
 });
 
-
-
-
-network.on("blurNode", function() {
-  // ❗ cancel pending hover (important!)
-  if (hoverTimeout) {
-    clearTimeout(hoverTimeout);
-    hoverTimeout = null;
-  }
-
   // ✅ delayed hide
   hideTimeout = setTimeout(() => {
     tooltip.style.display = "none";
   }, 200);
 });
 
+document.addEventListener("click", (e) => {
+  // ✅ ignore clicks on tooltip itself
+  if (tooltip.contains(e.target)) return;
+
+  tooltip.style.display = "none";
+});
 
 
-  document.addEventListener("mousemove", function(e) {
-    tooltip.style.left = e.pageX + 10 + "px";
-    tooltip.style.top = e.pageY + 10 + "px";
-  });
+document.addEventListener("mousemove", function(e) {
+  mouseX = e.pageX;
+  mouseY = e.pageY;
+});
+
+
 
 </script>
 
