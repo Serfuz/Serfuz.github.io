@@ -1,0 +1,26 @@
+{% comment %} ===================== DATA BUILD ===================== {% endcomment %}
+
+{% assign records = "" | split: "" %}
+
+{% for page in pages %}
+  {% for path in page.paths %}
+
+    {% comment %} ---- Normalize path to always have 4 slots ---- {% endcomment %}
+    {% assign l1 = path[0] %}
+    {% assign l2 = path[1] %}
+    {% assign l3 = path[2] %}
+    {% assign l4 = path[3] %}
+
+    {% comment %} ---- Build record: [l1, l2, l3, l4, page] ---- {% endcomment %}
+
+    {% assign record = "" | split: "" %}
+    {% assign record = record | push: l1 %}
+    {% assign record = record | push: l2 %}
+    {% assign record = record | push: l3 %}
+    {% assign record = record | push: l4 %}
+    {% assign record = record | push: page %}
+
+    {% assign records = records | push: record %}
+
+  {% endfor %}
+{% endfor %}

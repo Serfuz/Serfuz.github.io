@@ -1,231 +1,221 @@
+{% include data.html %}
+
 <div style="display:grid; grid-template-columns: repeat(2, 1fr); gap:20px;">
 
-{% comment %} ===================== SETUP ===================== {% endcomment %}
+    {% comment %} ===================== LEVEL 1 ===================== {% endcomment %}
 
-{% assign pages = site.pages | where: "publish", true %}
+    {% assign level1s = "" | split: "" %}
 
-{% assign level1s = "" | split: "" %}
-
-{% for page in pages %}
-  {% for path in page.paths %}
-    {% assign l1 = path[0] %}
-    {% unless level1s contains l1 %}
-      {% assign level1s = level1s | push: l1 %}
-    {% endunless %}
-  {% endfor %}
-{% endfor %}
-
-{% comment %} ===================== LEVEL 1 ===================== {% endcomment %}
-
-{% for l1 in level1s %}
-
-<div style="border:3px solid #444; padding:15px; border-radius:10px;">
-
-  {% assign l1_page = nil %}
-  {% assign l1_links = "" | split: "" %}
-  {% assign level2s = "" | split: "" %}
-
-  {% for page in pages %}
-    {% for path in page.paths %}
-      {% if path[0] == l1 %}
-
-        {% if path[1] == nil %}
-          {% if page.anchor == true %}
-            {% assign l1_page = page %}
-          {% else %}
-            {% unless l1_links contains page.url %}
-              {% assign l1_links = l1_links | push: page %}
-            {% endunless %}
-          {% endif %}
-        {% else %}
-          {% unless level2s contains path[1] %}
-            {% assign level2s = level2s | push: path[1] %}
-          {% endunless %}
-        {% endif %}
-
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
-
-  {% assign l1_color = l1_page.color | default: "#fafafa" %}
-
-  <div style="background:{{ l1_color }}; padding:5px; border-radius:8px;">
-
-  <h2>
-    {% if l1_page %}
-      <a href="{{ l1_page.url | relative_url }}">{{ l1 }}</a>
-    {% else %}
-      {{ l1 }}
-    {% endif %}
-  </h2>
-
-  {% if l1_links.size > 0 %}
-  <ul>
-    {% for page in l1_links %}
-      <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
-    {% endfor %}
-  </ul>
-  {% endif %}
-
-  {% comment %} ===================== LEVEL 2 ===================== {% endcomment %}
-
-  {% for l2 in level2s %}
-
-  {% assign l2_page = nil %}
-  {% assign level2_links = "" | split: "" %}
-  {% assign level3s = "" | split: "" %}
-
-  {% for page in pages %}
-    {% for path in page.paths %}
-      {% if path[0] == l1 and path[1] == l2 %}
-
-        {% if path[2] == nil %}
-          {% if page.anchor == true %}
-            {% assign l2_page = page %}
-          {% else %}
-            {% unless level2_links contains page.url %}
-              {% assign level2_links = level2_links | push: page %}
-            {% endunless %}
-          {% endif %}
-        {% else %}
-          {% unless level3s contains path[2] %}
-            {% assign level3s = level3s | push: path[2] %}
-          {% endunless %}
-        {% endif %}
-
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
-
-  {% assign l2_color = l2_page.color | default: "#ffffff" %}
-
-  <div style="border:2px solid #777; padding:10px; margin-top:10px; border-radius:8px; background:{{ l2_color }};">
-
-    <h3>
-      {% if l2_page %}
-        <a href="{{ l2_page.url | relative_url }}">{{ l2 }}</a>
-      {% else %}
-        {{ l2 }}
-      {% endif %}
-    </h3>
-
-    {% if level2_links.size > 0 %}
-    <ul>
-      {% for page in level2_links %}
-        <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
-      {% endfor %}
-    </ul>
-    {% endif %}
-
-    {% comment %} ===================== LEVEL 3 ===================== {% endcomment %}
-
-    {% for l3 in level3s %}
-
-    {% assign l3_page = nil %}
-    {% assign level3_links = "" | split: "" %}
-    {% assign level4s = "" | split: "" %}
-
-    {% for page in pages %}
-      {% for path in page.paths %}
-        {% if path[0] == l1 and path[1] == l2 and path[2] == l3 %}
-
-          {% if path[3] == nil %}
-            {% if page.anchor == true %}
-              {% assign l3_page = page %}
-            {% else %}
-              {% unless level3_links contains page.url %}
-                {% assign level3_links = level3_links | push: page %}
-              {% endunless %}
+    {% for rec in records %}
+        {% assign l1 = rec[0] %}
+            {% if l1 %}
+                {% unless level1s contains l1 %}
+                {% assign level1s = level1s | push: l1 %}
+                {% endunless %}
             {% endif %}
-          {% else %}
-            {% unless level4s contains path[3] %}
-              {% assign level4s = level4s | push: path[3] %}
-            {% endunless %}
-          {% endif %}
-
-        {% endif %}
-      {% endfor %}
     {% endfor %}
 
-    {% assign l3_color = l3_page.color | default: "#ffffff" %}
+    {% for l1 in level1s %}
 
-    <div style="border:1px dashed #999; padding:8px; margin-top:8px; border-radius:6px; background:{{ l3_color }};">
+        <div style="border:3px solid #444; padding:15px; border-radius:10px;">
 
-      <h4>
-        {% if l3_page %}
-          <a href="{{ l3_page.url | relative_url }}">{{ l3 }}</a>
-        {% else %}
-          {{ l3 }}
-        {% endif %}
-      </h4>
+            {% assign l1_anchor = nil %}
+            {% assign l1_links = "" | split: "" %}
+            {% assign level2s = "" | split: "" %}
 
-      {% if level3_links.size > 0 %}
-      <ul>
-        {% for page in level3_links %}
-          <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
-        {% endfor %}
-      </ul>
-      {% endif %}
+            {% for rec in records %}
+                {% if rec[0] == l1 %}
 
-      {% comment %} ===================== LEVEL 4 ===================== {% endcomment %}
+                    {% if rec[1] == nil %}
+                        {% if rec[4].anchor == true %}
+                            {% assign l1_anchor = rec[4] %}
+                        {% else %}
+                            {% unless l1_links contains rec[4].url %}
+                                {% assign l1_links = l1_links | push: rec[4] %}
+                            {% endunless %}
+                        {% endif %}
+                    {% else %}
+                            {% unless level2s contains rec[1] %}
+                                {% assign level2s = level2s | push: rec[1] %}
+                            {% endunless %}
+                    {% endif %}
 
-      {% for l4 in level4s %}
+                {% endif %}
+            {% endfor %}
 
-      {% assign l4_page = nil %}
-      {% assign level4_links = "" | split: "" %}
+            {% assign l1_color = l1_anchor.color | default: '#fafafa' %}
 
-      {% for page in pages %}
-        {% for path in page.paths %}
-          {% if path[0] == l1 and path[1] == l2 and path[2] == l3 and path[3] == l4 %}
+            <div style="background:{{ l1_color }}; padding:5px; border-radius:8px;">
 
-            {% if page.anchor == true %}
-              {% assign l4_page = page %}
-            {% else %}
-              {% unless level4_links contains page.url %}
-                {% assign level4_links = level4_links | push: page %}
-              {% endunless %}
+                <h2>
+                    {% if l1_anchor %}
+                        <a href="{{ l1_anchor.url | relative_url }}">{{ l1 }}</a>
+                    {% else %}
+                        {{ l1 }}
+                    {% endif %}
+                </h2>
+
+                {% if l1_links.size > 0 %}
+                    <ul>
+                        {% for p in l1_links %}
+                            <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+
+            {% comment %} ===================== LEVEL 2 ===================== {% endcomment %}
+
+            {% for l2 in level2s %}
+
+                {% assign l2_anchor = nil %}
+                {% assign l2_links = "" | split: "" %}
+                {% assign level3s = "" | split: "" %}
+
+                {% for rec in records %}
+                    {% if rec[0] == l1 and rec[1] == l2 %}
+
+                    {% if rec[2] == nil %}
+                        {% if rec[4].anchor == true %}
+                            {% assign l2_anchor = rec[4] %}
+                        {% else %}
+                            {% unless l2_links contains rec[4].url %}
+                                {% assign l2_links = l2_links | push: rec[4] %}
+                            {% endunless %}
+                        {% endif %}
+                    {% else %}
+                        {% unless level3s contains rec[2] %}
+                            {% assign level3s = level3s | push: rec[2] %}
+                        {% endunless %}
+                    {% endif %}
+
+                    {% endif %}
+                {% endfor %}
+
+            {% assign l2_color = l2_anchor.color | default: '#ffffff' %}
+
+            <div style="border:2px solid #777; padding:10px; margin-top:10px; border-radius:8px; background:{{ l2_color }};">
+
+                <h3>
+                    {% if l2_anchor %}
+                        <a href="{{ l2_anchor.url | relative_url }}">{{ l2 }}</a>
+                    {% else %}
+                        {{ l2 }}
+                    {% endif %}
+                </h3>
+
+                {% if l2_links.size > 0 %}
+                    <ul>
+                        {% for p in l2_links %}
+                            <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+
+                {% comment %} ===================== LEVEL 3 ===================== {% endcomment %}
+
+                {% for l3 in level3s %}
+
+                {% assign l3_anchor = nil %}
+                {% assign l3_links = "" | split: "" %}
+                {% assign level4s = "" | split: "" %}
+
+                {% for rec in records %}
+                    {% if rec[0] == l1 and rec[1] == l2 and rec[2] == l3 %}
+
+                    {% if rec[3] == nil %}
+                        {% if rec[4].anchor == true %}
+                        {% assign l3_anchor = rec[4] %}
+                        {% else %}
+                        {% unless l3_links contains rec[4].url %}
+                            {% assign l3_links = l3_links | push: rec[4] %}
+                        {% endunless %}
+                        {% endif %}
+                    {% else %}
+                        {% unless level4s contains rec[3] %}
+                        {% assign level4s = level4s | push: rec[3] %}
+                        {% endunless %}
+                    {% endif %}
+
+                    {% endif %}
+                {% endfor %}
+
+                {% assign l3_color = l3_anchor.color | default: '#ffffff' %}
+
+                <div style="border:1px dashed #999; padding:8px; margin-top:8px; border-radius:6px; background:{{ l3_color }};">
+
+                <h4>
+                    {% if l3_anchor %}
+                    <a href="{{ l3_anchor.url | relative_url }}">{{ l3 }}</a>
+                    {% else %}
+                    {{ l3 }}
+                    {% endif %}
+                </h4>
+
+                {% if l3_links.size > 0 %}
+                <ul>
+                    {% for p in l3_links %}
+                    <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+                    {% endfor %}
+                </ul>
+                {% endif %}
+
+            {% comment %} ===================== LEVEL 4 ===================== {% endcomment %}
+
+            {% for l4 in level4s %}
+
+            {% assign l4_anchor = nil %}
+            {% assign l4_links = "" | split: "" %}
+
+            {% for rec in records %}
+                {% if rec[0] == l1 and rec[1] == l2 and rec[2] == l3 and rec[3] == l4 %}
+
+                {% if rec[4].anchor == true %}
+                    {% assign l4_anchor = rec[4] %}
+                {% else %}
+                    {% unless l4_links contains rec[4].url %}
+                    {% assign l4_links = l4_links | push: rec[4] %}
+                    {% endunless %}
+                {% endif %}
+
+                {% endif %}
+            {% endfor %}
+
+            {% assign l4_color = l4_anchor.color | default: '#eef6ff' %}
+
+            <div style="padding:6px; margin-top:6px; border-radius:6px; background:{{ l4_color }};">
+
+            <strong>
+                {% if l4_anchor %}
+                <a href="{{ l4_anchor.url | relative_url }}">{{ l4 }}</a>
+                {% else %}
+                {{ l4 }}
+                {% endif %}
+            </strong>
+
+            {% if l4_links.size > 0 %}
+            <ul>
+                {% for p in l4_links %}
+                <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+                {% endfor %}
+            </ul>
             {% endif %}
 
-          {% endif %}
-        {% endfor %}
-      {% endfor %}
+            </div>
 
-      {% assign l4_color = l4_page.color | default: "#eef6ff" %}
+            {% endfor %}
 
-      <div style="padding:6px; margin-top:6px; border-radius:6px; background:{{ l4_color }};">
+            </div>
 
-        <strong>
-          {% if l4_page %}
-            <a href="{{ l4_page.url | relative_url }}">{{ l4 }}</a>
-          {% else %}
-            {{ l4 }}
-          {% endif %}
-        </strong>
+            {% endfor %}
 
-        {% if level4_links.size > 0 %}
-        <ul>
-          {% for page in level4_links %}
-            <li><a href="{{ page.url | relative_url }}">{{ page.title }}</a></li>
-          {% endfor %}
-        </ul>
-        {% endif %}
+            </div>
 
-      </div>
+            {% endfor %}
 
-      {% endfor %}
+            </div>
 
-    </div>
+        </div>
 
     {% endfor %}
-
-  </div>
-
-  {% endfor %}
-
-  </div>
-
-</div>
-
-{% endfor %}
 
 </div>
