@@ -180,35 +180,51 @@ network.on("hoverNode", function(params) {
   const node = nodesMap.get(params.node);
   if (!node || !node.url) return;
 
+  // ❗ cancel any pending hide
   if (hideTimeout) {
     clearTimeout(hideTimeout);
     hideTimeout = null;
   }
 
-  tooltip.style.display = "block";
+  // ❗ cancel previous hover delay (important!)
+  if (hoverTimeout) {
+    clearTimeout(hoverTimeout);
+  }
 
-  tooltip.innerHTML = `
-    <div style="width:450px;">
-      <div style="font-weight:bold; margin-bottom:5px;">
-        ${node.label}
+  // ✅ add delay before showing tooltip
+  hoverTimeout = setTimeout(() => {
+    tooltip.style.display = "block";
+
+    tooltip.innerHTML = `
+      <div style="width:450px;">
+        <div style="font-weight:bold; margin-bottom:5px;">
+          ${node.label}
+        </div>
+        <div style="height:300px; border-radius:6px; overflow:hidden;">
+          <iframe 
+            src="${node.url}" 
+            style="width:100%; height:100%; border:none; pointer-events:none;"
+          ></iframe>
+        </div>
       </div>
-      <div style="height:300px; border-radius:6px; overflow:hidden;">
-        <iframe 
-          src="${node.url}" 
-          style="width:100%; height:100%; border:none; pointer-events:none;"
-        ></iframe>
-      </div>
-    </div>
-  `;
+    `;
+  }, 250); // ✅ adjust delay here (ms)
 });
 
 
 
 
 network.on("blurNode", function() {
+  // ❗ cancel pending hover (important!)
+  if (hoverTimeout) {
+    clearTimeout(hoverTimeout);
+    hoverTimeout = null;
+  }
+
+  // ✅ delayed hide
   hideTimeout = setTimeout(() => {
     tooltip.style.display = "none";
-  }, 250);
+  }, 200);
 });
 
 
