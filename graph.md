@@ -164,6 +164,10 @@ title: Knowledge Graph
     const node = nodesMap.get(params.node);
 
     if (!node || !node.url) return;
+    const pos = network.getPointer(params.event);
+
+    tooltip.style.left = pos.x + 10 + "px";
+    tooltip.style.top = pos.y + 10 + "px";
 
     tooltip.style.display = "block";
 
@@ -212,4 +216,5 @@ title: Knowledge Graph
   display:none;
   pointer-events:none;
   box-shadow:0 2px 6px rgba(0,0,0,0.2);
+  z-index:1000
 "></div>
