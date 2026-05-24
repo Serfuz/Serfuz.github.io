@@ -29,6 +29,18 @@ title: Knowledge Graph
   // Convert Liquid data → JS
   // =========================
   let hoverTimeout = null;
+  
+
+  let isMouseDown = false;
+  document.addEventListener("mousedown", () => {
+    isMouseDown = true;
+    tooltip.style.display = "none";
+  });
+
+  document.addEventListener("mouseup", () => {
+    isMouseDown = false;
+  });
+
 
   const rawRecords = [
     {% for rec in records %}
@@ -177,21 +189,22 @@ let hideTimeout = null;
 
 
 network.on("hoverNode", function(params) {
+  // ❗ block hover if mouse button is held
+  if (isMouseDown) return;
+
   const node = nodesMap.get(params.node);
   if (!node || !node.url) return;
 
-  // ❗ cancel any pending hide
+  // cancel hide timeout
   if (hideTimeout) {
     clearTimeout(hideTimeout);
     hideTimeout = null;
   }
 
-  // ❗ cancel previous hover delay (important!)
   if (hoverTimeout) {
     clearTimeout(hoverTimeout);
   }
 
-  // ✅ add delay before showing tooltip
   hoverTimeout = setTimeout(() => {
     tooltip.style.display = "block";
 
@@ -201,14 +214,11 @@ network.on("hoverNode", function(params) {
           ${node.label}
         </div>
         <div style="height:300px; border-radius:6px; overflow:hidden;">
-          <iframe 
-            src="${node.url}" 
-            style="width:100%; height:100%; border:none; pointer-events:none;"
-          ></iframe>
+          ${node.url}>
         </div>
       </div>
     `;
-  }, 250); // ✅ adjust delay here (ms)
+  }, 250);
 });
 
 
