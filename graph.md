@@ -36,12 +36,11 @@ title: Knowledge Graph
   const nodesMap = new Map();
   const edges = [];
   const edgeSet = new Set(); // ✅ prevents duplicate edges
-
+  const levelSizes = [30, 22, 16, 10];
+  const LEVEL_COUNT = 4;
   rawRecords.forEach(path => {
     const url = path[4];
-
-    const levelSizes = [30, 22, 16, 10];
-    const LEVEL_COUNT = 4;
+    
     for (let i = 0; i < LEVEL_COUNT - 1; i++) {
       const from = path[i];
       const to = path[i + 1];
