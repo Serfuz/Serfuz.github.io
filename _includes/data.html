@@ -1,5 +1,7 @@
 {% comment %} ===================== DATA BUILD ===================== {% endcomment %}
 
+{% assign pages = site.pages | where: "publish", true %}
+
 {% assign records = "" | split: "" %}
 
 {% for page in pages %}
