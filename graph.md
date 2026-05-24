@@ -12,6 +12,18 @@ title: Knowledge Graph
 <!-- ✅ lock library version -->
 <script src="https://unpkg.com/vis-network@9.1.2/standalone/umd/vis-network.min.js"></script>
 
+<div id="tooltip" style="
+  position:absolute;
+  background:white;
+  border:1px solid #ccc;
+  padding:8px;
+  border-radius:6px;
+  display:none;
+  pointer-events:none;
+  box-shadow:0 2px 6px rgba(0,0,0,0.2);
+  z-index:1000
+"></div>
+
 <script>
   // =========================
   // Convert Liquid data → JS
@@ -214,14 +226,4 @@ network.on("blurNode", function() {
 </script>
 
 
-<div id="tooltip" style="
-  position:absolute;
-  background:white;
-  border:1px solid #ccc;
-  padding:8px;
-  border-radius:6px;
-  display:none;
-  pointer-events:none;
-  box-shadow:0 2px 6px rgba(0,0,0,0.2);
-  z-index:1000
-"></div>
+
