@@ -183,7 +183,6 @@ function initGraph(rawRecords) {
       }
     });
 
-    network.fit(); // ✅ fixes zoom
   }, 1000); 
 
 
