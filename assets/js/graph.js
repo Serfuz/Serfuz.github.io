@@ -67,8 +67,6 @@ function initGraph(rawRecords) {
           url: url,
           size: levelSizes[i] || 10,
           color: levelColors[i] || "#ccc",
-          x: (Math.random() - 0.5) * 1,
-          y: (Math.random() - 0.5) * 1,
           font: {
             size: levelFontSizes[i] || 24
           }
