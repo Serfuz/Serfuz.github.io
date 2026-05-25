@@ -38,6 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
     hoverTimeout = setTimeout(() => {
       if (currentLink !== link) return;
 
+      const rect = link.getBoundingClientRect();
       const url = link.href;
 
       
