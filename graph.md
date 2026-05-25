@@ -7,7 +7,7 @@ title: Knowledge Graph
 
 {% include data.html %}
 <script defer>
-  const rawRecords = [
+  window.rawRecords = [
     {% for rec in records %}
       [
         "{{ rec[0] | escape }}",
