@@ -67,8 +67,8 @@ function initGraph(rawRecords) {
           url: url,
           size: levelSizes[i] || 10,
           color: levelColors[i] || "#ccc",
-          x: (Math.random() - 0.5) * 2000,
-          y: (Math.random() - 0.5) * 2000,
+          x: 0,
+          y: 0,
           font: {
             size: levelFontSizes[i] || 24
           }
@@ -147,7 +147,7 @@ function initGraph(rawRecords) {
   };
 
   const network = new vis.Network(container, data, options);
-  
+  network.stabilize();
 
   setTimeout(() => {
     network.setOptions({
