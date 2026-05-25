@@ -2,8 +2,10 @@
 layout: default
 title: Knowledge Graph
 ---
-<script src="https://unpkg.com/vis-network@9.1.2/standalone/umd/vis-network.min.js"></script>
+<script src="https://unpkg.com/vis-network@9.1.2/standalone/umd/vis-network.min.js" defer></script>
 <script src="/assets/js/graph.js" defer></script>
+
+{% include data.html %}
 <script defer>
   const rawRecords = [
     {% for rec in records %}
@@ -16,17 +18,12 @@ title: Knowledge Graph
       ],
     {% endfor %}
   ];
-
-  initGraph(rawRecords);
 </script>
 
 <h1>Knowledge Graph</h1>
 
 <div id="graph" style="height: 800px; border:1px solid #ccc;"></div>
 
-{% include data.html %}
-
-<!-- ✅ lock library version -->
 
 
 <div id="tooltip" style="

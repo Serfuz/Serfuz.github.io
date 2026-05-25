@@ -209,3 +209,10 @@ function initGraph(rawRecords) {
     tooltip.style.display = "none";
   });
 }
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  if (window.rawRecords && typeof initGraph === "function") {
+    initGraph(window.rawRecords);
+  }
+});
