@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let popup = document.createElement("div");
 
-  popup.style.position = "absolute";
+  popup.style.position = "fixed";
   popup.style.background = "white";
   popup.style.border = "1px solid #ccc";
   popup.style.padding = "8px";
@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
   let mouseY = 0;
 
   document.addEventListener("mousemove", (e) => {
-    mouseX = e.pageX;
-    mouseY = e.pageY;
+    mouseX = e.clientX;
+    mouseY = e.clientY;
   });
 
   let hoverTimeout = null;
