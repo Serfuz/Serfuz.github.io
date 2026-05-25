@@ -67,6 +67,8 @@ function initGraph(rawRecords) {
           url: url,
           size: levelSizes[i] || 10,
           color: levelColors[i] || "#ccc",
+          x: (Math.random() - 0.5) * 2000,
+          y: (Math.random() - 0.5) * 2000,
           font: {
             size: levelFontSizes[i] || 24
           }
@@ -129,13 +131,14 @@ function initGraph(rawRecords) {
       enabled: true,
       solver: "barnesHut",
       barnesHut: {
-        gravitationalConstant: -5000,
+        gravitationalConstant: -30000,
         centralGravity: 0.2,
         springLength: 100,
         springConstant: 0.02
       },
       stabilization: {
-        iterations: 200
+        iterations: 1000
+        updateInterval: 25
       }
     },
 
@@ -146,29 +149,21 @@ function initGraph(rawRecords) {
 
   const network = new vis.Network(container, data, options);
   
-  network.setOptions({
-    physics: {
-      barnesHut: {
-        gravitationalConstant: -20000, // ✅ MUCH stronger
-        springLength: 150              // optional: more spacing
-      }
-    }
-  });
 
-  
-
-  network.once("stabilizationIterationsDone", function () {
-
+  setTimeout(() => {
     network.setOptions({
       physics: {
         barnesHut: {
           gravitationalConstant: -5000,
-          springLength: 100
+          centralGravity: 0.2,
+          springLength: 100,
+          springConstant: 0.02
         }
       }
     });
+  }, 3000); // ✅ 3 seconds explosion phase
 
-  });
+  network.stabilize();
 
 
 
