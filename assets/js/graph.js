@@ -5,6 +5,7 @@ function initGraph(rawRecords) {
   // =========================
   let hoverTimeout = null;
   let hideTimeout = null;
+  let isHoveringNode = false;
 
   let mouseX = 0;
   let mouseY = 0;
@@ -173,6 +174,7 @@ network.on("hoverNode", function(params) {
   if (!node || !node.url) return;
 
   currentNodeId = nodeId;
+  isHoveringNode = true;
 
   if (hoverTimeout) {
     clearTimeout(hoverTimeout);
@@ -183,8 +185,7 @@ network.on("hoverNode", function(params) {
   }
 
   hoverTimeout = setTimeout(() => {
-    const current = network.getNodeAt({ x: mouseX, y: mouseY });
-    if (currentNodeId !== nodeId || current !== nodeId) return;
+    if (currentNodeId !== nodeId || !isHoveringNode) return;
 
     tooltip.style.display = "block";
 
@@ -206,6 +207,22 @@ network.on("hoverNode", function(params) {
     `;
     }, 500);
   });
+
+  
+network.on("blurNode", function() {
+
+  isHoveringNode = false;  // ✅ cancel hover state
+  currentNodeId = null;
+
+  if (hoverTimeout) {
+    clearTimeout(hoverTimeout);  // ✅ cancel pending popup
+  }
+
+  // optional: hide tooltip (or remove if you want persistence)
+  hideTimeout = setTimeout(() => {
+    tooltip.style.display = "none";
+  }, 150);
+});
 
 
   // =========================
