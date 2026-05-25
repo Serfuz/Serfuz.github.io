@@ -20,51 +20,78 @@ document.addEventListener("DOMContentLoaded", () => {
   let currentLink = null;
   
 
-  // ✅ HOVER ON
-  document.addEventListener("mouseover", (e) => {
-    const link = e.target.closest(".windowPopUp");
-    if (!link) return;
 
-    currentLink = link; // ✅ track what we are hovering
+document.addEventListener("mousemove", (e) => {
+  const link = e.target.closest(".windowPopUp");
 
-    
-    const rect = link.getBoundingClientRect();
-    const x = rect.right;
-    const y = rect.top;
+  // ✅ If we moved onto a new link
+  if (link !== currentLink) {
 
-
-    // ❗ cancel hiding if moving between link + popup
-    if (hideTimeout) {
-      clearTimeout(hideTimeout);
-      hideTimeout = null;
+    // ✅ cancel previous hover
+    if (hoverTimeout) {
+      clearTimeout(hoverTimeout);
+      hoverTimeout = null;
     }
 
-    if (hoverTimeout) clearTimeout(hoverTimeout);
+    currentLink = link;
 
-    hoverTimeout = setTimeout(() => {
-      if (currentLink !== link) return;
+    // ✅ only start timer if on a link
+    if (link) {
 
-      const url = link.href;
+      const rect = link.getBoundingClientRect();
+      const x = rect.right;
+      const y = rect.top;
 
-      const maxX = window.innerWidth - 520;
-      const maxY = window.innerHeight - 380;
+      hoverTimeout = setTimeout(() => {
+        // ✅ still same link?
+        if (currentLink !== link) return;
 
-    popup.style.left = Math.min(x + 15, maxX) + "px";
-    popup.style.top = Math.min(y + 15, maxY) + "px";
+        const url = link.href;
 
-      popup.innerHTML = `
-        <div style="font-weight:bold; margin-bottom:5px;">
-          ${url}
-        </div>
-        <iframe 
-          src="${url}" 
-          style="width:100%; height:350px; border:none;"
-        ></iframe>
-      `;
+        const maxX = window.innerWidth - 520;
+        const maxY = window.innerHeight - 380;
 
-      popup.style.display = "block";
-    }, 300); // ✅ small delay improves UX
-  });
+        popup.style.left = Math.min(x + 15, maxX) + "px";
+        popup.style.top = Math.min(y + 15, maxY) + "px";
+
+        popup.innerHTML = `
+          <div style="font-weight:bold; margin-bottom:5px;">
+            ${url}
+          </div>
+          <iframe 
+            src="${url}" 
+            style="width:100%; height:350px; border:none;"
+          ></iframe>
+        `;
+
+        popup.style.display = "block";
+
+      }, 500); // ✅ TRUE hover intent
+    }
+  }
+});
+
+
+document.addEventListener("mouseleave", () => {
+  currentLink = null;
+
+  if (hoverTimeout) {
+    clearTimeout(hoverTimeout);
+  }
+
+  popup.style.display = "none";
+});
+
+
+popup.addEventListener("mouseenter", () => {
+  currentLink = "popup";
+});
+
+popup.addEventListener("mouseleave", () => {
+  currentLink = null;
+  popup.style.display = "none";
+});
+
 
   // ✅ HOVER OFF
   document.addEventListener("mouseout", (e) => {
