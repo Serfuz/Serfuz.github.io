@@ -150,7 +150,7 @@ function initGraph(rawRecords) {
 
   setTimeout(() => {
     network.moveTo({
-      scale: 0.4, // ✅ zoom OUT initially
+      scale: 1, // ✅ zoom OUT initially
       position: { x: 0, y: 0 },
       animation: false
     });
