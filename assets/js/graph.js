@@ -13,6 +13,8 @@ function initGraph(rawRecords) {
 
   const tooltip = document.getElementById("tooltip");
 
+  let currentNodeId = null;
+
   document.addEventListener("mousedown", () => {
     isMouseDown = true;
     tooltip.style.display = "none";
@@ -162,42 +164,48 @@ function initGraph(rawRecords) {
   // Hover → Popup
   // =========================
 
-  network.on("hoverNode", function(params) {
-    if (isMouseDown) return;
 
-    const node = nodesMap.get(params.node);
-    if (!node || !node.url) return;
+network.on("hoverNode", function(params) {
+  if (isMouseDown) return;
 
-    if (hideTimeout) {
-      clearTimeout(hideTimeout);
-      hideTimeout = null;
-    }
+  const nodeId = params.node;
+  const node = nodesMap.get(nodeId);
+  if (!node || !node.url) return;
 
-    if (hoverTimeout) {
-      clearTimeout(hoverTimeout);
-    }
+  currentNodeId = nodeId;
 
-    hoverTimeout = setTimeout(() => {
-      tooltip.style.display = "block";
+  if (hideTimeout) {
+    clearTimeout(hideTimeout);
+    hideTimeout = null;
+  }
 
-      // ✅ position once near cursor
-      tooltip.style.left = mouseX + 15 + "px";
-      tooltip.style.top = mouseY + 15 + "px";
+  if (hoverTimeout) {
+    clearTimeout(hoverTimeout);
+  }
 
-      tooltip.innerHTML = `
-        <div style="width:500px;">
-          <div style="font-weight:bold; margin-bottom:5px;">
-            ${node.label}
-          </div>
-          <div style="height:350px; border-radius:6px; overflow:hidden;">
-            <iframe 
-              src="${node.url}" 
-              style="width:100%; height:100%; border:none;"
-            ></iframe>
-          </div>
+  hoverTimeout = setTimeout(() => {
+    // ✅ still hovering the same node?
+    if (currentNodeId !== nodeId) return;
+
+    tooltip.style.display = "block";
+
+    tooltip.style.left = mouseX + 15 + "px";
+    tooltip.style.top = mouseY + 15 + "px";
+
+    tooltip.innerHTML = `
+      <div style="width:500px;">
+        <div style="font-weight:bold; margin-bottom:5px;">
+          ${node.label}
         </div>
-      `;
-    }, 250);
+        <div style="height:350px; border-radius:6px; overflow:hidden;">
+          <iframe 
+            src="${node.url}" 
+            style="width:100%; height:100%; border:none;"
+          ></iframe>
+        </div>
+      </div>
+    `;
+    }, 500);
   });
 
   // =========================
