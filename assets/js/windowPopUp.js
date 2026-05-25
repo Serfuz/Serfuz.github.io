@@ -27,6 +27,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     currentLink = link; // ✅ track what we are hovering
 
+    
+    const rect = link.getBoundingClientRect();
+    const x = rect.right;
+    const y = rect.top;
+
+
     // ❗ cancel hiding if moving between link + popup
     if (hideTimeout) {
       clearTimeout(hideTimeout);
@@ -38,22 +44,13 @@ document.addEventListener("DOMContentLoaded", () => {
     hoverTimeout = setTimeout(() => {
       if (currentLink !== link) return;
 
-      const rect = link.getBoundingClientRect();
       const url = link.href;
 
-      
-    const x = rect.right;   // ✅ anchor to link (better UX)
-    const y = rect.top;
+      const maxX = window.innerWidth - 520;
+      const maxY = window.innerHeight - 380;
 
-
-    const maxX = window.innerWidth - 520;
-    const maxY = window.innerHeight - 380;
-
- 
     popup.style.left = Math.min(x + 15, maxX) + "px";
     popup.style.top = Math.min(y + 15, maxY) + "px";
-
-
 
       popup.innerHTML = `
         <div style="font-weight:bold; margin-bottom:5px;">
