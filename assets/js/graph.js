@@ -147,7 +147,6 @@ function initGraph(rawRecords) {
   };
 
   const network = new vis.Network(container, data, options);
-  network.stabilize();
 
   setTimeout(() => {
     network.setOptions({
@@ -162,7 +161,6 @@ function initGraph(rawRecords) {
     });
   }, 3000); // ✅ 3 seconds explosion phase
 
-  network.stabilize();
 
 
 
