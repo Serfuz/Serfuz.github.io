@@ -148,7 +148,7 @@ function initGraph(rawRecords) {
 
   
     network.moveTo({
-      scale: 0.5,           // zoom level (1 = default)
+      scale: 1,           // zoom level (1 = default)
       position: { x: 0, y: 0 },
       animation: true
     });
