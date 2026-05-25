@@ -145,6 +145,33 @@ function initGraph(rawRecords) {
   };
 
   const network = new vis.Network(container, data, options);
+  
+  network.setOptions({
+    physics: {
+      barnesHut: {
+        gravitationalConstant: -20000, // ✅ MUCH stronger
+        springLength: 150              // optional: more spacing
+      }
+    }
+  });
+
+  
+
+  network.once("stabilizationIterationsDone", function () {
+
+    network.setOptions({
+      physics: {
+        barnesHut: {
+          gravitationalConstant: -5000,
+          springLength: 100
+        }
+      }
+    });
+
+  });
+
+
+
 
   // =========================
   // Click → Navigate
