@@ -164,8 +164,8 @@ function initGraph(rawRecords) {
         barnesHut: {
           gravitationalConstant: -25000,
           centralGravity: 0.02,
-          springLength: 10,
-          springConstant: 0.02
+          springLength: 1,
+          springConstant: 0.2
         }
       }
     });
