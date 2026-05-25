@@ -147,11 +147,15 @@ function initGraph(rawRecords) {
   const network = new vis.Network(container, data, options);
 
   
+
+  setTimeout(() => {
     network.moveTo({
-      scale: 1,           // zoom level (1 = default)
+      scale: 0.4, // ✅ zoom OUT initially
       position: { x: 0, y: 0 },
-      animation: true
+      animation: false
     });
+  }, 50);
+
 
 
     setTimeout(() => {
