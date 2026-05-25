@@ -208,6 +208,22 @@ network.on("hoverNode", function(params) {
     }, 500);
   });
 
+  
+network.on("blurNode", function() {
+  currentNodeId = null;
+
+  // ✅ cancel pending hover
+  if (hoverTimeout) {
+    clearTimeout(hoverTimeout);
+  }
+
+  // ✅ hide popup slightly delayed (prevents flicker)
+  hideTimeout = setTimeout(() => {
+    tooltip.style.display = "none";
+  }, 150);
+});
+
+
   // =========================
   // Click outside → close popup
   // =========================
