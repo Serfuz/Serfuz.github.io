@@ -37,8 +37,12 @@ document.addEventListener("DOMContentLoaded", () => {
 
     hoverTimeout = setTimeout(() => {
       if (currentLink !== link) return;
-      
+
       const url = link.href;
+
+      
+    const x = rect.right;   // ✅ anchor to link (better UX)
+    const y = rect.top;
 
 
     const maxX = window.innerWidth - 520;
