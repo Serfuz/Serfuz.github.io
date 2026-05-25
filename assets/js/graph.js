@@ -174,17 +174,16 @@ network.on("hoverNode", function(params) {
 
   currentNodeId = nodeId;
 
+  if (hoverTimeout) {
+    clearTimeout(hoverTimeout);
+  }
   if (hideTimeout) {
     clearTimeout(hideTimeout);
     hideTimeout = null;
   }
 
-  if (hoverTimeout) {
-    clearTimeout(hoverTimeout);
-  }
-
   hoverTimeout = setTimeout(() => {
-    // ✅ still hovering the same node?
+    const current = network.getNodeAt({ x: mouseX, y: mouseY });
     if (currentNodeId !== nodeId) return;
 
     tooltip.style.display = "block";
