@@ -11,7 +11,7 @@ color: "#e3f3fc"
 # Concurrency
 
 ## ⬆️ Parent
-- [Home]({{ "/" | relative_url }})
+- <a href="{{ '/' | relative_url }}" class="windowPopUp">Home</a>
 
 ## ⬇️ Topics
-- [Locks]({{ "/locks" | relative_url }})
+- <a href="{{ '/locks' | relative_url }}" class="windowPopUp">Locks</a>

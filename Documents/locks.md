@@ -10,7 +10,7 @@ anchor: true
 # Locks
 
 ## ⬆️ Parent
-- [Concurrency]({{ "/concurrency" | relative_url }})
+- <a href="{{ '/concurrency' | relative_url }}" class="windowPopUp">Concurrency</a>
 
 ## ⬇️ Concepts
-- [Disable Interrupt]({{ "/disable-interrupt" | relative_url }})
+- <a href="{{ '/disable-interrupt' | relative_url }}" class="windowPopUp">Disable Interrupt</a>
