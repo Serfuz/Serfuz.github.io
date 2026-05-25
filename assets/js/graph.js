@@ -129,7 +129,7 @@ function initGraph(rawRecords) {
       enabled: true,
       solver: "barnesHut",
       barnesHut: {
-        gravitationalConstant: 5000,
+        gravitationalConstant: 0,
         centralGravity: 0.2,
         springLength: 100,
         springConstant: 0.02
@@ -146,6 +146,19 @@ function initGraph(rawRecords) {
 
   const network = new vis.Network(container, data, options);
 
+    setTimeout(() => {
+    network.setOptions({
+      physics: {
+        barnesHut: {
+          gravitationalConstant: -25000,
+          centralGravity: 0.2,
+          springLength: 10,
+          springConstant: 0.02
+        }
+      }
+    });
+  }, 100);
+
   setTimeout(() => {
     network.setOptions({
       physics: {
@@ -157,7 +170,7 @@ function initGraph(rawRecords) {
         }
       }
     });
-  }, 3000); // ✅ 3 seconds explosion phase
+  }, 1000); 
 
 
 
