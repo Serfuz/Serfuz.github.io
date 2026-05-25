@@ -138,7 +138,6 @@ function initGraph(rawRecords) {
       },
       stabilization: {
         iterations: 1000
-        updateInterval: 25
       }
     },
 
