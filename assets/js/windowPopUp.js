@@ -22,17 +22,32 @@ document.addEventListener("DOMContentLoaded", () => {
     mouseY = e.pageY;
   });
 
-  // ✅ attach to all popup links
-  document.querySelectorAll(".windowPopUp").forEach(link => {
+  let hoverTimeout = null;
+  let hideTimeout = null;
 
-    link.addEventListener("click", (e) => {
-      e.preventDefault();
+  // ✅ HOVER ON
+  document.addEventListener("mouseover", (e) => {
+    const link = e.target.closest(".windowPopUp");
+    if (!link) return;
 
+    // ❗ cancel hiding if moving between link + popup
+    if (hideTimeout) {
+      clearTimeout(hideTimeout);
+      hideTimeout = null;
+    }
+
+    if (hoverTimeout) clearTimeout(hoverTimeout);
+
+    hoverTimeout = setTimeout(() => {
       const url = link.href;
 
-      // ✅ place near cursor (once)
-      popup.style.left = (mouseX + 15) + "px";
-      popup.style.top = (mouseY + 15) + "px";
+
+    const maxX = window.innerWidth - 520;
+    const maxY = window.innerHeight - 380;
+
+    popup.style.left = Math.min(mouseX + 15, maxX) + "px";
+    popup.style.top = Math.min(mouseY + 15, maxY) + "px";
+
 
       popup.innerHTML = `
         <div style="font-weight:bold; margin-bottom:5px;">
@@ -45,17 +60,35 @@ document.addEventListener("DOMContentLoaded", () => {
       `;
 
       popup.style.display = "block";
-    });
-
+    }, 300); // ✅ small delay improves UX
   });
 
-  // ✅ click outside → close
-  document.addEventListener("click", (e) => {
-    if (popup.contains(e.target)) return;
+  // ✅ HOVER OFF
+  document.addEventListener("mouseout", (e) => {
+    const leavingLink = e.target.closest(".windowPopUp");
+    const goingTo = e.relatedTarget;
 
-    if (e.target.classList.contains("windowPopUp")) return;
+    // if leaving a link
+    if (leavingLink) {
 
-    popup.style.display = "none";
+      // if going into popup → DON'T hide
+      if (popup.contains(goingTo)) return;
+
+      hideTimeout = setTimeout(() => {
+        popup.style.display = "none";
+      }, 200);
+    }
+  });
+
+  // ✅ also keep popup visible if hovering it
+  popup.addEventListener("mouseenter", () => {
+    if (hideTimeout) clearTimeout(hideTimeout);
+  });
+
+  popup.addEventListener("mouseleave", () => {
+    hideTimeout = setTimeout(() => {
+      popup.style.display = "none";
+    }, 200);
   });
 
 });
