@@ -51,7 +51,7 @@
         ">
             <h2>
                 {% if l1_anchor %}
-                    <a href="{{ l1_anchor.url | relative_url }}">{{ l1 }}</a>
+                    <a href="{{ l1_anchor.url | relative_url }}" class="windowPopUp">{{ l1 }}</a>
                 {% else %}
                     {{ l1 }}
                 {% endif %}
@@ -60,7 +60,7 @@
             {% if l1_links.size > 0 %}
                 <ul>
                     {% for p in l1_links %}
-                        <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+                        <li><a href="{{ p.url | relative_url }}" class="windowPopUp">{{ p.title }}</a></li>
                     {% endfor %}
                 </ul>
             {% endif %}
@@ -112,7 +112,7 @@
 
                         <h3>
                             {% if l2_anchor %}
-                                <a href="{{ l2_anchor.url | relative_url }}">{{ l2 }}</a>
+                                <a href="{{ l2_anchor.url | relative_url }}" class="windowPopUp">{{ l2 }}</a>
                             {% else %}
                                 {{ l2 }}
                             {% endif %}
@@ -121,7 +121,7 @@
                         {% if l2_links.size > 0 %}
                             <ul>
                                 {% for p in l2_links %}
-                                    <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+                                    <li><a href="{{ p.url | relative_url }}" class="windowPopUp">{{ p.title }}</a></li>
                                 {% endfor %}
                             </ul>
                         {% endif %}
@@ -173,7 +173,7 @@
 
                                             <h4>
                                                 {% if l3_anchor %}
-                                                <a href="{{ l3_anchor.url | relative_url }}">{{ l3 }}</a>
+                                                <a href="{{ l3_anchor.url | relative_url }}" class="windowPopUp">{{ l3 }}</a>
                                                 {% else %}
                                                 {{ l3 }}
                                                 {% endif %}
@@ -182,7 +182,7 @@
                                             {% if l3_links.size > 0 %}
                                             <ul>
                                                 {% for p in l3_links %}
-                                                <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+                                                <li><a href="{{ p.url | relative_url }}" class="windowPopUp">{{ p.title }}</a></li>
                                                 {% endfor %}
                                             </ul>
                                             {% endif %}
@@ -224,7 +224,7 @@
 
                                                 <strong>
                                                     {% if l4_anchor %}
-                                                        <a href="{{ l4_anchor.url | relative_url }}">{{ l4 }}</a>
+                                                        <a href="{{ l4_anchor.url | relative_url }}" class="windowPopUp">{{ l4 }}</a>
                                                     {% else %}
                                                         {{ l4 }}
                                                     {% endif %}
@@ -233,7 +233,7 @@
                                                 {% if l4_links.size > 0 %}
                                                     <ul>
                                                         {% for p in l4_links %}
-                                                            <li><a href="{{ p.url | relative_url }}">{{ p.title }}</a></li>
+                                                            <li><a href="{{ p.url | relative_url }}" class="windowPopUp">{{ p.title }}</a></li>
                                                         {% endfor %}
                                                     </ul>
                                                 {% endif %}
