@@ -14,13 +14,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.body.appendChild(popup);
 
-  let mouseX = 0;
-  let mouseY = 0;
-
-  document.addEventListener("mousemove", (e) => {
-    mouseX = e.clientX;
-    mouseY = e.clientY;
-  });
 
   let hoverTimeout = null;
   let hideTimeout = null;
@@ -45,8 +38,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const maxX = window.innerWidth - 520;
     const maxY = window.innerHeight - 380;
 
-    popup.style.left = Math.min(mouseX + 15, maxX) + "px";
-    popup.style.top = Math.min(mouseY + 15, maxY) + "px";
+ 
+    popup.style.left = Math.min(x + 15, maxX) + "px";
+    popup.style.top = Math.min(y + 15, maxY) + "px";
+
 
 
       popup.innerHTML = `
