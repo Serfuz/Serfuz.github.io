@@ -17,11 +17,15 @@ document.addEventListener("DOMContentLoaded", () => {
 
   let hoverTimeout = null;
   let hideTimeout = null;
+  let currentLink = null;
+  
 
   // ✅ HOVER ON
   document.addEventListener("mouseover", (e) => {
     const link = e.target.closest(".windowPopUp");
     if (!link) return;
+
+    currentLink = link; // ✅ track what we are hovering
 
     // ❗ cancel hiding if moving between link + popup
     if (hideTimeout) {
@@ -32,6 +36,8 @@ document.addEventListener("DOMContentLoaded", () => {
     if (hoverTimeout) clearTimeout(hoverTimeout);
 
     hoverTimeout = setTimeout(() => {
+      if (currentLink !== link) return;
+      
       const url = link.href;
 
 
