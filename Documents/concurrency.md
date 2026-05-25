@@ -14,4 +14,4 @@ color: "#e3f3fc"
 - <a href="{{ '/' | relative_url }}" class="windowPopUp">Home</a>
 
 ## ⬇️ Topics
-- <a href="{{ '/locks' | relative_url }}" class="windowPopUp">Locks</a>
+- <a href="{{ '/Documents/locks' | relative_url }}" class="windowPopUp">Locks</a>
