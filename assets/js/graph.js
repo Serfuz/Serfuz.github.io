@@ -1,6 +1,8 @@
-// graph.js
-
 function initGraph(rawRecords) {
+
+  // =========================
+  // State
+  // =========================
   let hoverTimeout = null;
   let hideTimeout = null;
 
@@ -9,9 +11,11 @@ function initGraph(rawRecords) {
 
   let isMouseDown = false;
 
+  const tooltip = document.getElementById("tooltip");
+
   document.addEventListener("mousedown", () => {
     isMouseDown = true;
-    document.getElementById("tooltip").style.display = "none";
+    tooltip.style.display = "none";
   });
 
   document.addEventListener("mouseup", () => {
@@ -23,7 +27,9 @@ function initGraph(rawRecords) {
     mouseY = e.pageY;
   });
 
-  const tooltip = document.getElementById("tooltip");
+  // =========================
+  // Build nodes + edges
+  // =========================
 
   const nodesMap = new Map();
   const edges = [];
@@ -31,7 +37,12 @@ function initGraph(rawRecords) {
 
   const levelSizes = [30, 22, 16, 10];
   const levelFontSizes = [36, 32, 28, 24];
-  const levelColors = ["#e74c3c", "#f39c12", "#27ae60", "#3498db"];
+  const levelColors = [
+    "#e74c3c",
+    "#f39c12",
+    "#27ae60",
+    "#3498db"
+  ];
 
   const LEVEL_COUNT = 4;
 
@@ -44,6 +55,8 @@ function initGraph(rawRecords) {
 
       if (!from || !to) continue;
 
+      // ---------- Nodes ----------
+
       if (!nodesMap.has(from)) {
         nodesMap.set(from, {
           id: from,
@@ -51,7 +64,9 @@ function initGraph(rawRecords) {
           url: url,
           size: levelSizes[i] || 10,
           color: levelColors[i] || "#ccc",
-          font: { size: levelFontSizes[i] || 24 }
+          font: {
+            size: levelFontSizes[i] || 24
+          }
         });
       }
 
@@ -62,28 +77,90 @@ function initGraph(rawRecords) {
           url: url,
           size: levelSizes[i + 1] || 10,
           color: levelColors[i + 1] || "#ccc",
-          font: { size: levelFontSizes[i + 1] || 24 }
+          font: {
+            size: levelFontSizes[i + 1] || 24
+          }
         });
       }
 
+      // ---------- Edges ----------
       const key = `${from}->${to}`;
+
       if (!edgeSet.has(key)) {
         edgeSet.add(key);
-        edges.push({ from, to });
+        edges.push({ from: from, to: to });
       }
     }
   });
 
   const nodes = Array.from(nodesMap.values());
 
+  // =========================
+  // Render graph (FULL ORIGINAL OPTIONS)
+  // =========================
+
   const container = document.getElementById("graph");
 
-  const network = new vis.Network(container, {
+  const data = {
     nodes: new vis.DataSet(nodes),
     edges: new vis.DataSet(edges)
-  }, {
-    interaction: { hover: true }
+  };
+
+  const options = {
+    nodes: {
+      shape: "dot",   // ✅ ensures label under node like before
+      scaling: {
+        min: 10,
+        max: 30
+      },
+      font: {
+        size: 24
+      }
+    },
+    edges: {
+      color: "#aaa",
+      width: 1.2
+    },
+
+    physics: {
+      enabled: true,
+      solver: "barnesHut",
+      barnesHut: {
+        gravitationalConstant: -5000,
+        centralGravity: 0.2,
+        springLength: 100,
+        springConstant: 0.02
+      },
+      stabilization: {
+        iterations: 200
+      }
+    },
+
+    interaction: {
+      hover: true
+    }
+  };
+
+  const network = new vis.Network(container, data, options);
+
+  // =========================
+  // Click → Navigate
+  // =========================
+
+  network.on("click", function (params) {
+    if (params.nodes.length > 0) {
+      const nodeId = params.nodes[0];
+      const node = nodesMap.get(nodeId);
+
+      if (node && node.url) {
+        window.location.href = node.url;
+      }
+    }
   });
+
+  // =========================
+  // Hover → Popup
+  // =========================
 
   network.on("hoverNode", function(params) {
     if (isMouseDown) return;
@@ -91,23 +168,41 @@ function initGraph(rawRecords) {
     const node = nodesMap.get(params.node);
     if (!node || !node.url) return;
 
-    if (hoverTimeout) clearTimeout(hoverTimeout);
+    if (hideTimeout) {
+      clearTimeout(hideTimeout);
+      hideTimeout = null;
+    }
+
+    if (hoverTimeout) {
+      clearTimeout(hoverTimeout);
+    }
 
     hoverTimeout = setTimeout(() => {
       tooltip.style.display = "block";
+
+      // ✅ position once near cursor
       tooltip.style.left = mouseX + 15 + "px";
       tooltip.style.top = mouseY + 15 + "px";
 
       tooltip.innerHTML = `
         <div style="width:500px;">
-          <div style="font-weight:bold;">${node.label}</div>
-          <div style="height:350px; overflow:hidden;">
-            <iframe src="${node.url}" style="width:100%; height:100%; border:none;"></iframe>
+          <div style="font-weight:bold; margin-bottom:5px;">
+            ${node.label}
+          </div>
+          <div style="height:350px; border-radius:6px; overflow:hidden;">
+            <iframe 
+              src="${node.url}" 
+              style="width:100%; height:100%; border:none;"
+            ></iframe>
           </div>
         </div>
       `;
-    }, 300);
+    }, 250);
   });
+
+  // =========================
+  // Click outside → close popup
+  // =========================
 
   document.addEventListener("click", (e) => {
     if (tooltip.contains(e.target)) return;
