@@ -129,7 +129,7 @@ function initGraph(rawRecords) {
       enabled: true,
       solver: "barnesHut",
       barnesHut: {
-        gravitationalConstant: 0,
+        gravitationalConstant: 5000,
         centralGravity: 0.2,
         springLength: 100,
         springConstant: 0.02
