@@ -3,6 +3,6 @@ layout: default
 title: Knowledge Canvas
 ---
 
-# Knowledge Canvas - [Open Graph View](graph.md)
+# Knowledge Canvas - <a href="{{ '/graph' | relative_url }}" class="windowPopUp">Open Graph view</a>
 
 {% include canvas.html %}
