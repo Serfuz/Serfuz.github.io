@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[My_Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>My_Vault</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Thu, 11 Jun 2026 08:26:30 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Thu, 11 Jun 2026 08:25:15 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[DAT200 - Canvas]]></title><description><![CDATA[push front
+Pop frontEnqueue rear
+Dequeue frontGraphsLinear Data StructuresTreeSortingAlgorithm Analysis &amp; Optimization<a data-href="Bubble Sort" href="07-stikkord-samling/dat200/bubble-sort.html" class="internal-link" target="_self" rel="noopener nofollow">Bubble Sort</a><br><a data-href="Insertion Sort" href="07-stikkord-samling/dat200/insertion-sort.html" class="internal-link" target="_self" rel="noopener nofollow">Insertion Sort</a><br><a data-href="Shell Sort" href="07-stikkord-samling/dat200/shell-sort.html" class="internal-link" target="_self" rel="noopener nofollow">Shell Sort</a><br><a data-href="Merge Sort" href="07-stikkord-samling/dat200/merge-sort.html" class="internal-link" target="_self" rel="noopener nofollow">Merge Sort</a><br><a data-href="Linked List" href="07-stikkord-samling/dat200/linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Linked List</a><br><a data-href="Singly Linked List" href="07-stikkord-samling/dat200/singly-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Singly Linked List</a><br><a data-href="Hashing" href="07-stikkord-samling/dat200/hashing.html" class="internal-link" target="_self" rel="noopener nofollow">Hashing</a><br><a data-href="Doubly Linked List" href="07-stikkord-samling/dat200/doubly-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Doubly Linked List</a><br><a data-href="Circular Linked List" href="07-stikkord-samling/dat200/circular-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Circular Linked List</a><br><a data-href="Queues" href="07-stikkord-samling/dat200/queues.html" class="internal-link" target="_self" rel="noopener nofollow">Queues</a><br><a data-href="Circular Queue" href="07-stikkord-samling/dat200/circular-queue.html" class="internal-link" target="_self" rel="noopener nofollow">Circular Queue</a><br><a data-href="Tree" href="07-stikkord-samling/dat200/tree.html" class="internal-link" target="_self" rel="noopener nofollow">Tree</a><br><a data-href="Heaps" href="07-stikkord-samling/dat200/heaps.html" class="internal-link" target="_self" rel="noopener nofollow">Heaps</a><br><a data-href="Tree traversal algorithms" href="07-stikkord-samling/dat200/tree-traversal-algorithms.html" class="internal-link" target="_self" rel="noopener nofollow">Tree traversal algorithms</a><br><a data-href="Huffman Coding" href="07-stikkord-samling/dat200/huffman-coding.html" class="internal-link" target="_self" rel="noopener nofollow">Huffman Coding</a><br><a data-href="Binary search trees" href="07-stikkord-samling/dat200/binary-search-trees.html" class="internal-link" target="_self" rel="noopener nofollow">Binary search trees</a><br><a data-href="Selection Sort" href="07-stikkord-samling/dat200/selection-sort.html" class="internal-link" target="_self" rel="noopener nofollow">Selection Sort</a><br><a data-href="Quick Sort" href="07-stikkord-samling/dat200/quick-sort.html" class="internal-link" target="_self" rel="noopener nofollow">Quick Sort</a><br><a data-href="Heap Sort" href="07-stikkord-samling/dat200/heap-sort.html" class="internal-link" target="_self" rel="noopener nofollow">Heap Sort</a><br><a data-href="Tree Reconstruction" href="07-stikkord-samling/dat200/tree-reconstruction.html" class="internal-link" target="_self" rel="noopener nofollow">Tree Reconstruction</a><br><a data-href="AVL trees" href="07-stikkord-samling/dat200/avl-trees.html" class="internal-link" target="_self" rel="noopener nofollow">AVL trees</a><br><a data-href="Time complexity" href="07-stikkord-samling/dat200/time-complexity.html" class="internal-link" target="_self" rel="noopener nofollow">Time complexity</a> <br><a data-href="Depth-First-Search (DFS)" href="07-stikkord-samling/dat200/depth-first-search-(dfs).html" class="internal-link" target="_self" rel="noopener nofollow">Depth-First-Search (DFS)</a>Traversal Algorithms<br><a data-href="Breadth-First-Search (BFS)" href="07-stikkord-samling/dat200/breadth-first-search-(bfs).html" class="internal-link" target="_self" rel="noopener nofollow">Breadth-First-Search (BFS)</a><br><a data-href="Stacks" href="07-stikkord-samling/dat200/stacks.html" class="internal-link" target="_self" rel="noopener nofollow">Stacks</a><br><a data-href="Prim's Algorithm" href="07-stikkord-samling/dat200/prim's-algorithm.html" class="internal-link" target="_self" rel="noopener nofollow">Prim's Algorithm</a><br><a data-tooltip-position="top" aria-label="07 - Stikkord samling/DAT200/Graphs" data-href="07 - Stikkord samling/DAT200/Graphs" href="07-stikkord-samling/dat200/graphs.html" class="internal-link" target="_self" rel="noopener nofollow">Graphs</a> Shortest Path Algorithms<br><a data-href="Dijkstra’s Algorithm" href="07-stikkord-samling/dat200/dijkstra’s-algorithm.html" class="internal-link" target="_self" rel="noopener nofollow">Dijkstra’s Algorithm</a>Minimum Spanning Tree (MST)<br><a data-href="Kruskal’s Algorithm" href="07-stikkord-samling/dat200/kruskal’s-algorithm.html" class="internal-link" target="_self" rel="noopener nofollow">Kruskal’s Algorithm</a>]]></description><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/dat200-canvas.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/DAT200 - Canvas.canvas</guid><pubDate>Thu, 11 Jun 2026 08:08:02 GMT</pubDate></item><item><title><![CDATA[Modul 1 - Introduction to analysis of Algorithms]]></title><description><![CDATA[This module goes through some algorithm terminology and explains the basics of algorithm analysis]]></description><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/forelesninger/modul-1-introduction-to-analysis-of-algorithms.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Forelesninger/Modul 1 - Introduction to analysis of Algorithms.md</guid><pubDate>Tue, 05 Aug 2025 00:00:00 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[20250825 - Forelesning]]></title><description><![CDATA[
+<a data-tooltip-position="top" aria-label="Effective Note-taking in class > Prepare before class" data-href="Effective Note-taking in class#Prepare before class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Before Class</a> Bring Food &amp; Drink - Why not both? Smoothie.
+Gjennomgå lesestoffet etter hoved ideer og konsepter.
+Sjekk læringsmålene oppmot lesestoffet og identifiser viktigste.
+Gjennomgå tidligere notater. Hva er formålet?
+Hva er målet?
+Skriv ned spørsmål? Oversikter kan gjerne bli spørsmål. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > During Class" data-href="Effective Note-taking in class#During Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">During Class</a> Focus on main points and concepts, fill in gaps later
+Remember to use internal links for keywords and names Sort later Write in bullets and phrases to make notes short and concise. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > What are main points" data-href="Effective Note-taking in class#What are main points" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Main points</a> <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > After Class" data-href="Effective Note-taking in class#After Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">After Class</a> Refine within 2 days, preferably same day
+Update status to Refined <br><a data-href="Arrays" href="07-stikkord-samling/dat200/arrays.html" class="internal-link" target="_self" rel="noopener nofollow">Arrays</a>
+<br><a data-href="Linked Lists" href="07-stikkord-samling/dat200/linked-lists.html" class="internal-link" target="_self" rel="noopener nofollow">Linked Lists</a>
+<br><a data-href="Stacks" href="07-stikkord-samling/dat200/stacks.html" class="internal-link" target="_self" rel="noopener nofollow">Stacks</a>
+<br><a data-href="Queues" href="07-stikkord-samling/dat200/queues.html" class="internal-link" target="_self" rel="noopener nofollow">Queues</a>
+<br><a data-href="Binary search trees" href="07-stikkord-samling/dat200/binary-search-trees.html" class="internal-link" target="_self" rel="noopener nofollow">Binary search trees</a>
+<br><a data-href="Tree traversal algorithms" href="07-stikkord-samling/dat200/tree-traversal-algorithms.html" class="internal-link" target="_self" rel="noopener nofollow">Tree traversal algorithms</a>
+<br><a data-href="Hash tables" href="07-stikkord-samling/dat200/hash-tables.html" class="internal-link" target="_self" rel="noopener nofollow">Hash tables</a>
+<br><a data-href="Hash functions" href="07-stikkord-samling/dat200/hash-functions.html" class="internal-link" target="_self" rel="noopener nofollow">Hash functions</a>
+<br><a data-href="Asymptotic analysis" href="07-stikkord-samling/dat200/asymptotic-analysis.html" class="internal-link" target="_self" rel="noopener nofollow">Asymptotic analysis</a>
+Used to solve problems using data in data structures.
+Definition:
+In computer programming terms, an algorithm is a set of well-defined instructions to solve a particular problem.
+It takes a set of input(s) and produces the desired output. <br><img alt="Pasted image 20250825104559.png" src="03-attachment-folder/pasted-image-20250825104559.png" target="_self" style="width: 200px; max-width: 100%;"> Expectations
+A good algorithm should produce the correct outputs for any set of legal inputs.
+A good algorithm should execute efficiently with the fewest number of steps as possible.
+A good algorithm should be designed in such a way that others will be able to understand it and modify it to specify solutions to additional problems. Definition
+A program, on the other hand, is an algorithm that has been encoded into some programming language.Used to hold data
+Specialized format for organizing, processing, retrieving, and storing data. <br><img alt="Pasted image 20250825104155.png" src="03-attachment-folder/pasted-image-20250825104155.png" target="_self" style="width: 300px; max-width: 100%;">Data structures make it easy for users to access and work with the data they need in appropriate ways Elements are stored in a sequential order, like arrays, stacks, queues, and linked lists. These structures have a linear relationship in memory.Elements are not stored sequentially. Examples include treesnand graphs, where elements are stored in memory with random order locations.Hiding the details on how something is built (implementation) while showing only how it works (functionality)
+Eksampel: Array
+We know that it stores data in an array, but we don't care how it stores the data. Collection of facts and figures. Set of values in a particular format that refers to a single set of item values. <br><img alt="Pasted image 20250825105208.png" src="03-attachment-folder/pasted-image-20250825105208.png" target="_self" style="width: 300px; max-width: 100%;">
+Course will focus on time complexity, meaning operations useTime complexity refers to the amount of time an algorithm takes to complete as a function of the size of the input (usually denoted as n).O(n) - examplesum = 0 # Complexity 1
+for i in range(n): # Complexity n+1 sum += 1 # complexity n
+return sum # complexity 1
+# Complexity sum -&gt; 1 + n+1 + n + 1 = 2n + 3
+# Big O -&gt; O(n)
+RunO() - Examplefor i in range(n): # n+1 for j in range(n):# n * n+1 print("*") # n * n
+# complexity sum -&gt; n+1 + n^2+n + n^2 = 2n^2 + 2n + 1
+# Big O -&gt; O(n^2)
+RunIt provides an upper bound on the time required for an algorithm in the worst-case scenario, helping to understand how the runtime increases as the input size grows.This is the most used between the 3.Describes the lower bound (best-case)Describes the exact bound (average-case)]]></description><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/forelesninger/20250825-forelesning.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Forelesninger/20250825 - Forelesning.md</guid><pubDate>Mon, 25 Aug 2025 00:00:00 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Data structures]]></title><description><![CDATA[A data structure is a specialized format for organizing, storing, and managing data in a computer so it can be accessed and modified efficiently. Different data structures are suited to different kinds of applications and tasks.]]></description><link>07-stikkord-samling/dat200/data-structures.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Data structures.md</guid><pubDate>Sat, 03 Jan 2026 08:36:44 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Algorithms]]></title><description><![CDATA[An algorithm is a **step-by-step procedure** or set of rules designed to perform a specific task or solve a problem. It takes input, processes it through a sequence of operations, and produces output.]]></description><link>07-stikkord-samling/dat200/algorithms.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Algorithms.md</guid><pubDate>Sat, 03 Jan 2026 08:36:44 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Queues]]></title><description><![CDATA[A queue is a linear data structure that follows the **First In, First Out (FIFO)** principle. Elements are added at the rear (enqueue) and removed from the front (dequeue).]]></description><link>07-stikkord-samling/dat200/queues.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Queues.md</guid><pubDate>Mon, 29 Dec 2025 14:35:23 GMT</pubDate></item><item><title><![CDATA[Hash tables]]></title><description><![CDATA[A hash table is a data structure that maps **keys to values** using a **hash function**. The hash function computes an index (or hash code) from the key, which determines where the value is stored in memory. This allows for **average-case constant time** complexity for insertion, deletion, and lookup.]]></description><link>07-stikkord-samling/dat200/hash-tables.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Hash tables.md</guid><pubDate>Mon, 08 Dec 2025 10:55:49 GMT</pubDate></item><item><title><![CDATA[Stacks]]></title><description><![CDATA[A stack is a linear data structure that follows the **Last In, First Out (LIFO)** principle. Elements are added (pushed) and removed (popped) only from the top of the stack.]]></description><link>07-stikkord-samling/dat200/stacks.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Stacks.md</guid><pubDate>Mon, 08 Dec 2025 10:55:49 GMT</pubDate></item><item><title><![CDATA[AVL trees]]></title><description><![CDATA[Definition:
+An AVL tree is a self-balancing <a data-tooltip-position="top" aria-label="Binary search trees" data-href="Binary search trees" href="07-stikkord-samling/dat200/binary-search-trees.html" class="internal-link" target="_self" rel="noopener nofollow">binary search tree</a> (BST) where the height difference (balance factor) between the left and right subtrees of any node is at most 1.
+Binary Search Tree Rules: Left child &lt; parent &lt; right child. Balance Factor: Number of levels left side - number of levels right side from node of consideration. (Count edges going furthest down)
+Must be -1, 0, or +1 for every node.
+This means A positive balance factor indicate left heavy
+A negative balance factor indicate right heavy Height: Height of an AVL tree with n nodes is O(log⁡n) Insertion: Insert like a normal BST.
+Update heights and balance factors.
+If imbalance occurs, perform rotations. Deletion: Delete like a BST.
+Rebalance using rotations. Search: Same as BST: O(log⁡n) After insertion or deletion, check the balance factor of affected nodes beginning from the bottom.
+When a balance factor is outside -1&lt;factor&lt;1 you perform considering that node. If node is left heavy (positive), then do right rotation
+If node is right heavy (negative), then do left rotation. However if the child being rotated up is opposite heavy, then rotate that child in the opposite direction.
+Note: Do not consider that childs child heavy direction. Just trust the process. Insertion: O(log⁡n)
+Deletion: O(log⁡n)
+Search: O(log⁡n) Guaranteed O(log⁡n) operations.
+Good for applications requiring frequent insertions and deletions. Slightly more complex than regular BST due to rotations.
+More overhead for maintaining balance. Databases
+Memory management
+Real-time systems where predictable performance is critical.
+]]></description><link>07-stikkord-samling/dat200/avl-trees.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/AVL trees.md</guid><pubDate>Mon, 08 Dec 2025 10:53:19 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[My exam draft]]></title><description><![CDATA[Context:
+The question required running Dijkstra’s algorithm to compute shortest paths from node E. I was allowed to submit a paper solution, where I drew the graph and computed paths manually.What I did correctly:
+I constructed a complete graph from the given matrix using a consistent interpretation (treated it as undirected).
+I applied Dijkstra’s algorithm correctly: Maintained tentative distances.
+Selected the next node with the smallest distance.
+Updated neighbors appropriately. I computed shortest paths and distances accurately for the graph I built: E → A = 8 (via B → G → A)
+E → B = 5
+E → C = 4
+E → D = 5
+E → F = 10
+E → G = 6 These values match the true shortest paths in an undirected interpretation, and the algorithm steps were correct.
+Nature of the mistake:
+The only error was in reading the adjacency matrix directionality. I assumed the matrix represented an undirected graph, which is a reasonable interpretation given the lack of explicit direction indicators in the question.
+This was not an algorithmic error. My implementation and reasoning for Dijkstra were fully correct.
+Why full credit is justified:
+The question primarily assesses understanding and application of Dijkstra’s algorithm, not matrix parsing conventions.
+I demonstrated mastery of the algorithm by: Building a graph.
+Computing correct shortest paths for that graph. Penalizing heavily for a format interpretation issue would not reflect my actual understanding of the algorithm.
+Recommendation:
+Award full credit (12/12 points) for Q19 because:
+The algorithm was applied correctly.
+The computed paths and distances were correct for the graph I consistently used.
+The misunderstanding was about input interpretation, not the algorithm or logic.
+]]></description><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/my-exam-draft.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/My exam draft.md</guid><pubDate>Fri, 05 Dec 2025 19:23:08 GMT</pubDate></item><item><title><![CDATA[Graphs]]></title><description><![CDATA[Definition:
+A graph is a data structure consisting of:
+A set of vertices (nodes).
+A set of edges that connect pairs of vertices, representing relationships between them.
+Formally:
+G=(V,E)
+Where: V(G): finite, non-empty set of vertices.
+E(G): set of edges (pairs of vertices). Undirected Graph: Edges have no direction.
+Directed Graph (Digraph): Edges have direction; order of vertices matters.
+Weighted Graph: Each edge carries a weight or cost.
+Complete Graph: Every vertex is connected to every other vertex. Edges in complete directed graph: .
+Edges in complete undirected graph: ​. Trees: Special case of graphs with no cycles. Adjacent Nodes: Two nodes connected by an edge.
+Path: Sequence of vertices connecting two nodes.
+Connected Graph: There is a path between every pair of vertices.
+Strongly Connected Component: In a directed graph, every vertex is reachable from every other vertex. Spanning Tree: A subgraph of an undirected connected graph that includes all vertices with n−1n-1n−1 edges and no cycles.
+Minimum Spanning Tree (MST): A spanning tree with the minimum possible sum of edge weights. Found using <a data-href="Prim's Algorithm" href="07-stikkord-samling/dat200/prim's-algorithm.html" class="internal-link" target="_self" rel="noopener nofollow">Prim's Algorithm</a> and <a data-href="Kruskal's Algorithm" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Kruskal's Algorithm</a>. Adjacency Matrix: Good for dense graphs.
+Memory: .
+Fast connectivity checks. Adjacency List: Good for sparse graphs.
+Memory: .
+Efficient for finding adjacent vertices. Traversal: <br><a data-href="Depth-First-Search (DFS)" href="07-stikkord-samling/dat200/depth-first-search-(dfs).html" class="internal-link" target="_self" rel="noopener nofollow">Depth-First-Search (DFS)</a>: Explore as far as possible along a branch before backtracking.
+<br><a data-href="Breadth-First-Search (BFS)" href="07-stikkord-samling/dat200/breadth-first-search-(bfs).html" class="internal-link" target="_self" rel="noopener nofollow">Breadth-First-Search (BFS)</a>: Explore all neighbors at the current depth before going deeper. Shortest Path: <br><a data-href="Dijkstra’s Algorithm" href="07-stikkord-samling/dat200/dijkstra’s-algorithm.html" class="internal-link" target="_self" rel="noopener nofollow">Dijkstra’s Algorithm</a> for weighted graphs.
+BFS for unweighted graphs. Networking (routing).
+Social networks (connections).
+Pathfinding (maps, games).
+Dependency resolution.
+]]></description><link>07-stikkord-samling/dat200/graphs.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Graphs.md</guid><pubDate>Thu, 04 Dec 2025 11:45:17 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Prim's Algorithm]]></title><description><![CDATA[Definition:
+Prim’s Algorithm is a greedy algorithm used to find a Minimum Spanning Tree (MST) for a weighted, connected, undirected graph. The MST is a subset of edges that connects all vertices with the minimum possible total edge weight and without cycles. Start from an arbitrary vertex.
+Grow the MST by repeatedly adding the smallest-weight edge that connects a vertex in the tree to a vertex outside the tree.
+Continue until all vertices are included. Input: Weighted, connected, undirected graph.
+Output: Minimum Spanning Tree (n-1 edges).
+Approach: Greedy (local optimum → global optimum).
+Complexity: Using adjacency matrix: .
+Using min-priority queue (binary heap): Initialize MST with a random starting vertex.
+Find all edges connecting the tree to vertices not yet in the tree.
+Select the edge with the minimum weight and add it to the MST.
+Repeat step 2 and 3 until all vertices are included. Network design (minimum cost wiring).
+Road construction (minimum total distance).
+Clustering in machine learning. Operates on <a data-href="Graphs" href="07-stikkord-samling/dat200/graphs.html" class="internal-link" target="_self" rel="noopener nofollow">Graphs</a> and produces a <a data-href="Spanning Tree" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Spanning Tree</a>.
+<br>Related to <a data-href="Kruskal’s Algorithm" href="07-stikkord-samling/dat200/kruskal’s-algorithm.html" class="internal-link" target="_self" rel="noopener nofollow">Kruskal’s Algorithm</a> (another MST algorithm).
+Both Prim’s and Kruskal’s are greedy algorithms.
+<br>MST differs from <a data-href="Dijkstra’s Algorithm" href="07-stikkord-samling/dat200/dijkstra’s-algorithm.html" class="internal-link" target="_self" rel="noopener nofollow">Dijkstra’s Algorithm</a> (shortest path, not spanning tree).
+]]></description><link>07-stikkord-samling/dat200/prim&apos;s-algorithm.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Prim&apos;s Algorithm.md</guid><pubDate>Thu, 04 Dec 2025 11:40:35 GMT</pubDate></item><item><title><![CDATA[Kruskal’s Algorithm]]></title><description><![CDATA[Definition:
+Kruskal’s Algorithm is a greedy algorithm used to find a Minimum Spanning Tree (MST) for a weighted, connected, undirected graph. The MST connects all vertices with the minimum total edge weight and without cycles. Sort all edges by weight in ascending order.
+Add edges one by one to the MST, skipping any edge that would create a cycle.
+Continue until all vertices are included. Input: Weighted, connected, undirected graph.
+Output: Minimum Spanning Tree (n-1 edges).
+Approach: Greedy (chooses smallest edge first).
+Complexity: Sorting edges: .
+Union-Find operations: with efficient disjoint-set structure. Sort all edges from lowest to highest weight.
+Initialize MST as empty.
+For each edge in sorted order: If adding the edge does not form a cycle, include it in the MST.
+Otherwise, discard the edge. Repeat until MST has edges. Network design (minimum cost connections).
+Road or pipeline construction.
+Clustering in data analysis. Operates on <a data-href="Graphs" href="07-stikkord-samling/dat200/graphs.html" class="internal-link" target="_self" rel="noopener nofollow">Graphs</a> and produces a <a data-href="Spanning Tree" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Spanning Tree</a>.
+<br>Related to <a data-href="Prim's Algorithm" href="07-stikkord-samling/dat200/prim's-algorithm.html" class="internal-link" target="_self" rel="noopener nofollow">Prim's Algorithm</a> (another MST algorithm).
+Both Prim’s and Kruskal’s are greedy algorithms.
+<br>MST differs from <a data-href="Dijkstra’s Algorithm" href="07-stikkord-samling/dat200/dijkstra’s-algorithm.html" class="internal-link" target="_self" rel="noopener nofollow">Dijkstra’s Algorithm</a> (shortest path problem).
+]]></description><link>07-stikkord-samling/dat200/kruskal’s-algorithm.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Kruskal’s Algorithm.md</guid><pubDate>Thu, 04 Dec 2025 11:40:31 GMT</pubDate></item><item><title><![CDATA[Dijkstra’s Algorithm]]></title><description><![CDATA[Definition:
+Dijkstra’s Algorithm is a greedy algorithm used to find the shortest path from a single source vertex to all other vertices in a weighted graph with non-negative edge weights. Unlike a Minimum Spanning Tree, it focuses on minimizing the total distance from the source to each vertex, not connecting all vertices. Start from the source vertex.
+Assign initial distances: Source = 0
+All others = ∞ (infinity). Iteratively select the unvisited vertex with the smallest known distance.
+Update the distances of its adjacent vertices if a shorter path is found.
+Repeat until all vertices are visited. Input: Weighted graph (non-negative weights).
+Output: Shortest path distances from source to all vertices.
+Approach: Greedy (chooses next closest vertex).
+Complexity: Using adjacency matrix: .
+Using min-priority queue (binary heap): . Initialize distances: source = 0, others = ∞.
+Mark all vertices as unvisited.
+Select the unvisited vertex with the smallest distance.
+For each adjacent vertex: Calculate new distance = current distance + edge weight.
+If new distance &lt; current stored distance, update it. Mark the current vertex as visited.
+Repeat from step 3 until all vertices are visited. GPS navigation systems.
+Network routing protocols.
+Game development (pathfinding).
+Resource allocation in logistics. Operates on <a data-href="Graphs" href="07-stikkord-samling/dat200/graphs.html" class="internal-link" target="_self" rel="noopener nofollow">Graphs</a> and uses similar principles to <a data-href="Breadth-First-Search (BFS)" href="07-stikkord-samling/dat200/breadth-first-search-(bfs).html" class="internal-link" target="_self" rel="noopener nofollow">Breadth-First-Search (BFS)</a> for unweighted graphs.
+<br>Differs from <a data-href="Prim's Algorithm" href="07-stikkord-samling/dat200/prim's-algorithm.html" class="internal-link" target="_self" rel="noopener nofollow">Prim's Algorithm</a> and <a data-href="Kruskal’s Algorithm" href="07-stikkord-samling/dat200/kruskal’s-algorithm.html" class="internal-link" target="_self" rel="noopener nofollow">Kruskal’s Algorithm</a> (which build MSTs).
+BFS can be considered a special case of Dijkstra when all edge weights are equal.
+]]></description><link>07-stikkord-samling/dat200/dijkstra’s-algorithm.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Dijkstra’s Algorithm.md</guid><pubDate>Thu, 04 Dec 2025 11:40:21 GMT</pubDate></item><item><title><![CDATA[Breadth-First-Search (BFS)]]></title><description><![CDATA[Definition:
+Breadth-First Search is a graph traversal algorithm that explores all vertices at the current depth level before moving to the next level. It is widely used for finding the shortest path in unweighted graphs and for level-order exploration. Start from a given start vertex.
+Visit all its adjacent vertices (neighbors).
+Then visit the neighbors of those vertices, and so on.
+Ensures that vertices are visited in increasing order of their distance from the start vertex. Traversal Order: Level by level.
+Data Structure Used: Queue (FIFO).
+Marking: Vertices should be marked as visited when enqueued to avoid duplicates.
+Complexity: Time: for adjacency list representation.
+Space: for storing visited nodes and queue. Initialize a queue and mark the start vertex as visited.
+Enqueue the start vertex. (Add element to end of array)
+While the queue is not empty: Dequeue a vertex. (Remove element from front of array)
+Process it (e.g., print or record).
+Enqueue all its unvisited adjacent vertices and mark them visited. Repeat until all reachable vertices are visited. Shortest Path in Unweighted Graphs: BFS guarantees the shortest path because it explores vertices in order of their distance from the source.
+Connectivity Check: Determine if all vertices are reachable.
+Level Order Traversal: Useful in trees and layered structures.
+Network Broadcasting: Simulates spreading information level by level. BFS is a fundamental graph traversal method alongside <a data-href="Depth-First-Search (DFS)" href="07-stikkord-samling/dat200/depth-first-search-(dfs).html" class="internal-link" target="_self" rel="noopener nofollow">Depth-First-Search (DFS)</a>.
+<br>BFS is used in <a data-href="Dijkstra's Algorithm" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Dijkstra's Algorithm</a> for graphs with equal weights.
+<br>BFS operates on <a data-href="Graphs" href="07-stikkord-samling/dat200/graphs.html" class="internal-link" target="_self" rel="noopener nofollow">Graphs</a> represented as adjacency lists or matrices.
+]]></description><link>07-stikkord-samling/dat200/breadth-first-search-(bfs).html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Breadth-First-Search (BFS).md</guid><pubDate>Thu, 04 Dec 2025 11:25:51 GMT</pubDate></item><item><title><![CDATA[Depth-First-Search (DFS)]]></title><description><![CDATA[Definition:
+Depth-First Search is a graph traversal algorithm that explores as far as possible along each branch before backtracking. It is commonly used for pathfinding, connectivity checks, and cycle detection in graphs. Start from a given start vertex.
+Move to an adjacent unvisited vertex and continue exploring deeper.
+When no unvisited adjacent vertices remain, backtrack to the previous vertex and continue.
+Repeat until all reachable vertices are visited. Traversal Order: Deep before wide.
+Data Structure Used: Stack (explicit or via recursion).
+Complexity: Time: for adjacency list representation.
+Space: for visited nodes and recursion stack. Initialize a stack (or use recursion) and mark the start vertex as visited.
+Push the start vertex onto the stack. (Push means add element to the end of the array)
+While the stack is not empty: Pop a vertex. (Pop means remove the last element in the array)
+Process it (e.g., print or record).
+Push all its unvisited adjacent vertices onto the stack and mark them visited. Repeat until all reachable vertices are visited. Pathfinding: Determine if a path exists between two vertices.
+Cycle Detection: Identify cycles in directed or undirected graphs.
+Topological Sorting: For Directed Acyclic Graphs (DAGs).
+Connected Components: Find components in undirected graphs. DFS complements <a data-href="Breadth-First-Search (BFS)" href="07-stikkord-samling/dat200/breadth-first-search-(bfs).html" class="internal-link" target="_self" rel="noopener nofollow">Breadth-First-Search (BFS)</a> in graph traversal strategies.
+<br>Both operate on <a data-href="Graphs" href="07-stikkord-samling/dat200/graphs.html" class="internal-link" target="_self" rel="noopener nofollow">Graphs</a> represented as adjacency lists or matrices.
+DFS is foundational for algorithms like Tarjan’s for strongly connected components.
+]]></description><link>07-stikkord-samling/dat200/depth-first-search-(dfs).html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Depth-First-Search (DFS).md</guid><pubDate>Thu, 04 Dec 2025 11:25:37 GMT</pubDate></item><item><title><![CDATA[Introducti...to Graphs]]></title><link>07-stikkord-samling/dat200/introducti...to-graphs.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Introducti...to Graphs.md</guid><pubDate>Thu, 04 Dec 2025 11:08:02 GMT</pubDate></item><item><title><![CDATA[Hashing]]></title><description><![CDATA[Definition:
+Hashing is a technique used to map a large set of possible keys into a smaller range of indices in an array (called a hash table) using a mathematical function known as a hash function. It enables efficient storage and retrieval of data in associative arrays (dictionaries).
+Associative Array / Dictionary Stores data as (key, value) pairs.
+Keys are unique, case-sensitive; values can be duplicated and of any data type.
+Basic operations: Insertion, Deletion, Lookup. Why Hashing? Direct addressing is impractical for large key spaces due to memory inefficiency.
+Hashing reduces memory usage by mapping keys to a smaller index range. A data structure combining an array and a hash function.
+Each key is transformed into an index using the hash function.
+Ideal performance: O(1) for insert, search, and delete (average case). Maps a key to an integer in the range [0, m-1], where m = table size.
+Common methods: Division Method: Use a prime number for m to reduce collisions.
+Multiplication Method: Where A is a constant (Knuth suggests ).
+Universal Hashing:
+Randomly selects a hash function from a family to minimize collisions. Occur when two keys hash to the same index.
+Collision Resolution Techniques: Probing Chaining:
+Each slot stores a linked list of entries. Insert: O(1) at head. Linked list where new element is added to the front. Search/Delete: O(length of list). Open Addressing:
+Store colliding keys in other slots using probing: Linear Probing: Check next slot sequentially. Quadratic Probing: Use quadratic increments. Double Hashing: Use a second hash function for step size. Indicates how full the table is.
+High load factor → more collisions → degraded performance.
+Common threshold: 0.6–0.8; resizing (rehashing) recommended when exceeded. Under Simple Uniform Hashing assumption (keys distributed uniformly): Average lookup cost ≈ O(1). Worst case: O(n) if all keys collide into one slot. Choose a good hash function to minimize collisions.
+Resize table when load factor grows too high.
+Prime table sizes often improve distribution.
+]]></description><link>07-stikkord-samling/dat200/hashing.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Hashing.md</guid><pubDate>Thu, 04 Dec 2025 09:43:38 GMT</pubDate></item><item><title><![CDATA[Høst2024]]></title><description><![CDATA[A logisitcs company needs to deliver packages to multiple destinations from a central warehouse. The goal is to determine the most efficient route that minimizes travel time or distance while ensuring all destinations are visitited:Propose a suitable algorithm to solve the problem
+(2p)Dijkstras algorithm can be used here. What is the purpose of heaps?
+(2p)Heaps primary purpose is used as a priority queue algorithm when setup as either max-heap or min-heap.
+Can also be used to sort an array by first "heapify-ing" it and then iteratively removing the rootIn a level-order traversal of a binary tree, which data structure is commonly used?
+(2p)
+Select one alternative: <a data-tooltip-position="top" aria-label="Høst2024 > 3" data-href="Høst2024#3" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/høst2024.html#3_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>:
+Linked List
+Queue
+Stack
+Heap
+What is the time complexity of inserting an element into AVL tree in the worst case?
+(2p)<br>
+Select one alternative: <a data-tooltip-position="top" aria-label="Høst2024 > 4" data-href="Høst2024#4" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/høst2024.html#4_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>:
+O(1)
+O(n)
+O(nlogn)
+O(logn)
+Who is the successor of node G?
+(2p)<br><img alt="Pasted image 20251030082103.png" src="03-attachment-folder/pasted-image-20251030082103.png" target="_self"><br>Select one alternative: <a data-tooltip-position="top" aria-label="Høst2024 > 5" data-href="Høst2024#5" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/høst2024.html#5_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>:
+A
+F
+C
+H
+AVL trees have a lookup time roughly equal to that of which other data strucutre?
+(2p)<br>
+Select one alternative: <a data-tooltip-position="top" aria-label="Høst2024 > 6" data-href="Høst2024#6" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/høst2024.html#6_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>:
+Hash Table
+Unsorted Array
+None of the Above
+Sorted Array
+Linked List
+What is the time complexity of the given function?
+(2p)a = 0
+b = 0
+for i in range(N): a = a + random() for i in range(M): b = b + random()
+Run<br>Select one alternative: <a data-tooltip-position="top" aria-label="Høst2024 > 7" data-href="Høst2024#7" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/høst2024.html#7_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>:
+O(N)
+O()
+O()
+O()
+What is the time complexity of the given function?
+(2p)k = 0;
+for i in range(n//2, n): for j in range(2,n,pow(2,j)): k = k + n / 2;
+Run<br>Select one alternative: <a data-tooltip-position="top" aria-label="Høst2024 > 8" data-href="Høst2024#8" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/høst2024.html#8_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>:
+O(nlogn)
+O(logn)
+O(n^2 logn)
+O(n)
+What is the time complexity of the given function?
+(2p)def fun(n,m): arr=[[0]*m for i in range(n)] for i in range(n): for j in range(m): k=1 while k&lt;n*m: k*=2
+Run<br>Select one alternative: <a data-tooltip-position="top" aria-label="Høst2024 > 9" data-href="Høst2024#9" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/høst2024.html#9_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>:
+O(n*m)
+O(n)
+O(n*m*log(n*m))
+O(n*m*log(n))
+Which of the given options provides the increasing order of asymptotic complexity of functions f1, f2, f3, and f4?
+(2p) <br>Select one alternative: <a data-tooltip-position="top" aria-label="Høst2024 > 10" data-href="Høst2024#10" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/høst2024.html#10_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>:
+B, C, D, A
+B, C, A, D
+D, A, C, B
+C, B, A, D
+Consider an array which stores a maximum of 100 elements. For case 1, the user inserts 1 element into an array.
+For case 2, the user inserts 100 elements into an array. What is the time complexity for both the cases?
+(2p)<br>Select one alternative: <a data-tooltip-position="top" aria-label="Høst2024 > 11" data-href="Høst2024#11" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/høst2024.html#11_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>:
+O(1), O(n)
+O(n), O(1)
+O(1), O(1)
+O(n), O(n)
+In the given recursive function, what would be the result of function with the given input?
+n=3
+(4p)def f(n) if n==0: return 0 if n==1 : reutnr 1 else: return f(n-1) + f(n-2) + 1
+Run<br>Select one alternative: <a data-tooltip-position="top" aria-label="Høst2024 > 12" data-href="Høst2024#12" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/høst2024.html#12_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>:
+4
+15
+12
+8
+What is the space complexity needed to store a linked list of n nodes?
+(2p)<br>Select one alternative: <a data-tooltip-position="top" aria-label="Høst2024 > 13" data-href="Høst2024#13" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/høst2024.html#13_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>:
+None of them
+O(1)
+O(n)
+=(n^2)
+Which type of linked list stores the address of the head node in the next pointer of the last node?
+(2p)<br>Select one alternative: <a data-tooltip-position="top" aria-label="Høst2024 > 14" data-href="Høst2024#14" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/høst2024.html#14_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>:
+Hashed List
+Singular Linked List
+Circular Linked List
+Double Linked List
+Consider a sequence of push and pop operations used to push the intergers 0 through 9 on a stack. The numbers will be pushed in order, however the pop operations can be interleaved with the push operations, and can occur any time there is at least one item on the stack. when an item is popped, it is printed to the terminalWhich of the following could NOT be the output from such a sequence of operations?
+(4p)<br>Select one alternative: <a data-tooltip-position="top" aria-label="Høst2024 > 15" data-href="Høst2024#15" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/høst2024.html#15_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>:
+5 6 7 8 9 0 1 2 3 4
+0 1 2 3 4 5 6 7 8 9
+4 3 2 1 0 5 6 7 8 9
+4 3 2 1 0 9 8 7 6 5
+Suppose we want to sort a collection of sticks according to height<br>
+<img alt="Pasted image 20251030100317.png" src="03-attachment-folder/pasted-image-20251030100317.png" target="_self">The diagram below show the state of the sticks part way through sorting using a different sorting algorithm.<br>
+<img alt="Pasted image 20251030100419.png" src="03-attachment-folder/pasted-image-20251030100419.png" target="_self">
+Which algorithm is being used
+(2p)<br>Select one alternative: <a data-tooltip-position="top" aria-label="Høst2024 > 16" data-href="Høst2024#16" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/høst2024.html#16_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>:
+Insertion Sort
+Selection Sort
+Bubble sort
+Merge Sort
+Suppose we want to sort a collection of sticks according to height<br>
+<img alt="Pasted image 20251030100317.png" src="03-attachment-folder/pasted-image-20251030100317.png" target="_self">The diagram below show the state of the sticks part way through sorting using a different sorting algorithm.<br>
+<img alt="Pasted image 20251030100602.png" src="03-attachment-folder/pasted-image-20251030100602.png" target="_self">
+Which algorithm is being used
+(2p)<br>Select one alternative: <a data-tooltip-position="top" aria-label="Høst2024 > 17" data-href="Høst2024#17" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/høst2024.html#17_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>:
+Insertion Sort
+Selection Sort
+Bubble sort
+Merge Sort
+Suppose we want to sort a collection of sticks according to height<br>
+<img alt="Pasted image 20251030100317.png" src="03-attachment-folder/pasted-image-20251030100317.png" target="_self">The diagram below show the state of the sticks part way through sorting using a different sorting algorithm.<br>
+<img alt="Pasted image 20251030100731.png" src="03-attachment-folder/pasted-image-20251030100731.png" target="_self">
+Which algorithm is being used
+(2p)<br>Select one alternative: <a data-tooltip-position="top" aria-label="Høst2024 > 18" data-href="Høst2024#18" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/høst2024.html#18_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>:
+Insertion Sort
+Selection Sort
+Bubble sort
+Merge Sort
+Which of the following represents the sequence of operations to reverse a string using a stack? (2p)<br>Select one alternative: <a data-tooltip-position="top" aria-label="Høst2024 > 19" data-href="Høst2024#19" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/høst2024.html#19_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>:
+Enqueue all characters, then dequeue in reverse order
+Push all characters onto the stack, then pop characters in reverse order
+None of the above
+Push all characters, then push them again in reverse order. Given an array arr[] and an integer k, what is the goal of the task??
+Write the output of the function.
+(2p)# Python program to find k largest elements in an
+# array using sorting def kLargest(arr, k): arr.sort(reverse=True) res = arr[:k] return res arr = [1, 23, 12, 9, 30, 2, 50]
+k = 3
+res = kLargest(arr, k)
+print(res)
+RunThe given function is going to find the sum of the values of the nodes in the singly linked list. Fill in the blank. (2p)def sumOfNodes(head): temp = head sum = 0 while (------): ----------------- ----------------- return sum
+RunTrace the Quicksort algorithm over the array here. A = [ 45,23,87,12,72,4,54,32,52]
+What would be the array after the first complete iteration? Take 45 as pivot.
+(4p)<br><a data-tooltip-position="top" aria-label="Høst2024 > 22" data-href="Høst2024#22" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/høst2024.html#22_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>: Suppose you have the following hash table, implemented using linear probing. The hash function we are using is the identity function, h(x) = x<br>
+<img alt="Pasted image 20251031101305.png" src="03-attachment-folder/pasted-image-20251031101305.png" target="_self">
+In which order could the elements have been added to the hash table?
+There are several corret answers, and you should give all of them.
+Assument that the hash table has never been resized, and no lemenets have been deleted yet. <br>Select one or more alternatives: <a data-tooltip-position="top" aria-label="Høst2024 > 23" data-href="Høst2024#23" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/høst2024.html#23_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>: (4p)
+A: 9, 14, ,4, 18, 12, 3, 21
+B: 12, 3, 14, 18, 4, 9, 21
+C: 12, 14, 3, 9, 4, 18, 21
+D: 9, 12, 14, 3, 4, 21, 18
+E: 12, 9, 18, 3, 14, 21, 4
+A networking company uses a compression technique to encode the message before transmitting over the network. Suppose the message contains the following characters with their frequency: Note that each character in input message takes 1 byte. If the compression technique used is Huffman Coding, how many bits will be saved in the message?
+(8p)Reconstructing the tree based on the given pre-order and in-order traversal.
+Find the post order traversal for the tree later on.Pre: 42,15,27,48,9,86,12,5,3,39
+in: 15,48,27,42,86,5,12,9,3,39Given the following AVL Tree<br>
+<img alt="Pasted image 20251031103118.png" src="03-attachment-folder/pasted-image-20251031103118.png" target="_self">
+a) (4p)
+Draw the resulting BST after 5 is removed, but before any rebalancing takes place.
+Label each node in the resulting tree with its balance factor. (4p)
+Use paper and draw the tree on the sheet.b) (6p)
+Now rebalance the tree that results from (a).
+Draw a new tree for each rotation that occurs when rebalancing the AVL Tree.
+You do not need to label these trees with balance factors.a)
+Draw the graph corresponding to the following list of edges.
+You should draw the graph on the sheet.
+(4p)b)
+Starting from node 1. Perform a Breadth-First Search (BFS) traversal starting from node 1.
+When choosing children, choose the lowest number first. (4p)Using Prim’s algorithm, find the minimum weight spanning tree for the graph
+(6p)<br>
+<img alt="Pasted image 20251031104608.png" src="03-attachment-folder/pasted-image-20251031104608.png" target="_self">Could be Dijkstra algorithm to find the shortest pathThe primary purpose of heaps is to efficiently manage and access the smallest or largest element in a dataset, depending on the type of heap used. Heaps are particularly useful in applications that require priority management or sorting
+Queue O(logn) C Sorted Array O() O(nlogn)
+O(n*m*log(n*m))
+D, A, C, B O(1), O(1) 4 O(n) Circular Linked List 5 6 7 8 9 0 1 2 3 4 Insertion Sort Merge Sort Selection Sort Push all characters onto the stack, then pop characters in reverse order
+[50, 30, 23]
+Rundef sumOfNodes(head): temp = head sum = 0 while (temp != None): sum = sum + temp.data temp = temp.next ----------------- return sum
+Run
+C: 12, 14, 3, 9, 4, 18, 21
+D: 9, 12, 14, 3, 4, 21, 18
+In A, 4 would be inserted at index 4 instead of 6
+in B, 18 would be inserted at index 0 instead of 1
+In E, 21 would be inserted at index 6 instead of 7
+Finding number of bits without using Huffman.
+Total number of characters = sum of fequencies = 100 size of 1 character = 1 byte = 8 bits.
+Total number of bits = 8*100 = 800Using Huffman Encoding.<br>
+<img alt="Pasted image 20251031102708.png" src="03-attachment-folder/pasted-image-20251031102708.png" target="_self">Total number of bits needed can be calculates as: <br><img alt="Pasted image 20251031103007.png" src="03-attachment-folder/pasted-image-20251031103007.png" target="_self">
+Post order = 48, 27, 15, 5, 12, 86, 39, 3, 9, 42<br><img alt="Pasted image 20251031103336.png" src="03-attachment-folder/pasted-image-20251031103336.png" target="_self"><br><img alt="Pasted image 20251031103902.png" src="03-attachment-folder/pasted-image-20251031103902.png" target="_self">
+The Breadth-First Search (BFS) Traversal starting from node 1 visits the nodes in the following order: Solution: <br>
+<img alt="Pasted image 20251031104648.png" src="03-attachment-folder/pasted-image-20251031104648.png" target="_self">]]></description><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/høst2024.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Eksamen/Høst2024.md</guid><pubDate>Wed, 03 Dec 2025 13:16:19 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Tree Reconstruction]]></title><description><![CDATA[Methods to reconstruct a Binary Tree or Binary Search Tree based on Pre-/In-/Post-order arrays]]></description><link>07-stikkord-samling/dat200/tree-reconstruction.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Tree Reconstruction.md</guid><pubDate>Wed, 03 Dec 2025 10:07:21 GMT</pubDate></item><item><title><![CDATA[Circular Queue]]></title><description><![CDATA[A queue is a linear data structure that follows the **First In, First Out (FIFO)** principle. Elements are added at the rear (enqueue) and removed from the front (dequeue).]]></description><link>07-stikkord-samling/dat200/circular-queue.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Circular Queue.md</guid><pubDate>Wed, 03 Dec 2025 09:20:58 GMT</pubDate></item><item><title><![CDATA[Circular Linked List]]></title><description><![CDATA[A Circular <a data-href="Linked List" href="07-stikkord-samling/dat200/linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Linked List</a> is a variation of a linked list where the last node points back to the first node, forming a loop. This structure can be implemented as either:
+<br>Circular <a data-href="Singly Linked List" href="07-stikkord-samling/dat200/singly-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Singly Linked List</a>: Each node has one pointer (next), and the last node points to the head.
+<br>Circular <a data-href="Doubly Linked List" href="07-stikkord-samling/dat200/doubly-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Doubly Linked List</a>: Each node has two pointers (next and previous), and the last node’s next points to the head while the head’s previous points to the last node. Node Components: Data: Stores the value.
+Pointer(s): One or two pointers depending on singly or doubly implementation. Head: Reference to the first node.
+Tail: Points back to head to complete the circle. Circular Traversal: No null termination; traversal continues in a loop.
+Dynamic Size: Can grow or shrink during runtime.
+Efficient Rotation: Useful for applications like round-robin scheduling. Traversal (O(n)): Start at head and continue until you return to head.
+Insertion: At beginning: O(1)
+At end: O(1) if tail is maintained, else O(n) Deletion: From beginning: O(1)
+From end: O(1) if tail is maintained, else O(n) Searching: O(n) No null pointers; continuous loop.
+Efficient for cyclic operations. More complex termination conditions during traversal.
+Slightly harder to implement than linear lists.
+class Node: def __init__(self, data): self.data = data self.next = None class CircularLinkedList: def __init__(self): self.head = None def insert_end(self, new): new_node = Node(new) if not self.head: self.head = new_node new_node.next = self.head else: temp = self.head while temp.next != self.head: temp = temp.next temp.next = new_node new_node.next = self.head
+class Node: def __init__(self, data): self.data = data self.next = None self.prev = None class CircularDoublyLinkedList: def __init__(self): self.head = None def insert_end(self, new): new_node = Node(new) if not self.head: # First node points to itself in both directions self.head = new_node new_node.next = self.head new_node.prev = self.head else: tail = self.head.prev # Last node before head tail.next = new_node new_node.prev = tail new_node.next = self.head self.head.prev = new_node def traverse_forward(self): if not self.head: return temp = self.head while True: print(temp.data, end=" ") temp = temp.next if temp == self.head: break print() def traverse_backward(self): if not self.head: return temp = self.head.prev # Start from tail while True: print(temp.data, end=" ") temp = temp.prev if temp == self.head.prev: break print() # Example usage:
+cdll = CircularDoublyLinkedList()
+cdll.insert_end(10)
+cdll.insert_end(20)
+cdll.insert_end(30) print("Forward Traversal:")
+cdll.traverse_forward() print("Backward Traversal:")
+cdll.traverse_backward()
+RunLinks to Related Notes:
+<br><a data-href="Linked List" href="07-stikkord-samling/dat200/linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Linked List</a>
+<br><a data-href="Singly Linked List" href="07-stikkord-samling/dat200/singly-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Singly Linked List</a>
+<br><a data-href="Doubly Linked List" href="07-stikkord-samling/dat200/doubly-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Doubly Linked List</a>
+]]></description><link>07-stikkord-samling/dat200/circular-linked-list.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Circular Linked List.md</guid><pubDate>Wed, 03 Dec 2025 08:57:29 GMT</pubDate></item><item><title><![CDATA[Doubly Linked List]]></title><description><![CDATA[Definition:
+A Doubly <a data-href="Linked List" href="07-stikkord-samling/dat200/linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Linked List</a> is a linked list where each node contains data and two pointers:
+Next: Points to the next node.
+Previous: Points to the previous node.
+This structure allows traversal in both directions.
+Node Components: Data: Stores the value.
+Next Pointer: Points to the next node.
+Previous Pointer: Points to the previous node. Head: Reference to the first node. Bidirectional Traversal: Can move forward and backward.
+Dynamic Size: Can grow or shrink during runtime.
+No Random Access: Must traverse sequentially. Traversal (O(n)): Forward from head or backward from tail.
+Insertion: At beginning: O(1)
+At position: O(n) Deletion: From beginning: O(1)
+At position: O(n) Searching: O(n) Easier deletion and insertion at both ends.
+Bidirectional navigation. Extra memory for two pointers per node.
+Slightly more complex implementation.
+class Node: def __init__(self, data): self.data = data self.next = None self.prev = None class DoublyLinkedList: def __init__(self): self.head = None def insert_front(self, new): new_node = Node(new) new_node.next = self.head if self.head: self.head.prev = new_node self.head = new_node def traverse_forward(self): temp = self.head while temp: print(temp.data, end=" ") temp = temp.next
+RunLinks to Related Notes:
+<br><a data-href="Linked List" href="07-stikkord-samling/dat200/linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Linked List</a>
+<br><a data-href="Singly Linked List" href="07-stikkord-samling/dat200/singly-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Singly Linked List</a>
+<br><a data-href="Circular Linked List" href="07-stikkord-samling/dat200/circular-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Circular Linked List</a>
+]]></description><link>07-stikkord-samling/dat200/doubly-linked-list.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Doubly Linked List.md</guid><pubDate>Wed, 03 Dec 2025 08:53:23 GMT</pubDate></item><item><title><![CDATA[Singly Linked List]]></title><description><![CDATA[Definition:
+A Singly <a data-href="Linked List" href="07-stikkord-samling/dat200/linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Linked List</a> is a type of linked list where each node contains data and a single pointer to the next node in the sequence. The last node points to null (or None), indicating the end of the list.
+Node Components: Data: Stores the value.
+Next Pointer: Points to the next node. Head: Reference to the first node.
+Tail: Not mandatory, but can be maintained for efficient appends. Unidirectional Traversal: Can only move forward from head to tail.
+Dynamic Size: Can grow or shrink during runtime.
+No Random Access: Must traverse sequentially to reach a node. Traversal (O(n)): Start at head and follow pointers until null.
+Insertion: At beginning: O(1)
+At end: O(n)
+At position: O(n) Deletion: From beginning: O(1)
+From end or position: O(n) Searching: O(n) Efficient insertion/deletion at the beginning.
+Flexible memory usage. Cannot traverse backward.
+Extra memory for pointers.
+Slower access compared to arrays.
+class Node: def __init__(self, data): self.data = data self.next = None class LinkedList: def __init__(self): self.head = None def insert_front(self, new): new_node = Node(new) new_node.next = self.head self.head = new_node def traverse(self): temp = self.head while temp: print(temp.data, end=" ") temp = temp.next
+Links to Related Notes:
+<br><a data-href="Linked List" href="07-stikkord-samling/dat200/linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Linked List</a>
+<br><a data-href="Doubly Linked List" href="07-stikkord-samling/dat200/doubly-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Doubly Linked List</a>
+<br><a data-href="Circular Linked List" href="07-stikkord-samling/dat200/circular-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Circular Linked List</a>
+]]></description><link>07-stikkord-samling/dat200/singly-linked-list.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Singly Linked List.md</guid><pubDate>Wed, 03 Dec 2025 08:45:42 GMT</pubDate></item><item><title><![CDATA[Linked List]]></title><description><![CDATA[Definition:
+A Linked List is a linear data structure where elements, called nodes, are stored in separate memory locations and connected via pointers. Unlike arrays, linked lists do not require contiguous memory allocation, allowing dynamic resizing during program execution.
+Dynamic Size: Can grow or shrink during runtime.
+Non-contiguous Storage: Each node resides in a separate memory location.
+Sequential Access: Traversal requires moving from one node to the next; no random access. Node: Basic unit containing: Data: The value stored.
+Pointer(s): Reference(s) to adjacent node(s). Head: Reference to the first node (null if empty).
+Tail (optional): Reference to the last node for efficient appends.
+Think of a linked list as a chain: each link holds data and connects to the next. To reach any element, you must traverse sequentially from the start—no shortcuts.
+<a data-href="Singly Linked List" href="07-stikkord-samling/dat200/singly-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Singly Linked List</a>: Each node points to the next; last node points to null.
+<br><a data-href="Doubly Linked List" href="07-stikkord-samling/dat200/doubly-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Doubly Linked List</a>: Nodes have two pointers—next and previous—for bidirectional traversal.
+<br><a data-href="Circular Linked List" href="07-stikkord-samling/dat200/circular-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Circular Linked List</a>: Last node links back to the first, forming a loop (can be singly or doubly). Traversal (O(n)): Visit nodes sequentially from head.
+Insertion: At beginning: O(1)
+At end: O(n)
+At position: O(n) Deletion: From beginning: O(1)
+From end or position: O(n) Searching: O(n) Dynamic memory usage.
+Efficient insertion/deletion at beginning. No direct access (must traverse).
+Extra memory for pointers.
+Links to Related Notes:
+<br><a data-href="Singly Linked List" href="07-stikkord-samling/dat200/singly-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Singly Linked List</a>
+<br><a data-href="Doubly Linked List" href="07-stikkord-samling/dat200/doubly-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Doubly Linked List</a>
+<br><a data-href="Circular Linked List" href="07-stikkord-samling/dat200/circular-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Circular Linked List</a>
+]]></description><link>07-stikkord-samling/dat200/linked-list.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Linked List.md</guid><pubDate>Wed, 03 Dec 2025 08:39:17 GMT</pubDate></item><item><title><![CDATA[Heap Sort]]></title><description><![CDATA[Heap Sort is a comparison-based sorting algorithm that uses a binary <a data-tooltip-position="top" aria-label="Heaps" data-href="Heaps" href="07-stikkord-samling/dat200/heaps.html" class="internal-link" target="_self" rel="noopener nofollow">heap</a> data structure.
+Build a max-heap (or min-heap for descending order) from the input array.
+Repeatedly extract the largest element (root of the heap) and place it at the end of the array. Heapify the array to create a max-heap/min heap.
+Swap the root with the last element.
+Now consider the array from index 0 to index n-1 (then n-2 etc.) Min heap, get descending order
+Max heap, get ascending order. Reversed with initialized array Initialize an array with size n
+append to new array. Keep order Append to end of array Repeat until the array is sorted. Time: Building heap: O(n)
+Sorting: O(nlog⁡n)
+Overall: O(nlog⁡n) Space: O(1)(in-place)
+Properties: Not stable.
+Efficient for large datasets. Use Cases: When constant space and predictable performance are required.
+<br><img alt="Pasted image 20251202134500.png" src="03-attachment-folder/pasted-image-20251202134500.png" target="_self">]]></description><link>07-stikkord-samling/dat200/heap-sort.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Heap Sort.md</guid><pubDate>Wed, 03 Dec 2025 08:34:40 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Heaps]]></title><description><![CDATA[Definition:
+A heap is a complete binary tree represented as an array, where each node satisfies the heap property:
+Max-Heap: Every parent node is greater than or equal to its children.
+Min-Heap: Every parent node is less than or equal to its children.
+Heaps are primarily used for efficient priority queue operations (insert and extract), and they form the basis for heap sort.To transform an array into a heap:
+Interpret the array as a complete binary tree.
+Start from the last parent node (index ⌊n/2⌋ - 1).
+Apply heapify down to each parent node, moving backward to the root.
+When the root is heapified, the array satisfies the heap property.
+Time Complexity:
+Bottom-up heapify: O(n)
+Inserting elements one by one: O(n log n)
+Used when:
+Heapifying an array
+Building a heap from an array.
+Removing the root node (e.g., extract-max or extract-min).
+Process:
+Compare the parent with its children.
+For max-heap, swap with the larger child if the parent is smaller.
+For min-heap, swap with the smaller child if the parent is larger.
+Repeat until the node is in the correct position or has no children.
+Used when:
+Adding a new element to the heap.
+Process:
+Compare the child with its parent.
+For max-heap, swap if the child is greater.
+For min-heap, swap if the child is smaller.
+Repeat until the node is in the correct position or becomes the root.
+Time Complexity:
+O(log n) n is size of array after adding the new element. ]]></description><link>07-stikkord-samling/dat200/heaps.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Heaps.md</guid><pubDate>Wed, 03 Dec 2025 08:20:36 GMT</pubDate></item><item><title><![CDATA[Huffman Coding]]></title><description><![CDATA[Huffman Coding is a lossless data compression algorithm that assigns variable-length binary codes to characters based on their frequencies. Characters that occur more frequently get shorter codes, reducing the overall size of the encoded message.
+Fixed-length coding (e.g., ASCII) uses the same number of bits for every character, which is inefficient when character frequencies vary.
+Huffman Coding minimizes the total number of bits by exploiting frequency distribution.
+Applications: file compression, message transmission, cryptography. Prefix-free codes: No code is a prefix of another, ensuring unique decodability.
+Optimality: Produces the minimum external path weight for a given set of character frequencies.
+Lossless: Original message can be perfectly reconstructed.
+Also see <a data-tooltip-position="top" aria-label="Huffman Coding > **Visual**" data-href="Huffman Coding#**Visual**" href="07-stikkord-samling/dat200/huffman-coding.html#**Visual**_0" class="internal-link" target="_self" rel="noopener nofollow">Visual</a>
+Frequency Analysis: Count occurrences of each character.
+Priority Queue: Insert all characters as nodes with their frequencies.
+Tree Construction: Extract two nodes with the smallest frequencies.
+Create a new internal node with frequency = sum of the two.
+Insert the new node back into the queue.
+Repeat until one node remains (the root). Assign Codes: Traverse the tree: Left edge → 0
+Right edge → 1
+Concatenate path bits for each leaf node. Characters: {E,T,N,I,S} with frequencies {29,10,9,5,4}
+Steps:
+Combine smallest: 4+5=9
+Combine next smallest: 9+9=18
+Continue until root: 57 Codes:
+E: 00
+T: 011
+N: 0101
+I: 0100
+S: 1
+Encoded message 001011000100 → Decodes to TENTS.
+Building the tree: O(n log n) using a priority queue.
+Encoding/decoding: O(L) where L is message length. Significant space savings compared to fixed-length coding.
+Simple and efficient for small alphabets. Requires transmitting the code table along with the message.
+Best suited for static frequency distributions.
+<br><img alt="Bachelor idea - page 5 1.png" src="03-attachment-folder/bachelor-idea-page-5-1.png" target="_self">]]></description><link>07-stikkord-samling/dat200/huffman-coding.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Huffman Coding.md</guid><pubDate>Wed, 03 Dec 2025 08:03:25 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Tree]]></title><description><![CDATA[A tree is a non-linear, hierarchical data structure consisting of nodes connected by edges.
+Each node holds a value and may have child nodes.
+Trees are directed (links go one way) and acyclic (no cycles).
+The topmost node is called the root; nodes with no children are leaves.
+<img alt="Pasted image 20251202143516.png" src="03-attachment-folder/pasted-image-20251202143516.png" target="_self"> Root: The first node; every tree has exactly one root.
+Node: Basic element containing data.
+Edge: Connection between two nodes.
+Leaf Node: Node with no children.
+Parent &amp; Child: Parent has branches to children; all nodes except root are children.
+Sibling: Nodes sharing the same parent.
+Internal Node: Node with at least one child.
+External Node: Node with no children (leaf).
+Size: Number of nodes in the tree.
+Degree: Number of children of a node; degree of tree = max degree among nodes.
+Level/Depth: Distance from root (root = level 0) to lowest level.
+Height: Length of the longest path from root to any leaf.
+Subtree: Each child node forms a subtree recursively. Binary Tree: Each node has at most two children (left and right).
+Full Binary Tree: Every node has either 0 or 2 children.
+Perfect Binary Tree: All levels are filled. Complete Binary Tree: All levels are filled except possibly the last, which is filled from left to right.
+<br><a data-href="Binary search trees" href="07-stikkord-samling/dat200/binary-search-trees.html" class="internal-link" target="_self" rel="noopener nofollow">Binary search trees</a> (BST): Left subtree contains values less than parent.
+Right subtree contains values greater than parent.
+Enables efficient search, insertion, and deletion. Insertion: Add a node as a leaf or mid-tree (update parent-child links).
+Deletion: Case 1: Remove leaf node.
+Case 2: Remove node with one child (replace with child).
+Case 3: Remove node with two children (replace with inorder successor). Search: General tree: O(n).
+Balanced BST: O(log n). <br><a data-tooltip-position="top" aria-label="Tree traversal algorithms" data-href="Tree traversal algorithms" href="07-stikkord-samling/dat200/tree-traversal-algorithms.html" class="internal-link" target="_self" rel="noopener nofollow">Traversal</a>: Pre-order: Root → Left → Right
+In-order: Left → Root → Right
+Post-order: Left → Right → Root
+Level-order: Breadth-first traversal. BST (Balanced): Search, Insert, Delete: O(log n) BST (Unbalanced): Worst case: O(n) AVL Tree: Self-balancing BST; maintains height balance using rotations. Balance Factor (BF) = height(left) − height(right) ∈ {−1, 0, 1}.
+Rotations: Single (Left/Right), Double (Left-Right/Right-Left). Hierarchical data representation (e.g., file systems).
+Efficient searching and sorting (BST, AVL).
+Priority queues (heaps).
+Expression parsing.
+]]></description><link>07-stikkord-samling/dat200/tree.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Tree.md</guid><pubDate>Tue, 02 Dec 2025 13:51:17 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Tree traversal algorithms]]></title><description><![CDATA[Tree traversal refers to the process of visiting each node in a tree data structure in a specific order. Traversal algorithms define how nodes are accessed and processed, typically in binary trees or binary search trees.]]></description><link>07-stikkord-samling/dat200/tree-traversal-algorithms.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Tree traversal algorithms.md</guid><pubDate>Tue, 02 Dec 2025 13:47:38 GMT</pubDate></item><item><title><![CDATA[Heap-sort]]></title><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf&apos;s/finished/heap-sort.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/PDF&apos;s/Finished/Heap-sort.pdf</guid><pubDate>Tue, 02 Dec 2025 11:57:20 GMT</pubDate></item><item><title><![CDATA[Quick Sort]]></title><description><![CDATA[Quick Sort is a divide-and-conquer sorting algorithm that works by selecting a pivot element, partitioning the list into two sublists (elements less than the pivot and elements greater than the pivot), and then recursively sorting the sublists.
+Choose a pivot element.
+Partition the list so that:
+- Elements less than the pivot go to the left.
+- Elements greater than the pivot go to the right.
+Recursively apply Quick Sort to the left and right sublists. If the list has 0 or 1 elements, it is already sorted.
+Select a pivot (commonly first, last, or median element).
+Partition the list into two sublists based on the pivot.
+Recursively sort the two sublists.
+Combine the sorted sublists and pivot into a single sorted list.
+1 Pass is considered complete when a pivot is swapped or the pivot logic is complete and a new one should be selected. Time:
+- Best case: (balanced partitions)
+- Average case: - Worst case: (when partitions are highly unbalanced)
+Space: (due to recursion stack)
+No (equal elements may change their relative order during partitioning).Quick Sort is widely used because of its efficiency and in-place sorting capability. It is often the default sorting algorithm in many programming libraries.def quicksort(arr, left, right): if left &lt; right: partition_pos = partition(arr, left, right) print(partition_pos) quicksort(arr, left,partition_pos-1 ) quicksort(arr, partition_pos+1, right ) def partition(arr, left, right): i = left j = right -1 pivot = arr[right] print(arr, " Pivot:", pivot) while i &lt; j: while i &lt; right and arr[i] &lt; pivot: i += 1 while j &gt; left and arr[j] &gt;= pivot: j -= 1 if i &lt; j: arr[i], arr[j] = arr[j], arr[i] if arr[i] &gt; pivot: arr[i], arr[right] = arr[right], arr[i] return i a = [-20, -16, 8, -3, 9, 14, 1, -8, 17, 5]
+quicksort(a, 0, len(a)-1)
+<img alt="Notebook 29 - page 12.png" src="03-attachment-folder/notebook-29-page-12.png" target="_self">]]></description><link>07-stikkord-samling/dat200/quick-sort.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Quick Sort.md</guid><pubDate>Tue, 02 Dec 2025 11:34:58 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Merge Sort]]></title><description><![CDATA[Merge Sort is a divide-and-conquer sorting algorithm that recursively splits the list into smaller sublists, sorts them, and then merges the sorted sublists back together.
+Divide the list into two halves.
+Recursively sort each half.
+Merge the two sorted halves into one sorted list. If the list has 1 or 0 elements, it is already sorted.
+Split the list into two halves.
+Recursively apply Merge Sort to each half.
+Merge the two sorted halves by comparing elements and building a new sorted list. Compare the first element in each group, add the smallest one to the new merged group. Repeat untill groups are empty. A pass can be considered on what merge step one is on.
+Merge into groups of 2 is first pass
+Merge into groups of 4 is second pass
+etc. Time:
+- Best case: O(n log n)
+- Average case: O(n log n)
+- Worst case: O(n log n)
+Yes (preserves the relative order of equal elements).Efficient for large datasets; commonly used in external sorting (e.g., sorting data on disk) and as a foundation for other algorithms.Recursive Solutiondef mergeSort(array,p,r): if p&lt;r: q = (p+r)//2 # r is the point where the array is divided into two subarrays mergeSort(array,p,q) # Sort the two halves mergeSort(array,q+1,r) merge(array, p,q,r) def merge(array, p,q,r): # Create temp arrays L = array[p:q+1] R = array[q+1:r+1] i = j = 0 k = p # Until we reach either end of either L or R, pick larger among elements L and R and place them in the correct position at A[p..r] while i &lt; len(L) and j &lt; len(R): if L[i] &lt;= R[j]: array[k] = L[i] i += 1 else: array[k] = R[j] j += 1 k += 1 while i &lt; len(L): array[k] = L[i] i += 1 k += 1 while j &lt; len(R): array[k] = R[j] j += 1 k += 1 def printList(array): for i in range(len(array)): print(array[i], end=" ") print() # Driver program
+if __name__ == '__main__': array = [6, 5, 12, 10, 9, 1] mergeSort(array,0,len(array)-1) print("Sorted array is: ") printList(array)
+<img alt="Notebook 29 - page 11.png" src="03-attachment-folder/notebook-29-page-11.png" target="_self">]]></description><link>07-stikkord-samling/dat200/merge-sort.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Merge Sort.md</guid><pubDate>Tue, 02 Dec 2025 10:00:14 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Selection Sort]]></title><description><![CDATA[Selection Sort is a simple comparison-based sorting algorithm that repeatedly selects the smallest (or largest) element from the unsorted portion of the list and places it at the beginning of the sorted portion.Divide the list into a sorted and unsorted part. Find the minimum element in the unsorted part and swap it with the first unsorted element. Repeat until the entire list is sorted.
+Start at index 0: Assume the first element is the smallest.
+Iterate through the rest of the list to find the actual smallest element.
+Swap the smallest element with the element at index 0. Move to index 1: Now consider the sublist starting at index 1.
+Find the smallest element in the remaining unsorted portion.
+Swap it with the element at index 1. Repeat: Continue this process for index 2, 3, … until the second-to-last element.
+After the last swap, the list is sorted. 1 pass of Selection sort is when the smallest element is swapped in to sorted section. Time: Best case: (already sorted)
+Average case: Worst case: No (equal elements may change their relative order because of swapping).Simple to implement; useful for small datasets or when memory is extremely limited. Rarely used in practice due to inefficiency compared to more advanced algorithms.<img alt="Notebook 29 - page 10.png" src="03-attachment-folder/notebook-29-page-10.png" target="_self">]]></description><link>07-stikkord-samling/dat200/selection-sort.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Selection Sort.md</guid><pubDate>Tue, 02 Dec 2025 09:38:35 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Shell Sort]]></title><description><![CDATA[Shell Sort is an optimization of Insertion Sort that allows the exchange of far-apart elements. It works by sorting elements at a specific gap and gradually reducing the gap until it becomes 1, at which point the list is fully sorted using Insertion Sort.Start with a large gap between elements and sort sublists formed by these gaps. Reduce the gap step by step, improving the order of the list until the gap is 1.
+Choose an initial gap (commonly n//2). (The two // means floor division)
+Sort elements that are gap positions apart using Insertion Sort logic.
+Reduce the gap (usually by half) and repeat. (n//4, n//8, ...)
+Continue until the gap is 1, then perform a final pass of Insertion Sort. Note: Minimum 1, floor division can cause floor to 0. 1 pass of shell sort is considered a full iteration involing a gap size. Time: Best case: (already sorted)
+Average case: Worst case: No (Shell Sort is generally not stable because elements can move far apart).Iterative Solutiondef shellSort(array, n): # Rearrange elements at each n/2, n/4, n/8, ... intervals interval = n // 2 while interval &gt; 0: print('interval', interval) for i in range(interval, n): temp = array[i] j = i while j &gt;= interval and array[j - interval] &gt; temp: array[j] = array[j - interval] j -= interval array[j] = temp print(array) interval //= 2 data = [20, 12, 65, 8, 10, 16, 43, 35, 23, 88, 2, 56, 41, 27, 67, 56]
+size = len(data)
+shellSort(data, size)
+print('Sorted Array in Ascending Order:')
+print(data)
+<img alt="Notebook 29 - page 9.png" src="03-attachment-folder/notebook-29-page-9.png" target="_self">]]></description><link>07-stikkord-samling/dat200/shell-sort.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Shell Sort.md</guid><pubDate>Tue, 02 Dec 2025 09:18:53 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Insertion Sort]]></title><description><![CDATA[Insertion Sort is a simple comparison-based sorting algorithm that builds the final sorted array one element at a time by inserting each element into its correct position.Divide the list into a "sorted" and "unsorted" part. Repeatedly take the first element from the unsorted part and insert it into the correct position in the sorted part.
+Start with the second element (first element is considered sorted).
+Compare it with elements in the sorted part.
+Shift larger elements to the right.
+Insert the current element into its correct position.
+Repeat until all elements are sorted.
+A pass is considered complete when an element is sorted into its place.
+So a third pass will have 4 elements in the "sorted section". The first element and the 3 inserted elements. Time: Best case: (already sorted)
+Average case: Worst case: Yes (does not change the relative order of equal elements).Efficient for small datasets or nearly sorted arrays; commonly used in practice for small arrays or as part of more complex algorithms.
+It picks up the next unsorted element then checks the sorted elements from the right. If the sorted element is greater than the unsorted element. Remember the sorted elements index, then move the sorted element 1 index up. If the sorted element is less than the unsorted element or start is reached. Place the unsorted element into the remembered index.
+Iterative Solutiondef insertionSort(alist): # Define a function called insertionSort that takes a list 'alist' as input. for index in range(1, len(alist)): # Loop through the list starting from the second element (index 1) to the end. # The first element is considered sorted. currentvalue = alist[index] # Store the current element that needs to be inserted into the sorted portion. position = index # Initialize 'position' to the current index. This will track where to insert the element. while position &gt; 0 and alist[position - 1] &gt; currentvalue: # While we haven't reached the start of the list AND # the previous element is greater than the current value: alist[position] = alist[position - 1] # Shift the previous element one position to the right. position = position - 1 # Move the position pointer one step to the left. alist[position] = currentvalue # Insert the current value into its correct position in the sorted portion. # Example usage:
+alist = [54, 26, 93, 17, 77, 31, 44, 55, 20] # Create a list of unsorted integers.
+insertionSort(alist) # Call the insertionSort function to sort the list.
+print(alist) # Print the sorted list.
+Recursive Solutiondef recInsertionSort(arr, n): # Base case: if the array has 1 element, it's already sorted if n &lt;= 1: return # Sort the first n-1 elements recInsertionSort(arr, n - 1) # Insert the nth element into the correct position in the sorted part currentvalue = arr[n - 1] position = n - 2 # Shift elements that are greater than currentvalue to the right while position &gt;= 0 and arr[position] &gt; currentvalue: arr[position + 1] = arr[position] position = position - 1 # Place currentvalue in its correct position arr[position + 1] = currentvalue # Test the recursive insertion sort
+alist = [54, 26, 93, 17, 77, 31, 44, 55, 20]
+recInsertionSort(alist, len(alist))
+print(alist)
+Run<img alt="Pasted image 20251202093802.png" src="03-attachment-folder/pasted-image-20251202093802.png" target="_self">]]></description><link>07-stikkord-samling/dat200/insertion-sort.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Insertion Sort.md</guid><pubDate>Tue, 02 Dec 2025 08:39:55 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Bubble Sort]]></title><description><![CDATA[
+Definition: A simple comparison-based sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
+Key Idea: Larger elements "bubble up" to the end of the list with each pass.
+Algorithm Steps: Iterate through the list multiple times.
+Compare each pair of adjacent elements.
+Swap if the first is greater than the second.
+Repeat until no swaps are needed. Complexity: Time: Best case: (already sorted)
+Average case: Worst case: Stability: Yes, does not change the relative order of equal elements
+Use Case: Educational purposes; rarely used in practice due to inefficiency.
+Iterative Solutiondef bubbleSort(arr): for i in range(len(arr) - 1): # loop over array elements for j in range(0, len(arr) - i - 1): # loop to compare array elements # compare two adjacent elements, # Last i elements are already in place, so we don't need to check them if arr[j] &gt; arr[j + 1]: # swap if elements are out-of-order temp = arr[j] arr[j] = arr[j + 1] arr[j + 1] = temp print('pass number', i, arr) arr = [9, 7, 8, 2]
+print("Original array:", arr)
+bubbleSort(arr)
+print("Sorted array:", arr)
+Recursive Solutiondef recursive_bubble_sort(arr, n): # Base case: If the list has only one element or is empty, it is already sorted. if n &lt;= 1: return # Traverse through all elements in the list for i in range(n - 1): # Swap if the element found is greater than the next element if arr[i] &gt; arr[i + 1]: arr[i], arr[i + 1] = arr[i + 1], arr[i] # Recursively call the function with a reduced size of the list recursive_bubble_sort(arr, n - 1) arr = [9, 7, 8, 2]
+print("Original array:", arr)
+recursive_bubble_sort(arr, 4)
+print("Sorted array:", arr)
+The largest number in the list will bubble up to the top.
+Then that number is sorted. No need to check it again. "1 pass" of the algorithm is when the bubble has reached the end.
+<img alt="Pasted image 20251202091409.png" src="03-attachment-folder/pasted-image-20251202091409.png" target="_self">]]></description><link>07-stikkord-samling/dat200/bubble-sort.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Bubble Sort.md</guid><pubDate>Tue, 02 Dec 2025 08:16:25 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[20251103 - Forelesning - Graphs]]></title><description><![CDATA[
+<a data-tooltip-position="top" aria-label="Effective Note-taking in class > Prepare before class" data-href="Effective Note-taking in class#Prepare before class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Before Class</a> Bring Food &amp; Drink - Why not both? Smoothie.
+Gjennomgå lesestoffet etter hoved ideer og konsepter.
+Sjekk læringsmålene oppmot lesestoffet og identifiser viktigste.
+Gjennomgå tidligere notater. Hva er formålet?
+Hva er målet?
+Skriv ned spørsmål? Oversikter kan gjerne bli spørsmål. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > During Class" data-href="Effective Note-taking in class#During Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">During Class</a> Focus on main points and concepts, fill in gaps later
+Remember to use internal links for keywords and names Sort later Write in bullets and phrases to make notes short and concise. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > What are main points" data-href="Effective Note-taking in class#What are main points" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Main points</a> <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > After Class" data-href="Effective Note-taking in class#After Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">After Class</a> Refine within 2 days, preferably same day
+Update status to Refined <br><a data-href="Introduction to Graphs.pdf#page=1" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-graphs.html#page=1" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Graphs.pdf &gt; page=1</a><br>
+<a data-href="Graphs_part1.pdf#page=1" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/graphs_part1.html#page=1" class="internal-link" target="_self" rel="noopener nofollow">Graphs_part1.pdf &gt; page=1</a><br><a data-href="Introduction to Graphs.pdf#page=14" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-graphs.html#page=14" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Graphs.pdf &gt; page=14</a>]]></description><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/forelesninger/20251103-forelesning-graphs.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Forelesninger/20251103 - Forelesning - Graphs.md</guid><pubDate>Tue, 28 Oct 2025 00:00:00 GMT</pubDate></item><item><title><![CDATA[Exam_2023]]></title><description><![CDATA[What is the time complexity of the given functions?def ex1(S): n = len(S) prefix = 0 total = 0 for j in range(n): prefix += S[j] total += prefix return total
+Select one alternative: <a data-tooltip-position="top" aria-label="Exam_2023 > 1" data-href="Exam_2023#1" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/exam_2023.html#1_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>: O(n^3)
+O(n)
+O(logn)
+O(n^2)
+What is the time complexity of the given functions?def ex2(n): count = 0 for i in range(n): for j in range(25): count += 1 return count
+<br>Select one alternative: <a data-tooltip-position="top" aria-label="Exam_2023 > 2" data-href="Exam_2023#2" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/exam_2023.html#2_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>: O(n^3)
+O(n)
+O(logn)
+O(n^2)
+What is the time complexity of the given functions?def ex3(n): sum = 0 while n &gt; 0: sum += n % 10 n //= 10
+<br>Select one alternative: <a data-tooltip-position="top" aria-label="Exam_2023 > 3" data-href="Exam_2023#3" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/exam_2023.html#3_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>: O(n)
+O(logn)
+O(nlogn)
+O(n^2)
+What is the time complexity of the given functions?j = n
+while j &gt;= 1: for i in ragne(1, n+1): x = x + 1 j = j // 2
+<br>Select one alternative: <a data-tooltip-position="top" aria-label="Exam_2023 > 4" data-href="Exam_2023#4" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/exam_2023.html#4_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>: O(n)
+O(logn)
+O(n^2)
+O(nlogn)
+You are given a Stack and numbers 1,3,4,5,7 respectively.
+The order of entering number is from left to right. you apply push and pop respectively. Which one of the following outputs from this stack is not possible.?<br>
+Select one alternative: <a data-tooltip-position="top" aria-label="Exam_2023 > 5" data-href="Exam_2023#5" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/exam_2023.html#5_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>: 7, 5, 4, 3, 1
+1, 3, 7, 5, 4
+1, 7, 3, 5, 4
+1, 4, 3, 7, 5
+What would be the value of combination (3,2)?def combinartion(n,m): if (m == n) or (M == 0): return 1 else: return (combination(n-1, m) + combination (n-1, m-1))
+Run<br>Select one alternative: <a data-tooltip-position="top" aria-label="Final_Exam > 6" data-href="Final_Exam#6" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/final_exam.html#6_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>: A: 2
+B: 6
+C: 3
+D: 4
+You are given two queues. (6 p) Q1: 10, 25,17,41,19,26,75 Q2: 1,5,7,4,9,6 If X and Y are the elements of the queue, then what would be the elements in Q3 after running this code?A table of characters and corresponding frequencies is provided below.Which of these is a Huffman Code for the character frequencies?
+Assign 0 to the left branch and 1 to the right branch.<br>
+Select one alternative: <a data-tooltip-position="top" aria-label="Final_Exam > 8" data-href="Final_Exam#8" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/final_exam.html#8_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>: A. ‘a’ is 0, ‘b’ is 101, ‘c’ is 100, ‘d’ is 111, ‘e’ is 1101, ‘f’ is 1100 B. ‘a’ is 01, ‘b’ is 110, ‘c’ is 01, ‘d’ is 111, ‘e’ is 0001, ‘f’ is 1101 C. ‘a’ is 001, ‘b’ is 100, ‘c’ is 10, ‘d’ is 101, ‘e’ is 1100, ‘f’ is 1101 D. ‘a’ is 0, ‘b’ is 101, ‘c’ is 100, ‘d’ is 01, ‘e’ is 0001, ‘f’ is 1100
+Decode this message: 110001001101Use the double hash function to insert these integer keys into the hash table: 8,56,89,7,23,6
+Table size is = 7
+PRIME = 5 Hash1(key) = key % TABLE_SIZE
+Hash2(key) = PRIME - (key % PRIME)a)
+What is result AVL tree after we insert the element 17 into the AVL tree below??
+Perform the appropriate rotation to restore the height balance of the tree.<br>
+<img alt="Pasted image 20251031112410.png" src="03-attachment-folder/pasted-image-20251031112410.png" target="_self">
+b)
+What is the level order traversal of the tree after it has been balanced?Find the preorder traversal of a Binary Search Tree (BST) with the given post-order.
+Post-order: 5,6,15,10,23,24,22,26,20Run a breadth first search through the following graph starting with node A, and record the order that each node is visited. If a node has more than one neighbor, the next node to visit will be the one that comes first lexicographically.<br>
+<img alt="Pasted image 20251031113008.png" src="03-attachment-folder/pasted-image-20251031113008.png" target="_self">consider the graph in the given figure. Always visit adjacent nodes in alphabetical order.
+Using Dijkstra’s algorithm, determine the shortest path from node A to other nodes.<br>
+<img alt="Pasted image 20251031131401.png" src="03-attachment-folder/pasted-image-20251031131401.png" target="_self">consider the graph in the given figure. Always visit adjacent nodes in alphabetical order.
+Use Prim’s algorithm to derive the MST starting at node A.<br>
+<img alt="Pasted image 20251031131401.png" src="03-attachment-folder/pasted-image-20251031131401.png" target="_self">
+O(n) O(n) O(logn) O(nlogn) 1, 7, 3, 5, 4 C: 3
+Svaret er rotete og ubrukelig
+A. ‘a’ is 0, ‘b’ is 101, ‘c’ is 100, ‘d’ is 111, ‘e’ is 1101, ‘f’ is 1100
+Message is: FACE
+Balanced Tree<br>
+<img alt="Pasted image 20251031112619.png" src="03-attachment-folder/pasted-image-20251031112619.png" target="_self">
+Level order traversal: preorder: ADGCFEHBB &gt; 3
+C &gt; 4
+D &gt; 9
+E &gt; 12
+F &gt; 5
+G &gt; 14
+H &gt; 13
+I &gt; 16
+J &gt; 11
+K &gt; 12Solution: 44<br>
+<img alt="Pasted image 20251031131616.png" src="03-attachment-folder/pasted-image-20251031131616.png" target="_self">]]></description><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/exam_2023.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Eksamen/Exam_2023.md</guid><pubDate>Fri, 31 Oct 2025 12:40:09 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Final_Exam]]></title><description><![CDATA[What is the time complexity of the given functions?def ex1(n) count = 0 i = n while i &gt;= 1: count += 1 i = i // 2 return count
+def ex2(n) count = 0 i = n for i in range(n): count += ex1(n) return count
+def ex3(n) count = 0 i = n for i in range(n): for j in range(100): count += 1 return count
+def ex4(n) sum = 0 for i in range(n) sum += i; for j in range(n): for k in range(n) sum += j * k
+def ex5(n) x = 0 i = n while (i &gt; 1): x += i % 10 i = i % 2 return x
+True/False questions:Consider the following sequence of operations on an empty stack. push(54); push(52); pop(); push(55); push(62); s = pop();
+Consider the following sequence of operations on an empty queue. enqueue(21); enqueue(24); dequeue(); enqueue(28); enqueue(32); q = dequeue();The value of s + q is?
+Select one alternative: <a data-tooltip-position="top" aria-label="Final_Exam > 3" data-href="Final_Exam#3" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/final_exam.html#3_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>: 86
+68
+52
+43
+The given function is going to find the sum of the values of the nodes in the singly linked list. Fill in the blank.def sumOfNodes(head) temp = head sum = 0 while (-----): ------------- ------------- return sum
+Consider the sumofNodes function in the previous example that you have completed. Write the function in a recursive way.def sumOfNodes(head) if head is None: return 0 return ---------
+RunWhat would be the value of combination (3,2)?def combinartion(n,m): if (m == n) or (M == 0): return 1 else: return (combination(n-1, m) + combination (n-1, m-1))
+Run<br>Select one alternative: <a data-tooltip-position="top" aria-label="Final_Exam > 6" data-href="Final_Exam#6" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/final_exam.html#6_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>: A: 2
+B: 6
+C: 3
+D: 4
+Consider the following array. . Show how the list is sorted by the Shell Sort algorithm.def combinartion(n,m): if (m == n) or (M == 0): return 1 else: return (combination(n-1, m) + combination (n-1, m-1))
+RunA table of characters and corresponding frequencies is provided below.Which of these is a Huffman Code for the character frequencies?
+Assign 0 to the left branch and 1 to the right branch.<br>
+Select one alternative: <a data-tooltip-position="top" aria-label="Final_Exam > 8" data-href="Final_Exam#8" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/final_exam.html#8_0" class="internal-link" target="_self" rel="noopener nofollow">Svar</a>: A. ‘a’ is 0, ‘b’ is 101, ‘c’ is 100, ‘d’ is 111, ‘e’ is 1101, ‘f’ is 1100 B. ‘a’ is 01, ‘b’ is 110, ‘c’ is 01, ‘d’ is 111, ‘e’ is 0001, ‘f’ is 1101 C. ‘a’ is 001, ‘b’ is 100, ‘c’ is 10, ‘d’ is 101, ‘e’ is 1100, ‘f’ is 1101 D. ‘a’ is 0, ‘b’ is 101, ‘c’ is 100, ‘d’ is 01, ‘e’ is 0001, ‘f’ is 1100
+Decode this message: 110001001101Use the double hash function to insert these integer keys into the hash table: 8,56,89,7,23,6
+Table size is = 7
+PRIME = 5 Hash1(key) = key % TABLE_SIZE
+Hash2(key) = PRIME - (key % PRIME)a)
+What is result AVL tree after we insert the element 17 into the AVL tree below??
+Perform the appropriate rotation to restore the height balance of the tree.<br>
+<img alt="Pasted image 20251031112410.png" src="03-attachment-folder/pasted-image-20251031112410.png" target="_self">
+b)
+What is the level order traversal of the tree after it has been balanced?Find the preorder traversal of a Binary Search Tree (BST) with the given post-order.
+Post-order: 5,6,15,10,23,24,22,26,20Run a breadth first search through the following graph starting with node A, and record the order that each node is visited. If a node has more than one neighbor, the next node to visit will be the one that comes first lexicographically.<br>
+<img alt="Pasted image 20251031113008.png" src="03-attachment-folder/pasted-image-20251031113008.png" target="_self">consider the graph in the given figure. Always visit adjacent nodes in alphabetical order.
+Using Dijkstra’s algorithm, determine the shortest path from node A to other nodes.<br>
+<img alt="Pasted image 20251031131401.png" src="03-attachment-folder/pasted-image-20251031131401.png" target="_self">consider the graph in the given figure. Always visit adjacent nodes in alphabetical order.
+Use Prim’s algorithm to derive the MST starting at node A.<br>
+<img alt="Pasted image 20251031131401.png" src="03-attachment-folder/pasted-image-20251031131401.png" target="_self">
+Ex1 = O(log n)
+Ex2 = O(n log n)
+Ex3 = O(n)
+Ex4 = O(n^2)
+Ex5 = O(1) 86
+def sumOfNodes(head) temp = head sum = 0 while (temp != None): sum = sum + temp.data temp = temp.next return sum
+Rundef sumOfNodes(head) if head is None: return 0 return head.data + sumOfNode(head.next)
+Run
+C: 3
+Svaret er rotete og ubrukelig
+A. ‘a’ is 0, ‘b’ is 101, ‘c’ is 100, ‘d’ is 111, ‘e’ is 1101, ‘f’ is 1100
+Message is: FACE
+Balanced Tree<br>
+<img alt="Pasted image 20251031112619.png" src="03-attachment-folder/pasted-image-20251031112619.png" target="_self">
+Level order traversal: preorder: ADGCFEHBB &gt; 3
+C &gt; 4
+D &gt; 9
+E &gt; 12
+F &gt; 5
+G &gt; 14
+H &gt; 13
+I &gt; 16
+J &gt; 11
+K &gt; 12Solu
+5 6 7 8 9 0 1 2 3 4 Insertion Sort Merge Sort Selection Sort Push all characters onto the stack, then pop characters in reverse order
+[50, 30, 23]
+Rundef sumOfNodes(head): temp = head sum = 0 while (temp != None): sum = sum + temp.data temp = temp.next ----------------- return sum
+Run
+C: 12, 14, 3, 9, 4, 18, 21
+D: 9, 12, 14, 3, 4, 21, 18
+In A, 4 would be inserted at index 4 instead of 6
+in B, 18 would be inserted at index 0 instead of 1
+In E, 21 would be inserted at index 6 instead of 7
+Finding number of bits without using Huffman.
+Total number of characters = sum of fequencies = 100 size of 1 character = 1 byte = 8 bits.
+Total number of bits = 8*100 = 800Using Huffman Encoding.<br>
+<img alt="Pasted image 20251031102708.png" src="03-attachment-folder/pasted-image-20251031102708.png" target="_self">Total number of bits needed can be calculates as: <br><img alt="Pasted image 20251031103007.png" src="03-attachment-folder/pasted-image-20251031103007.png" target="_self">
+Post order = 48, 27, 15, 5, 12, 86, 39, 3, 9, 42<br><img alt="Pasted image 20251031103336.png" src="03-attachment-folder/pasted-image-20251031103336.png" target="_self"><br><img alt="Pasted image 20251031103902.png" src="03-attachment-folder/pasted-image-20251031103902.png" target="_self">
+The Breadth-First Search (BFS) Traversal starting from node 1 visits the nodes in the following order: Solution: <br>
+<img alt="Pasted image 20251031104648.png" src="03-attachment-folder/pasted-image-20251031104648.png" target="_self">]]></description><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/final_exam.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Eksamen/Final_Exam.md</guid><pubDate>Fri, 31 Oct 2025 12:21:32 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[høst2024]]></title><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/pdf/høst2024.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Eksamen/PDF/høst2024.pdf</guid><pubDate>Thu, 30 Oct 2025 07:10:29 GMT</pubDate></item><item><title><![CDATA[DAT200_Exam_2023_resit]]></title><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/pdf/dat200_exam_2023_resit.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Eksamen/PDF/DAT200_Exam_2023_resit.pdf</guid><pubDate>Thu, 30 Oct 2025 07:09:22 GMT</pubDate></item><item><title><![CDATA[Final_exam_solution]]></title><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/pdf/final_exam_solution.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Eksamen/PDF/Final_exam_solution.pdf</guid><pubDate>Thu, 30 Oct 2025 07:09:22 GMT</pubDate></item><item><title><![CDATA[DAT200_Exam_2022_Fall_final]]></title><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/eksamen/pdf/dat200_exam_2022_fall_final.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Eksamen/PDF/DAT200_Exam_2022_Fall_final.pdf</guid><pubDate>Thu, 30 Oct 2025 07:09:22 GMT</pubDate></item><item><title><![CDATA[20251028 - Forelesning - Graphs]]></title><description><![CDATA[
+<a data-tooltip-position="top" aria-label="Effective Note-taking in class > Prepare before class" data-href="Effective Note-taking in class#Prepare before class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Before Class</a> Bring Food &amp; Drink - Why not both? Smoothie.
+Gjennomgå lesestoffet etter hoved ideer og konsepter.
+Sjekk læringsmålene oppmot lesestoffet og identifiser viktigste.
+Gjennomgå tidligere notater. Hva er formålet?
+Hva er målet?
+Skriv ned spørsmål? Oversikter kan gjerne bli spørsmål. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > During Class" data-href="Effective Note-taking in class#During Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">During Class</a> Focus on main points and concepts, fill in gaps later
+Remember to use internal links for keywords and names Sort later Write in bullets and phrases to make notes short and concise. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > What are main points" data-href="Effective Note-taking in class#What are main points" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Main points</a> <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > After Class" data-href="Effective Note-taking in class#After Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">After Class</a> Refine within 2 days, preferably same day
+Update status to Refined <br><a data-href="Introduction to Graphs.pdf#page=1" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-graphs.html#page=1" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Graphs.pdf &gt; page=1</a><br>
+<a data-href="Graphs_part1.pdf#page=1" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/graphs_part1.html#page=1" class="internal-link" target="_self" rel="noopener nofollow">Graphs_part1.pdf &gt; page=1</a><br><a data-href="Graphs_part1.pdf#page=1" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/graphs_part1.html#page=1" class="internal-link" target="_self" rel="noopener nofollow">Graphs_part1.pdf &gt; page=1</a>
+Vertices: Same as a node
+Edge: Line between the node.Bredth First Search (BFS)
+This is sort of the same as level-order-search. (Print all nodes in each level before going to next level)Depth first Search (DFS)
+This is sort of the same as pre-order search. (Print each node as you travel to them)Why it is sort of is that there is no deterministic order for which node to choose next. ]]></description><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/forelesninger/20251028-forelesning-graphs.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Forelesninger/20251028 - Forelesning - Graphs.md</guid><pubDate>Tue, 28 Oct 2025 00:00:00 GMT</pubDate></item><item><title><![CDATA[20251027 - Forelesning - Huffman Coding]]></title><description><![CDATA[
+<a data-tooltip-position="top" aria-label="Effective Note-taking in class > Prepare before class" data-href="Effective Note-taking in class#Prepare before class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Before Class</a> Bring Food &amp; Drink - Why not both? Smoothie.
+Gjennomgå lesestoffet etter hoved ideer og konsepter.
+Sjekk læringsmålene oppmot lesestoffet og identifiser viktigste.
+Gjennomgå tidligere notater. Hva er formålet?
+Hva er målet?
+Skriv ned spørsmål? Oversikter kan gjerne bli spørsmål. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > During Class" data-href="Effective Note-taking in class#During Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">During Class</a> Focus on main points and concepts, fill in gaps later
+Remember to use internal links for keywords and names Sort later Write in bullets and phrases to make notes short and concise. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > What are main points" data-href="Effective Note-taking in class#What are main points" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Main points</a> <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > After Class" data-href="Effective Note-taking in class#After Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">After Class</a> Refine within 2 days, preferably same day
+Update status to Refined <br><a data-href="Introduction to Huffman Coding.pdf#page=1" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-huffman-coding.html#page=1" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Huffman Coding.pdf &gt; page=1</a><br><a data-href="Introduction to Huffman Coding.pdf#page=2" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-huffman-coding.html#page=2" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Huffman Coding.pdf &gt; page=2</a><br><a data-href="Introduction to Huffman Coding.pdf#page=6" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-huffman-coding.html#page=6" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Huffman Coding.pdf &gt; page=6</a><br><a data-href="Introduction to Huffman Coding.pdf#page=15" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-huffman-coding.html#page=15" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Huffman Coding.pdf &gt; page=15</a>]]></description><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/forelesninger/20251027-forelesning-huffman-coding.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Forelesninger/20251027 - Forelesning - Huffman Coding.md</guid><pubDate>Mon, 27 Oct 2025 00:00:00 GMT</pubDate></item><item><title><![CDATA[Introduction to Graphs]]></title><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf&apos;s/finished/introduction-to-graphs.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/PDF&apos;s/Finished/Introduction to Graphs.pdf</guid><pubDate>Mon, 27 Oct 2025 09:50:01 GMT</pubDate></item><item><title><![CDATA[Graphs_part1]]></title><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf&apos;s/finished/graphs_part1.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/PDF&apos;s/Finished/Graphs_part1.pdf</guid><pubDate>Mon, 27 Oct 2025 09:48:57 GMT</pubDate></item><item><title><![CDATA[Introduction to Huffman Coding]]></title><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf&apos;s/finished/introduction-to-huffman-coding.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/PDF&apos;s/Finished/Introduction to Huffman Coding.pdf</guid><pubDate>Mon, 27 Oct 2025 09:21:02 GMT</pubDate></item><item><title><![CDATA[20251021 - Forelesning - Heap]]></title><description><![CDATA[
+<a data-tooltip-position="top" aria-label="Effective Note-taking in class > Prepare before class" data-href="Effective Note-taking in class#Prepare before class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Before Class</a> Bring Food &amp; Drink - Why not both? Smoothie.
+Gjennomgå lesestoffet etter hoved ideer og konsepter.
+Sjekk læringsmålene oppmot lesestoffet og identifiser viktigste.
+Gjennomgå tidligere notater. Hva er formålet?
+Hva er målet?
+Skriv ned spørsmål? Oversikter kan gjerne bli spørsmål. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > During Class" data-href="Effective Note-taking in class#During Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">During Class</a> Focus on main points and concepts, fill in gaps later
+Remember to use internal links for keywords and names Sort later Write in bullets and phrases to make notes short and concise. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > What are main points" data-href="Effective Note-taking in class#What are main points" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Main points</a> <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > After Class" data-href="Effective Note-taking in class#After Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">After Class</a> Refine within 2 days, preferably same day
+Update status to Refined <br><a data-href="Introduction to Heaps.pdf#page=1" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-heaps.html#page=1" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Heaps.pdf &gt; page=1</a>Heaps are "Tree based datastruktures", but somewhat different. <br><a data-href="Introduction to Heaps.pdf#page=2" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-heaps.html#page=2" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Heaps.pdf &gt; page=2</a><br><a data-href="Introduction to Heaps.pdf#page=4" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-heaps.html#page=4" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Heaps.pdf &gt; page=4</a><br><a data-href="Introduction to Heaps.pdf#page=5" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-heaps.html#page=5" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Heaps.pdf &gt; page=5</a><br><a data-href="Introduction to Heaps.pdf#page=6" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-heaps.html#page=6" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Heaps.pdf &gt; page=6</a><br><a data-href="Introduction to Heaps.pdf#page=8" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-heaps.html#page=8" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Heaps.pdf &gt; page=8</a>]]></description><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/forelesninger/20251021-forelesning-heap.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Forelesninger/20251021 - Forelesning - Heap.md</guid><pubDate>Tue, 21 Oct 2025 00:00:00 GMT</pubDate></item><item><title><![CDATA[20251020 - Forelesning - Trees]]></title><description><![CDATA[
+<a data-tooltip-position="top" aria-label="Effective Note-taking in class > Prepare before class" data-href="Effective Note-taking in class#Prepare before class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Before Class</a> Bring Food &amp; Drink - Why not both? Smoothie.
+Gjennomgå lesestoffet etter hoved ideer og konsepter.
+Sjekk læringsmålene oppmot lesestoffet og identifiser viktigste.
+Gjennomgå tidligere notater. Hva er formålet?
+Hva er målet?
+Skriv ned spørsmål? Oversikter kan gjerne bli spørsmål. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > During Class" data-href="Effective Note-taking in class#During Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">During Class</a> Focus on main points and concepts, fill in gaps later
+Remember to use internal links for keywords and names Sort later Write in bullets and phrases to make notes short and concise. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > What are main points" data-href="Effective Note-taking in class#What are main points" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Main points</a> <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > After Class" data-href="Effective Note-taking in class#After Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">After Class</a> Refine within 2 days, preferably same day
+Update status to Refined <br><a data-href="Introduction to Tree.pdf#page=76" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-tree.html#page=76" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Tree.pdf &gt; page=76</a><br><a data-href="Introduction to Tree.pdf#page=76" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-tree.html#page=76" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Tree.pdf &gt; page=76</a>An AVL tree is a form of self-balancing tree. <br><img alt="Pasted image 20251020103548.png" src="03-attachment-folder/pasted-image-20251020103548.png" target="_self" style="width: 700px; max-width: 100%;">]]></description><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/forelesninger/20251020-forelesning-trees-rotation.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Forelesninger/20251020 - Forelesning - Trees - Rotation.md</guid><pubDate>Mon, 20 Oct 2025 00:00:00 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Introduction to Heaps]]></title><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf&apos;s/finished/introduction-to-heaps.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/PDF&apos;s/Finished/Introduction to Heaps.pdf</guid><pubDate>Mon, 20 Oct 2025 08:08:47 GMT</pubDate></item><item><title><![CDATA[20251014 - Forelesning - Binary Search Tree]]></title><description><![CDATA[
+<a data-tooltip-position="top" aria-label="Effective Note-taking in class > Prepare before class" data-href="Effective Note-taking in class#Prepare before class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Before Class</a> Bring Food &amp; Drink - Why not both? Smoothie.
+Gjennomgå lesestoffet etter hoved ideer og konsepter.
+Sjekk læringsmålene oppmot lesestoffet og identifiser viktigste.
+Gjennomgå tidligere notater. Hva er formålet?
+Hva er målet?
+Skriv ned spørsmål? Oversikter kan gjerne bli spørsmål. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > During Class" data-href="Effective Note-taking in class#During Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">During Class</a> Focus on main points and concepts, fill in gaps later
+Remember to use internal links for keywords and names Sort later Write in bullets and phrases to make notes short and concise. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > What are main points" data-href="Effective Note-taking in class#What are main points" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Main points</a> <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > After Class" data-href="Effective Note-taking in class#After Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">After Class</a> Refine within 2 days, preferably same day
+Update status to Refined <br>Start: <a data-href="Introduction to Tree.pdf#page=40" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-tree.html#page=40" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Tree.pdf &gt; page=40</a> ]]></description><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/forelesninger/20251014-forelesning-binary-search-tree.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Forelesninger/20251014 - Forelesning - Binary Search Tree.md</guid><pubDate>Tue, 14 Oct 2025 00:00:00 GMT</pubDate></item><item><title><![CDATA[20251013 - Forelesning - Trees]]></title><description><![CDATA[
+<a data-tooltip-position="top" aria-label="Effective Note-taking in class > Prepare before class" data-href="Effective Note-taking in class#Prepare before class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Before Class</a> Bring Food &amp; Drink - Why not both? Smoothie.
+Gjennomgå lesestoffet etter hoved ideer og konsepter.
+Sjekk læringsmålene oppmot lesestoffet og identifiser viktigste.
+Gjennomgå tidligere notater. Hva er formålet?
+Hva er målet?
+Skriv ned spørsmål? Oversikter kan gjerne bli spørsmål. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > During Class" data-href="Effective Note-taking in class#During Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">During Class</a> Focus on main points and concepts, fill in gaps later
+Remember to use internal links for keywords and names Sort later Write in bullets and phrases to make notes short and concise. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > What are main points" data-href="Effective Note-taking in class#What are main points" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Main points</a> <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > After Class" data-href="Effective Note-taking in class#After Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">After Class</a> Refine within 2 days, preferably same day
+Update status to Refined <br><a data-href="Introduction to Tree.pdf" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-tree.html" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Tree.pdf</a><br><a data-href="Introduction to Tree.pdf#page=3" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-tree.html#page=3" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Tree.pdf &gt; page=3</a> Binary Tree means a Tree where a parent can atmost have 2 children. Can also be called a Degree 2 tree. God bilde som viser alle elementene i Tree.<br>
+<img alt="Pasted image 20251013103115.png" src="03-attachment-folder/pasted-image-20251013103115.png" target="_self" style="width: 500px; max-width: 100%;">]]></description><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/forelesninger/20251013-forelesning-trees.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Forelesninger/20251013 - Forelesning - Trees.md</guid><pubDate>Mon, 13 Oct 2025 00:00:00 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Introduction to Tree]]></title><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf&apos;s/finished/introduction-to-tree.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/PDF&apos;s/Finished/Introduction to Tree.pdf</guid><pubDate>Mon, 13 Oct 2025 08:16:16 GMT</pubDate></item><item><title><![CDATA[20250930 - Forelesning]]></title><description><![CDATA[
+<a data-tooltip-position="top" aria-label="Effective Note-taking in class > Prepare before class" data-href="Effective Note-taking in class#Prepare before class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Before Class</a> Bring Food &amp; Drink - Why not both? Smoothie.
+Gjennomgå lesestoffet etter hoved ideer og konsepter.
+Sjekk læringsmålene oppmot lesestoffet og identifiser viktigste.
+Gjennomgå tidligere notater. Hva er formålet?
+Hva er målet?
+Skriv ned spørsmål? Oversikter kan gjerne bli spørsmål. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > During Class" data-href="Effective Note-taking in class#During Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">During Class</a> Focus on main points and concepts, fill in gaps later
+Remember to use internal links for keywords and names Sort later Write in bullets and phrases to make notes short and concise. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > What are main points" data-href="Effective Note-taking in class#What are main points" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Main points</a> <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > After Class" data-href="Effective Note-taking in class#After Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">After Class</a> Refine within 2 days, preferably same day
+Update status to Refined <br><a data-href="Introduction to Hashing.pdf#page=1" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-hashing.html#page=1" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Hashing.pdf &gt; page=1</a>]]></description><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/forelesninger/20250930-forelesning.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Forelesninger/20250930 - Forelesning.md</guid><pubDate>Tue, 30 Sep 2025 00:00:00 GMT</pubDate></item><item><title><![CDATA[Introduction to Hashing]]></title><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf&apos;s/finished/introduction-to-hashing.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/PDF&apos;s/Finished/Introduction to Hashing.pdf</guid><pubDate>Tue, 30 Sep 2025 08:33:36 GMT</pubDate></item><item><title><![CDATA[20250929 - Forelesning]]></title><description><![CDATA[
+<a data-tooltip-position="top" aria-label="Effective Note-taking in class > Prepare before class" data-href="Effective Note-taking in class#Prepare before class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Before Class</a> Bring Food &amp; Drink - Why not both? Smoothie.
+Gjennomgå lesestoffet etter hoved ideer og konsepter.
+Sjekk læringsmålene oppmot lesestoffet og identifiser viktigste.
+Gjennomgå tidligere notater. Hva er formålet?
+Hva er målet?
+Skriv ned spørsmål? Oversikter kan gjerne bli spørsmål. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > During Class" data-href="Effective Note-taking in class#During Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">During Class</a> Focus on main points and concepts, fill in gaps later
+Remember to use internal links for keywords and names Sort later Write in bullets and phrases to make notes short and concise. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > What are main points" data-href="Effective Note-taking in class#What are main points" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Main points</a> <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > After Class" data-href="Effective Note-taking in class#After Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">After Class</a> Refine within 2 days, preferably same day
+Update status to Refined <br><a data-href="Introduction to Sorting Algorithms.pdf#page=65" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-sorting-algorithms.html#page=65" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Sorting Algorithms.pdf &gt; page=65</a>def quicksort(arr, left, right): if left &lt; right: partition_pos = partition(arr, left, right) print(partition_pos) quicksort(arr, left,partition_pos-1 ) quicksort(arr, partition_pos+1, right ) def partition(arr, left, right): i = left j = right -1 pivot = arr[right] print(arr, " Pivot:", pivot) while i &lt; j: while i &lt; right and arr[i] &lt; pivot: i += 1 while j &gt; left and arr[j] &gt;= pivot: j -= 1 if i &lt; j: arr[i], arr[j] = arr[j], arr[i] if arr[i] &gt; pivot: arr[i], arr[right] = arr[right], arr[i] return i a = [-20, -16, 8, -3, 9, 14, 1, -8, 17, 5]
+quicksort(a, 0, len(a)-1)
+]]></description><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/forelesninger/20250929-forelesning.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Forelesninger/20250929 - Forelesning.md</guid><pubDate>Mon, 29 Sep 2025 00:00:00 GMT</pubDate></item><item><title><![CDATA[20250923 - Forelesning]]></title><description><![CDATA[
+<a data-tooltip-position="top" aria-label="Effective Note-taking in class > Prepare before class" data-href="Effective Note-taking in class#Prepare before class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Before Class</a> Bring Food &amp; Drink - Why not both? Smoothie.
+Gjennomgå lesestoffet etter hoved ideer og konsepter.
+Sjekk læringsmålene oppmot lesestoffet og identifiser viktigste.
+Gjennomgå tidligere notater. Hva er formålet?
+Hva er målet?
+Skriv ned spørsmål? Oversikter kan gjerne bli spørsmål. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > During Class" data-href="Effective Note-taking in class#During Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">During Class</a> Focus on main points and concepts, fill in gaps later
+Remember to use internal links for keywords and names Sort later Write in bullets and phrases to make notes short and concise. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > What are main points" data-href="Effective Note-taking in class#What are main points" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Main points</a> <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > After Class" data-href="Effective Note-taking in class#After Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">After Class</a> Refine within 2 days, preferably same day
+Update status to Refined <br><a data-href="Introduction to Sorting Algorithms.pdf#page=33" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-sorting-algorithms.html#page=33" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Sorting Algorithms.pdf &gt; page=33</a>It is the same as Insertion sort, but divides the array into gaps using a specific sequence - This is based on Knuth SequenceIterative Solutiondef shellSort(array, n): # Rearrange elements at each n/2, n/4, n/8, ... intervals interval = n // 2 while interval &gt; 0: print('interval', interval) for i in range(interval, n): temp = array[i] j = i while j &gt;= interval and array[j - interval] &gt; temp: array[j] = array[j - interval] j -= interval array[j] = temp print(array) interval //= 2 data = [20, 12, 65, 8, 10, 16, 43, 35, 23, 88, 2, 56, 41, 27, 67, 56]
+size = len(data)
+shellSort(data, size)
+print('Sorted Array in Ascending Order:')
+print(data)
+<br><a data-href="Introduction to Sorting Algorithms.pdf#page=43" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-sorting-algorithms.html#page=43" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Sorting Algorithms.pdf &gt; page=43</a>Iterative Solutiondef selectionSort(arr): # loop to iterate over the array elements for i in range(len(arr)): # set min_index equal to the first unsorted element min_index = i # iterate over unsorted sublist for j in range(i+1, len(arr)): #helps in finding the minimum element if arr[min_index] &gt; arr[j]: min_index = j # swapping the minimum element with the element at min_index to place it at its correct position arr[i], arr[min_index] = arr[min_index], arr[i] print(arr) arr = [7,5,4,2]
+print("Original array:", arr)
+selectionSort(arr)
+print("Sorted array:", arr)
+Recursive Solutiondef recursive_selection_sort(arr, n): # Base case: If there's only one element or the list is empty, it's already sorted if n &lt;= 1: return # Find the minimum element in the unsorted part of the list min_index = 0 for i in range(1, n): if arr[i] &lt; arr[min_index]: min_index = i # Swap the minimum element with the first element in the unsorted part arr[0], arr[min_index] = arr[min_index], arr[0] # Sort the remaining n-1 elements recursive_selection_sort(arr[1:], n - 1) arr = [7,5,4,2]
+print("Original array:", arr)
+recursive_selection_sort(arr, len(arr))
+print("Sorted array:", arr)
+<br><img alt="Pasted image 20250923112043.png" src="03-attachment-folder/pasted-image-20250923112043.png" target="_self" style="width: 300px; max-width: 100%;">
+Recursive Solutiondef mergeSort(array,p,r): if p&lt;r: q = (p+r)//2 # r is the point where the array is divided into two subarrays mergeSort(array,p,q) # Sort the two halves mergeSort(array,q+1,r) merge(array, p,q,r) def merge(array, p,q,r): # Create temp arrays L = array[p:q+1] R = array[q+1:r+1] i = j = 0 k = p # Until we reach either end of either L or R, pick larger among elements L and R and place them in the correct position at A[p..r] while i &lt; len(L) and j &lt; len(R): if L[i] &lt;= R[j]: array[k] = L[i] i += 1 else: array[k] = R[j] j += 1 k += 1 while i &lt; len(L): array[k] = L[i] i += 1 k += 1 while j &lt; len(R): array[k] = R[j] j += 1 k += 1 def printList(array): for i in range(len(array)): print(array[i], end=" ") print() # Driver program
+if __name__ == '__main__': array = [6, 5, 12, 10, 9, 1] mergeSort(array,0,len(array)-1) print("Sorted array is: ") printList(array)
+RunIterative SolutionRunRecursive SolutionRun]]></description><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/forelesninger/20250923-forelesning.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Forelesninger/20250923 - Forelesning.md</guid><pubDate>Tue, 23 Sep 2025 00:00:00 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[20250922 - Forelesning]]></title><description><![CDATA[
+<a data-tooltip-position="top" aria-label="Effective Note-taking in class > Prepare before class" data-href="Effective Note-taking in class#Prepare before class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Before Class</a> Bring Food &amp; Drink - Why not both? Smoothie.
+Gjennomgå lesestoffet etter hoved ideer og konsepter.
+Sjekk læringsmålene oppmot lesestoffet og identifiser viktigste.
+Gjennomgå tidligere notater. Hva er formålet?
+Hva er målet?
+Skriv ned spørsmål? Oversikter kan gjerne bli spørsmål. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > During Class" data-href="Effective Note-taking in class#During Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">During Class</a> Focus on main points and concepts, fill in gaps later
+Remember to use internal links for keywords and names Sort later Write in bullets and phrases to make notes short and concise. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > What are main points" data-href="Effective Note-taking in class#What are main points" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Main points</a> <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > After Class" data-href="Effective Note-taking in class#After Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">After Class</a> Refine within 2 days, preferably same day
+Update status to Refined <br><a data-href="Introduction to Sorting Algorithms.pdf#page=1" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-sorting-algorithms.html#page=1" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Sorting Algorithms.pdf &gt; page=1</a>Numerical or Lexographical<br>
+<a data-href="Introduction to Sorting Algorithms.pdf#page=6" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-sorting-algorithms.html#page=6" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Sorting Algorithms.pdf &gt; page=6</a><br><a data-href="Introduction to Sorting Algorithms.pdf#page=7" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-sorting-algorithms.html#page=7" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Sorting Algorithms.pdf &gt; page=7</a>
+Bubble Sort
+Selection Sort
+Insertion Sort
+Shell Sort
+Merge Sort
+Quick Sort
+Heap Sort
+<br><a data-href="Introduction to Sorting Algorithms.pdf#page=10" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-sorting-algorithms.html#page=10" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Sorting Algorithms.pdf &gt; page=10</a>
+Why Bubble? It is because the largest values bubble up to the "top" for each pass. Number of passes/Iterations is Iterative Solutiondef bubbleSort(arr): for i in range(len(arr) - 1): # loop over array elements for j in range(0, len(arr) - i - 1): # loop to compare array elements # compare two adjacent elements, # Last i elements are already in place, so we don't need to check them if arr[j] &gt; arr[j + 1]: # swap if elements are out-of-order temp = arr[j] arr[j] = arr[j + 1] arr[j + 1] = temp print('pass number', i, arr) arr = [9, 7, 8, 2]
+print("Original array:", arr)
+bubbleSort(arr)
+print("Sorted array:", arr)
+Recursive Solutiondef recursive_bubble_sort(arr, n): # Base case: If the list has only one element or is empty, it is already sorted. if n &lt;= 1: return # Traverse through all elements in the list for i in range(n - 1): # Swap if the element found is greater than the next element if arr[i] &gt; arr[i + 1]: arr[i], arr[i + 1] = arr[i + 1], arr[i] # Recursively call the function with a reduced size of the list recursive_bubble_sort(arr, n - 1) arr = [9, 7, 8, 2]
+print("Original array:", arr)
+recursive_bubble_sort(arr, 4)
+print("Sorted array:", arr)
+<br><a data-href="Introduction to Sorting Algorithms.pdf#page=22" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-sorting-algorithms.html#page=22" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Sorting Algorithms.pdf &gt; page=22</a>
+Take the element and move it backwards until the element is larger than the comparing element to the left. Iterative Solutiondef insertionSort(alist): for index in range(1, len(alist)): currentvalue = alist[index] position = index while position &gt; 0 and alist[position - 1] &gt; currentvalue: alist[position] = alist[position - 1] position = position - 1 alist[position] = currentvalue alist = [54, 26, 93, 17, 77, 31, 44, 55, 20]
+insertionSort(alist)
+print(alist)
+RunRecursive Solutiondef recInsertionSort(arr, n): # Base case: if the array has 1 element, it's already sorted if n &lt;= 1: return # Sort the first n-1 elements recInsertionSort(arr, n - 1) # Insert the nth element into the correct position in the sorted part currentvalue = arr[n - 1] position = n - 2 # Shift elements that are greater than currentvalue to the right while position &gt;= 0 and arr[position] &gt; currentvalue: arr[position + 1] = arr[position] position = position - 1 # Place currentvalue in its correct position arr[position + 1] = currentvalue # Test the recursive insertion sort
+alist = [54, 26, 93, 17, 77, 31, 44, 55, 20]
+recInsertionSort(alist, len(alist))
+print(alist)
+RunIterative SolutionRunRecursive SolutionRun]]></description><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/forelesninger/20250922-forelesning.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Forelesninger/20250922 - Forelesning.md</guid><pubDate>Mon, 22 Sep 2025 00:00:00 GMT</pubDate></item><item><title><![CDATA[20250916 - Forelesning]]></title><description><![CDATA[
+<a data-tooltip-position="top" aria-label="Effective Note-taking in class > Prepare before class" data-href="Effective Note-taking in class#Prepare before class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Before Class</a> Bring Food &amp; Drink - Why not both? Smoothie.
+Gjennomgå lesestoffet etter hoved ideer og konsepter.
+Sjekk læringsmålene oppmot lesestoffet og identifiser viktigste.
+Gjennomgå tidligere notater. Hva er formålet?
+Hva er målet?
+Skriv ned spørsmål? Oversikter kan gjerne bli spørsmål. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > During Class" data-href="Effective Note-taking in class#During Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">During Class</a> Focus on main points and concepts, fill in gaps later
+Remember to use internal links for keywords and names Sort later Write in bullets and phrases to make notes short and concise. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > What are main points" data-href="Effective Note-taking in class#What are main points" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Main points</a> <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > After Class" data-href="Effective Note-taking in class#After Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">After Class</a> Refine within 2 days, preferably same day
+Update status to Refined <br><a data-href="Introduction to Recursion.pdf#page=18" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-recursion.html#page=18" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Recursion.pdf &gt; page=18</a>def anagrams(s): if s == "": return [s] else: ans = [] for w in anagrams(s[1:]): for pos in range(len(w)+1): ans.append(w[:pos]+s[0]+w[pos:]) return ans &gt;&gt;anagrams('DAT') ['DAT', 'ADT', 'ATD', 'DTA', 'TDA', 'TAD']
+<br><a data-href="Introduction to Recursion.pdf#page=21" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-recursion.html#page=21" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Recursion.pdf &gt; page=21</a>def hanoi(n,a,b,c): # n is the size of the tower (integer) if n ==1: print("move disk", n, "from", a , "to", c) else: hanoi(n-1, a,c,b) print("move disk", n, "from", a , "to", c) hanoi(n-1, b,a,c) hanoi(3,'a','b','c')
+Minimum steps formula: <br><a data-href="Introduction to Recursion.pdf#page=26" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-recursion.html#page=26" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Recursion.pdf &gt; page=26</a>See the book for how to use it. <br><a data-href="Introduction to Sorting Algorithms.pdf#page=1" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-sorting-algorithms.html#page=1" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Sorting Algorithms.pdf &gt; page=1</a>]]></description><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/forelesninger/20250916-forelesning.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Forelesninger/20250916 - Forelesning.md</guid><pubDate>Tue, 16 Sep 2025 00:00:00 GMT</pubDate></item><item><title><![CDATA[Introduction to Sorting Algorithms]]></title><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf&apos;s/finished/introduction-to-sorting-algorithms.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/PDF&apos;s/Finished/Introduction to Sorting Algorithms.pdf</guid><pubDate>Tue, 16 Sep 2025 08:12:38 GMT</pubDate></item><item><title><![CDATA[20250915 - Forelesning]]></title><description><![CDATA[
+<a data-tooltip-position="top" aria-label="Effective Note-taking in class > Prepare before class" data-href="Effective Note-taking in class#Prepare before class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Before Class</a> Bring Food &amp; Drink - Why not both? Smoothie.
+Gjennomgå lesestoffet etter hoved ideer og konsepter.
+Sjekk læringsmålene oppmot lesestoffet og identifiser viktigste.
+Gjennomgå tidligere notater. Hva er formålet?
+Hva er målet?
+Skriv ned spørsmål? Oversikter kan gjerne bli spørsmål. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > During Class" data-href="Effective Note-taking in class#During Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">During Class</a> Focus on main points and concepts, fill in gaps later
+Remember to use internal links for keywords and names Sort later Write in bullets and phrases to make notes short and concise. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > What are main points" data-href="Effective Note-taking in class#What are main points" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Main points</a> <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > After Class" data-href="Effective Note-taking in class#After Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">After Class</a> Refine within 2 days, preferably same day
+Update status to Refined <br>PDF: <a data-href="Introduction to searching.pdf" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-searching.html" class="internal-link" target="_self" rel="noopener nofollow">Introduction to searching.pdf</a><br><a data-href="Introduction to searching.pdf#page=5" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-searching.html#page=5" class="internal-link" target="_self" rel="noopener nofollow">Introduction to searching.pdf &gt; page=5</a>
+Sequentially check each element in the data structure until the desired element is found or the list ends.<br><a data-href="Introduction to searching.pdf#page=9" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-searching.html#page=9" class="internal-link" target="_self" rel="noopener nofollow">Introduction to searching.pdf &gt; page=9</a>
+Binary search is an efficient algorithm for finding an item from a sorted list of items by repeatedly dividing the search interval in half. def binary_search_iterative(arr, target): low = 0 high = len(arr) - 1 while low &lt;= high: mid = (low + high) // 2 if arr[mid] == target: return mid elif arr[mid] &lt; target: low = mid + 1 else: high = mid - 1 return -1 # Return -1 if the target is not found arr = [2,3,4,10,40]
+x = 10
+result = binary_search_iterative(arr,x)
+print(result)
+def binary_search_recursive(arr, target, low , high): if low &lt;= high: mid = (low + high) // 2 if arr[mid] == target: return mid elif arr[mid] &lt; target: low = mid + 1 return binary_search_recursive(arr, x, low, high) else: high = mid - 1 return binary_search_recursive(arr, x, low, high) return -1 # Return -1 if the target is not found arr = [2,3,4,10,40]
+x = 10
+result = binary_search_recursive(arr,x, 0 , len(arr)-1)
+print(result)
+Problem:
+Finding the Minimum Capacity of a Ship to transport Packages Within D number of DaysYou are tasked with transporting packages from one port to another. You are given an array weights[] where each element represents the weight of a package.There are n packages, and you want to ship all of them within D days. The ship has a weight capacity, and you want to minimize this capacity while ensuring that all packages are shipped within D days. The ship can only carry packages consecutively from the array on each day.The goal is to find the minimum capacity of the ship that will allow you to ship all packages within D days.Problem Setup:
+• &nbsp; You have an array weights where weights[i] represents the weight of the i-th package.
+• &nbsp; You want to find the smallest ship capacity such that all packages can be shipped within D days.
+Solution Using Binary Search:
+To minimize the capacity of the ship, we can use binary search on the possible ship capacities.
+The key observation here is:
+• &nbsp; The minimum capacity must be at least the weight of the heaviest package (otherwise, the ship can't carry that package).
+• &nbsp; The maximum capacity would be the sum of all the package weights (this is the case where you carry all the packages in one trip).
+We can then perform a binary search over this range to find the minimum ship capacity that allows shipping within D days. def can_ship_within_days(weights, D, capacity): days = 1 cargo_weight = 0 ship = [] for weight in weights: #print(weight) if cargo_weight + weight &lt; capacity: ship.append(weight) cargo_weight += weight elif cargo_weight + weight &gt; capacity: print("Start a new day") days += 1 cargo_weight = 0 ship =[] ship.append(weight) cargo_weight += weight print(ship, "sum of weights is: ", cargo_weight) if days &gt; D: return False return True def ship_within_days(weights, D): low = max(weights) # The minimum possible capacity (heaviest package) high = sum(weights) # The maximum possible capacity (all packages in one trip) while low &lt; high: mid = (low + high) // 2 print("min capacity",low, " max capacity", high," min capacity that allows shipping within D dayas", mid) if can_ship_within_days(weights, D, mid): high = mid # Try to find a smaller capacity print("/////////////Try to find a smaller capacity") else: low = mid + 1 # Increase the capacity print("/////////////Increase the capacity") return low weights = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+D = 5
+min_capacity = ship_within_days(weights, D)
+print(min_capacity) # Output: 15
+RunOutput<br>
+<img alt="Pasted image 20250915104110.png" src="03-attachment-folder/pasted-image-20250915104110.png" target="_self" style="width: 800px; max-width: 100%;"><br><a data-href="Introduction to Recursion.pdf" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-recursion.html" class="internal-link" target="_self" rel="noopener nofollow">Introduction to Recursion.pdf</a>
+Recursion is a fundamental concept in computer science that allows a function to call itself to solve a problem.
+It’s a powerful tool for breaking down complex problems into simpler, more manageable parts. In programming, this means that a function can call itself to solve smaller instances of the same problem.
+Sum Exampledef listsum(numList): if len(numList) == 0: return 0 else: return numList[0] + listsum(numList[1:]) print(listsum([1, 3, 5, 7, 9]))
+RunFactorial Exampledef fact(n): if n == 0 or n == 1: return 1 else: return n * fact(n-1)
+RunExponential exampledef exp(x, n): if n == 0: return 1 else: return x * exp(x, n-1)
+RunFibonacidef fibonacci(n): if n in {0, 1}: # Base case return n return fibonacci(n-2)+fibonacci(n -1)
+print(fibonacci(10))
+Run]]></description><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/forelesninger/20250915-forelesning.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Forelesninger/20250915 - Forelesning.md</guid><pubDate>Mon, 15 Sep 2025 00:00:00 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Introduction to Recursion]]></title><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf&apos;s/finished/introduction-to-recursion.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/PDF&apos;s/Finished/Introduction to Recursion.pdf</guid><pubDate>Mon, 15 Sep 2025 09:12:27 GMT</pubDate></item><item><title><![CDATA[Introduction to searching]]></title><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf&apos;s/finished/introduction-to-searching.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/PDF&apos;s/Finished/Introduction to searching.pdf</guid><pubDate>Mon, 15 Sep 2025 08:20:55 GMT</pubDate></item><item><title><![CDATA[20250909 - Forelesning]]></title><description><![CDATA[
+<a data-tooltip-position="top" aria-label="Effective Note-taking in class > Prepare before class" data-href="Effective Note-taking in class#Prepare before class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Before Class</a> Bring Food &amp; Drink - Why not both? Smoothie.
+Gjennomgå lesestoffet etter hoved ideer og konsepter.
+Sjekk læringsmålene oppmot lesestoffet og identifiser viktigste.
+Gjennomgå tidligere notater. Hva er formålet?
+Hva er målet?
+Skriv ned spørsmål? Oversikter kan gjerne bli spørsmål. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > During Class" data-href="Effective Note-taking in class#During Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">During Class</a> Focus on main points and concepts, fill in gaps later
+Remember to use internal links for keywords and names Sort later Write in bullets and phrases to make notes short and concise. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > What are main points" data-href="Effective Note-taking in class#What are main points" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Main points</a> <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > After Class" data-href="Effective Note-taking in class#After Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">After Class</a> Refine within 2 days, preferably same day
+Update status to Refined <br><a data-href="introduction to stacks and queues.pdf#page=33" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-stacks-and-queues.html#page=33" class="internal-link" target="_self" rel="noopener nofollow">introduction to stacks and queues.pdf &gt; page=33</a>]]></description><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/forelesninger/20250909-forelesning.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Forelesninger/20250909 - Forelesning.md</guid><pubDate>Tue, 09 Sep 2025 00:00:00 GMT</pubDate></item><item><title><![CDATA[20250908 - Forelesning]]></title><description><![CDATA[
+<a data-tooltip-position="top" aria-label="Effective Note-taking in class > Prepare before class" data-href="Effective Note-taking in class#Prepare before class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Before Class</a> Bring Food &amp; Drink - Why not both? Smoothie.
+Gjennomgå lesestoffet etter hoved ideer og konsepter.
+Sjekk læringsmålene oppmot lesestoffet og identifiser viktigste.
+Gjennomgå tidligere notater. Hva er formålet?
+Hva er målet?
+Skriv ned spørsmål? Oversikter kan gjerne bli spørsmål. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > During Class" data-href="Effective Note-taking in class#During Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">During Class</a> Focus on main points and concepts, fill in gaps later
+Remember to use internal links for keywords and names Sort later Write in bullets and phrases to make notes short and concise. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > What are main points" data-href="Effective Note-taking in class#What are main points" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Main points</a> <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > After Class" data-href="Effective Note-taking in class#After Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">After Class</a> Refine within 2 days, preferably same day
+Update status to Refined <br><a data-href="introduction to stacks and queues.pdf" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-stacks-and-queues.html" class="internal-link" target="_self" rel="noopener nofollow">introduction to stacks and queues.pdf</a><br><a data-href="introduction to stacks and queues.pdf#page=5" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-stacks-and-queues.html#page=5" class="internal-link" target="_self" rel="noopener nofollow">introduction to stacks and queues.pdf &gt; page=5</a><br><a data-href="introduction to stacks and queues.pdf#page=22" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-stacks-and-queues.html#page=22" class="internal-link" target="_self" rel="noopener nofollow">introduction to stacks and queues.pdf &gt; page=22</a> ]]></description><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/forelesninger/20250908-forelesning.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Forelesninger/20250908 - Forelesning.md</guid><pubDate>Mon, 08 Sep 2025 00:00:00 GMT</pubDate></item><item><title><![CDATA[introduction to stacks and queues]]></title><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf&apos;s/finished/introduction-to-stacks-and-queues.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/PDF&apos;s/Finished/introduction to stacks and queues.pdf</guid><pubDate>Mon, 08 Sep 2025 08:20:16 GMT</pubDate></item><item><title><![CDATA[20250901 - Forelesning]]></title><description><![CDATA[
+<a data-tooltip-position="top" aria-label="Effective Note-taking in class > Prepare before class" data-href="Effective Note-taking in class#Prepare before class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Before Class</a> Bring Food &amp; Drink - Why not both? Smoothie.
+Gjennomgå lesestoffet etter hoved ideer og konsepter.
+Sjekk læringsmålene oppmot lesestoffet og identifiser viktigste.
+Gjennomgå tidligere notater. Hva er formålet? Hva er målet?
+Skriv ned spørsmål? Oversikter kan gjerne bli spørsmål. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > During Class" data-href="Effective Note-taking in class#During Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">During Class</a> Focus on main points and concepts, fill in gaps later
+Remember to use internal links for keywords and names Sort later Write in bullets and phrases to make notes short and concise. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > What are main points" data-href="Effective Note-taking in class#What are main points" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Main points</a> <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > After Class" data-href="Effective Note-taking in class#After Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">After Class</a> Refine within 2 days, preferably same day
+Update status to Refined This is a dynamic listThe difference between this and an array is that arrays are stored sequentially in memory while linked lists contain the memory address to the next element and therefore can store the data anywhere in memory and not sequentially. Node Contains Data - The value of the element
+Pointer - Memory address pointer. Head
+Tail The address here points to NULL, which informs that this is the end. In Linked lists you cannot jump to any location. You will have to run from the Head to wherever you want to stop. <br><a data-tooltip-position="top" aria-label="Introduction to Linked lists.pdf > page=10" data-href="Introduction to Linked lists.pdf#page=10" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-linked-lists.html#page=10" class="internal-link" target="_self" rel="noopener nofollow">singular</a> <br><a data-tooltip-position="top" aria-label="Introduction to Linked lists.pdf > page=11" data-href="Introduction to Linked lists.pdf#page=11" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-linked-lists.html#page=11" class="internal-link" target="_self" rel="noopener nofollow">doubly</a> <br><a data-tooltip-position="top" aria-label="Introduction to Linked lists.pdf > page=12" data-href="Introduction to Linked lists.pdf#page=12" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-linked-lists.html#page=12" class="internal-link" target="_self" rel="noopener nofollow">circular</a> The circular one does not have a tail. <br><a data-tooltip-position="top" aria-label="Introduction to Linked lists.pdf > page=14" data-href="Introduction to Linked lists.pdf#page=14" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-linked-lists.html#page=14" class="internal-link" target="_self" rel="noopener nofollow">traversal</a>
+<br><a data-tooltip-position="top" aria-label="Introduction to Linked lists.pdf > page=15" data-href="Introduction to Linked lists.pdf#page=15" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-linked-lists.html#page=15" class="internal-link" target="_self" rel="noopener nofollow">Insertion</a>
+<br><a data-tooltip-position="top" aria-label="Introduction to Linked lists.pdf > page=16" data-href="Introduction to Linked lists.pdf#page=16" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-linked-lists.html#page=16" class="internal-link" target="_self" rel="noopener nofollow">deletion</a>
+<br><a data-tooltip-position="top" aria-label="Introduction to Linked lists.pdf > page=17" data-href="Introduction to Linked lists.pdf#page=17" href="uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf's/finished/introduction-to-linked-lists.html#page=17" class="internal-link" target="_self" rel="noopener nofollow">Searching</a>
+# Node Class
+class Node:
+# initiate the node object def __init__(self, data): self.data = data # assign data self.next = None # initialization next as null # Linked list Class
+class LinkedList: def __init__(self): self.head = None def printElements(self): # Prints all elements sequentially in the linked list temp = self.head while(temp!= None): print(temp.data) # Print the value temp = temp.next # Update the pointer to the next node. def add_to_the_beginning(self): new_node = Node(40) new_node.next = self.head self.head = new_node def remove_from_the_beginning(self): self.head = self.head.next def add_to_the_end(self,value): new_node = Node(Value) temp = self.head while(temp != None): temp = temp.next temp.next = new_node new_node.next = None def remove_from_the_end(self): temp = self.head while(temp.next.next != None): # Points to the value two steps ahead. temp = temp.next temp.next = None MyList = LinkedList() # Create an empty linked list
+first = Node(10) # add first node
+MyList.head = first # Linking wit the head node second = Node(20) # Add second node
+first.next = second third = Node (30) # add third node
+second.next = third Mylist.printElements() MyList.add_to_the_beginning(40)
+MyList.printElements() MyList.remove_from_the_beginning()
+]]></description><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/forelesninger/20250901-forelesning.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Forelesninger/20250901 - Forelesning.md</guid><pubDate>Mon, 01 Sep 2025 00:00:00 GMT</pubDate></item><item><title><![CDATA[Introduction to Linked lists]]></title><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf&apos;s/finished/introduction-to-linked-lists.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/PDF&apos;s/Finished/Introduction to Linked lists.pdf</guid><pubDate>Mon, 01 Sep 2025 08:44:43 GMT</pubDate></item><item><title><![CDATA[Introduction to Arrays and Lists]]></title><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf&apos;s/finished/introduction-to-arrays-and-lists.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/PDF&apos;s/Finished/Introduction to Arrays and Lists.pdf</guid><pubDate>Tue, 26 Aug 2025 09:33:21 GMT</pubDate></item><item><title><![CDATA[20250826 - Forelesning]]></title><description><![CDATA[
+<a data-tooltip-position="top" aria-label="Effective Note-taking in class > Prepare before class" data-href="Effective Note-taking in class#Prepare before class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Before Class</a> Bring Food &amp; Drink - Why not both? Smoothie.
+Gjennomgå lesestoffet etter hoved ideer og konsepter.
+Sjekk læringsmålene oppmot lesestoffet og identifiser viktigste.
+Gjennomgå tidligere notater. Hva er formålet?
+Hva er målet?
+Skriv ned spørsmål? Oversikter kan gjerne bli spørsmål. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > During Class" data-href="Effective Note-taking in class#During Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">During Class</a> Focus on main points and concepts, fill in gaps later
+Remember to use internal links for keywords and names Sort later Write in bullets and phrases to make notes short and concise. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > What are main points" data-href="Effective Note-taking in class#What are main points" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Main points</a> <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > After Class" data-href="Effective Note-taking in class#After Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">After Class</a> Refine within 2 days, preferably same day
+Update status to Refined Lecturer will add a PDF to Canvas to calculate Big-O and Time-complexity Can contain multiple instances of the same type. Can be seen as containers that contain different elements of the same type. Fundamental for implementing other data structures such as stacks, queues, and matrices. Also used for search Uses numeric indexing
+elements are of same type
+Each element has its own index
+After creation, an array size is fixed size. import array as arr - Module
+import numpy as np. - Math package Can hold different datatypes in each index. Since lists hold multiple data types, the backend converts all number lists to floats (if at-least 1 is a float)
+If there is a mix of numbers and letters or or other combination of non-related types it will create this list as an object. append - O(1)
+insert - O(n)
+remove - O(n)
+pop - O(1)
+slice - O(n)
+reverse - O(n)
+sort - O(n log n)
+index - O(n)
+]]></description><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/forelesninger/20250826-forelesning.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Forelesninger/20250826 - Forelesning.md</guid><pubDate>Tue, 26 Aug 2025 00:00:00 GMT</pubDate></item><item><title><![CDATA[Time complexity extra]]></title><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/pdf&apos;s/finished/time-complexity-extra.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/PDF&apos;s/Finished/Time complexity extra.pdf</guid><pubDate>Tue, 26 Aug 2025 09:16:57 GMT</pubDate></item><item><title><![CDATA[Time complexity]]></title><description><![CDATA[Time complexity is a measure of the **amount of time** an algorithm takes to run as a function of the **size of its input (n)**. It describes how the runtime grows with increasing input, helping to evaluate the efficiency of algorithms.]]></description><link>07-stikkord-samling/dat200/time-complexity.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Time complexity.md</guid><pubDate>Tue, 26 Aug 2025 08:21:04 GMT</pubDate></item><item><title><![CDATA[Big-O Notation]]></title><description><![CDATA[Notation methods to show algorithms efficiency]]></description><link>07-stikkord-samling/dat200/big-o-notation.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Big-O Notation.md</guid><pubDate>Mon, 25 Aug 2025 13:24:06 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Asymptotic analysis]]></title><description><![CDATA[Asymptotic analysis is a method of describing the **efficiency** of algorithms in terms of **input size (n)** as it grows towards infinity. It focuses on the **growth rate** of an algorithm’s time or space complexity, ignoring constant factors and lower-order terms.]]></description><link>07-stikkord-samling/dat200/asymptotic-analysis.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Asymptotic analysis.md</guid><pubDate>Mon, 25 Aug 2025 13:07:13 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Binary search trees]]></title><description><![CDATA[A Binary Search Tree (BST) is a type of binary tree where each node has at most two children, and the left child contains values **less than** the parent node, while the right child contains values **greater than** the parent node. This property enables efficient searching, insertion, and deletion]]></description><link>07-stikkord-samling/dat200/binary-search-trees.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Binary search trees.md</guid><pubDate>Mon, 25 Aug 2025 12:58:00 GMT</pubDate></item><item><title><![CDATA[Linked Lists]]></title><description><![CDATA[A linked list is a linear data structure where elements (called nodes) are stored in separate objects, each containing a value and a reference (or pointer) to the next node in the sequence.]]></description><link>07-stikkord-samling/dat200/linked-lists.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Linked Lists.md</guid><pubDate>Mon, 25 Aug 2025 12:57:43 GMT</pubDate></item><item><title><![CDATA[Arrays]]></title><description><![CDATA[An array is a data structure that stores a fixed-size sequence of elements of the same type, arranged in contiguous memory locations. Each element can be accessed directly via its index.]]></description><link>07-stikkord-samling/dat200/arrays.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Arrays.md</guid><pubDate>Mon, 25 Aug 2025 12:57:36 GMT</pubDate></item><item><title><![CDATA[Hash functions]]></title><description><![CDATA[A hash function is a mathematical function that takes an input (or "key") and returns a fixed-size string or number, typically used as an index in a hash table. The output is called a **hash code** or **hash value**.]]></description><link>07-stikkord-samling/dat200/hash-functions.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Hash functions.md</guid><pubDate>Mon, 25 Aug 2025 12:54:51 GMT</pubDate></item><item><title><![CDATA[Chapter 3 - Basic Data structures]]></title><description><![CDATA[
+<a data-tooltip-position="top" aria-label="Effective Note-taking in class > Prepare before class" data-href="Effective Note-taking in class#Prepare before class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Before Class</a> Bring Food &amp; Drink - Why not both? Smoothie.
+Gjennomgå lesestoffet etter hoved ideer og konsepter.
+Sjekk læringsmålene oppmot lesestoffet og identifiser viktigste.
+Gjennomgå tidligere notater. Hva er formålet?
+Hva er målet?
+Skriv ned spørsmål? Oversikter kan gjerne bli spørsmål. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > During Class" data-href="Effective Note-taking in class#During Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">During Class</a> Focus on main points and concepts, fill in gaps later
+Remember to use internal links for keywords and names Sort later Write in bullets and phrases to make notes short and concise. <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > What are main points" data-href="Effective Note-taking in class#What are main points" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">Main points</a> <br><a data-tooltip-position="top" aria-label="Effective Note-taking in class > After Class" data-href="Effective Note-taking in class#After Class" href="01-structure-&amp;-workflow/note_taking/effective-note-taking-in-class.html" class="internal-link" target="_self" rel="noopener nofollow">After Class</a> Refine within 2 days, preferably same day
+Update status to Refined These are ordered data structures such as Stacks, Queues, deques and lists.<br><img alt="Pasted image 20250818134609.png" src="03-attachment-folder/pasted-image-20250818134609.png" target="_self" style="width: 300px; max-width: 100%;"> <img alt="Pasted image 20250818134638.png" src="03-attachment-folder/pasted-image-20250818134638.png" target="_self" style="width: 300px; max-width: 100%;">
+This is an ordered collection of items where the addition of new items and the removal of exisiting items always takes place at the same end. This ordering system is called LIFO - Last-in first-out. To take something out from the middle, one first has to take off the things on top. Stacks can be used to create the reverse order of things. Since the first item placed is at the bottom and the last item placed is on the top. When taking out the items agains they are taken out at the reverse order they were taken in. <br><img alt="Pasted image 20250818134824.png" src="03-attachment-folder/pasted-image-20250818134824.png" target="_self" style="width: 400px; max-width: 100%;">
+stack() Creates a new stack that is empty. It needs no parameters and returns an empty stack. push(item) Adds a new item top the top of the stack. It needs the item and returns nothing. pop() Removes the top item from the stack. It needs no paramters and returns the item. The stack is modified. peek() returns the top item from the stack, but does not remove it. It needs no paramters. The stack is not modified. is_empty() tests to see whether the stack is empty. It needs no parameters and returns a boolean value
+size() returns the number of items on the stack. IT needs no parameters and returns an integer. To implement an abstract data type such as stack the choice should be to use classes. class Stack: def __init__(self): self.items = [] def is_empty(self): return self.items == [] def push(self, item): self.items.append(item) def pop(self): return self.items.pop() def peek(self): return self.items[len(self.items)-1] def size(self): return len(self.items) # Now we need to create a Stack object s = Stack() #Object is created
+print(s.is_empty()) # Checks if stack is empty and prints True or False
+s.push(4) # 4 is added to the stack. s.push("dog") # dog is added to the top of the stack with 4 beneath it. print(s.peek()) # Look at the top item of the stack and print it value then put it back
+s.push(True) # Add True value to the stack
+print(s.size()) # Checks the size of the stack which is 3 here.
+print(s.is_empty()) # Returns false as it is not empty
+s.push(8.4) # Add the float value 8.4 to the top of the stack
+print(s.pop()) # Take and remove the top value of the stack and print it which prints 8.4
+print(s.pop()) # Take and remove the top value of the stack and print it which prints True
+print(s.size()) # Checks the size of the stack and prints it which is 2.
+<br><img alt="Pasted image 20250818143302.png" src="03-attachment-folder/pasted-image-20250818143302.png" target="_self" style="width: 400px; max-width: 100%;">import Stack # As previously defined
+def divide_by_2(dec_number): rem_stack = Stack() while dec_number &gt; 0: rem = dec_number % 2 rem_stack.push(rem) dec_number = dec_number // 2 bin_string = "" 12 while not rem_stack.is_empty(): bin_string = bin_string + str(rem_stack.pop()) return bin_string
+print(divide_by_2(42))
+RunTo find the binary number of 233 you divide by 2 and add the remainder which is 1 or 0 and add it to the stack.
+Once complete, take out each number and place them in a row from left to right.
+Therefore in binary. A queue is an ordered collection of items where the addition of new items happens at one end, called the 'rear' and the removal of existing items occurs at the other end, commonly called the 'front'. As an element enters the queue it starts at the rear and makes its way toward the front, waiting until that time when it is the next element to be removed.<br>
+<img alt="Pasted image 20250819101825.png" src="03-attachment-folder/pasted-image-20250819101825.png" target="_self" style="width: 400px; max-width: 100%;"><br><img alt="Pasted image 20250819102130.png" src="03-attachment-folder/pasted-image-20250819102130.png" target="_self" style="width: 400px; max-width: 100%;">
+Queue() - Creates a new queue that is empty. It needs no parameters and returns an empty queue
+enqueue(item) - Adds a new item to the rear of the queue. It needs the item and returns nothing. dequeue() - Removes the front item from the queue. It needs no parameters and returns the item. The queue is modified. is_empty() - tests to see whether the queue is empty. It needs no parameters and returns a boolean value. size() - returns the number of items in the queue. It needs no paramterrs and returns an integer. To implement an abstract data type such as stack the choice should be to use classes. class Queue: def __init__(self): self.items = [] def is_empty(self): return self.items == [] def enqueue(self, item): self.items.insert(0,item) def dequeue(self): return self.items.pop() def size(self): return len(self.items)
+Run]]></description><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/forelesninger/book-reading/chapter-3-basic-data-structures.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Forelesninger/Book Reading/Chapter 3 - Basic Data structures.md</guid><pubDate>Mon, 18 Aug 2025 00:00:00 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Pensum_bok_PSADS]]></title><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/forelesninger/book-reading/pensum_bok_psads.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Forelesninger/Book Reading/Pensum_bok_PSADS.pdf</guid><pubDate>Mon, 18 Aug 2025 10:02:00 GMT</pubDate></item><item><title><![CDATA[addresserom]]></title><description><![CDATA[Det logiske området et program får tilgang til i minnet.]]></description><link>07-stikkord-samling/dat200/addresserom.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/addresserom.md</guid><pubDate>Thu, 07 Aug 2025 08:15:10 GMT</pubDate></item><item><title><![CDATA[abstrakte datatyper]]></title><description><![CDATA[Datastrukturer definert av operasjoner, ikke implementasjon.]]></description><link>07-stikkord-samling/dat200/abstrakte-datatyper.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/abstrakte datatyper.md</guid><pubDate>Thu, 07 Aug 2025 08:15:10 GMT</pubDate></item><item><title><![CDATA[C]]></title><description><![CDATA[Programmeringsspråk brukt til lavnivå systemprogrammering.]]></description><link>07-stikkord-samling/dat200/c.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/C.md</guid><pubDate>Thu, 07 Aug 2025 08:15:10 GMT</pubDate></item><item><title><![CDATA[Algorithm Analysis]]></title><description><![CDATA[Analyse av algoritmers tids- og plassbruk.]]></description><link>07-stikkord-samling/dat200/algorithm-analysis.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Algorithm Analysis.md</guid><pubDate>Thu, 07 Aug 2025 08:15:10 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[00 - Dataview - Forelesninger - Algoritmer og datastrukturer (DAT200)]]></title><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/forelesninger/00-dataview-forelesninger-algoritmer-og-datastrukturer-(dat200).html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/Forelesninger/00 - Dataview - Forelesninger - Algoritmer og datastrukturer (DAT200).md</guid><pubDate>Tue, 05 Aug 2025 13:13:51 GMT</pubDate></item><item><title><![CDATA[DAT200 - Stikkordliste]]></title><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/dat200-stikkordliste.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/DAT200 - Stikkordliste.md</guid><pubDate>Tue, 05 Aug 2025 12:47:40 GMT</pubDate></item><item><title><![CDATA[køer]]></title><description><![CDATA[FIFO-datastruktur (først inn, først ut).]]></description><link>07-stikkord-samling/dat200/køer.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/køer.md</guid><pubDate>Thu, 31 Jul 2025 14:40:52 GMT</pubDate></item></channel></rss>
