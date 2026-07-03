@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[My_Vault]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>site-lib/media/favicon.png</url><title>My_Vault</title><link></link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 03 Jul 2026 06:24:41 GMT</lastBuildDate><atom:link href="site-lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 03 Jul 2026 06:23:50 GMT</pubDate><ttl>60</ttl><dc:creator></dc:creator><item><title><![CDATA[Studentassistent Canvas]]></title><description><![CDATA[This is Tom Eriks, your studentassistant, notes from when I took DAT200 and DAT320 classes. You have my permission to use this page as an additional learning resource. Please follow the links to the specific course notes. If you wish to provide feedback, suggestions for improvement or find faults please send me an email at <a data-tooltip-position="top" aria-label="mailto:277230@uis.no" rel="noopener nofollow" class="external-link is-unresolved" href="mailto:277230@uis.no" target="_self">277230@uis.no</a>.]]></description><link>studentassistent-canvas.html</link><guid isPermaLink="false">Studentassistent Canvas.canvas</guid><pubDate>Fri, 03 Jul 2026 06:22:05 GMT</pubDate></item><item><title><![CDATA[DAT320 Canvas]]></title><description><![CDATA[Store/retrieve
+when Context switchingSchedulingConcurrencyLocksSchedulingPhysical MemoryCPUOSI/OProcess Address SpacePCBMulti-CPUFairUnfairUnfairFairKernel SpaceAddressingOtherNaive Lock<a data-href="Input-Output (IO)" href="07-stikkord-samling/dat320/input-output-(io).html" class="internal-link" target="_self" rel="noopener nofollow">Input-Output (IO)</a><br><a data-href="IO communication" href="07-stikkord-samling/dat320/io-communication.html" class="internal-link" target="_self" rel="noopener nofollow">IO communication</a><br><a data-href="File System" href="07-stikkord-samling/dat320/file-system.html" class="internal-link" target="_self" rel="noopener nofollow">File System</a><br><a data-href="Disable Interrupt" href="07-stikkord-samling/dat320/disable-interrupt.html" class="internal-link" target="_self" rel="noopener nofollow">Disable Interrupt</a><br><a data-href="Test-and-Set" href="07-stikkord-samling/dat320/test-and-set.html" class="internal-link" target="_self" rel="noopener nofollow">Test-and-Set</a> - Spins<br><a data-href="Compare-and-Swap" href="07-stikkord-samling/dat320/compare-and-swap.html" class="internal-link" target="_self" rel="noopener nofollow">Compare-and-Swap</a> - Spins<br><a data-href="Queue-Based Lock" href="07-stikkord-samling/dat320/queue-based-lock.html" class="internal-link" target="_self" rel="noopener nofollow">Queue-Based Lock</a><br><a data-href="Load and Store" href="07-stikkord-samling/dat320/load-and-store.html" class="internal-link" target="_self" rel="noopener nofollow">Load and Store</a><br><a data-href="Fetch-and-Add" href="07-stikkord-samling/dat320/fetch-and-add.html" class="internal-link" target="_self" rel="noopener nofollow">Fetch-and-Add</a> - Spins<br><a data-href="Semaphore" href="07-stikkord-samling/dat320/semaphore.html" class="internal-link" target="_self" rel="noopener nofollow">Semaphore</a><br><a data-href="Condition Variable" href="07-stikkord-samling/dat320/condition-variable.html" class="internal-link" target="_self" rel="noopener nofollow">Condition Variable</a><br><a data-href="Dead-Lock" href="07-stikkord-samling/dat320/dead-lock.html" class="internal-link" target="_self" rel="noopener nofollow">Dead-Lock</a><br><a data-href="Concurrency" href="07-stikkord-samling/dat320/concurrency.html" class="internal-link" target="_self" rel="noopener nofollow">Concurrency</a><br><a data-href="Atomic Operations" href="07-stikkord-samling/dat320/atomic-operations.html" class="internal-link" target="_self" rel="noopener nofollow">Atomic Operations</a><br><a data-href="Operating System (OS)" href="07-stikkord-samling/dat320/operating-system-(os).html" class="internal-link" target="_self" rel="noopener nofollow">Operating System (OS)</a><br><a data-href="CPU Cycle" href="07-stikkord-samling/dat320/cpu-cycle.html" class="internal-link" target="_self" rel="noopener nofollow">CPU Cycle</a><br><a data-tooltip-position="top" aria-label="Accumulator" data-href="Accumulator" href="07-stikkord-samling/dat320/accumulator.html" class="internal-link" target="_self" rel="noopener nofollow">ACC</a><br><a data-href="Yield-Based Lock" href="07-stikkord-samling/dat320/yield-based-lock.html" class="internal-link" target="_self" rel="noopener nofollow">Yield-Based Lock</a>
+Remove spinning by yielding the CPU<br><a data-tooltip-position="top" aria-label="Arithmetic Logic Unit (ALU)" data-href="Arithmetic Logic Unit (ALU)" href="07-stikkord-samling/dat320/arithmetic-logic-unit-(alu).html" class="internal-link" target="_self" rel="noopener nofollow">ALU</a><br><a data-href="MMU" href="07-stikkord-samling/dat320/mmu.html" class="internal-link" target="_self" rel="noopener nofollow">MMU</a><br><a data-href="TLB" href="07-stikkord-samling/dat320/tlb.html" class="internal-link" target="_self" rel="noopener nofollow">TLB</a><br><a data-tooltip-position="top" aria-label="Program Counter (PC)" data-href="Program Counter (PC)" href="07-stikkord-samling/dat320/program-counter-(pc).html" class="internal-link" target="_self" rel="noopener nofollow">PC</a><br><a data-href="Addressing" href="07-stikkord-samling/dat320/addressing.html" class="internal-link" target="_self" rel="noopener nofollow">Addressing</a><br><a data-href="Paging" href="07-stikkord-samling/dat320/paging.html" class="internal-link" target="_self" rel="noopener nofollow">Paging</a><br><a data-href="Scheduling" href="07-stikkord-samling/dat320/scheduling.html" class="internal-link" target="_self" rel="noopener nofollow">Scheduling</a><br><a data-href="Free Space Management" href="07-stikkord-samling/dat320/free-space-management.html" class="internal-link" target="_self" rel="noopener nofollow">Free Space Management</a><br><a data-href="Stack" href="07-stikkord-samling/dat320/stack.html" class="internal-link" target="_self" rel="noopener nofollow">Stack</a>Free Space<br><a data-tooltip-position="top" aria-label="Process Control Block (PCB)" data-href="Process Control Block (PCB)" href="07-stikkord-samling/dat320/process-control-block-(pcb).html" class="internal-link" target="_self" rel="noopener nofollow">PCB</a><br><a data-href="Code segment" href="07-stikkord-samling/dat320/code-segment.html" class="internal-link" target="_self" rel="noopener nofollow">Code segment</a><br><a data-href="Heap" href="07-stikkord-samling/dat320/heap.html" class="internal-link" target="_self" rel="noopener nofollow">Heap</a><br><a data-href="Shortest Job First (SJF)" href="07-stikkord-samling/dat320/shortest-job-first-(sjf).html" class="internal-link" target="_self" rel="noopener nofollow">Shortest Job First (SJF)</a><br><a data-href="Work Stealing" href="07-stikkord-samling/dat320/work-stealing.html" class="internal-link" target="_self" rel="noopener nofollow">Work Stealing</a><br><a data-href="Round Robin (RR)" href="07-stikkord-samling/dat320/round-robin-(rr).html" class="internal-link" target="_self" rel="noopener nofollow">Round Robin (RR)</a><br><a data-href="Stride Scheduling" href="07-stikkord-samling/dat320/stride-scheduling.html" class="internal-link" target="_self" rel="noopener nofollow">Stride Scheduling</a><br><a data-href="Multi-Level Feedback Queue (MLFQ)" href="07-stikkord-samling/dat320/multi-level-feedback-queue-(mlfq).html" class="internal-link" target="_self" rel="noopener nofollow">Multi-Level Feedback Queue (MLFQ)</a><br><a data-href="First In, First Out (FIFO)" href="07-stikkord-samling/dat320/first-in,-first-out-(fifo).html" class="internal-link" target="_self" rel="noopener nofollow">First In, First Out (FIFO)</a><br><a data-href="Lottery Scheduling" href="07-stikkord-samling/dat320/lottery-scheduling.html" class="internal-link" target="_self" rel="noopener nofollow">Lottery Scheduling</a><br><a data-href="Shortest Time to Completion First (STCF)" href="07-stikkord-samling/dat320/shortest-time-to-completion-first-(stcf).html" class="internal-link" target="_self" rel="noopener nofollow">Shortest Time to Completion First (STCF)</a><br><a data-href="Cache Coherence &amp; Affinity" href="07-stikkord-samling/dat320/cache-coherence-&amp;-affinity.html" class="internal-link" target="_self" rel="noopener nofollow">Cache Coherence &amp; Affinity</a><br><a data-href="Multi-Queue Multi-CPU Scheduling (MQMS)" href="07-stikkord-samling/dat320/multi-queue-multi-cpu-scheduling-(mqms).html" class="internal-link" target="_self" rel="noopener nofollow">Multi-Queue Multi-CPU Scheduling (MQMS)</a><br><a data-href="Completely Fair Scheduler (CFS)" href="07-stikkord-samling/dat320/completely-fair-scheduler-(cfs).html" class="internal-link" target="_self" rel="noopener nofollow">Completely Fair Scheduler (CFS)</a><br><a data-href="Memory Management Info" href="07-stikkord-samling/dat320/memory-management-info.html" class="internal-link" target="_self" rel="noopener nofollow">Memory Management Info</a><br><a data-href="IO status" href="07-stikkord-samling/dat320/io-status.html" class="internal-link" target="_self" rel="noopener nofollow">IO status</a><br><a data-href="CPU Register Values" href="07-stikkord-samling/dat320/cpu-register-values.html" class="internal-link" target="_self" rel="noopener nofollow">CPU Register Values</a><br><a data-href="Process State" href="07-stikkord-samling/dat320/process-state.html" class="internal-link" target="_self" rel="noopener nofollow">Process State</a><br><a data-tooltip-position="top" aria-label="Process ID (PID)" data-href="Process ID (PID)" href="07-stikkord-samling/dat320/process-id-(pid).html" class="internal-link" target="_self" rel="noopener nofollow">PID</a><br><a data-tooltip-position="top" aria-label="Program Counter (PC)" data-href="Program Counter (PC)" href="07-stikkord-samling/dat320/program-counter-(pc).html" class="internal-link" target="_self" rel="noopener nofollow">PC</a><br><a data-href="Scheduling info" href="07-stikkord-samling/dat320/scheduling-info.html" class="internal-link" target="_self" rel="noopener nofollow">Scheduling info</a>]]></description><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-operativsystemer-og-systemprogrammering-(dat320)/dat320-canvas.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Operativsystemer og systemprogrammering (DAT320)/DAT320 Canvas.canvas</guid><pubDate>Fri, 03 Jul 2026 06:00:17 GMT</pubDate></item><item><title><![CDATA[MMU]]></title><description><![CDATA[The Memory Management Unit (MMU) is a hardware component that manages memory access between the CPU and main memory. Its primary function is to translate virtual addresses generated by a process into physical addresses in RAM. This allows each process to operate within its own virtual address space without needing to know where its data is physically stored.The MMU works closely with the page table and the Translation Lookaside Buffer (TLB). When the CPU requests access to a memory location, the MMU first checks the TLB for a cached address translation. If the translation is not found, the MMU retrieves the mapping from the page table. The MMU also enforces memory protection, preventing processes from accessing memory regions that belong to other processes or to the operating system.Without the MMU, modern features such as virtual memory, paging, memory protection, and process isolation would not be possible. It is a critical component in modern operating systems, ensuring both efficient and secure memory management.Key concepts:
+Address Translation: Converts virtual addresses to physical addresses.
+Memory Protection: Prevents unauthorized memory access.
+Virtual Memory Support: Enables processes to use virtual address spaces.
+Works with TLB and Page Tables: Provides fast and efficient memory access.
+Location: Hardware component between the CPU and main memory.
+]]></description><link>07-stikkord-samling/dat320/mmu.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/MMU.md</guid><pubDate>Fri, 03 Jul 2026 05:59:17 GMT</pubDate></item><item><title><![CDATA[TLB]]></title><description><![CDATA[The Translation Lookaside Buffer (TLB) is a small, high-speed cache located inside or very close to the Memory Management Unit (MMU). Its purpose is to speed up the translation of virtual addresses into physical addresses during memory access.When a program accesses memory, the CPU generates a virtual address. Instead of searching the page table in main memory every time, the MMU first checks the TLB. If the required page translation is found (TLB hit), the physical address can be obtained immediately, resulting in much faster memory access. If the translation is not found (TLB miss), the MMU must consult the page table in memory, which takes additional time. The missing translation is then typically added to the TLB for future use.Because memory accesses occur extremely frequently, the TLB significantly improves system performance by reducing the number of page table lookups. Modern processors rely heavily on TLBs to make virtual memory systems practical and efficient.Key concepts:
+TLB Hit: Page translation found in the TLB; fast address translation.
+TLB Miss: Translation not found; page table lookup required.
+Purpose: Reduce address translation overhead and improve memory performance.
+Location: Inside or closely integrated with the MMU and CPU.
+]]></description><link>07-stikkord-samling/dat320/tlb.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/TLB.md</guid><pubDate>Fri, 03 Jul 2026 05:58:12 GMT</pubDate></item><item><title><![CDATA[Stack]]></title><description><![CDATA[The stack is a memory region used to store function calls, local variables, and return addresses. It follows a Last-In, First-Out (LIFO) structure, meaning the most recently added data is accessed first. The stack grows and shrinks automatically as functions are called and completed, making it an efficient way to manage temporary data during program execution. It typically grows toward lower memory addresses.]]></description><link>07-stikkord-samling/dat320/stack.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Stack.md</guid><pubDate>Fri, 03 Jul 2026 05:55:08 GMT</pubDate></item><item><title><![CDATA[Heap]]></title><description><![CDATA[The heap is a region of memory used for dynamic memory allocation during program execution. Memory in the heap is allocated and released as needed, allowing data structures such as linked lists, trees, and objects to grow or shrink at runtime. The heap typically expands toward higher memory addresses and is managed by the operating system and memory allocation routines.]]></description><link>07-stikkord-samling/dat320/heap.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Heap.md</guid><pubDate>Fri, 03 Jul 2026 05:54:27 GMT</pubDate></item><item><title><![CDATA[Code segment]]></title><description><![CDATA[The code segment contains the program instructions that the CPU executes. It stores the compiled machine code of the process and is typically read-only to prevent accidental modification during execution. Since the code remains mostly unchanged while the program runs, it can often be shared between multiple instances of the same program to save memory.]]></description><link>07-stikkord-samling/dat320/code-segment.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Code segment.md</guid><pubDate>Fri, 03 Jul 2026 05:54:00 GMT</pubDate></item><item><title><![CDATA[IO status]]></title><description><![CDATA[I/O status information in a Process Control Block (PCB) contains details about the input/output resources assigned to a process. This may include a list of open files, allocated devices, pending I/O requests, and device status information. The operating system uses this data to manage the process's access to hardware resources and to resume I/O operations correctly when the process is scheduled to run again.]]></description><link>07-stikkord-samling/dat320/io-status.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/IO status.md</guid><pubDate>Fri, 03 Jul 2026 05:51:59 GMT</pubDate></item><item><title><![CDATA[Scheduling info]]></title><description><![CDATA[Scheduling information in a Process Control Block (PCB) contains data used by the operating system's scheduler to determine when and how a process should use the CPU. This information may include the process priority, scheduling queue pointers, CPU usage statistics, and scheduling parameters. The scheduler uses this data to select the next process to run, ensuring efficient CPU utilization and fair allocation of processing time among all processes.]]></description><link>07-stikkord-samling/dat320/scheduling-info.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Scheduling info.md</guid><pubDate>Fri, 03 Jul 2026 05:51:13 GMT</pubDate></item><item><title><![CDATA[Memory Management Info]]></title><description><![CDATA[Memory management information in a Process Control Block (PCB) contains details about the memory allocated to a process and how it is organized. This information may include page tables, segment tables, base and limit registers, and pointers to memory regions used by the process. The operating system uses this data to manage virtual memory, enforce memory protection, and translate logical addresses into physical addresses. This ensures that processes can access their own memory safely without interfering with other processes.]]></description><link>07-stikkord-samling/dat320/memory-management-info.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Memory Management Info.md</guid><pubDate>Fri, 03 Jul 2026 05:50:13 GMT</pubDate></item><item><title><![CDATA[Process State]]></title><description><![CDATA[The process state indicates the current status of a process during its execution. Common states include New (being created), Ready (waiting for CPU time), Running (currently executing on the CPU), Waiting/Blocked (waiting for an event such as I/O completion), and Terminated (finished execution). The operating system stores the process state in the Process Control Block (PCB) so it can manage scheduling decisions and track the progress of each process.]]></description><link>07-stikkord-samling/dat320/process-state.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Process State.md</guid><pubDate>Fri, 03 Jul 2026 05:49:26 GMT</pubDate></item><item><title><![CDATA[CPU Register Values]]></title><description><![CDATA[CPU register values are the contents stored in a process's CPU registers at a given moment. Registers are small, high-speed storage locations inside the CPU that hold important information such as instruction addresses, data, and processor status. In a Process Control Block (PCB), the operating system saves the register values during a context switch so that the process can later resume execution exactly where it left off. This saved state typically includes the program counter, stack pointer, general-purpose registers, and status registers.]]></description><link>07-stikkord-samling/dat320/cpu-register-values.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/CPU Register Values.md</guid><pubDate>Fri, 03 Jul 2026 05:48:57 GMT</pubDate></item><item><title><![CDATA[Process ID (PID)]]></title><description><![CDATA[A PID (Process Identifier) is a unique number assigned by the operating system to each running process. The PID allows the operating system to identify, manage, and track processes individually. It is used for tasks such as scheduling, resource management, process communication, and terminating processes. Since every active process has its own PID, the operating system can distinguish between multiple processes running at the same time.]]></description><link>07-stikkord-samling/dat320/process-id-(pid).html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Process ID (PID).md</guid><pubDate>Fri, 03 Jul 2026 05:47:57 GMT</pubDate></item><item><title><![CDATA[AVL trees]]></title><description><![CDATA[Definition:
+An AVL tree is a self-balancing <a data-tooltip-position="top" aria-label="Binary search trees" data-href="Binary search trees" href="07-stikkord-samling/dat200/binary-search-trees.html" class="internal-link" target="_self" rel="noopener nofollow">binary search tree</a> (BST) where the height difference (balance factor) between the left and right subtrees of any node is at most 1.
+Binary Search Tree Rules: Left child &lt; parent &lt; right child. Balance Factor: Number of levels left side - number of levels right side from node of consideration. (Count edges going furthest down)
+Must be -1, 0, or +1 for every node.
+This means A positive balance factor indicate left heavy
+A negative balance factor indicate right heavy Height: Height of an AVL tree with n nodes is O(log⁡n) Insertion: Insert like a normal BST.
+Update heights and balance factors.
+If imbalance occurs, perform rotations. Deletion: Delete like a BST.
+Rebalance using rotations. Search: Same as BST: O(log⁡n) After insertion or deletion, check the balance factor of affected nodes beginning from the bottom.
+When a balance factor is outside -1&lt;factor&lt;1 you perform rotations considering that node. If node is left heavy (positive), then do right rotation
+If node is right heavy (negative), then do left rotation. However if the child being rotated up is opposite heavy, then rotate that child in the opposite direction.
+Note: Do not consider that childs child heavy direction. Just trust the process. Insertion: O(log⁡n)
+Deletion: O(log⁡n)
+Search: O(log⁡n) Guaranteed O(log⁡n) operations.
+Good for applications requiring frequent insertions and deletions. Slightly more complex than regular BST due to rotations.
+More overhead for maintaining balance. Databases
+Memory management
+Real-time systems where predictable performance is critical.
+]]></description><link>07-stikkord-samling/dat200/avl-trees.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/AVL trees.md</guid><pubDate>Thu, 02 Jul 2026 12:38:36 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Heap Sort]]></title><description><![CDATA[Heap Sort is a comparison-based sorting algorithm that uses a binary <a data-tooltip-position="top" aria-label="Heaps" data-href="Heaps" href="07-stikkord-samling/dat200/heaps.html" class="internal-link" target="_self" rel="noopener nofollow">heap</a> data structure.
+Build a max-heap (or min-heap for descending order) from the input array.
+Repeatedly extract the largest element (root of the heap) and place it at the end of the array. Heapify the array to create a max-heap/min heap.
+Swap the root with the last element.
+Now consider the array from index 0 to index n-1 (then n-2 etc.) Min heap, get descending order
+Max heap, get ascending order. Reversed with initialized array Initialize an array with size n
+append to new array. Keep order Append to end of array Repeat until the array is sorted. Time: Building heap: O(n)
+Sorting: O(nlog⁡n)
+Overall: O(nlog⁡n) Space: O(1)(in-place)
+Properties: Not stable.
+Efficient for large datasets. Use Cases: When constant space and predictable performance are required.
+<br><a data-href="Heapify an Array.png" href="03-attachment-folder/dat200/heapify-an-array.html" class="internal-link" target="_self" rel="noopener nofollow">Heapify an Array.png</a> - Do this on the new array after removing the element.
+Start of a pass can be considered when you heapify an array and ends when you remove the last element of the array.
+This means there are n-1 passes.<br>
+<img alt="Heap Sort Visual.png" src="03-attachment-folder/dat200/heap-sort-visual.png" target="_self">]]></description><link>07-stikkord-samling/dat200/heap-sort.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Heap Sort.md</guid><pubDate>Thu, 02 Jul 2026 11:39:12 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Heaps]]></title><description><![CDATA[Definition:
+A heap is a complete binary tree represented as an array, where each node satisfies the heap property:
+Max-Heap: Every parent node is greater than or equal to its children.
+Min-Heap: Every parent node is less than or equal to its children.
+Heaps are primarily used for efficient priority queue operations (insert and extract), and they form the basis for heap sort.To transform an array into a heap:
+Interpret the array as a complete binary tree.
+Start from the last parent node (index ⌊n/2⌋ - 1).
+Apply heapify down to each parent node, moving backward to the root.
+When the root is heapified, the array satisfies the heap property.
+Time Complexity:
+Bottom-up heapify: O(n)
+Inserting elements one by one: O(n log n)
+Building the tree from a random array using Max-Heap tree.
+<a data-href="Heapify an Array.png" href="03-attachment-folder/dat200/heapify-an-array.html" class="internal-link" target="_self" rel="noopener nofollow">Heapify an Array.png</a>Used when:
+Heapifying an array
+Building a heap from an array.
+Removing the root node (e.g., extract-max or extract-min).
+Process:
+Compare the parent with its children.
+For max-heap, swap with the larger child if the parent is smaller.
+For min-heap, swap with the smaller child if the parent is larger.
+Repeat until the node is in the correct position or has no children.
+Used when:
+Adding a new element to the heap.
+Process:
+Compare the child with its parent.
+For max-heap, swap if the child is greater.
+For min-heap, swap if the child is smaller.
+Repeat until the node is in the correct position or becomes the root.
+Time Complexity:
+O(log n) n is size of array after adding the new element. ]]></description><link>07-stikkord-samling/dat200/heaps.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Heaps.md</guid><pubDate>Thu, 02 Jul 2026 11:34:10 GMT</pubDate></item><item><title><![CDATA[Heapify an Array]]></title><description><![CDATA[<img src="03-attachment-folder/dat200/heapify-an-array.png" target="_self">]]></description><link>03-attachment-folder/dat200/heapify-an-array.html</link><guid isPermaLink="false">03 - Attachment folder/DAT200/Heapify an Array.png</guid><pubDate>Thu, 02 Jul 2026 11:31:19 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Quick Sort]]></title><description><![CDATA[Quick Sort is a divide-and-conquer sorting algorithm that works by selecting a pivot element, partitioning the list into two sublists (elements less than the pivot and elements greater than the pivot), and then recursively sorting the sublists.
+Choose a pivot element.
+Partition the list so that:
+- Elements less than the pivot go to the left.
+- Elements greater than the pivot go to the right.
+Recursively apply Quick Sort to the left and right sublists. If the list has 0 or 1 elements, it is already sorted.
+Select a pivot (commonly first, last, or median element).
+Partition the list into two sublists based on the pivot.
+Recursively sort the two sublists.
+Combine the sorted sublists and pivot into a single sorted list.
+1 Pass is considered complete when a pivot is swapped or the pivot logic is complete and a new one should be selected. Note: If the pivot is swapped, the pivot point follows the value it was assigned to. Continue with the new pivot position.
+Time:
+- Best case: (balanced partitions)
+- Average case: - Worst case: (when partitions are highly unbalanced)
+Space: (due to recursion stack)
+No (equal elements may change their relative order during partitioning).Quick Sort is widely used because of its efficiency and in-place sorting capability. It is often the default sorting algorithm in many programming libraries.def quicksort(arr, left, right): if left &lt; right: partition_pos = partition(arr, left, right) print(partition_pos) quicksort(arr, left,partition_pos-1 ) quicksort(arr, partition_pos+1, right ) def partition(arr, left, right): i = left j = right -1 pivot = arr[right] print(arr, " Pivot:", pivot) while i &lt; j: while i &lt; right and arr[i] &lt; pivot: i += 1 while j &gt; left and arr[j] &gt;= pivot: j -= 1 if i &lt; j: arr[i], arr[j] = arr[j], arr[i] if arr[i] &gt; pivot: arr[i], arr[right] = arr[right], arr[i] return i a = [-20, -16, 8, -3, 9, 14, 1, -8, 17, 5]
+quicksort(a, 0, len(a)-1)
+<img alt="Quick sort - page 1.png" src="03-attachment-folder/dat200/quick-sort-page-1.png" target="_self">]]></description><link>07-stikkord-samling/dat200/quick-sort.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Quick Sort.md</guid><pubDate>Thu, 02 Jul 2026 10:51:01 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Quick sort - page 1]]></title><description><![CDATA[<img src="03-attachment-folder/dat200/quick-sort-page-1.png" target="_self">]]></description><link>03-attachment-folder/dat200/quick-sort-page-1.html</link><guid isPermaLink="false">03 - Attachment folder/DAT200/Quick sort - page 1.png</guid><pubDate>Thu, 02 Jul 2026 10:50:59 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Selection Sort]]></title><description><![CDATA[Selection Sort is a simple comparison-based sorting algorithm that repeatedly selects the smallest (or largest) element from the unsorted portion of the list and places it at the beginning of the sorted portion.Divide the list into a sorted and unsorted part. Find the minimum element in the unsorted part and swap it with the first unsorted element. Repeat until the entire list is sorted.
+Start at index 0: Assume the first element is the smallest.
+Iterate through the rest of the list to find the actual smallest element.
+Swap the smallest element with the element at index 0. Move to index 1: Now consider the sublist starting at index 1.
+Find the smallest element in the remaining unsorted portion.
+Swap it with the element at index 1. Repeat: Continue this process for index 2, 3, … until the second-to-last element.
+After the last swap, the list is sorted. 1 pass of Selection sort is when the smallest element is swapped in to sorted section. Time: Best case: (already sorted)
+Average case: Worst case: No (equal elements may change their relative order because of swapping).Simple to implement; useful for small datasets or when memory is extremely limited. Rarely used in practice due to inefficiency compared to more advanced algorithms.<img alt="SelectionSortVisual.png" src="03-attachment-folder/dat200/selectionsortvisual.png" target="_self">]]></description><link>07-stikkord-samling/dat200/selection-sort.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Selection Sort.md</guid><pubDate>Thu, 02 Jul 2026 10:11:14 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Insertion Sort]]></title><description><![CDATA[Insertion Sort is a simple comparison-based sorting algorithm that builds the final sorted array one element at a time by inserting each element into its correct position.Divide the list into a "sorted" and "unsorted" part. Repeatedly take the first element from the unsorted part and insert it into the correct position in the sorted part.
+Start with the second element (first element is considered sorted).
+Compare it with elements in the sorted part.
+Shift larger elements to the right.
+Insert the current element into its correct position.
+Repeat until all elements are sorted.
+A pass is considered complete when an element is sorted into its place.
+So a third pass will have 4 elements in the "sorted section". The first element and the 3 inserted elements. Time: Best case: (already sorted)
+Average case: Worst case: Yes (does not change the relative order of equal elements).Efficient for small datasets or nearly sorted arrays; commonly used in practice for small arrays or as part of more complex algorithms.
+It picks up the next unsorted element then checks the sorted elements from the right. If the sorted element is greater than the unsorted element. Remember the sorted elements index, then move the sorted element 1 index up. If the sorted element is less than the unsorted element or start is reached. Place the unsorted element into the remembered index.
+Iterative Solutiondef insertionSort(alist): # Define a function called insertionSort that takes a list 'alist' as input. for index in range(1, len(alist)): # Loop through the list starting from the second element (index 1) to the end. # The first element is considered sorted. currentvalue = alist[index] # Store the current element that needs to be inserted into the sorted portion. position = index # Initialize 'position' to the current index. This will track where to insert the element. while position &gt; 0 and alist[position - 1] &gt; currentvalue: # While we haven't reached the start of the list AND # the previous element is greater than the current value: alist[position] = alist[position - 1] # Shift the previous element one position to the right. position = position - 1 # Move the position pointer one step to the left. alist[position] = currentvalue # Insert the current value into its correct position in the sorted portion. # Example usage:
+alist = [54, 26, 93, 17, 77, 31, 44, 55, 20] # Create a list of unsorted integers.
+insertionSort(alist) # Call the insertionSort function to sort the list.
+print(alist) # Print the sorted list.
+Recursive Solutiondef recInsertionSort(arr, n): # Base case: if the array has 1 element, it's already sorted if n &lt;= 1: return # Sort the first n-1 elements recInsertionSort(arr, n - 1) # Insert the nth element into the correct position in the sorted part currentvalue = arr[n - 1] position = n - 2 # Shift elements that are greater than currentvalue to the right while position &gt;= 0 and arr[position] &gt; currentvalue: arr[position + 1] = arr[position] position = position - 1 # Place currentvalue in its correct position arr[position + 1] = currentvalue # Test the recursive insertion sort
+alist = [54, 26, 93, 17, 77, 31, 44, 55, 20]
+recInsertionSort(alist, len(alist))
+print(alist)
+RunUnderline is sorted part
+1 pass is finished after sorting the next index.
+<img alt="InsertionSortVisual.png" src="03-attachment-folder/dat200/insertionsortvisual.png" target="_self">]]></description><link>07-stikkord-samling/dat200/insertion-sort.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Insertion Sort.md</guid><pubDate>Thu, 02 Jul 2026 10:07:06 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Bubble Sort]]></title><description><![CDATA[
+Definition: A simple comparison-based sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.
+Key Idea: Larger elements "bubble up" to the end of the list with each pass.
+Algorithm Steps: Iterate through the list multiple times.
+Compare each pair of adjacent elements.
+Swap if the first is greater than the second.
+Repeat until no swaps are needed. Complexity: Time: Best case: (already sorted)
+Average case: Worst case: Stability: Yes, does not change the relative order of equal elements
+Use Case: Educational purposes; rarely used in practice due to inefficiency.
+Iterative Solutiondef bubbleSort(arr): for i in range(len(arr) - 1): # loop over array elements for j in range(0, len(arr) - i - 1): # loop to compare array elements # compare two adjacent elements, # Last i elements are already in place, so we don't need to check them if arr[j] &gt; arr[j + 1]: # swap if elements are out-of-order temp = arr[j] arr[j] = arr[j + 1] arr[j + 1] = temp print('pass number', i, arr) arr = [9, 7, 8, 2]
+print("Original array:", arr)
+bubbleSort(arr)
+print("Sorted array:", arr)
+Recursive Solutiondef recursive_bubble_sort(arr, n): # Base case: If the list has only one element or is empty, it is already sorted. if n &lt;= 1: return # Traverse through all elements in the list for i in range(n - 1): # Swap if the element found is greater than the next element if arr[i] &gt; arr[i + 1]: arr[i], arr[i + 1] = arr[i + 1], arr[i] # Recursively call the function with a reduced size of the list recursive_bubble_sort(arr, n - 1) arr = [9, 7, 8, 2]
+print("Original array:", arr)
+recursive_bubble_sort(arr, 4)
+print("Sorted array:", arr)
+The largest number in the list will bubble up to the top.
+Then that number is sorted. No need to check it again. "1 pass" of the algorithm is when the bubble has reached the end.
+<img alt="Bubblesort visual.png" src="03-attachment-folder/dat200/bubblesort-visual.png" target="_self">]]></description><link>07-stikkord-samling/dat200/bubble-sort.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Bubble Sort.md</guid><pubDate>Thu, 02 Jul 2026 10:03:40 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Addressing]]></title><description><![CDATA[Addressing is the operation of translating virtual memory into physical memory for the express purpose of pointing to a physical address to either retrieve (read) or send (write) data from/to the physical memory. The physical (real) memory is simply an array. Any segmentation or otherwise ordering of the physical memory is done by somekind of logic through hardware and/or software. The picture belows shows the array from 00 to FF (hexadesimal) while the coloring shows segmentation of the memory. This could be Code/Heap/Stack or it could be different pages. Whatever logic that somehow orders the memory into something more usable.
+<img alt="PagingVisual1.png" src="03-attachment-folder/dat320/pagingvisual1.png" target="_self">Each process must think it is the sole owner of the entire memory space. Therefore we abstract out the physical memory into a virtual memory so that each process can begin storing their data from index 0 and onwards. This allows the programmer/process to ignore how to handle finding the right data in the physical memory and simply assume it has its own entire memory all to itself that it knows how to use. This hardware units purpose is to translate a virtual memory address into a physical address by somekind of logic. In this system a process is given a segment of physical memory that it views as its virtual memory and the translation is done through the MMU. <br>The OS knows each processes Base and Bound (Stored in <a data-tooltip-position="top" aria-label="Process Control Block (PCB)" data-href="Process Control Block (PCB)" href="07-stikkord-samling/dat320/process-control-block-(pcb).html" class="internal-link" target="_self" rel="noopener nofollow">PCB</a>) which define the segment of memory that a process has access to. The Base is the physical address where the segment starts from (index 0) while the Bound defines where the segment ends (index -1). The translation formula is VA can never be less than 0. <br>This suffers from internal and external <a data-href="fragmentation" href="07-stikkord-samling/dat320/fragmentation.html" class="internal-link" target="_self" rel="noopener nofollow">fragmentation</a>.
+External fragmentation occurs because there is no policy on how to allocate segments for each process.
+Internal fragmentation occurs between the Stack and Heap of the allocated space.<br>
+<img alt="PagingVisual2.png" src="03-attachment-folder/dat320/pagingvisual2.png" target="_self">Addressing using segmentation divides memory into segments like Code, Heap, and Stack. Each segment has a base and bound. The MMU uses the segment selector (e.g., 2 bits for 3–4 segments) to identify the segment, then adds the offset to the base to compute the physical address, while checking the bound for protection.Segmentation can have dynamic resizing which means that the allocated space for stack and Heap can grow and shrink depending on current needs. Should the segment outgrow its free space it will need to be reallocated to somewhere else. This is an expensive prosedure where the entire segment has to be moved to somewhere else in the physical memory. <br><img alt="PagingVisual3.png" src="03-attachment-folder/dat320/pagingvisual3.png" target="_self">]]></description><link>07-stikkord-samling/dat320/addressing.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Addressing.md</guid><pubDate>Thu, 11 Jun 2026 10:03:19 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[IO communication]]></title><description><![CDATA[I/O-devices are slow relative to the computational speed of a CPU. Therefore it would be a problem if the CPU spends time waiting for the I/O-device to become available for use if its busy or waiting on its expected output (This is called polling, it continually asks "are you ready?"). Therefore the solution is to allow the I/O-device to cause an interrupt and say that it is ready to the OS. This way we can block a process while it is waiting for I/O to signal it is ready and the OS will switch the process back to Ready. Sometimes however we do want the CPU to spin-wait a little while. This is when the I/O-device is deemed "fast" so that by the time an I/O request is finished within the time-frame of a context-switch so that a context-switch has to occur again to handle the interrupt caused by the I/O-request finishes. Softlock: This occurs where there is a large series of outputs occuring in rapid succession and therefore causing so many interruptions that you are stuck context-switching and unable to handle the incomming data. So polling when the CPU wants to will avoid the softlock. Therefore we want to have both spin-waiting and blocked waiting. This is done by allowing a short spin-wait too see if it immediately finishes before interrupting the process to block it.I/O-devices might themselves wait a little before sending an interrupt. This is called coalescing and it means to collect some amount of data over a certain time before causing an interrupt and can therefore send a chunk of data at once. Problem becomes finding the magic "waiting time" to avoid feeling that the I/O is "lagging"This is a device within a system with the task of transferring data between memory and an I/O device. Without this we would need to dedicate CPU-time to transfer data. CPU-time is valuable and copying data is trivial, so therefore DMA was created. Problem
+<img alt="IOVisual1.png" src="03-attachment-folder/dat320/iovisual1.png" target="_self">
+CPU is spending time copying data.Solution<br>
+<img alt="IOVisual2.png" src="03-attachment-folder/dat320/iovisual2.png" target="_self">
+The CPU tells the DMA what set of data to copy and the DMA handles the copying and data transfer. Processes cannot be given total control over I/O-devices. If they did they would interfere with each other and in worst case become a portal for malicious activity to take over the machine.
+Therefore the OS must handle the communication or limit a processes ability to interact with it. The OS allows a process some control over an I/O-device by placing some of the controls in memory where the process can access it. The OS handles all communication between process and deviceA problem with I/O devices is how to communicate with them correctly. There are hundreds of thousands of different devices, each expecting to be communicated to in a specific way. Therefore we have device drivers that handles as an interpreter between the device and the OS. The OS wants to communicate in the same way to all devices so it is up to the driver to interprete the OS commands into something the device expects and vice versa. ]]></description><link>07-stikkord-samling/dat320/io-communication.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/IO communication.md</guid><pubDate>Thu, 11 Jun 2026 09:59:59 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[File System]]></title><description><![CDATA[<img alt="FileSystemVisual.png" src="03-attachment-folder/dat320/filesystemvisual.png" target="_self">
+Contains machine code instructions for bootstrapping the OS.
+Loads the OS kernel during system startup.
+Located at the very beginning of the disk. Stores file system metadata: File system type
+Number of inodes and data blocks
+Block size Helps the OS interpret and organize files on the storage device.
+Driver: Handles communication between OS and physical device (read/write commands). Bitmap tracking free/used inodes.
+Each bit corresponds to an index in the Inode Table: 0 = free, 1 = used. Limit: Number of bits = max number of files/directories. Example: 64-bit I-bmap → max 64 files/directories. Bitmap tracking free/used data blocks.
+Each bit corresponds to a data block index: 0 = free, 1 = used. Limit: Number of bits × block size = total storage capacity. Example: 128 bits × 4 KB = 512 KB. A structured collection (conceptually a “table”) of inode records.
+Each inode describes: File type (regular file, directory, etc.)
+Permissions, owner, timestamps
+Size
+Pointers to data blocks (direct, indirect, multi-level indexing for large files). Represents a file or directory.
+Identified by inode number, not by name.
+Names are resolved via directory lookups. Stores actual file content or directory entries.
+Directory data blocks contain name → inode number mappings, not file content.
+Block size determined by file system (e.g., 4 KB). I-bmap → Inode Table → Inode → Data Blocks
+D-bmap → Data Blocks
+Directories use data blocks for mappings, not file content. Max files = number of inodes (I-bmap size).
+Max storage = number of data blocks × block size.
+You can run out of inodes before space, or vice versa. Bitmaps (I-bmap, D-bmap) or free lists. Open: Resolves path by reading directory inodes and data blocks recursively. Read: Uses inode pointers to fetch data blocks. Write: Updates bitmaps, inode metadata, and block pointers. Abstraction layer for system calls.
+Allows multiple file systems (ext4, FAT, etc.) under one interface. Speeds up reads/writes by caching frequently accessed blocks. Interrupts: Reduce CPU overhead vs polling.
+DMA (Direct Memory Access): Transfers large chunks without CPU copying each word. App calls write(fd, buf, size).
+Kernel maps fd → file object → inode.
+VFS dispatches to specific file system driver.
+File system driver updates inode and bitmaps, prepares block I/O.
+Generic block layer sends request to block device driver.
+Disk controller uses DMA to transfer data.
+Interrupt signals completion.
+Imagine you’re saving a new file called report.txt to your disk. Here’s what happens behind the scenes:
+Checking the Maps
+The file system first consults the I-bmap (Inode Bitmap) to find a free inode. This bitmap is like a seating chart for inodes—each bit represents whether an inode is free or occupied. It finds an empty spot and marks it as used. Consider it as the seat is now reservered for an Inode
+Creating the Inode
+Next, the system creates an inode in the Inode Table at the corresponding (reserved) position found in I-bmap. This inode is the file’s identity card—it stores metadata like file type, permissions, owner, timestamps, and most importantly, pointers to data blocks where the actual content will live.
+Finding Space for Data
+The file system then checks the D-bmap (Data Bitmap) to locate free data blocks. These blocks are the actual storage units for your file’s content. It picks a few empty blocks and marks them as used.
+Writing the Content
+Your text—“Hello, world!”—is written into those data blocks. The inode’s pointers are updated to reference these blocks, so the system knows where your file’s data resides.
+Updating Metadata
+The inode updates its size and timestamps. The superblock might also update global counters (like free block count), ensuring the file system stays consistent.
+Mission Complete
+Now, when you open report.txt, the OS looks up the inode, follows its pointers to the data blocks, and retrieves your content.
+]]></description><link>07-stikkord-samling/dat320/file-system.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/File System.md</guid><pubDate>Thu, 11 Jun 2026 09:59:14 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Graphs]]></title><description><![CDATA[Definition:
+A graph is a data structure consisting of:
+A set of vertices (nodes).
+A set of edges that connect pairs of vertices, representing relationships between them.
+Formally:
+G=(V,E)
+Where: V(G): finite, non-empty set of vertices.
+E(G): set of edges (pairs of vertices). Undirected Graph: Edges have no direction.
+Directed Graph (Digraph): Edges have direction; order of vertices matters.
+Weighted Graph: Each edge carries a weight or cost.
+Complete Graph: Every vertex is connected to every other vertex. Edges in complete directed graph: .
+Edges in complete undirected graph: ​. Trees: Special case of graphs with no cycles. Adjacent Nodes: Two nodes connected by an edge.
+Path: Sequence of vertices connecting two nodes.
+Connected Graph: There is a path between every pair of vertices.
+Strongly Connected Component: In a directed graph, every vertex is reachable from every other vertex. Spanning Tree: A subgraph of an undirected connected graph that includes all vertices with n−1n-1n−1 edges and no cycles.
+Minimum Spanning Tree (MST): A spanning tree with the minimum possible sum of edge weights. Found using <a data-href="Prim's Algorithm" href="07-stikkord-samling/dat200/prim's-algorithm.html" class="internal-link" target="_self" rel="noopener nofollow">Prim's Algorithm</a> and <a data-href="Kruskal's Algorithm" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Kruskal's Algorithm</a>. Adjacency Matrix: Good for dense graphs.
+Memory: .
+Fast connectivity checks. Adjacency List: Good for sparse graphs.
+Memory: .
+Efficient for finding adjacent vertices. Traversal: <br><a data-href="Depth-First-Search (DFS)" href="07-stikkord-samling/dat200/depth-first-search-(dfs).html" class="internal-link" target="_self" rel="noopener nofollow">Depth-First-Search (DFS)</a>: Explore as far as possible along a branch before backtracking.
+<br><a data-href="Breadth-First-Search (BFS)" href="07-stikkord-samling/dat200/breadth-first-search-(bfs).html" class="internal-link" target="_self" rel="noopener nofollow">Breadth-First-Search (BFS)</a>: Explore all neighbors at the current depth before going deeper. Shortest Path: <br><a data-href="Dijkstra’s Algorithm" href="07-stikkord-samling/dat200/dijkstra’s-algorithm.html" class="internal-link" target="_self" rel="noopener nofollow">Dijkstra’s Algorithm</a> for weighted graphs.
+BFS for unweighted graphs. Networking (routing).
+Social networks (connections).
+Pathfinding (maps, games).
+Dependency resolution.
+]]></description><link>07-stikkord-samling/dat200/graphs.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Graphs.md</guid><pubDate>Thu, 11 Jun 2026 09:20:44 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Tree]]></title><description><![CDATA[A tree is a non-linear, hierarchical data structure consisting of nodes connected by edges.
+Each node holds a value and may have child nodes.
+Trees are directed (links go one way) and acyclic (no cycles).
+The topmost node is called the root; nodes with no children are leaves.
+<img alt="TreeVisual.png" src="03-attachment-folder/dat200/treevisual.png" target="_self"> Root: The first node; every tree has exactly one root.
+Node: Basic element containing data.
+Edge: Connection between two nodes.
+Leaf Node: Node with no children.
+Parent &amp; Child: Parent has branches to children; all nodes except root are children.
+Sibling: Nodes sharing the same parent.
+Internal Node: Node with at least one child.
+External Node: Node with no children (leaf).
+Size: Number of nodes in the tree.
+Degree: Number of children of a node; degree of tree = max degree among nodes.
+Level/Depth: Distance from root (root = level 0) to lowest level.
+Height: Length of the longest path from root to any leaf.
+Subtree: Each child node forms a subtree recursively. Binary Tree: Each node has at most two children (left and right).
+Full Binary Tree: Every node has either 0 or 2 children.
+Perfect Binary Tree: All levels are filled. Complete Binary Tree: All levels are filled except possibly the last, which is filled from left to right.
+<br><a data-href="Binary search trees" href="07-stikkord-samling/dat200/binary-search-trees.html" class="internal-link" target="_self" rel="noopener nofollow">Binary search trees</a> (BST): Left subtree contains values less than parent.
+Right subtree contains values greater than parent.
+Enables efficient search, insertion, and deletion. Insertion: Add a node as a leaf or mid-tree (update parent-child links).
+Deletion: Case 1: Remove leaf node.
+Case 2: Remove node with one child (replace with child).
+Case 3: Remove node with two children (replace with inorder successor). Search: General tree: O(n).
+Balanced BST: O(log n). <br><a data-tooltip-position="top" aria-label="Tree traversal algorithms" data-href="Tree traversal algorithms" href="07-stikkord-samling/dat200/tree-traversal-algorithms.html" class="internal-link" target="_self" rel="noopener nofollow">Traversal</a>: Pre-order: Root → Left → Right
+In-order: Left → Root → Right
+Post-order: Left → Right → Root
+Level-order: Breadth-first traversal. BST (Balanced): Search, Insert, Delete: O(log n) BST (Unbalanced): Worst case: O(n) AVL Tree: Self-balancing BST; maintains height balance using rotations. Balance Factor (BF) = height(left) − height(right) ∈ {−1, 0, 1}.
+Rotations: Single (Left/Right), Double (Left-Right/Right-Left). Hierarchical data representation (e.g., file systems).
+Efficient searching and sorting (BST, AVL).
+Priority queues (heaps).
+Expression parsing.
+]]></description><link>07-stikkord-samling/dat200/tree.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Tree.md</guid><pubDate>Thu, 11 Jun 2026 09:14:52 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Huffman Coding]]></title><description><![CDATA[Huffman Coding is a lossless data compression algorithm that assigns variable-length binary codes to characters based on their frequencies. Characters that occur more frequently get shorter codes, reducing the overall size of the encoded message.
+Fixed-length coding (e.g., ASCII) uses the same number of bits for every character, which is inefficient when character frequencies vary.
+Huffman Coding minimizes the total number of bits by exploiting frequency distribution.
+Applications: file compression, message transmission, cryptography. Prefix-free codes: No code is a prefix of another, ensuring unique decodability.
+Optimality: Produces the minimum external path weight for a given set of character frequencies.
+Lossless: Original message can be perfectly reconstructed.
+Also see <a data-tooltip-position="top" aria-label="Huffman Coding > **Visual**" data-href="Huffman Coding#**Visual**" href="07-stikkord-samling/dat200/huffman-coding.html#**Visual**_0" class="internal-link" target="_self" rel="noopener nofollow">Visual</a>
+Frequency Analysis: Count occurrences of each character.
+Priority Queue: Insert all characters as nodes with their frequencies.
+Tree Construction: Extract two nodes with the smallest frequencies.
+Create a new internal node with frequency = sum of the two.
+Insert the new node back into the queue.
+Repeat until one node remains (the root). Assign Codes: Traverse the tree: Left edge → 0
+Right edge → 1
+Concatenate path bits for each leaf node. Characters: {E,T,N,I,S} with frequencies {29,10,9,5,4}
+Steps:
+Combine smallest: 4+5=9
+Combine next smallest: 9+9=18
+Continue until root: 57 Codes:
+E: 00
+T: 011
+N: 0101
+I: 0100
+S: 1
+Encoded message 001011000100 → Decodes to TENTS.
+Building the tree: O(n log n) using a priority queue.
+Encoding/decoding: O(L) where L is message length. Significant space savings compared to fixed-length coding.
+Simple and efficient for small alphabets. Requires transmitting the code table along with the message.
+Best suited for static frequency distributions.
+<br><img alt="HuffmanCodingVisual.png" src="03-attachment-folder/dat200/huffmancodingvisual.png" target="_self">]]></description><link>07-stikkord-samling/dat200/huffman-coding.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Huffman Coding.md</guid><pubDate>Thu, 11 Jun 2026 09:14:25 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Shell Sort]]></title><description><![CDATA[Shell Sort is an optimization of Insertion Sort that allows the exchange of far-apart elements. It works by sorting elements at a specific gap and gradually reducing the gap until it becomes 1, at which point the list is fully sorted using Insertion Sort.Start with a large gap between elements and sort sublists formed by these gaps. Reduce the gap step by step, improving the order of the list until the gap is 1.
+Choose an initial gap (commonly n//2). (The two // means floor division)
+Sort elements that are gap positions apart using Insertion Sort logic.
+Reduce the gap (usually by half) and repeat. (n//4, n//8, ...)
+Continue until the gap is 1, then perform a final pass of Insertion Sort. Note: Minimum 1, floor division can cause floor to 0. 1 pass of shell sort is considered a full iteration involing a gap size. Time: Best case: (already sorted)
+Average case: Worst case: No (Shell Sort is generally not stable because elements can move far apart).Iterative Solutiondef shellSort(array, n): # Rearrange elements at each n/2, n/4, n/8, ... intervals interval = n // 2 while interval &gt; 0: print('interval', interval) for i in range(interval, n): temp = array[i] j = i while j &gt;= interval and array[j - interval] &gt; temp: array[j] = array[j - interval] j -= interval array[j] = temp print(array) interval //= 2 data = [20, 12, 65, 8, 10, 16, 43, 35, 23, 88, 2, 56, 41, 27, 67, 56]
+size = len(data)
+shellSort(data, size)
+print('Sorted Array in Ascending Order:')
+print(data)
+Run<img alt="ShellSortVisual.png" src="03-attachment-folder/dat200/shellsortvisual.png" target="_self">]]></description><link>07-stikkord-samling/dat200/shell-sort.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Shell Sort.md</guid><pubDate>Thu, 11 Jun 2026 09:11:38 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Merge Sort]]></title><description><![CDATA[Merge Sort is a divide-and-conquer sorting algorithm that recursively splits the list into smaller sublists, sorts them, and then merges the sorted sublists back together.
+Divide the list into two halves.
+Recursively sort each half.
+Merge the two sorted halves into one sorted list. If the list has 1 or 0 elements, it is already sorted.
+Split the list into two halves.
+Recursively apply Merge Sort to each half.
+Merge the two sorted halves by comparing elements and building a new sorted list. Compare the first element in each group, add the smallest one to the new merged group. Repeat untill groups are empty. A pass can be considered on what merge step one is on.
+Merge into groups of 2 is first pass
+Merge into groups of 4 is second pass
+etc. Time:
+- Best case: O(n log n)
+- Average case: O(n log n)
+- Worst case: O(n log n)
+Yes (preserves the relative order of equal elements).Efficient for large datasets; commonly used in external sorting (e.g., sorting data on disk) and as a foundation for other algorithms.Recursive Solutiondef mergeSort(array,p,r): if p&lt;r: q = (p+r)//2 # r is the point where the array is divided into two subarrays mergeSort(array,p,q) # Sort the two halves mergeSort(array,q+1,r) merge(array, p,q,r) def merge(array, p,q,r): # Create temp arrays L = array[p:q+1] R = array[q+1:r+1] i = j = 0 k = p # Until we reach either end of either L or R, pick larger among elements L and R and place them in the correct position at A[p..r] while i &lt; len(L) and j &lt; len(R): if L[i] &lt;= R[j]: array[k] = L[i] i += 1 else: array[k] = R[j] j += 1 k += 1 while i &lt; len(L): array[k] = L[i] i += 1 k += 1 while j &lt; len(R): array[k] = R[j] j += 1 k += 1 def printList(array): for i in range(len(array)): print(array[i], end=" ") print() # Driver program
+if __name__ == '__main__': array = [6, 5, 12, 10, 9, 1] mergeSort(array,0,len(array)-1) print("Sorted array is: ") printList(array)
+<img alt="MergeSortVisual.png" src="03-attachment-folder/dat200/mergesortvisual.png" target="_self">]]></description><link>07-stikkord-samling/dat200/merge-sort.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Merge Sort.md</guid><pubDate>Thu, 11 Jun 2026 09:10:48 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[DAT200 - Canvas]]></title><description><![CDATA[push front
+Pop frontEnqueue rear
+Dequeue frontGraphsLinear Data StructuresTreeSortingAlgorithm Analysis &amp; Optimization<a data-href="Bubble Sort" href="07-stikkord-samling/dat200/bubble-sort.html" class="internal-link" target="_self" rel="noopener nofollow">Bubble Sort</a><br><a data-href="Insertion Sort" href="07-stikkord-samling/dat200/insertion-sort.html" class="internal-link" target="_self" rel="noopener nofollow">Insertion Sort</a><br><a data-href="Shell Sort" href="07-stikkord-samling/dat200/shell-sort.html" class="internal-link" target="_self" rel="noopener nofollow">Shell Sort</a><br><a data-href="Merge Sort" href="07-stikkord-samling/dat200/merge-sort.html" class="internal-link" target="_self" rel="noopener nofollow">Merge Sort</a><br><a data-href="Linked List" href="07-stikkord-samling/dat200/linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Linked List</a><br><a data-href="Singly Linked List" href="07-stikkord-samling/dat200/singly-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Singly Linked List</a><br><a data-href="Hashing" href="07-stikkord-samling/dat200/hashing.html" class="internal-link" target="_self" rel="noopener nofollow">Hashing</a><br><a data-href="Doubly Linked List" href="07-stikkord-samling/dat200/doubly-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Doubly Linked List</a><br><a data-href="Circular Linked List" href="07-stikkord-samling/dat200/circular-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Circular Linked List</a><br><a data-href="Queues" href="07-stikkord-samling/dat200/queues.html" class="internal-link" target="_self" rel="noopener nofollow">Queues</a><br><a data-href="Circular Queue" href="07-stikkord-samling/dat200/circular-queue.html" class="internal-link" target="_self" rel="noopener nofollow">Circular Queue</a><br><a data-href="Tree" href="07-stikkord-samling/dat200/tree.html" class="internal-link" target="_self" rel="noopener nofollow">Tree</a><br><a data-href="Heaps" href="07-stikkord-samling/dat200/heaps.html" class="internal-link" target="_self" rel="noopener nofollow">Heaps</a><br><a data-href="Tree traversal algorithms" href="07-stikkord-samling/dat200/tree-traversal-algorithms.html" class="internal-link" target="_self" rel="noopener nofollow">Tree traversal algorithms</a><br><a data-href="Huffman Coding" href="07-stikkord-samling/dat200/huffman-coding.html" class="internal-link" target="_self" rel="noopener nofollow">Huffman Coding</a><br><a data-href="Binary search trees" href="07-stikkord-samling/dat200/binary-search-trees.html" class="internal-link" target="_self" rel="noopener nofollow">Binary search trees</a><br><a data-href="Selection Sort" href="07-stikkord-samling/dat200/selection-sort.html" class="internal-link" target="_self" rel="noopener nofollow">Selection Sort</a><br><a data-href="Quick Sort" href="07-stikkord-samling/dat200/quick-sort.html" class="internal-link" target="_self" rel="noopener nofollow">Quick Sort</a><br><a data-href="Heap Sort" href="07-stikkord-samling/dat200/heap-sort.html" class="internal-link" target="_self" rel="noopener nofollow">Heap Sort</a><br><a data-href="Tree Reconstruction" href="07-stikkord-samling/dat200/tree-reconstruction.html" class="internal-link" target="_self" rel="noopener nofollow">Tree Reconstruction</a><br><a data-href="AVL trees" href="07-stikkord-samling/dat200/avl-trees.html" class="internal-link" target="_self" rel="noopener nofollow">AVL trees</a><br><a data-href="Time complexity" href="07-stikkord-samling/dat200/time-complexity.html" class="internal-link" target="_self" rel="noopener nofollow">Time complexity</a> <br><a data-href="Depth-First-Search (DFS)" href="07-stikkord-samling/dat200/depth-first-search-(dfs).html" class="internal-link" target="_self" rel="noopener nofollow">Depth-First-Search (DFS)</a>Traversal Algorithms<br><a data-href="Breadth-First-Search (BFS)" href="07-stikkord-samling/dat200/breadth-first-search-(bfs).html" class="internal-link" target="_self" rel="noopener nofollow">Breadth-First-Search (BFS)</a><br><a data-href="Stacks" href="07-stikkord-samling/dat200/stacks.html" class="internal-link" target="_self" rel="noopener nofollow">Stacks</a><br><a data-href="Prim's Algorithm" href="07-stikkord-samling/dat200/prim's-algorithm.html" class="internal-link" target="_self" rel="noopener nofollow">Prim's Algorithm</a><br><a data-tooltip-position="top" aria-label="07 - Stikkord samling/DAT200/Graphs" data-href="07 - Stikkord samling/DAT200/Graphs" href="07-stikkord-samling/dat200/graphs.html" class="internal-link" target="_self" rel="noopener nofollow">Graphs</a> Shortest Path Algorithms<br><a data-href="Dijkstra’s Algorithm" href="07-stikkord-samling/dat200/dijkstra’s-algorithm.html" class="internal-link" target="_self" rel="noopener nofollow">Dijkstra’s Algorithm</a>Minimum Spanning Tree (MST)<br><a data-href="Kruskal’s Algorithm" href="07-stikkord-samling/dat200/kruskal’s-algorithm.html" class="internal-link" target="_self" rel="noopener nofollow">Kruskal’s Algorithm</a>]]></description><link>uis/class-notes/2-datateknologi-bachelor-2024-2027/3.-semester/3-algoritmer-og-datastrukturer-(dat200)/dat200-canvas.html</link><guid isPermaLink="false">UiS/Class Notes/2 - Datateknologi Bachelor 2024-2027/3. Semester/3 - Algoritmer og datastrukturer (DAT200)/DAT200 - Canvas.canvas</guid><pubDate>Thu, 11 Jun 2026 08:08:02 GMT</pubDate></item><item><title><![CDATA[Disable Interrupt]]></title><description><![CDATA[Disabling interrupts as a lock is only a uniprocessor-era trick: correct on single CPU, incorrect on SMP; unfair; and risky for system latency. Prefer OS-supported mutexes or atomic-instruction-based locks.One‑liner:
+Turn off timer/interrupt delivery while a thread is in the critical section so it can’t be preempted.A historical mutual‑exclusion technique where a thread (or the kernel) disables interrupts before entering a critical section and re‑enables them after exiting. With interrupts off, the running context cannot be preempted on that CPU, preventing involuntary context switches during the critical section.
+Simplicity: No data structures, no queues, no atomic instructions required.
+Determinism (on uniprocessors): If you can’t be preempted, no other thread runs, hence no races on shared memory. Single CPU: Correct for mutual exclusion (no other thread can run while interrupts are disabled).
+Multiple CPUs: Not correct by itself. Each CPU has its own interrupt-enable bit. Disabling interrupts on one CPU doesn’t stop other CPUs from running and touching the same shared memory. Fair? No.
+There is no ordering or queueing of waiters. Progress depends entirely on when the current holder re-enables interrupts and on scheduling policy afterwards. A misbehaving thread can monopolize the CPU. Poor / risky, especially: Long critical sections: You block timer interrupts ⇒ no preemption ⇒ potential scheduling jitter and latency spikes.
+Multiprocessors: Doesn’t solve the problem; you’d still need other mechanisms, and busy CPUs continue running.
+System impact: Disabling interrupts delays device handling and timekeeping; overuse can cause missed deadlines and degraded I/O responsiveness. Acceptable (niche): Very short, bounded critical sections in a uniprocessor kernel or early boot code.
+Critical hardware manipulation that must be atomic with respect to interrupt handlers on the same CPU. Avoid for: User-space code.
+Multiprocessor systems.
+Any non-trivial critical section or when latency/SLA matters. // Conceptual only — user space should NOT do this
+disable_interrupts(); // e.g., cli() on some architectures
+// --- critical section ---
+... manipulate shared state ...
+// --- end critical section ---
+enable_interrupts(); // e.g., sti() Caveat: In real kernels you must also save/restore the prior interrupt state (nesting-safe) and ensure you don’t sleep or block while interrupts are disabled. Extremely simple conceptually.
+Works without special hardware atomic instructions (on single CPU).
+Zero memory contention (because no one else runs). Not SMP-safe: Fails to provide mutual exclusion across CPUs.
+Unbounded latency: Interrupts deferred; can harm real-time constraints and device servicing.
+No fairness / risk of starvation.
+Error-prone: Forgetting to re-enable interrupts = system stall; enabling when already enabled can break nesting; calling code that sleeps while interrupts are off can deadlock the system.
+Not portable to user space. SMP or user space: Use proper mutexes (queue-based/OS-supported).
+Short critical section on SMP: Use spinlocks built on atomic instructions which also disable preemption and, in kernels, may mask interrupts locally if required (but still coordinate across CPUs).
+Contention expected / long sections: Use blocking mutexes (park/unpark) or read–write locks; consider lock-free algorithms where appropriate.
+]]></description><link>07-stikkord-samling/dat320/disable-interrupt.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Disable Interrupt.md</guid><pubDate>Wed, 21 Jan 2026 13:57:28 GMT</pubDate></item><item><title><![CDATA[Data structures]]></title><description><![CDATA[A data structure is a specialized format for organizing, storing, and managing data in a computer so it can be accessed and modified efficiently. Different data structures are suited to different kinds of applications and tasks.]]></description><link>07-stikkord-samling/dat200/data-structures.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Data structures.md</guid><pubDate>Sat, 03 Jan 2026 08:36:44 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Algorithms]]></title><description><![CDATA[An algorithm is a **step-by-step procedure** or set of rules designed to perform a specific task or solve a problem. It takes input, processes it through a sequence of operations, and produces output.]]></description><link>07-stikkord-samling/dat200/algorithms.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Algorithms.md</guid><pubDate>Sat, 03 Jan 2026 08:36:44 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Queues]]></title><description><![CDATA[A queue is a linear data structure that follows the **First In, First Out (FIFO)** principle. Elements are added at the rear (enqueue) and removed from the front (dequeue).]]></description><link>07-stikkord-samling/dat200/queues.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Queues.md</guid><pubDate>Mon, 29 Dec 2025 14:35:23 GMT</pubDate></item><item><title><![CDATA[Process Control Block (PCB)]]></title><description><![CDATA[Concept:
+The Process Control Block (PCB) is a data structure used by the operating system to manage and track the state of a process. It acts as the process’s identity card, containing all the information the OS needs to control and schedule the process.Key Contents of a PCB:
+Process ID (PID): Unique identifier for the process.
+Program Counter (PC): Address of the next instruction to execute.
+CPU Register Values: Snapshot of the CPU state (e.g., ACC, general-purpose registers).
+Process State: Current status (e.g., running, ready, waiting).
+Memory Management Info: Pointers to memory segments (code, data, stack).
+Scheduling Info: Priority, CPU time used, etc. Vruntime I/O Status: List of I/O devices allocated to the process.
+Role in Context Switching: During a context switch, the OS saves the current process’s CPU state into its PCB and loads the state of the next process from its PCB. This enables multitasking and process isolation.Why It Matters:
+The PCB is essential for process management, multitasking, and resource allocation in modern operating systems. Without it, the OS couldn’t keep track of multiple processes or resume them correctly.Related Concepts:
+Context Switching
+CPU Registers
+Scheduler
+Operating System Kernel
+Connections:
+↔️ CPU Cycle
+↔️ ACC (Accumulator)
+↔️ Context Switching
+]]></description><link>07-stikkord-samling/dat320/process-control-block-(pcb).html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Process Control Block (PCB).md</guid><pubDate>Wed, 10 Dec 2025 12:40:05 GMT</pubDate></item><item><title><![CDATA[Operating System (OS)]]></title><description><![CDATA[May also be called "Resource Manager"]]></description><link>07-stikkord-samling/dat320/operating-system-(os).html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Operating System (OS).md</guid><pubDate>Wed, 10 Dec 2025 12:32:55 GMT</pubDate></item><item><title><![CDATA[Dead-Lock]]></title><description><![CDATA[Deadlock is a cycle of waiting that halts progress. The Dining Philosophers problem illustrates how resource ordering and careful design prevent deadlock.One-liner:
+A situation in concurrent systems where a set of threads are blocked forever, each waiting for a resource held by another.Deadlock occurs when:
+Two or more threads hold resources and wait for each other to release resources in a cycle.
+None can proceed because each is waiting for a resource that will never be released.
+Deadlock can occur if all four hold:
+Mutual Exclusion: Resources cannot be shared; only one thread can use a resource at a time.
+Hold and Wait: A thread holds one resource while waiting for another.
+No Preemption: Resources cannot be forcibly taken away.
+Circular Wait: A cycle of threads exists, each waiting for a resource held by the next.
+Scenario:
+Five philosophers sit around a table.
+Each needs two forks (left and right) to eat.
+Each philosopher picks up the left fork, then waits for the right fork.
+Why Deadlock Happens:
+All philosophers pick up their left fork simultaneously.
+Each waits for the right fork (held by neighbor).
+Circular wait forms → deadlock. Break Circular Wait: Impose an ordering on resource acquisition (e.g., always pick up the lower-numbered fork first).
+Limit concurrency: Allow only 4 philosophers to sit at the table at once.
+Use a waiter (central authority): Philosophers request both forks at once.
+Timeouts: If a philosopher cannot acquire both forks, release and retry later. Deadlock: No progress forever.
+Starvation: A thread waits indefinitely because others keep getting priority.
+]]></description><link>07-stikkord-samling/dat320/dead-lock.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Dead-Lock.md</guid><pubDate>Wed, 10 Dec 2025 11:52:17 GMT</pubDate></item><item><title><![CDATA[Atomic Operations]]></title><description><![CDATA[Atomic operations are the building blocks of concurrency control, enabling locks and lock-free algorithms by ensuring indivisible updates to shared memory.One-liner:
+Hardware-supported instructions that perform read-modify-write in one indivisible step, essential for building correct synchronization primitives.
+Atomic operations guarantee that a sequence of steps (read, compute, write) happens as a single, uninterruptible unit.
+No other thread or CPU can observe or interleave during the operation.
+Used to implement locks and lock-free data structures. Prevent race conditions in critical sections.
+Enable mutual exclusion without disabling interrupts or relying on OS scheduling.
+Foundation for spin locks and lock-free algorithms. <a data-href="Test-and-Set" href="07-stikkord-samling/dat320/test-and-set.html" class="internal-link" target="_self" rel="noopener nofollow">Test-and-Set</a> (TAS) Atomically sets a memory location to 1 and returns its old value.
+Used in basic spin locks.
+Example: old = test_and_set(&amp;flag). <br><a data-href="Compare-and-Swap" href="07-stikkord-samling/dat320/compare-and-swap.html" class="internal-link" target="_self" rel="noopener nofollow">Compare-and-Swap</a> (CAS) Atomically compares a memory location to an expected value and, if equal, updates it.
+Returns success/failure.
+Example: CAS(&amp;flag, 0, 1). <br><a data-href="Fetch-and-Add" href="07-stikkord-samling/dat320/fetch-and-add.html" class="internal-link" target="_self" rel="noopener nofollow">Fetch-and-Add</a> (FAA) Atomically increments a memory location and returns the old value.
+Used in ticket locks for fairness.
+Example: ticket = fetch_and_add(&amp;next_ticket, 1). Other primitives Load-Linked / Store-Conditional (LL/SC): Used in some architectures for building atomic sequences.
+Atomic Exchange: Swap values in one atomic step. Correctness: Guarantees atomicity at hardware level.
+Performance: Fast compared to OS-based blocking, but can cause cache contention under heavy load.
+Fairness: Depends on how the primitive is used (e.g., TAS is unfair, FAA can enforce FIFO). Implementing spin locks (TAS, CAS).
+Building fair locks (FAA ticket locks).
+Creating lock-free data structures (CAS for stacks, queues).
+Atomic counters and reference counting.
+]]></description><link>07-stikkord-samling/dat320/atomic-operations.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Atomic Operations.md</guid><pubDate>Wed, 10 Dec 2025 10:29:48 GMT</pubDate></item><item><title><![CDATA[Concurrency]]></title><description><![CDATA[Definition:
+Concurrency is about dealing with many things at once, whereas parallelism is about doing many things at once. Concurrency focuses on correctness and coordination, while parallelism focuses on speed and resource utilization.Key Concepts:
+Threads vs Processes:
+Threads share the same address space within a process, making communication easier but introducing complexity (e.g., race conditions).
+Critical Section:
+A piece of code that accesses shared resources and must not be executed by more than one thread simultaneously.
+Mutual Exclusion:
+Ensures only one thread executes in the critical section at a time.
+Atomicity:
+Operations that cannot be interrupted, essential for implementing locks. <a data-href="Disable Interrupt" href="07-stikkord-samling/dat320/disable-interrupt.html" class="internal-link" target="_self" rel="noopener nofollow">Disable Interrupt</a> Idea: Disable interrupts when entering the critical section.
+Correctness: Works on single CPU, fails on multi-CPU.
+Fairness: No (depends on well-behaved threads).
+Performance: Poor. <br><a data-href="Load and Store" href="07-stikkord-samling/dat320/load-and-store.html" class="internal-link" target="_self" rel="noopener nofollow">Load and Store</a> (Basic Spin-Waiting) Correctness: No (race conditions possible even with atomic load/store).
+Fairness: No.
+Performance: Poor. <br><a data-href="Test-and-Set" href="07-stikkord-samling/dat320/test-and-set.html" class="internal-link" target="_self" rel="noopener nofollow">Test-and-Set</a> (TAS) Spin Lock Correctness: Yes.
+Fairness: No (starvation possible).
+Performance: Poor on single CPU, better on multi-CPU. <br><a data-href="Compare-and-Swap" href="07-stikkord-samling/dat320/compare-and-swap.html" class="internal-link" target="_self" rel="noopener nofollow">Compare-and-Swap</a> (CAS) Spin Lock Correctness: Yes.
+Fairness: No (starvation possible).
+Performance: Similar to TAS.
+Note: Enables lock-free synchronization for some operations. <br><a data-href="Fetch-and-Add" href="07-stikkord-samling/dat320/fetch-and-add.html" class="internal-link" target="_self" rel="noopener nofollow">Fetch-and-Add</a> Lock Correctness: Yes.
+Fairness: Yes (FIFO ordering possible).
+Performance: Still involves spinning. <br><a data-href="Yield-Based Lock" href="07-stikkord-samling/dat320/yield-based-lock.html" class="internal-link" target="_self" rel="noopener nofollow">Yield-Based Lock</a> Idea: Threads yield CPU instead of spinning.
+Fairness: Better than spin locks but not guaranteed.
+Issues: Unnecessary context switches. <br><a data-href="Queue-Based Lock" href="07-stikkord-samling/dat320/queue-based-lock.html" class="internal-link" target="_self" rel="noopener nofollow">Queue-Based Lock</a> (Park/Unpark) Idea: Threads block and are queued; OS wakes them in order.
+Fairness: Yes (FIFO).
+Performance: Good (avoids spinning). <br><a data-href="Semaphore" href="07-stikkord-samling/dat320/semaphore.html" class="internal-link" target="_self" rel="noopener nofollow">Semaphore</a> Idea: A counter-based synchronization primitive that can act as a lock or signal mechanism.
+Correctness: Yes (mutual exclusion or controlled concurrency).
+Fairness: Depends on implementation (often FIFO in OS).
+Performance: Efficient (threads block instead of spinning). <br><a data-href="Condition Variable" href="07-stikkord-samling/dat320/condition-variable.html" class="internal-link" target="_self" rel="noopener nofollow">Condition Variable</a> Idea: Allows threads to wait for a condition and be signaled when it changes.
+Correctness: Yes (when paired with a mutex and used correctly).
+Fairness: Depends on implementation (usually FIFO wakeup).
+Performance: Efficient (threads sleep instead of busy-waiting). Correctness: Provides mutual exclusion.
+Fairness: Prevents starvation; treats waiting threads equally.
+Performance: Minimizes overhead under different loads and CPU configurations.
+]]></description><link>07-stikkord-samling/dat320/concurrency.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Concurrency.md</guid><pubDate>Wed, 10 Dec 2025 10:24:53 GMT</pubDate></item><item><title><![CDATA[Condition Variable]]></title><description><![CDATA[Condition variables let threads sleep until a condition is met, avoiding busy-waiting and enabling efficient coordination. Always pair with a mutex and re-check conditions after waking.One-liner:
+A synchronization primitive that lets threads wait for a condition to become true without busy-waiting, using an explicit queue and signaling mechanism.
+A condition variable is paired with a mutex.
+Threads can: Wait: Block until a condition is met.
+Signal: Wake one or more waiting threads when the condition changes. Used to coordinate threads when simple mutual exclusion isn’t enough (e.g., producer-consumer).
+var cond = sync.NewCond(&amp;mu) func producer() { mu.Lock() while bufferFull { cond.Wait() // releases mu and blocks } // produce item cond.Signal() // wake one waiting thread mu.Unlock()
+} func consumer() { mu.Lock() while bufferEmpty { cond.Wait() // releases mu and blocks } // consume item cond.Signal() mu.Unlock()
+} Wait(): Assumes the mutex is locked.
+Atomically: Releases the mutex.
+Puts the thread to sleep. When woken, re-acquires the mutex before returning. Signal(): Wakes one waiting thread (or Broadcast() wakes all).
+Must hold the mutex when signaling. Yes: Prevents race conditions by combining mutex and condition checks.
+Important: Always check the condition in a loop after waking (spurious wakeups possible). Fair? Depends on implementation.
+Most OSes wake threads in FIFO order, but fairness is not guaranteed by the concept. Efficient: Threads block instead of spinning.
+Overhead: Mutex acquisition and context switches. Avoids busy-waiting.
+Enables complex coordination (e.g., producer-consumer, ordering constraints).
+Works with existing mutexes. Requires careful usage: Must hold the lock when calling Wait() or Signal().
+Must re-check condition after waking. Misuse can lead to deadlocks or missed signals. Producer-Consumer: Wait when buffer is full/empty.
+Thread ordering: Wait until another thread completes a task.
+Resource availability: Wait until a resource becomes free.
+]]></description><link>07-stikkord-samling/dat320/condition-variable.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Condition Variable.md</guid><pubDate>Wed, 10 Dec 2025 10:21:12 GMT</pubDate></item><item><title><![CDATA[Semaphore]]></title><description><![CDATA[Semaphores are powerful and versatile, replacing locks and condition variables in one abstraction. They block threads instead of spinning, making them efficient under contention.One-liner:
+A synchronization primitive that generalizes locks and condition variables into a single mechanism for controlling access and signaling.
+A semaphore is an integer value with two atomic operations: P (wait/down): Decrement the value; if it becomes negative, block the thread.
+V (signal/up): Increment the value; if there are waiting threads, wake one. Used to: Limit concurrent access to resources.
+Signal between threads (ordering, producer-consumer). Binary Semaphore: Value initialized to 1.
+Acts like a mutex (only one thread in critical section). Counting Semaphore: Value initialized to N.
+Allows up to N threads to access a resource concurrently. // Initialize
+Semaphore s = 1; // binary semaphore // Acquire
+P(s); // wait/down // Critical section
+... // Release
+V(s); // signal/up Yes: Provides mutual exclusion or controlled concurrency depending on initial value. Fair? Depends on implementation.
+Most OS implementations wake threads in FIFO order → fair.
+But fairness is not guaranteed by the concept itself. Efficient: Threads block when they cannot proceed (no spinning).
+Overhead: Requires OS support for blocking and waking. Combines capabilities of locks and condition variables.
+Can implement: Mutual exclusion.
+Producer-consumer synchronization.
+Ordering constraints. Simple abstraction for many concurrency patterns. More complex than basic locks.
+Misuse can lead to deadlocks or priority inversion.
+Harder to reason about than explicit locks + condition variables. Binary semaphore: Protect critical sections.
+Counting semaphore: Limit access to a pool of resources.
+Signaling: Thread A waits for an event; thread B signals when event occurs.
+]]></description><link>07-stikkord-samling/dat320/semaphore.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Semaphore.md</guid><pubDate>Wed, 10 Dec 2025 10:18:44 GMT</pubDate></item><item><title><![CDATA[Queue-Based Lock]]></title><description><![CDATA[Queue-based locks are correct, fair, and efficient, making them the preferred choice for blocking mutexes in modern OSes and user-space libraries.One-liner:
+A lock that avoids spinning by blocking threads in a queue and waking them in order when the lock becomes available.
+Instead of busy-waiting or yielding, threads that cannot acquire the lock park (block) and are placed in a queue.
+When the lock is released, the next thread in the queue is unparked (moved to ready state).
+Requires OS support for blocking and waking threads. Acquire: Try to get the lock.
+If busy: Acquire a small guard lock to manipulate the queue.
+Add self to queue.
+Call park() (block). Release: Acquire guard.
+Remove next thread from queue.
+Call unpark(next) to wake it.
+Leave the lock flag set so the woken thread can enter immediately. Yes: Mutual exclusion guaranteed because only one thread holds the lock at a time. Fair? Yes (FIFO).
+Threads are woken in the order they queued, preventing starvation. Excellent under contention: No spinning → no CPU waste.
+Scales well for long waits. Overhead: Context switches and OS calls, but far better than burning CPU cycles. Fairness: FIFO ordering.
+Efficiency: Threads sleep instead of spinning.
+Scalable: Handles high contention gracefully. Requires OS primitives (park, unpark, or condition variables).
+More complex than simple spin locks.
+Slightly higher latency for very short critical sections compared to spinning.
+]]></description><link>07-stikkord-samling/dat320/queue-based-lock.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Queue-Based Lock.md</guid><pubDate>Wed, 10 Dec 2025 10:15:50 GMT</pubDate></item><item><title><![CDATA[Yield-Based Lock]]></title><description><![CDATA[Yield-based locks are a quick fix to reduce CPU waste in spin locks but remain unfair and inefficient under heavy contention. For long waits, prefer blocking locks.One-liner:
+A spin lock variant that uses the OS yield() primitive to reduce CPU waste when the lock is busy.
+Instead of tight spinning (busy-waiting), a thread that fails to acquire the lock calls yield(), asking the scheduler to move it from running to ready state.
+This gives other threads a chance to run, reducing wasted CPU cycles compared to pure spin locks.
+void lock() { while (test_and_set(&amp;flag) == 1) { yield(); // voluntarily give up CPU }
+} void unlock() { flag = 0;
+} Yes: Mutual exclusion is preserved because the lock acquisition still uses an atomic operation (e.g., Test-and-Set). Fair? Not guaranteed.
+Yield reduces CPU hogging but does not enforce FIFO ordering. Starvation is still possible. Better than pure spin locks under contention because threads don’t burn entire time slices spinning.
+Issues: Can cause unnecessary context switches if many threads repeatedly yield.
+Still not as efficient as blocking locks (park/unpark) for long waits. Reduces CPU waste compared to busy-waiting.
+Simple to implement if OS provides yield(). No fairness guarantee.
+Context-switch overhead can be high with many contenders.
+Still unsuitable for long critical sections.
+]]></description><link>07-stikkord-samling/dat320/yield-based-lock.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Yield-Based Lock.md</guid><pubDate>Wed, 10 Dec 2025 10:09:09 GMT</pubDate></item><item><title><![CDATA[Fetch-and-Add]]></title><description><![CDATA[Fetch-and-Add locks (ticket locks) are correct and fair, making them better than TAS/CAS for fairness-sensitive scenarios. Still, they spin, so for long waits or high contention, prefer blocking locks.One-liner:
+A lock built on the atomic fetch_and_add instruction, providing FIFO fairness by assigning tickets to threads.
+Primitive:
+fetch_and_add(addr, inc) atomically: Returns the old value at addr.
+Adds inc to addr. Lock idea (ticket lock): Maintain two counters: next_ticket (next ticket number to give out).
+now_serving (ticket currently being served). my_ticket = fetch_and_add(&amp;next_ticket, 1); while (now_serving != my_ticket) { // spin
+}
+Run
+now_serving++;
+Run volatile int next_ticket = 0;
+volatile int now_serving = 0; void lock() { int my_ticket = fetch_and_add(&amp;next_ticket, 1); while (now_serving != my_ticket) { // spin }
+} void unlock() { now_serving++;
+} Yes: Mutual exclusion guaranteed because each thread waits for its ticket to be served. Fair? Yes (FIFO order).
+Threads acquire the lock in the order they requested it. Spins: Still busy-waiting, but: No starvation.
+Reduces contention compared to TAS/CAS because each thread spins on its own ticket condition rather than hammering the same memory location. Cache behavior: Better than TAS/CAS under heavy load, but still involves polling. Fairness: FIFO ordering prevents starvation.
+Simplicity: Easy to implement with one atomic instruction.
+Predictable: Good for real-time or fairness-sensitive workloads. Busy-waiting: Wastes CPU cycles if critical sections are long.
+Cache traffic: Still present, though less severe than TAS/CAS.
+Requires two shared counters.
+my_ticket = fetch_and_add(&amp;next_ticket, 1); while (now_serving != my_ticket) { // spin
+}
+now_serving++;
+Run]]></description><link>07-stikkord-samling/dat320/fetch-and-add.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Fetch-and-Add.md</guid><pubDate>Wed, 10 Dec 2025 10:05:55 GMT</pubDate></item><item><title><![CDATA[Compare-and-Swap]]></title><description><![CDATA[CAS spin locks are correct and more versatile than TAS, but still unfair and wasteful under contention. CAS shines in lock-free algorithms, not as a basic spin lock.One-liner:
+A lock built on the atomic compare_and_swap instruction; threads spin until they successfully change the lock state from “free” to “held.”
+Primitive:
+compare_and_swap(addr, expected, new) atomically: Compares the value at addr with expected.
+If equal, sets it to new.
+Returns the old value. Lock idea:
+Use a shared flag (0 = free, 1 = held). Acquire: Loop calling compare_and_swap(&amp;flag, 0, 1) until it succeeds.
+Release: flag = 0. volatile int flag = 0; void lock() { while (!compare_and_swap(&amp;flag, 0, 1)) { // spin }
+} void unlock() { flag = 0;
+} Yes: Mutual exclusion guaranteed because CAS is atomic and only succeeds if the flag was 0. Fair? No (starvation possible).
+Like Test-and-Set, CAS does not enforce ordering; a new thread can repeatedly win the race. Single CPU: Poor under preemption (same issue as TAS).
+Multi-CPU: Better than TAS for some patterns because CAS can be used for lock-free algorithms, but still spins under contention. Enables lock-free synchronization for certain data structures (e.g., atomic counters, stacks).
+Unlike TAS, CAS can check and update in one atomic step without blindly setting the value. Correct mutual exclusion.
+Hardware-supported on most modern CPUs.
+Foundation for lock-free algorithms. Busy-waiting wastes CPU cycles.
+Unfair; starvation possible.
+Cache contention under heavy load. Backoff strategies to reduce contention.
+Hybrid locks (spin briefly, then block).
+Use CAS for lock-free data structures instead of simple spin locks.
+]]></description><link>07-stikkord-samling/dat320/compare-and-swap.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Compare-and-Swap.md</guid><pubDate>Wed, 10 Dec 2025 09:59:58 GMT</pubDate></item><item><title><![CDATA[Test-and-Set]]></title><description><![CDATA[TAS spin locks are correct but unfair and can be wasteful. Prefer ticket locks for fairness or blocking mutexes (queue‑based) for efficiency under contention.One‑liner:
+A lock built on the atomic test_and_set instruction; threads busy‑wait until the lock flag becomes free.
+Primitive: test_and_set(addr) atomically reads the old value at addr and sets it to 1 in one indivisible operation.
+Lock idea: Use a shared flag (0 = free, 1 = held). Acquire: Loop calling test_and_set(&amp;flag) until it returns 0.
+Release: flag = 0. // Shared
+volatile int flag = 0; // Acquire
+void lock() { while (test_and_set(&amp;flag) == 1) { // spin (busy-wait) }
+} // Release
+void unlock() { flag = 0; The atomicity of test_and_set guarantees that only one thread observes 0 and sets it to 1 at a time. Yes: Provides mutual exclusion on single and multi‑CPU systems because the check‑and‑set happens atomically. Fair? No (starvation possible).
+There’s no ordering among waiters; a newly arriving thread can repeatedly “win” the race when the lock is released, starving others. Single CPU: Poor if the holder is preempted; all other threads spin for an entire time slice with no chance of progress.
+Multiple CPUs: Better than on single CPU (a spinning thread may acquire the lock as soon as it’s freed), but still suffers from cache contention and wasted cycles under heavy contention. Simple to implement and reason about.
+Requires only one atomic instruction (widely available in hardware).
+Correct mutual exclusion without OS support. Busy‑waiting wastes CPU cycles.
+Unfair; can cause starvation.
+Scales poorly under contention (cache‑line bouncing).
+Not suitable for long critical sections or when the holder may block/sleep. Use for: Very short critical sections in low‑contention paths; kernel/embedded contexts where sleeping isn’t allowed and latency is critical.
+Avoid for: User‑space locks with potential blocking, longer sections, or high contention—use queue‑based mutexes (park/unpark) or ticket locks (fetch‑and‑add) instead. Test‑and‑test‑and‑set: First spin on flag being 0 using ordinary loads; only call test_and_set when it looks free → reduces atomic contention.
+Backoff (exponential): Delay between failed attempts to reduce bus/cache thrashing.
+Hybrid locks: Spin briefly, then park (block) to avoid wasting CPU.
+]]></description><link>07-stikkord-samling/dat320/test-and-set.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Test-and-Set.md</guid><pubDate>Wed, 10 Dec 2025 09:56:22 GMT</pubDate></item><item><title><![CDATA[Load and Store]]></title><description><![CDATA[Load-and-store locks are unsafe and should never be used for mutual exclusion. They illustrate why atomic instructions (Test-and-Set, CAS) are essential for correct locking.One-liner:
+Attempt mutual exclusion by reading a flag (load) and writing it (store) without advanced atomic instructions.A naive lock implementation that uses a shared flag variable:
+Acquire: Check if flag == 0; if so, set flag = 1.
+Release: Set flag = 0.
+Threads spin (busy-wait) until the flag becomes available.
+Simplicity: Uses only basic memory operations (load and store).
+No hardware support needed: Works on any architecture with basic memory instructions. Fails even with atomic load/store assumptions.
+Example: Two threads can both read flag == 0 before either writes flag = 1. Both enter the critical section → race condition. Fair? No.
+There is no ordering; any thread that wins the race enters first. Others spin indefinitely, risking starvation. Poor: Spins continuously, wasting CPU cycles.
+On single CPU, if the holder is preempted, others spin for an entire time slice.
+On multi-CPU, contention causes cache thrashing. // INCORRECT lock using load/store
+while (flag == 1) { // spin
+}
+flag = 1; // enter critical section
+// ...
+flag = 0; // release Atomicity violation: Load and store are separate steps; between them, another thread can intervene.
+Interrupts/context switches: Make timing unpredictable. Extremely simple conceptually.
+No special hardware instructions required. Not correct: Cannot guarantee mutual exclusion.
+No fairness: Starvation possible.
+Performance: Wastes CPU cycles; scales poorly.
+]]></description><link>07-stikkord-samling/dat320/load-and-store.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Load and Store.md</guid><pubDate>Wed, 10 Dec 2025 09:49:57 GMT</pubDate></item><item><title><![CDATA[FileSystemVisual]]></title><description><![CDATA[<img src="03-attachment-folder/dat320/filesystemvisual.png" target="_self">]]></description><link>03-attachment-folder/dat320/filesystemvisual.html</link><guid isPermaLink="false">03 - Attachment folder/DAT320/FileSystemVisual.png</guid><pubDate>Wed, 10 Dec 2025 08:22:37 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[IOVisual2]]></title><description><![CDATA[<img src="03-attachment-folder/dat320/iovisual2.png" target="_self">]]></description><link>03-attachment-folder/dat320/iovisual2.html</link><guid isPermaLink="false">03 - Attachment folder/DAT320/IOVisual2.png</guid><pubDate>Tue, 09 Dec 2025 09:53:20 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[IOVisual1]]></title><description><![CDATA[<img src="03-attachment-folder/dat320/iovisual1.png" target="_self">]]></description><link>03-attachment-folder/dat320/iovisual1.html</link><guid isPermaLink="false">03 - Attachment folder/DAT320/IOVisual1.png</guid><pubDate>Tue, 09 Dec 2025 09:52:35 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Input-Output (IO)]]></title><description><![CDATA[I/O devices are devices connected to the computer that we wish to input data into or receive its output.
+Example is a keyboard where a user inputs manual keystrokes which is outputted to the machine.
+Another example is a storage device where we input requests for data and the storage device outputs the requested data. ]]></description><link>07-stikkord-samling/dat320/input-output-(io).html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Input-Output (IO).md</guid><pubDate>Tue, 09 Dec 2025 09:34:52 GMT</pubDate></item><item><title><![CDATA[Paging]]></title><description><![CDATA[Paging is a memory management scheme that eliminates the need for contiguous allocation of physical memory by dividing both virtual memory and physical memory into fixed-size blocks:
+Pages: Fixed-size blocks in virtual memory.
+Frames: Fixed-size blocks in physical memory.
+A page frame can hold exactly one page. Avoid external fragmentation caused by variable-sized segments.
+Simplify free space management by using uniform block sizes.
+Enable virtual memory: processes can use more memory than physically available. Virtual Address (VA): Split into: VPN (Virtual Page Number): Index into the page table.
+Offset: Location within the page. Physical Address (PA): Derived from: PFN (Page Frame Number): From page table entry.
+Offset: Same as VA offset. Maps VPN → PFN for each process.
+Stored in memory; MMU uses Page Table Base Register to locate it.
+Each Page Table Entry (PTE) contains: PFN (physical frame number)
+Present bit: Indicates if page is in memory or on disk.
+Protection bits: Read/Write/Execute permissions.
+Dirty bit: Modified since load.
+Accessed bit: For replacement policies. Extract VPN and offset from VA. If VA is 32 bits and frame size is 4KB Then 4Kb needs bits for the offset So VPN is bits and offset is 12bits. Use VPN to index into page table → get PFN.
+Combine PFN + offset → Physical Address. Every memory access requires: Page table lookup (extra memory access).
+Then actual data access. Solution: Use TLB (Translation Lookaside Buffer): A small, fast cache of recent VPN → PFN mappings.
+Reduces overhead by avoiding frequent page table lookups. Multi-level Page Tables: Reduce memory overhead for sparse address spaces.
+Inverted Page Tables: Use a global table indexed by PFN.
+Large Pages: Reduce table size but cause internal fragmentation. Eliminates external fragmentation.
+Supports virtual memory and process isolation.
+Enables flexible allocation and swapping. Page table can be large (e.g., 4 MB per process for 32-bit VA with 4 KB pages).
+Requires hardware support (MMU, TLB).
+Page faults and disk I/O can be expensive.
+]]></description><link>07-stikkord-samling/dat320/paging.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Paging.md</guid><pubDate>Mon, 08 Dec 2025 12:36:32 GMT</pubDate></item><item><title><![CDATA[Cache Coherence & Affinity]]></title><description><![CDATA[
+Cache Coherence:
+A hardware-level mechanism ensuring that all CPUs see a consistent view of memory when they have private caches. If CPU1 modifies a cached value, other CPUs must not read stale data.
+Implemented via protocols like MESI (Modified, Exclusive, Shared, Invalid). Cache Affinity (Processor Affinity):
+A scheduling policy that tries to keep a process on the same CPU where it previously ran. Reason: The CPU’s cache likely contains data the process needs.
+Goal: Reduce cache misses and improve performance. Multi-CPU Systems:
+Each CPU has its own cache. When processes migrate between CPUs: Cache contents are lost → more memory accesses.
+Increased latency and reduced throughput. Performance Impact: Maintaining affinity improves cache hit rate.
+Reduces memory bus traffic and coherence overhead. Load Balancing vs Affinity: Keeping affinity may conflict with balancing CPU load.
+Example: A CPU is overloaded, but moving tasks breaks affinity. Cache Coherence Overhead: Even with affinity, shared data between threads on different CPUs requires coherence traffic.
+Hardware protocols handle this but add complexity. Affinity Scheduling: Soft Affinity: Prefer same CPU but allow migration.
+Hard Affinity: Pin process to a CPU (e.g., taskset in Linux). <a data-href="Work Stealing" href="07-stikkord-samling/dat320/work-stealing.html" class="internal-link" target="_self" rel="noopener nofollow">Work Stealing</a>: Used in multi-queue schedulers (e.g., Go runtime).
+Tries to balance load while minimizing unnecessary migrations. Cache affinity is a policy for performance optimization.
+Cache coherence is a hardware mechanism for correctness.
+Both are critical in multi-core systems for efficiency and consistency.
+]]></description><link>07-stikkord-samling/dat320/cache-coherence-&amp;-affinity.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Cache Coherence &amp; Affinity.md</guid><pubDate>Mon, 08 Dec 2025 12:09:08 GMT</pubDate></item><item><title><![CDATA[Hash tables]]></title><description><![CDATA[A hash table is a data structure that maps **keys to values** using a **hash function**. The hash function computes an index (or hash code) from the key, which determines where the value is stored in memory. This allows for **average-case constant time** complexity for insertion, deletion, and lookup.]]></description><link>07-stikkord-samling/dat200/hash-tables.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Hash tables.md</guid><pubDate>Mon, 08 Dec 2025 10:55:49 GMT</pubDate></item><item><title><![CDATA[Stacks]]></title><description><![CDATA[A stack is a linear data structure that follows the **Last In, First Out (LIFO)** principle. Elements are added (pushed) and removed (popped) only from the top of the stack.]]></description><link>07-stikkord-samling/dat200/stacks.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Stacks.md</guid><pubDate>Mon, 08 Dec 2025 10:55:49 GMT</pubDate></item><item><title><![CDATA[Completely Fair Scheduler (CFS)]]></title><description><![CDATA[CFS is the default scheduling algorithm in the Linux kernel. It aims to fairly distribute CPU time among processes by tracking how much CPU time each process has used and selecting the one with the least "virtual runtime" (vruntime).(Note: replaced with something else from year 2025 in Linux Kernal 2.6.6)]]></description><link>07-stikkord-samling/dat320/completely-fair-scheduler-(cfs).html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Completely Fair Scheduler (CFS).md</guid><pubDate>Mon, 08 Dec 2025 10:53:42 GMT</pubDate></item><item><title><![CDATA[Free Space Management]]></title><description><![CDATA[The OS, through some decision logic, allocated memory space when a process is created or when a process ask for more memory space through a system call often called malloc(size). The logic is usually to give the process som segment of the physical memory to handle as it wishes. The logic defines how well the space is managed and if it experiences a high or low fragmentation. This is a <a data-href="system call" href=".html" class="internal-link" target="_self" rel="noopener nofollow">system call</a> by a process to the OS asking to be allocated more memory. Memory can only be released when the process terminates or if the process calls free() on some memory.]]></description><link>07-stikkord-samling/dat320/free-space-management.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Free Space Management.md</guid><pubDate>Mon, 08 Dec 2025 10:51:09 GMT</pubDate></item><item><title><![CDATA[API]]></title><description><![CDATA[Application programming interface]]></description><link>07-stikkord-samling/dat320/api.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/API.md</guid><pubDate>Mon, 08 Dec 2025 10:47:44 GMT</pubDate></item><item><title><![CDATA[Prim's Algorithm]]></title><description><![CDATA[Definition:
+Prim’s Algorithm is a greedy algorithm used to find a Minimum Spanning Tree (MST) for a weighted, connected, undirected graph. The MST is a subset of edges that connects all vertices with the minimum possible total edge weight and without cycles. Start from an arbitrary vertex.
+Grow the MST by repeatedly adding the smallest-weight edge that connects a vertex in the tree to a vertex outside the tree.
+Continue until all vertices are included. Input: Weighted, connected, undirected graph.
+Output: Minimum Spanning Tree (n-1 edges).
+Approach: Greedy (local optimum → global optimum).
+Complexity: Using adjacency matrix: .
+Using min-priority queue (binary heap): Initialize MST with a random starting vertex.
+Find all edges connecting the tree to vertices not yet in the tree.
+Select the edge with the minimum weight and add it to the MST.
+Repeat step 2 and 3 until all vertices are included. Network design (minimum cost wiring).
+Road construction (minimum total distance).
+Clustering in machine learning. Operates on <a data-href="Graphs" href="07-stikkord-samling/dat200/graphs.html" class="internal-link" target="_self" rel="noopener nofollow">Graphs</a> and produces a <a data-href="Spanning Tree" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Spanning Tree</a>.
+<br>Related to <a data-href="Kruskal’s Algorithm" href="07-stikkord-samling/dat200/kruskal’s-algorithm.html" class="internal-link" target="_self" rel="noopener nofollow">Kruskal’s Algorithm</a> (another MST algorithm).
+Both Prim’s and Kruskal’s are greedy algorithms.
+<br>MST differs from <a data-href="Dijkstra’s Algorithm" href="07-stikkord-samling/dat200/dijkstra’s-algorithm.html" class="internal-link" target="_self" rel="noopener nofollow">Dijkstra’s Algorithm</a> (shortest path, not spanning tree).
+]]></description><link>07-stikkord-samling/dat200/prim&apos;s-algorithm.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Prim&apos;s Algorithm.md</guid><pubDate>Thu, 04 Dec 2025 11:40:35 GMT</pubDate></item><item><title><![CDATA[Kruskal’s Algorithm]]></title><description><![CDATA[Definition:
+Kruskal’s Algorithm is a greedy algorithm used to find a Minimum Spanning Tree (MST) for a weighted, connected, undirected graph. The MST connects all vertices with the minimum total edge weight and without cycles. Sort all edges by weight in ascending order.
+Add edges one by one to the MST, skipping any edge that would create a cycle.
+Continue until all vertices are included. Input: Weighted, connected, undirected graph.
+Output: Minimum Spanning Tree (n-1 edges).
+Approach: Greedy (chooses smallest edge first).
+Complexity: Sorting edges: .
+Union-Find operations: with efficient disjoint-set structure. Sort all edges from lowest to highest weight.
+Initialize MST as empty.
+For each edge in sorted order: If adding the edge does not form a cycle, include it in the MST.
+Otherwise, discard the edge. Repeat until MST has edges. Network design (minimum cost connections).
+Road or pipeline construction.
+Clustering in data analysis. Operates on <a data-href="Graphs" href="07-stikkord-samling/dat200/graphs.html" class="internal-link" target="_self" rel="noopener nofollow">Graphs</a> and produces a <a data-href="Spanning Tree" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Spanning Tree</a>.
+<br>Related to <a data-href="Prim's Algorithm" href="07-stikkord-samling/dat200/prim's-algorithm.html" class="internal-link" target="_self" rel="noopener nofollow">Prim's Algorithm</a> (another MST algorithm).
+Both Prim’s and Kruskal’s are greedy algorithms.
+<br>MST differs from <a data-href="Dijkstra’s Algorithm" href="07-stikkord-samling/dat200/dijkstra’s-algorithm.html" class="internal-link" target="_self" rel="noopener nofollow">Dijkstra’s Algorithm</a> (shortest path problem).
+]]></description><link>07-stikkord-samling/dat200/kruskal’s-algorithm.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Kruskal’s Algorithm.md</guid><pubDate>Thu, 04 Dec 2025 11:40:31 GMT</pubDate></item><item><title><![CDATA[Dijkstra’s Algorithm]]></title><description><![CDATA[Definition:
+Dijkstra’s Algorithm is a greedy algorithm used to find the shortest path from a single source vertex to all other vertices in a weighted graph with non-negative edge weights. Unlike a Minimum Spanning Tree, it focuses on minimizing the total distance from the source to each vertex, not connecting all vertices. Start from the source vertex.
+Assign initial distances: Source = 0
+All others = ∞ (infinity). Iteratively select the unvisited vertex with the smallest known distance.
+Update the distances of its adjacent vertices if a shorter path is found.
+Repeat until all vertices are visited. Input: Weighted graph (non-negative weights).
+Output: Shortest path distances from source to all vertices.
+Approach: Greedy (chooses next closest vertex).
+Complexity: Using adjacency matrix: .
+Using min-priority queue (binary heap): . Initialize distances: source = 0, others = ∞.
+Mark all vertices as unvisited.
+Select the unvisited vertex with the smallest distance.
+For each adjacent vertex: Calculate new distance = current distance + edge weight.
+If new distance &lt; current stored distance, update it. Mark the current vertex as visited.
+Repeat from step 3 until all vertices are visited. GPS navigation systems.
+Network routing protocols.
+Game development (pathfinding).
+Resource allocation in logistics. Operates on <a data-href="Graphs" href="07-stikkord-samling/dat200/graphs.html" class="internal-link" target="_self" rel="noopener nofollow">Graphs</a> and uses similar principles to <a data-href="Breadth-First-Search (BFS)" href="07-stikkord-samling/dat200/breadth-first-search-(bfs).html" class="internal-link" target="_self" rel="noopener nofollow">Breadth-First-Search (BFS)</a> for unweighted graphs.
+<br>Differs from <a data-href="Prim's Algorithm" href="07-stikkord-samling/dat200/prim's-algorithm.html" class="internal-link" target="_self" rel="noopener nofollow">Prim's Algorithm</a> and <a data-href="Kruskal’s Algorithm" href="07-stikkord-samling/dat200/kruskal’s-algorithm.html" class="internal-link" target="_self" rel="noopener nofollow">Kruskal’s Algorithm</a> (which build MSTs).
+BFS can be considered a special case of Dijkstra when all edge weights are equal.
+]]></description><link>07-stikkord-samling/dat200/dijkstra’s-algorithm.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Dijkstra’s Algorithm.md</guid><pubDate>Thu, 04 Dec 2025 11:40:21 GMT</pubDate></item><item><title><![CDATA[Breadth-First-Search (BFS)]]></title><description><![CDATA[Definition:
+Breadth-First Search is a graph traversal algorithm that explores all vertices at the current depth level before moving to the next level. It is widely used for finding the shortest path in unweighted graphs and for level-order exploration. Start from a given start vertex.
+Visit all its adjacent vertices (neighbors).
+Then visit the neighbors of those vertices, and so on.
+Ensures that vertices are visited in increasing order of their distance from the start vertex. Traversal Order: Level by level.
+Data Structure Used: Queue (FIFO).
+Marking: Vertices should be marked as visited when enqueued to avoid duplicates.
+Complexity: Time: for adjacency list representation.
+Space: for storing visited nodes and queue. Initialize a queue and mark the start vertex as visited.
+Enqueue the start vertex. (Add element to end of array)
+While the queue is not empty: Dequeue a vertex. (Remove element from front of array)
+Process it (e.g., print or record).
+Enqueue all its unvisited adjacent vertices and mark them visited. Repeat until all reachable vertices are visited. Shortest Path in Unweighted Graphs: BFS guarantees the shortest path because it explores vertices in order of their distance from the source.
+Connectivity Check: Determine if all vertices are reachable.
+Level Order Traversal: Useful in trees and layered structures.
+Network Broadcasting: Simulates spreading information level by level. BFS is a fundamental graph traversal method alongside <a data-href="Depth-First-Search (DFS)" href="07-stikkord-samling/dat200/depth-first-search-(dfs).html" class="internal-link" target="_self" rel="noopener nofollow">Depth-First-Search (DFS)</a>.
+<br>BFS is used in <a data-href="Dijkstra's Algorithm" href=".html" class="internal-link" target="_self" rel="noopener nofollow">Dijkstra's Algorithm</a> for graphs with equal weights.
+<br>BFS operates on <a data-href="Graphs" href="07-stikkord-samling/dat200/graphs.html" class="internal-link" target="_self" rel="noopener nofollow">Graphs</a> represented as adjacency lists or matrices.
+]]></description><link>07-stikkord-samling/dat200/breadth-first-search-(bfs).html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Breadth-First-Search (BFS).md</guid><pubDate>Thu, 04 Dec 2025 11:25:51 GMT</pubDate></item><item><title><![CDATA[Depth-First-Search (DFS)]]></title><description><![CDATA[Definition:
+Depth-First Search is a graph traversal algorithm that explores as far as possible along each branch before backtracking. It is commonly used for pathfinding, connectivity checks, and cycle detection in graphs. Start from a given start vertex.
+Move to an adjacent unvisited vertex and continue exploring deeper.
+When no unvisited adjacent vertices remain, backtrack to the previous vertex and continue.
+Repeat until all reachable vertices are visited. Traversal Order: Deep before wide.
+Data Structure Used: Stack (explicit or via recursion).
+Complexity: Time: for adjacency list representation.
+Space: for visited nodes and recursion stack. Initialize a stack (or use recursion) and mark the start vertex as visited.
+Push the start vertex onto the stack. (Push means add element to the end of the array)
+While the stack is not empty: Pop a vertex. (Pop means remove the last element in the array)
+Process it (e.g., print or record).
+Push all its unvisited adjacent vertices onto the stack and mark them visited. Repeat until all reachable vertices are visited. Pathfinding: Determine if a path exists between two vertices.
+Cycle Detection: Identify cycles in directed or undirected graphs.
+Topological Sorting: For Directed Acyclic Graphs (DAGs).
+Connected Components: Find components in undirected graphs. DFS complements <a data-href="Breadth-First-Search (BFS)" href="07-stikkord-samling/dat200/breadth-first-search-(bfs).html" class="internal-link" target="_self" rel="noopener nofollow">Breadth-First-Search (BFS)</a> in graph traversal strategies.
+<br>Both operate on <a data-href="Graphs" href="07-stikkord-samling/dat200/graphs.html" class="internal-link" target="_self" rel="noopener nofollow">Graphs</a> represented as adjacency lists or matrices.
+DFS is foundational for algorithms like Tarjan’s for strongly connected components.
+]]></description><link>07-stikkord-samling/dat200/depth-first-search-(dfs).html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Depth-First-Search (DFS).md</guid><pubDate>Thu, 04 Dec 2025 11:25:37 GMT</pubDate></item><item><title><![CDATA[GraphVisual3]]></title><description><![CDATA[<img src="03-attachment-folder/dat200/graphvisual3.png" target="_self">]]></description><link>03-attachment-folder/dat200/graphvisual3.html</link><guid isPermaLink="false">03 - Attachment folder/DAT200/GraphVisual3.png</guid><pubDate>Thu, 04 Dec 2025 11:14:38 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GraphVisual2]]></title><description><![CDATA[<img src="03-attachment-folder/dat200/graphvisual2.png" target="_self">]]></description><link>03-attachment-folder/dat200/graphvisual2.html</link><guid isPermaLink="false">03 - Attachment folder/DAT200/GraphVisual2.png</guid><pubDate>Thu, 04 Dec 2025 11:13:48 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[GraphVisual1]]></title><description><![CDATA[<img src="03-attachment-folder/dat200/graphvisual1.png" target="_self">]]></description><link>03-attachment-folder/dat200/graphvisual1.html</link><guid isPermaLink="false">03 - Attachment folder/DAT200/GraphVisual1.png</guid><pubDate>Thu, 04 Dec 2025 11:13:37 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Introducti...to Graphs]]></title><link>07-stikkord-samling/dat200/introducti...to-graphs.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Introducti...to Graphs.md</guid><pubDate>Thu, 04 Dec 2025 11:08:02 GMT</pubDate></item><item><title><![CDATA[Hashing]]></title><description><![CDATA[Definition:
+Hashing is a technique used to map a large set of possible keys into a smaller range of indices in an array (called a hash table) using a mathematical function known as a hash function. It enables efficient storage and retrieval of data in associative arrays (dictionaries).
+Associative Array / Dictionary Stores data as (key, value) pairs.
+Keys are unique, case-sensitive; values can be duplicated and of any data type.
+Basic operations: Insertion, Deletion, Lookup. Why Hashing? Direct addressing is impractical for large key spaces due to memory inefficiency.
+Hashing reduces memory usage by mapping keys to a smaller index range. A data structure combining an array and a hash function.
+Each key is transformed into an index using the hash function.
+Ideal performance: O(1) for insert, search, and delete (average case). Maps a key to an integer in the range [0, m-1], where m = table size.
+Common methods: Division Method: Use a prime number for m to reduce collisions.
+Multiplication Method: Where A is a constant (Knuth suggests ).
+Universal Hashing:
+Randomly selects a hash function from a family to minimize collisions. Occur when two keys hash to the same index.
+Collision Resolution Techniques: Probing Chaining:
+Each slot stores a linked list of entries. Insert: O(1) at head. Linked list where new element is added to the front. Search/Delete: O(length of list). Open Addressing:
+Store colliding keys in other slots using probing: Linear Probing: Check next slot sequentially. Quadratic Probing: Use quadratic increments. Double Hashing: Use a second hash function for step size. Indicates how full the table is.
+High load factor → more collisions → degraded performance.
+Common threshold: 0.6–0.8; resizing (rehashing) recommended when exceeded. Under Simple Uniform Hashing assumption (keys distributed uniformly): Average lookup cost ≈ O(1). Worst case: O(n) if all keys collide into one slot. Choose a good hash function to minimize collisions.
+Resize table when load factor grows too high.
+Prime table sizes often improve distribution.
+]]></description><link>07-stikkord-samling/dat200/hashing.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Hashing.md</guid><pubDate>Thu, 04 Dec 2025 09:43:38 GMT</pubDate></item><item><title><![CDATA[AvlTreeVisual]]></title><description><![CDATA[<img src="03-attachment-folder/dat200/avltreevisual.png" target="_self">]]></description><link>03-attachment-folder/dat200/avltreevisual.html</link><guid isPermaLink="false">03 - Attachment folder/DAT200/AvlTreeVisual.png</guid><pubDate>Thu, 04 Dec 2025 09:07:56 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Tree Reconstruction]]></title><description><![CDATA[Methods to reconstruct a Binary Tree or Binary Search Tree based on Pre-/In-/Post-order arrays]]></description><link>07-stikkord-samling/dat200/tree-reconstruction.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Tree Reconstruction.md</guid><pubDate>Wed, 03 Dec 2025 10:07:21 GMT</pubDate></item><item><title><![CDATA[Circular Queue]]></title><description><![CDATA[A queue is a linear data structure that follows the **First In, First Out (FIFO)** principle. Elements are added at the rear (enqueue) and removed from the front (dequeue).]]></description><link>07-stikkord-samling/dat200/circular-queue.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Circular Queue.md</guid><pubDate>Wed, 03 Dec 2025 09:20:58 GMT</pubDate></item><item><title><![CDATA[Circular Linked List]]></title><description><![CDATA[A Circular <a data-href="Linked List" href="07-stikkord-samling/dat200/linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Linked List</a> is a variation of a linked list where the last node points back to the first node, forming a loop. This structure can be implemented as either:
+<br>Circular <a data-href="Singly Linked List" href="07-stikkord-samling/dat200/singly-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Singly Linked List</a>: Each node has one pointer (next), and the last node points to the head.
+<br>Circular <a data-href="Doubly Linked List" href="07-stikkord-samling/dat200/doubly-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Doubly Linked List</a>: Each node has two pointers (next and previous), and the last node’s next points to the head while the head’s previous points to the last node. Node Components: Data: Stores the value.
+Pointer(s): One or two pointers depending on singly or doubly implementation. Head: Reference to the first node.
+Tail: Points back to head to complete the circle. Circular Traversal: No null termination; traversal continues in a loop.
+Dynamic Size: Can grow or shrink during runtime.
+Efficient Rotation: Useful for applications like round-robin scheduling. Traversal (O(n)): Start at head and continue until you return to head.
+Insertion: At beginning: O(1)
+At end: O(1) if tail is maintained, else O(n) Deletion: From beginning: O(1)
+From end: O(1) if tail is maintained, else O(n) Searching: O(n) No null pointers; continuous loop.
+Efficient for cyclic operations. More complex termination conditions during traversal.
+Slightly harder to implement than linear lists.
+class Node: def __init__(self, data): self.data = data self.next = None class CircularLinkedList: def __init__(self): self.head = None def insert_end(self, new): new_node = Node(new) if not self.head: self.head = new_node new_node.next = self.head else: temp = self.head while temp.next != self.head: temp = temp.next temp.next = new_node new_node.next = self.head
+class Node: def __init__(self, data): self.data = data self.next = None self.prev = None class CircularDoublyLinkedList: def __init__(self): self.head = None def insert_end(self, new): new_node = Node(new) if not self.head: # First node points to itself in both directions self.head = new_node new_node.next = self.head new_node.prev = self.head else: tail = self.head.prev # Last node before head tail.next = new_node new_node.prev = tail new_node.next = self.head self.head.prev = new_node def traverse_forward(self): if not self.head: return temp = self.head while True: print(temp.data, end=" ") temp = temp.next if temp == self.head: break print() def traverse_backward(self): if not self.head: return temp = self.head.prev # Start from tail while True: print(temp.data, end=" ") temp = temp.prev if temp == self.head.prev: break print() # Example usage:
+cdll = CircularDoublyLinkedList()
+cdll.insert_end(10)
+cdll.insert_end(20)
+cdll.insert_end(30) print("Forward Traversal:")
+cdll.traverse_forward() print("Backward Traversal:")
+cdll.traverse_backward()
+RunLinks to Related Notes:
+<br><a data-href="Linked List" href="07-stikkord-samling/dat200/linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Linked List</a>
+<br><a data-href="Singly Linked List" href="07-stikkord-samling/dat200/singly-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Singly Linked List</a>
+<br><a data-href="Doubly Linked List" href="07-stikkord-samling/dat200/doubly-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Doubly Linked List</a>
+]]></description><link>07-stikkord-samling/dat200/circular-linked-list.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Circular Linked List.md</guid><pubDate>Wed, 03 Dec 2025 08:57:29 GMT</pubDate></item><item><title><![CDATA[Doubly Linked List]]></title><description><![CDATA[Definition:
+A Doubly <a data-href="Linked List" href="07-stikkord-samling/dat200/linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Linked List</a> is a linked list where each node contains data and two pointers:
+Next: Points to the next node.
+Previous: Points to the previous node.
+This structure allows traversal in both directions.
+Node Components: Data: Stores the value.
+Next Pointer: Points to the next node.
+Previous Pointer: Points to the previous node. Head: Reference to the first node. Bidirectional Traversal: Can move forward and backward.
+Dynamic Size: Can grow or shrink during runtime.
+No Random Access: Must traverse sequentially. Traversal (O(n)): Forward from head or backward from tail.
+Insertion: At beginning: O(1)
+At position: O(n) Deletion: From beginning: O(1)
+At position: O(n) Searching: O(n) Easier deletion and insertion at both ends.
+Bidirectional navigation. Extra memory for two pointers per node.
+Slightly more complex implementation.
+class Node: def __init__(self, data): self.data = data self.next = None self.prev = None class DoublyLinkedList: def __init__(self): self.head = None def insert_front(self, new): new_node = Node(new) new_node.next = self.head if self.head: self.head.prev = new_node self.head = new_node def traverse_forward(self): temp = self.head while temp: print(temp.data, end=" ") temp = temp.next
+Links to Related Notes:
+<br><a data-href="Linked List" href="07-stikkord-samling/dat200/linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Linked List</a>
+<br><a data-href="Singly Linked List" href="07-stikkord-samling/dat200/singly-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Singly Linked List</a>
+<br><a data-href="Circular Linked List" href="07-stikkord-samling/dat200/circular-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Circular Linked List</a>
+]]></description><link>07-stikkord-samling/dat200/doubly-linked-list.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Doubly Linked List.md</guid><pubDate>Wed, 03 Dec 2025 08:53:23 GMT</pubDate></item><item><title><![CDATA[Singly Linked List]]></title><description><![CDATA[Definition:
+A Singly <a data-href="Linked List" href="07-stikkord-samling/dat200/linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Linked List</a> is a type of linked list where each node contains data and a single pointer to the next node in the sequence. The last node points to null (or None), indicating the end of the list.
+Node Components: Data: Stores the value.
+Next Pointer: Points to the next node. Head: Reference to the first node.
+Tail: Not mandatory, but can be maintained for efficient appends. Unidirectional Traversal: Can only move forward from head to tail.
+Dynamic Size: Can grow or shrink during runtime.
+No Random Access: Must traverse sequentially to reach a node. Traversal (O(n)): Start at head and follow pointers until null.
+Insertion: At beginning: O(1)
+At end: O(n)
+At position: O(n) Deletion: From beginning: O(1)
+From end or position: O(n) Searching: O(n) Efficient insertion/deletion at the beginning.
+Flexible memory usage. Cannot traverse backward.
+Extra memory for pointers.
+Slower access compared to arrays.
+class Node: def __init__(self, data): self.data = data self.next = None class LinkedList: def __init__(self): self.head = None def insert_front(self, new): new_node = Node(new) new_node.next = self.head self.head = new_node def traverse(self): temp = self.head while temp: print(temp.data, end=" ") temp = temp.next
+Links to Related Notes:
+<br><a data-href="Linked List" href="07-stikkord-samling/dat200/linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Linked List</a>
+<br><a data-href="Doubly Linked List" href="07-stikkord-samling/dat200/doubly-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Doubly Linked List</a>
+<br><a data-href="Circular Linked List" href="07-stikkord-samling/dat200/circular-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Circular Linked List</a>
+]]></description><link>07-stikkord-samling/dat200/singly-linked-list.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Singly Linked List.md</guid><pubDate>Wed, 03 Dec 2025 08:45:42 GMT</pubDate></item><item><title><![CDATA[Linked List]]></title><description><![CDATA[Definition:
+A Linked List is a linear data structure where elements, called nodes, are stored in separate memory locations and connected via pointers. Unlike arrays, linked lists do not require contiguous memory allocation, allowing dynamic resizing during program execution.
+Dynamic Size: Can grow or shrink during runtime.
+Non-contiguous Storage: Each node resides in a separate memory location.
+Sequential Access: Traversal requires moving from one node to the next; no random access. Node: Basic unit containing: Data: The value stored.
+Pointer(s): Reference(s) to adjacent node(s). Head: Reference to the first node (null if empty).
+Tail (optional): Reference to the last node for efficient appends.
+Think of a linked list as a chain: each link holds data and connects to the next. To reach any element, you must traverse sequentially from the start—no shortcuts.
+<a data-href="Singly Linked List" href="07-stikkord-samling/dat200/singly-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Singly Linked List</a>: Each node points to the next; last node points to null.
+<br><a data-href="Doubly Linked List" href="07-stikkord-samling/dat200/doubly-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Doubly Linked List</a>: Nodes have two pointers—next and previous—for bidirectional traversal.
+<br><a data-href="Circular Linked List" href="07-stikkord-samling/dat200/circular-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Circular Linked List</a>: Last node links back to the first, forming a loop (can be singly or doubly). Traversal (O(n)): Visit nodes sequentially from head.
+Insertion: At beginning: O(1)
+At end: O(n)
+At position: O(n) Deletion: From beginning: O(1)
+From end or position: O(n) Searching: O(n) Dynamic memory usage.
+Efficient insertion/deletion at beginning. No direct access (must traverse).
+Extra memory for pointers.
+Links to Related Notes:
+<br><a data-href="Singly Linked List" href="07-stikkord-samling/dat200/singly-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Singly Linked List</a>
+<br><a data-href="Doubly Linked List" href="07-stikkord-samling/dat200/doubly-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Doubly Linked List</a>
+<br><a data-href="Circular Linked List" href="07-stikkord-samling/dat200/circular-linked-list.html" class="internal-link" target="_self" rel="noopener nofollow">Circular Linked List</a>
+]]></description><link>07-stikkord-samling/dat200/linked-list.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Linked List.md</guid><pubDate>Wed, 03 Dec 2025 08:39:17 GMT</pubDate></item><item><title><![CDATA[HuffmanCodingVisual]]></title><description><![CDATA[<img src="03-attachment-folder/dat200/huffmancodingvisual.png" target="_self">]]></description><link>03-attachment-folder/dat200/huffmancodingvisual.html</link><guid isPermaLink="false">03 - Attachment folder/DAT200/HuffmanCodingVisual.png</guid><pubDate>Wed, 03 Dec 2025 08:02:53 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Tree traversal algorithms]]></title><description><![CDATA[Tree traversal refers to the process of visiting each node in a tree data structure in a specific order. Traversal algorithms define how nodes are accessed and processed, typically in binary trees or binary search trees.]]></description><link>07-stikkord-samling/dat200/tree-traversal-algorithms.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Tree traversal algorithms.md</guid><pubDate>Tue, 02 Dec 2025 13:47:38 GMT</pubDate></item><item><title><![CDATA[TreeVisual]]></title><description><![CDATA[<img src="03-attachment-folder/dat200/treevisual.png" target="_self">]]></description><link>03-attachment-folder/dat200/treevisual.html</link><guid isPermaLink="false">03 - Attachment folder/DAT200/TreeVisual.png</guid><pubDate>Tue, 02 Dec 2025 13:35:16 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Heap Sort Visual]]></title><description><![CDATA[<img src="03-attachment-folder/dat200/heap-sort-visual.png" target="_self">]]></description><link>03-attachment-folder/dat200/heap-sort-visual.html</link><guid isPermaLink="false">03 - Attachment folder/DAT200/Heap Sort Visual.png</guid><pubDate>Tue, 02 Dec 2025 12:45:00 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[QuickSortVisual]]></title><description><![CDATA[<img src="03-attachment-folder/dat200/quicksortvisual.png" target="_self">]]></description><link>03-attachment-folder/dat200/quicksortvisual.html</link><guid isPermaLink="false">03 - Attachment folder/DAT200/QuickSortVisual.png</guid><pubDate>Tue, 02 Dec 2025 11:34:03 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[MergeSortVisual]]></title><description><![CDATA[<img src="03-attachment-folder/dat200/mergesortvisual.png" target="_self">]]></description><link>03-attachment-folder/dat200/mergesortvisual.html</link><guid isPermaLink="false">03 - Attachment folder/DAT200/MergeSortVisual.png</guid><pubDate>Tue, 02 Dec 2025 09:57:17 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[SelectionSortVisual]]></title><description><![CDATA[<img src="03-attachment-folder/dat200/selectionsortvisual.png" target="_self">]]></description><link>03-attachment-folder/dat200/selectionsortvisual.html</link><guid isPermaLink="false">03 - Attachment folder/DAT200/SelectionSortVisual.png</guid><pubDate>Tue, 02 Dec 2025 09:38:34 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[ShellSortVisual]]></title><description><![CDATA[<img src="03-attachment-folder/dat200/shellsortvisual.png" target="_self">]]></description><link>03-attachment-folder/dat200/shellsortvisual.html</link><guid isPermaLink="false">03 - Attachment folder/DAT200/ShellSortVisual.png</guid><pubDate>Tue, 02 Dec 2025 09:14:24 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[InsertionSortVisual]]></title><description><![CDATA[<img src="03-attachment-folder/dat200/insertionsortvisual.png" target="_self">]]></description><link>03-attachment-folder/dat200/insertionsortvisual.html</link><guid isPermaLink="false">03 - Attachment folder/DAT200/InsertionSortVisual.png</guid><pubDate>Tue, 02 Dec 2025 08:38:02 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Bubblesort visual]]></title><description><![CDATA[<img src="03-attachment-folder/dat200/bubblesort-visual.png" target="_self">]]></description><link>03-attachment-folder/dat200/bubblesort-visual.html</link><guid isPermaLink="false">03 - Attachment folder/DAT200/Bubblesort visual.png</guid><pubDate>Tue, 02 Dec 2025 08:14:09 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[CPU Cycle]]></title><description><![CDATA[CPU cycles between Fetch, Decode and Execute instructions/Code received]]></description><link>07-stikkord-samling/dat320/cpu-cycle.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/CPU Cycle.md</guid><pubDate>Thu, 13 Nov 2025 08:17:16 GMT</pubDate></item><item><title><![CDATA[PagingVisual3]]></title><description><![CDATA[<img src="03-attachment-folder/dat320/pagingvisual3.png" target="_self">]]></description><link>03-attachment-folder/dat320/pagingvisual3.html</link><guid isPermaLink="false">03 - Attachment folder/DAT320/PagingVisual3.png</guid><pubDate>Wed, 12 Nov 2025 13:42:07 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[PagingVisual2]]></title><description><![CDATA[<img src="03-attachment-folder/dat320/pagingvisual2.png" target="_self">]]></description><link>03-attachment-folder/dat320/pagingvisual2.html</link><guid isPermaLink="false">03 - Attachment folder/DAT320/PagingVisual2.png</guid><pubDate>Wed, 12 Nov 2025 13:29:00 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[fragmentation]]></title><description><![CDATA[Fragmentation refers to wasted memory space that cannot be effectively used for allocation.
+This waste can occur inside allocated blocks (internal) or between allocated blocks (external).Occurs when allocated memory blocks are larger than required, leaving unused space inside the block. This space cannot be used by other processes.Occurs when free memory is split into small, scattered chunks. Even if total free memory is sufficient, it cannot be allocated to a process that needs a large contiguous block.]]></description><link>07-stikkord-samling/dat320/fragmentation.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/fragmentation.md</guid><pubDate>Wed, 12 Nov 2025 13:11:34 GMT</pubDate></item><item><title><![CDATA[PagingVisual1]]></title><description><![CDATA[<img src="03-attachment-folder/dat320/pagingvisual1.png" target="_self">]]></description><link>03-attachment-folder/dat320/pagingvisual1.html</link><guid isPermaLink="false">03 - Attachment folder/DAT320/PagingVisual1.png</guid><pubDate>Wed, 12 Nov 2025 12:38:37 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Scheduling]]></title><description><![CDATA[**Scheduling** is the method by which an operating system decides which process gets to use the CPU and for how long. It balances performance, fairness, responsiveness, and resource utilization.]]></description><link>07-stikkord-samling/dat320/scheduling.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Scheduling.md</guid><pubDate>Wed, 12 Nov 2025 07:47:33 GMT</pubDate></item><item><title><![CDATA[Multi-Queue Multi-CPU Scheduling (MQMS)]]></title><description><![CDATA[MQMS is a scheduling strategy for multi-core systems where each CPU has its own independent scheduling queue. This approach improves cache affinity and scalability by reducing contention and allowing localized scheduling decisions.]]></description><link>07-stikkord-samling/dat320/multi-queue-multi-cpu-scheduling-(mqms).html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Multi-Queue Multi-CPU Scheduling (MQMS).md</guid><pubDate>Tue, 11 Nov 2025 12:21:36 GMT</pubDate></item><item><title><![CDATA[Work Stealing]]></title><description><![CDATA[Work Stealing is a dynamic load-balancing technique used in multi-CPU scheduling systems, particularly in Multi-Queue Multi-CPU Scheduling (MQMS). It allows idle CPUs to "steal" tasks from other CPUs' queues to improve overall system utilization.]]></description><link>07-stikkord-samling/dat320/work-stealing.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Work Stealing.md</guid><pubDate>Tue, 11 Nov 2025 12:20:54 GMT</pubDate></item><item><title><![CDATA[Single Queue Multi-CPU Scheduling (SQMS)]]></title><description><![CDATA[SQMS is a scheduling strategy used in multi-CPU systems where all CPUs share a single global scheduling queue. Each CPU pulls tasks from the same queue, aiming for simplicity and centralized control.]]></description><link>07-stikkord-samling/dat320/single-queue-multi-cpu-scheduling-(sqms).html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Single Queue Multi-CPU Scheduling (SQMS).md</guid><pubDate>Tue, 11 Nov 2025 12:18:47 GMT</pubDate></item><item><title><![CDATA[Stride Scheduling]]></title><description><![CDATA[**Stride Scheduling** is a deterministic proportional-share scheduling algorithm. It ensures fair CPU allocation by assigning each process a stride value based on its share of CPU time (tickets). The process with the lowest accumulated "pass" value is selected to run next.]]></description><link>07-stikkord-samling/dat320/stride-scheduling.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Stride Scheduling.md</guid><pubDate>Tue, 11 Nov 2025 12:12:57 GMT</pubDate></item><item><title><![CDATA[Lottery Scheduling]]></title><description><![CDATA[**Lottery Scheduling** is a probabilistic, proportional-share scheduling algorithm. Each process is assigned a number of "tickets" representing its share of the CPU. The scheduler randomly selects a ticket to decide which process runs next.]]></description><link>07-stikkord-samling/dat320/lottery-scheduling.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Lottery Scheduling.md</guid><pubDate>Tue, 11 Nov 2025 12:02:27 GMT</pubDate></item><item><title><![CDATA[Multi-Level Feedback Queue (MLFQ)]]></title><description><![CDATA[**MLFQ** is a dynamic, preemptive scheduling algorithm that uses multiple queues with different priority levels. It adapts to process behavior over time, aiming to balance responsiveness and fairness without prior knowledge of job characteristics.]]></description><link>07-stikkord-samling/dat320/multi-level-feedback-queue-(mlfq).html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Multi-Level Feedback Queue (MLFQ).md</guid><pubDate>Tue, 11 Nov 2025 12:01:24 GMT</pubDate></item><item><title><![CDATA[Round Robin (RR)]]></title><description><![CDATA[**Round Robin (RR)** is a preemptive scheduling algorithm designed for time-sharing systems. Each process is assigned a fixed time slice (quantum) and the CPU cycles through the ready queue in a circular fashion.]]></description><link>07-stikkord-samling/dat320/round-robin-(rr).html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Round Robin (RR).md</guid><pubDate>Tue, 11 Nov 2025 11:59:42 GMT</pubDate></item><item><title><![CDATA[Shortest Time to Completion First (STCF)]]></title><description><![CDATA[**Shortest Time to Completion First (STCF)** is a preemptive scheduling algorithm that always selects the process with the least remaining execution time. It is the preemptive counterpart to Shortest Job First (SJF).]]></description><link>07-stikkord-samling/dat320/shortest-time-to-completion-first-(stcf).html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Shortest Time to Completion First (STCF).md</guid><pubDate>Tue, 11 Nov 2025 11:58:54 GMT</pubDate></item><item><title><![CDATA[First In, First Out (FIFO)]]></title><description><![CDATA[**First In, First Out (FIFO)** is a simple, non-preemptive scheduling algorithm where processes are executed in the order they arrive. It is one of the earliest and most intuitive scheduling strategies.]]></description><link>07-stikkord-samling/dat320/first-in,-first-out-(fifo).html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/First In, First Out (FIFO).md</guid><pubDate>Tue, 11 Nov 2025 11:58:11 GMT</pubDate></item><item><title><![CDATA[Shortest Job First (SJF)]]></title><description><![CDATA[**Shortest Job First (SJF)** is a non-preemptive scheduling algorithm that selects the process with the shortest total execution time. It aims to minimize average turnaround time by prioritizing shorter jobs.]]></description><link>07-stikkord-samling/dat320/shortest-job-first-(sjf).html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Shortest Job First (SJF).md</guid><pubDate>Tue, 11 Nov 2025 11:57:49 GMT</pubDate></item><item><title><![CDATA[Process]]></title><description><![CDATA[A Process is a running program]]></description><link>07-stikkord-samling/dat320/process.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Process.md</guid><pubDate>Tue, 11 Nov 2025 11:29:33 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Arithmetic Logic Unit (ALU)]]></title><description><![CDATA[The **Arithmetic Logic Unit (ALU)** is a fundamental component of the CPU responsible for performing **arithmetic** and **logical operations**.]]></description><link>07-stikkord-samling/dat320/arithmetic-logic-unit-(alu).html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Arithmetic Logic Unit (ALU).md</guid><pubDate>Tue, 11 Nov 2025 11:09:51 GMT</pubDate></item><item><title><![CDATA[Accumulator]]></title><description><![CDATA[The **Accumulator (ACC)** is a special-purpose register in the CPU used to **store intermediate results** of arithmetic and logic operations.]]></description><link>07-stikkord-samling/dat320/accumulator.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Accumulator.md</guid><pubDate>Tue, 11 Nov 2025 10:58:02 GMT</pubDate></item><item><title><![CDATA[Program Counter (PC)]]></title><description><![CDATA[A program counter]]></description><link>07-stikkord-samling/dat320/program-counter-(pc).html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Program Counter (PC).md</guid><pubDate>Tue, 11 Nov 2025 09:44:14 GMT</pubDate></item><item><title><![CDATA[Time complexity]]></title><description><![CDATA[Time complexity is a measure of the **amount of time** an algorithm takes to run as a function of the **size of its input (n)**. It describes how the runtime grows with increasing input, helping to evaluate the efficiency of algorithms.]]></description><link>07-stikkord-samling/dat200/time-complexity.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Time complexity.md</guid><pubDate>Tue, 26 Aug 2025 08:21:04 GMT</pubDate></item><item><title><![CDATA[Big-O Notation]]></title><description><![CDATA[Notation methods to show algorithms efficiency]]></description><link>07-stikkord-samling/dat200/big-o-notation.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Big-O Notation.md</guid><pubDate>Mon, 25 Aug 2025 13:24:06 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Asymptotic analysis]]></title><description><![CDATA[Asymptotic analysis is a method of describing the **efficiency** of algorithms in terms of **input size (n)** as it grows towards infinity. It focuses on the **growth rate** of an algorithm’s time or space complexity, ignoring constant factors and lower-order terms.]]></description><link>07-stikkord-samling/dat200/asymptotic-analysis.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Asymptotic analysis.md</guid><pubDate>Mon, 25 Aug 2025 13:07:13 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Binary search trees]]></title><description><![CDATA[A Binary Search Tree (BST) is a type of binary tree where each node has at most two children, and the left child contains values **less than** the parent node, while the right child contains values **greater than** the parent node. This property enables efficient searching, insertion, and deletion]]></description><link>07-stikkord-samling/dat200/binary-search-trees.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Binary search trees.md</guid><pubDate>Mon, 25 Aug 2025 12:58:00 GMT</pubDate></item><item><title><![CDATA[Linked Lists]]></title><description><![CDATA[A linked list is a linear data structure where elements (called nodes) are stored in separate objects, each containing a value and a reference (or pointer) to the next node in the sequence.]]></description><link>07-stikkord-samling/dat200/linked-lists.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Linked Lists.md</guid><pubDate>Mon, 25 Aug 2025 12:57:43 GMT</pubDate></item><item><title><![CDATA[Arrays]]></title><description><![CDATA[An array is a data structure that stores a fixed-size sequence of elements of the same type, arranged in contiguous memory locations. Each element can be accessed directly via its index.]]></description><link>07-stikkord-samling/dat200/arrays.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Arrays.md</guid><pubDate>Mon, 25 Aug 2025 12:57:36 GMT</pubDate></item><item><title><![CDATA[Hash functions]]></title><description><![CDATA[A hash function is a mathematical function that takes an input (or "key") and returns a fixed-size string or number, typically used as an index in a hash table. The output is called a **hash code** or **hash value**.]]></description><link>07-stikkord-samling/dat200/hash-functions.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Hash functions.md</guid><pubDate>Mon, 25 Aug 2025 12:54:51 GMT</pubDate></item><item><title><![CDATA[CPU Virtualization]]></title><description><![CDATA[Virtualizing the CPU is a process that will allow a single CPU to run multiple programs at the same time.]]></description><link>07-stikkord-samling/dat320/cpu-virtualization.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/CPU Virtualization.md</guid><pubDate>Thu, 14 Aug 2025 10:20:06 GMT</pubDate></item><item><title><![CDATA[Persistence]]></title><description><![CDATA[In computer engineering,&nbsp;persistence&nbsp;refers to the characteristic of data that&nbsp;outlives the process that created it. In other words, persistent data is&nbsp;saved in a non-volatile storage medium&nbsp;(like a hard drive, SSD, or database) so that it remains available even after a program ends or the computer is turned off. Volatile vs. Non-Volatile: Volatile memory&nbsp;(like RAM) loses data when power is lost.
+Non-volatile memory&nbsp;(like disk storage) retains data — this is where persistence happens. Persistent Storage Examples: Files saved on disk (e.g.,&nbsp;.txt,&nbsp;.json,&nbsp;.csv)
+Databases (e.g., MySQL, MongoDB)
+Cloud storage (e.g., AWS S3, Google Drive) Why It Matters: Without persistence, all data would be lost every time a program stops.
+It enables long-term data storage, backups, and recovery. A note-taking app saves your notes to a file or database. Even if you close the app or restart your computer, your notes are still there — thanks to&nbsp;persistence.]]></description><link>07-stikkord-samling/dat320/persistence.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Persistence.md</guid><pubDate>Thu, 14 Aug 2025 08:25:26 GMT</pubDate></item><item><title><![CDATA[Memory]]></title><description><![CDATA[Memory is an array of bytes where each byte has a specific address where it stores data.]]></description><link>07-stikkord-samling/dat320/memory.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Memory.md</guid><pubDate>Thu, 14 Aug 2025 08:10:28 GMT</pubDate></item><item><title><![CDATA[Virtualization]]></title><description><![CDATA[Abstrahering av ressurser for å simulere flere systemer på én maskin.]]></description><link>07-stikkord-samling/dat320/virtualization.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT320/Virtualization.md</guid><pubDate>Thu, 14 Aug 2025 07:57:46 GMT</pubDate></item><item><title><![CDATA[addresserom]]></title><description><![CDATA[Det logiske området et program får tilgang til i minnet.]]></description><link>07-stikkord-samling/dat200/addresserom.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/addresserom.md</guid><pubDate>Thu, 07 Aug 2025 08:15:10 GMT</pubDate></item><item><title><![CDATA[abstrakte datatyper]]></title><description><![CDATA[Datastrukturer definert av operasjoner, ikke implementasjon.]]></description><link>07-stikkord-samling/dat200/abstrakte-datatyper.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/abstrakte datatyper.md</guid><pubDate>Thu, 07 Aug 2025 08:15:10 GMT</pubDate></item><item><title><![CDATA[C]]></title><description><![CDATA[Programmeringsspråk brukt til lavnivå systemprogrammering.]]></description><link>07-stikkord-samling/dat200/c.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/C.md</guid><pubDate>Thu, 07 Aug 2025 08:15:10 GMT</pubDate></item><item><title><![CDATA[Algorithm Analysis]]></title><description><![CDATA[Analyse av algoritmers tids- og plassbruk.]]></description><link>07-stikkord-samling/dat200/algorithm-analysis.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/Algorithm Analysis.md</guid><pubDate>Thu, 07 Aug 2025 08:15:10 GMT</pubDate><enclosure url="." length="0" type="false"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;.&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[køer]]></title><description><![CDATA[FIFO-datastruktur (først inn, først ut).]]></description><link>07-stikkord-samling/dat200/køer.html</link><guid isPermaLink="false">07 - Stikkord samling/DAT200/køer.md</guid><pubDate>Thu, 31 Jul 2025 14:40:52 GMT</pubDate></item></channel></rss>
